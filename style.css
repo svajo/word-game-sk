@@ -10,6 +10,16 @@ body {
     justify-content: center;
 }
 
+        #fullscreen-btn {
+            position: absolute;
+            top: 10px; /* Adjust top margin as needed */
+            right: 10px; /* Adjust right margin as needed */
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            z-index: 1000; /* Ensure the button is on top of other elements */
+        }
+
 h1 {
     font-size: 4em;
 }
@@ -110,6 +120,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 2em;
 }
 
 .modal-content {
@@ -131,6 +142,7 @@ h1 {
     cursor: pointer;
     border: none;
     border-radius: 5px;
+    font-size: 1em;
 }
 
 #confirm-yes {

@@ -144,3 +144,21 @@ document.getElementById('confirm-yes').addEventListener('click', () => {
 
 // Event listener for the No button in the modal
 document.getElementById('confirm-no').addEventListener('click', hideConfirmationModal);
+
+
+function toggleFullscreen() {
+    if (!document.fullscreenElement) {
+        // Request fullscreen mode
+        document.documentElement.requestFullscreen()
+            .catch(err => console.error(`Error attempting to enable full-screen mode: ${err.message}`));
+    } else {
+        // Exit fullscreen mode
+        if (document.exitFullscreen) {
+            document.exitFullscreen()
+                .catch(err => console.error(`Error attempting to exit full-screen mode: ${err.message}`));
+        }
+    }
+}
+
+// Add event listener to the button
+document.getElementById('fullscreen-btn').addEventListener('click', toggleFullscreen);
