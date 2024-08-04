@@ -10,15 +10,15 @@ body {
     justify-content: center;
 }
 
-        #fullscreen-btn {
-            position: absolute;
-            top: 10px; /* Adjust top margin as needed */
-            right: 10px; /* Adjust right margin as needed */
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            z-index: 1000; /* Ensure the button is on top of other elements */
-        }
+#fullscreen-btn {
+    position: absolute;
+    top: 10px; /* Adjust top margin as needed */
+    right: 10px; /* Adjust right margin as needed */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1000; /* Ensure the button is on top of other elements */
+}
 
 h1 {
     font-size: 4em;
@@ -33,7 +33,7 @@ h1 {
     padding-top: 1%;
     padding-bottom: 1%;
     width: 50%;
-    font-size: 4em;
+    font-size: 3.5em;
     font-weight: bold;
     cursor: pointer;
     border: solid;
