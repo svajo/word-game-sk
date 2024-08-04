@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>word-game-sk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="category-selection">
+        <h1>Zvoľte kategóriu</h1>
+        <div id="categories"></div>
+    </div>
+
+    <div id="round-duration" style="display: none;">
+        <h1>Zvoľte dĺžku hry</h1>
+        <button class="duration-button" data-time="30">30s</button>
+        <button class="duration-button" data-time="60">1m</button>
+        <button class="duration-button" data-time="90">1m 30s</button>
+        <button class="duration-button" data-time="120">2m</button>
+    </div>
+
+    <div id="game-round" style="display: none;">
+        <div id="timer"></div>
+        <div id="word-display"></div>
+        <div id="controls">
+            <button id="incorrect-button" class="game-button">❌</button>
+            <button id="correct-button" class="game-button">✅</button>
+            <button id="skip-button" class="game-button">Preskočiť</button>
+        </div>
+        
+        <button id="cancel-button" class="cancel-button">Skončiť hru</button>
+    </div>
+    
+    <div id="confirmation-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <p>Naozaj skončiť hru?</p>
+            <button id="confirm-yes">Áno</button>
+            <button id="confirm-no">Nie</button>
+        </div>
+    </div>
+    
+    <!-- End of Round Screen -->
+    <div id="end-screen" style="display: none;">
+        <h1>Hotovo!</h1>
+        <div id="results"></div>
+        <button id="ok-button">Začať novú hru</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

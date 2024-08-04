@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    align-content: center;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+#game-round {
+    width: 80%;
+}
+
+#categories button, .duration-button {
+    margin: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 50%;
+    font-size: 4em;
+    font-weight: bold;
+    cursor: pointer;
+    border: solid;
+    border-radius: 5px;
+    background-color: lightgoldenrodyellow;
+    color: darkred;
+}
+
+.game-button {
+    font-size: 5em;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    cursor: pointer;
+    border: solid;
+    border-radius: 5px;
+}
+
+#incorrect-button {
+    background-color: #e74c3c;
+    color: white;
+    width: 40%;
+    margin-right: 18%;
+    border-color: red;
+}
+
+#correct-button {
+    background-color: #2ecc71;
+    color: white;
+    width: 40%;
+    border-color: green;
+}
+
+#skip-button {
+    background-color: white;
+    color: black;
+    width: 50%;
+    border-color: black;
+    margin-top: 10%;
+    font-size: 3em;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#word-display {
+    margin: 20px 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 6em;
+    width: 100%;
+}
+
+#end-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#results {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.cancel-button {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin-top: 20%;
+    cursor: pointer;
+}
+
+.modal {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+}
+
+.modal-content p {
+    margin: 0 0 20px;
+    color: black;
+}
+
+.modal-content button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#confirm-yes {
+    background-color: #e74c3c;
+    color: white;
+}
+
+#confirm-no {
+    background-color: #3498db;
+    color: white;
+}
+
+#timer {
+    font-size: 5em;
+    border: solid;
+    border-color: white;
+    width: 30%;
+    margin-left: 35%;
+    color: white;
+}
+
+#results {
+    font-size: 5em;
+}
+
+#ok-button {
+    font-size: 3em;
+    padding: 10%;
+    cursor: pointer;
+    border: solid;
+    border-radius: 5px;
+}
