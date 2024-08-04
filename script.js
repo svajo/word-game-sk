@@ -1,5 +1,6 @@
 let categories = [];
-let words = {};
+let allWords = {};
+let words = [];
 let currentCategory = '';
 let currentWordIndex = 0;
 let timerInterval;
@@ -7,11 +8,13 @@ let remainingTime = 0;
 let correctGuesses = 0;
 let totalGuesses = 0;
 
-// Load categories from JSON
-fetch('data/categories.json')
+// Load words from JSON and infer categories from the keys
+fetch('data/words.json')
     .then(response => response.json())
     .then(data => {
-        categories = data;
+        categories = Object.keys(data); // Infer categories from keys
+        allWords = data; // Save all words data
+        console.log(words);
         displayCategories();
     });
 
@@ -34,11 +37,9 @@ function selectCategory(category) {
 }
 
 function loadWords(category) {
-    fetch('data/words.json')
-        .then(response => response.json())
-        .then(data => {
-            words = data[category];
-        });
+    // No need to fetch again, words are already loaded
+    // Just assign the words for the selected category
+    words = allWords[category];
 }
 
 function startGame(duration) {
