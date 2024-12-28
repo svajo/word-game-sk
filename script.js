@@ -49,7 +49,12 @@ function selectCategory(category) {
 function loadWords(category) {
     // No need to fetch again, words are already loaded
     // Just assign the words for the selected category
-    words = allWords[category];
+    if (category == 'Všetko') {
+        words = [].concat(...Object.values(allWords));
+    } else {
+        words = allWords[category];    
+    }
+    
 }
 
 function startGame(duration) {
