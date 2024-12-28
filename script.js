@@ -14,7 +14,6 @@ fetch('data/words.json')
     .then(data => {
         categories = Object.keys(data); // Infer categories from keys
         allWords = data; // Save all words data
-        console.log(words);
         displayCategories();
     });
 
@@ -22,12 +21,23 @@ function displayCategories() {
     const categoriesDiv = document.getElementById('categories');
     categoriesDiv.innerHTML = '';
     categories.forEach(category => {
+        const buttonDiv = document.createElement('div');
+        buttonDiv.className = 'col-md-6 d-flex justify-content-center';
+
         const button = document.createElement('button');
+        button.className = 'btn btn-outline-light w-100';
         button.textContent = category;
+
+        button.style.height = '10vh';
+        button.style.fontSize = '5vh';
+
         button.onclick = () => selectCategory(category);
-        categoriesDiv.appendChild(button);
+
+        buttonDiv.appendChild(button);
+        categoriesDiv.appendChild(buttonDiv);
     });
 }
+
 
 function selectCategory(category) {
     currentCategory = category;
@@ -64,8 +74,8 @@ function displayNextWord() {
 
 function startTimer() {
     document.getElementById('timer').textContent = formatTime(remainingTime);
-    document.getElementById('timer').style.borderColor = 'white';
-    document.getElementById('timer').style.color = 'white';
+    document.getElementById('timer').style.borderColor = 'lightgreen';
+    document.getElementById('timer').style.color = 'lightgreen';
     timerInterval = setInterval(() => {
         remainingTime--;
         document.getElementById('timer').textContent = formatTime(remainingTime);
@@ -124,14 +134,15 @@ document.getElementById('ok-button').addEventListener('click', () => {
     document.getElementById('category-selection').style.display = 'block';
 });
 
-// Function to show the confirmation modal
 function showConfirmationModal() {
-    document.getElementById('confirmation-modal').style.display = 'flex';
+    const modal = new bootstrap.Modal(document.getElementById('confirmation-modal'));
+    modal.show();
 }
 
-// Function to hide the confirmation modal
+// Function to hide the confirmation modal using Bootstrap modal methods
 function hideConfirmationModal() {
-    document.getElementById('confirmation-modal').style.display = 'none';
+    const modal = new bootstrap.Modal(document.getElementById('confirmation-modal'));
+    modal.hide();
 }
 
 // Event listener for the Cancel Round button

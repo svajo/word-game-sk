@@ -2,52 +2,148 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>word-game-sk</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <button id="fullscreen-btn">Fullscreen</button>
-    <div id="category-selection">
-        <h1>Zvoľte kategóriu</h1>
-        <div id="categories"></div>
-    </div>
-
-    <div id="round-duration" style="display: none;">
-        <h1>Zvoľte dĺžku hry</h1>
-        <button class="duration-button" data-time="30">30s</button>
-        <button class="duration-button" data-time="60">1m</button>
-        <button class="duration-button" data-time="90">1m 30s</button>
-        <button class="duration-button" data-time="120">2m</button>
-    </div>
-
-    <div id="game-round" style="display: none;">
-        <div id="timer"></div>
-        <div id="word-display"></div>
-        <div id="controls">
-            <button id="incorrect-button" class="game-button">❌</button>
-            <button id="correct-button" class="game-button">✅</button>
-            <button id="skip-button" class="game-button">Preskočiť</button>
-        </div>
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <style>
+        @media (orientation: landscape) {
+            body {
+                height: 100vh;
+                overflow: hidden;
+            }
+            #game-round {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0.5vh 0;
+            }
+            #timer {
+                font-size: 3vw;
+                flex: 0;
+            }
+            #word-display {
+                flex: 0;
+                font-size: 7vw;
+                text-align: center;
+                line-height: 1em;
+                min-height: 2em;
+            }
+            #controls {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                flex: 0;
+            }
+            #incorrect-button,
+            #correct-button {
+                font-size: 10vw;
+                width: 50%;
+                margin: 0% 5% 5% 5%;
+            }
+            .control-row {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                margin: 0.4vh 0;
+            }
+            #skip-button {
+                font-size: 5vw;
+                padding: 0.4vh 1vw;
+                width: 45%;
+                margin-bottom: 2%;
+            }
+            #cancel-button {
+                font-size: 1vw;
+                padding: 0.4vh 1vw;
+                width: 45%;
+            }
+            .padding-row {
+                flex: 0;
+                height: 1vh;
+            }
+        }
         
-        <button id="cancel-button" class="cancel-button">Skončiť hru</button>
-    </div>
-    
-    <div id="confirmation-modal" class="modal" style="display: none;">
-        <div class="modal-content">
-            <p>Naozaj skončiť hru?</p>
-            <button id="confirm-yes">Áno</button>
-            <button id="confirm-no">Nie</button>
+        .duration-button {
+            height: 12vh; font-size: 4rem; width: 100%; margin-bottom: 1rem;
+        }
+        
+    </style>
+</head>
+<body class="bg-dark text-white">
+    <div class="container mt-3">
+        <button id="fullscreen-btn" class="btn btn-primary position-fixed top-0 end-0 m-3">Fullscreen</button>
+
+        <div id="category-selection" class="text-center">
+            <h1 class="display-4"><strong>Zvoľte kategóriu</strong></h1>
+            <div id="categories" class="row justify-content-center g-3">
+                <!-- Categories will be dynamically added here -->
+            </div>
+        </div>
+
+        <div id="round-duration" class="text-center" style="display: none;">
+            <h1 class="display-4">Zvoľte dĺžku hry</h1>
+            <div class="btn-group-vertical" role="group" style="width: 100%; max-width: 300px;">
+                <button class="btn btn-outline-light duration-button" data-time="30">30s</button>
+                <button class="btn btn-outline-light duration-button" data-time="60">1m</button>
+                <button class="btn btn-outline-light duration-button" data-time="90">1m 30s</button>
+                <button class="btn btn-outline-light duration-button" data-time="120">2m</button>
+                <button class="btn btn-outline-light duration-button" data-time="150">2m 30s</button>
+                <button class="btn btn-outline-light duration-button" data-time="180">3m</button>
+            </div>
+        </div>
+
+
+        <div id="game-round" class="text-center" style="display: none;">
+            <div id="timer" class="border rounded-circle mx-auto">00:00</div>
+            <div id="word-display" class="my-4">WORD HERE</div>
+            <div id="controls">
+                <div class="control-row">
+                    <button id="incorrect-button" class="btn btn-danger">❌</button>
+                    <button id="correct-button" class="btn btn-success ms-2">✅</button>
+                </div>
+                <div class="control-row">
+                    <button id="skip-button" class="btn btn-secondary">Preskočiť</button>
+                </div>
+            </div>
+            <div class="control-row">
+                <button id="cancel-button" class="btn btn-warning">Skončiť hru</button>
+            </div>
+            <div class="padding-row"></div>
+        </div>
+
+        <!-- Confirmation Modal -->
+        <div id="confirmation-modal" class="modal fade" tabindex="-1" aria-labelledby="confirmation-modal-label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content" style="background-color: #343a40; color: white;">
+                    <div class="modal-header" style="border-bottom: 1px solid #6c757d;">
+                        <h5 class="modal-title" id="confirmation-modal-label">Potvrdenie</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="color: white;"></button>
+                    </div>
+                    <div class="modal-body" style="padding: 20px 30px;">
+                        <p style="font-size: 1.2rem;">Naozaj skončiť hru?</p>
+                    </div>
+                    <div class="modal-footer" style="border-top: 1px solid #6c757d; justify-content: center;">
+                        <button id="confirm-yes" class="btn btn-danger" data-bs-dismiss="modal" style="width: 120px; margin: 0 10px;">Áno</button>
+                        <button id="confirm-no" class="btn btn-secondary" data-bs-dismiss="modal" style="width: 120px; margin: 0 10px;">Nie</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="end-screen" class="text-center" style="display: none;">
+            <h1 class="display-4">Hotovo!</h1>
+            <div id="results" class="my-4 display-6"></div>
+            <button id="ok-button" class="btn btn-primary btn-lg">Začať novú hru</button>
         </div>
     </div>
-    
-    <!-- End of Round Screen -->
-    <div id="end-screen" style="display: none;">
-        <h1>Hotovo!</h1>
-        <div id="results"></div>
-        <button id="ok-button">Začať novú hru</button>
-    </div>
 
+    <!-- Bootstrap JS -->
+    <script src="bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
