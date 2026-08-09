@@ -1,67 +1,292 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sk">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>word-game-sk</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <!-- Bootstrap CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
     <style>
-        @media (orientation: landscape) {
-            body {
-                height: 100vh;
-                overflow: hidden;
+        :root {
+            --theme-color: #4c6ef5;
+            --theme-rgb: 76, 110, 245;
+            --theme-text: #ffffff;
+        }
+
+        html,
+        body {
+            min-height: 100%;
+        }
+
+        body {
+            min-height: 100svh;
+            min-height: 100dvh;
+        }
+
+        body.game-active {
+            overflow: hidden;
+        }
+
+        body.game-active > .container {
+            width: 100%;
+            max-width: none;
+            margin-top: 0 !important;
+        }
+
+        body.game-active #fullscreen-btn {
+            margin: max(0.3rem, env(safe-area-inset-top)) max(0.3rem, env(safe-area-inset-right)) 0 0 !important;
+            padding: 0.25rem 0.5rem;
+            font-size: 0.75rem;
+        }
+
+        #fullscreen-btn {
+            z-index: 10;
+        }
+
+        body > .container {
+            padding-left: max(12px, env(safe-area-inset-left));
+            padding-right: max(12px, env(safe-area-inset-right));
+        }
+
+        #game-round {
+            box-sizing: border-box;
+            min-height: calc(100svh - 1rem);
+            min-height: calc(100dvh - 1rem);
+            position: relative;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: max(0.5rem, env(safe-area-inset-top));
+            padding-bottom: max(0.5rem, env(safe-area-inset-bottom));
+        }
+
+        #timer {
+            padding: 0.55rem 1rem;
+        }
+
+        #word-display {
+            overflow-wrap: anywhere;
+        }
+
+        #word-display.long-word {
+            font-size: clamp(1.5rem, 4.5vw, 3.3rem);
+        }
+
+        #word-display.very-long-word {
+            font-size: clamp(1.25rem, 3.5vw, 2.6rem);
+        }
+
+        .action-icon {
+            display: block;
+            width: clamp(3.5rem, 8vw, 6rem);
+            height: clamp(3.5rem, 8vw, 6rem);
+            margin: auto;
+            fill: none;
+            stroke: currentColor;
+            stroke-width: 2.75;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        #orientation-warning {
+            display: none;
+        }
+
+        .duration-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 1rem;
+            width: 100%;
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        .duration-grid .duration-button {
+            margin-bottom: 0;
+        }
+
+        .category-button {
+            background-color: var(--category-color) !important;
+            border-color: var(--category-color) !important;
+            color: var(--category-text, #ffffff) !important;
+            box-shadow: inset 0 -0.25rem 0 rgba(0, 0, 0, 0.18);
+        }
+
+        .category-button:hover,
+        .category-button:focus-visible {
+            filter: brightness(1.14);
+        }
+
+        #end-screen h1 {
+            color: #f6d365;
+            font-family: Georgia, 'Times New Roman', serif;
+            font-style: italic;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            text-shadow: 0 0.15rem 0.75rem rgba(246, 211, 101, 0.3);
+        }
+
+        #ok-button {
+            min-height: 4.5rem;
+            padding: 0.75rem 2.5rem;
+            font-size: clamp(1.5rem, 4vw, 2.5rem);
+        }
+
+        .result-total {
+            color: #ffffff;
+        }
+
+        .result-correct {
+            color: #6ee7a8;
+        }
+
+        .result-incorrect {
+            color: #ff7777;
+        }
+
+        .result-skipped {
+            color: #b9c1cc;
+        }
+
+        #scroll-hint {
+            position: fixed;
+            right: max(0.75rem, env(safe-area-inset-right));
+            bottom: max(0.75rem, env(safe-area-inset-bottom));
+            z-index: 1000;
+            display: none;
+            width: 3rem;
+            height: 3rem;
+            padding: 0.6rem;
+            border: 1px solid rgba(255, 255, 255, 0.7);
+            border-radius: 50%;
+            background: rgba(33, 37, 41, 0.9);
+            color: white;
+            box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.45);
+            animation: scroll-hint-bounce 1.4s ease-in-out infinite;
+        }
+
+        #scroll-hint svg {
+            display: block;
+            width: 100%;
+            height: 100%;
+            fill: none;
+            stroke: currentColor;
+            stroke-width: 2.5;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        @keyframes scroll-hint-bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(0.35rem); }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            #scroll-hint {
+                animation: none;
             }
+        }
+
+        @media (orientation: portrait) and (max-width: 900px) and (pointer: coarse) {
+            #orientation-warning {
+                position: fixed;
+                inset: 0;
+                z-index: 2000;
+                display: grid;
+                place-items: center;
+                padding: 2rem;
+                padding-top: max(2rem, env(safe-area-inset-top));
+                padding-bottom: max(2rem, env(safe-area-inset-bottom));
+                background: #212529;
+                color: white;
+                text-align: center;
+            }
+
+            #orientation-warning svg {
+                width: 5rem;
+                height: 5rem;
+                margin-bottom: 1rem;
+                fill: none;
+                stroke: currentColor;
+                stroke-width: 1.6;
+                stroke-linecap: round;
+                stroke-linejoin: round;
+            }
+        }
+
+        @media (orientation: landscape) {
             #game-round {
-                height: 100%;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                align-items: center;
-                padding: 0.5vh 0;
+                height: 100svh;
+                height: 100dvh;
+                min-height: 0;
+                padding-top: max(0.25rem, env(safe-area-inset-top));
+                padding-bottom: max(0.25rem, env(safe-area-inset-bottom));
             }
             #timer {
-                font-size: 3vw;
+                font-size: clamp(1.4rem, 3.5vw, 2.4rem);
                 flex: 0;
             }
             #word-display {
-                flex: 0;
-                font-size: 7vw;
+                flex: 1;
+                display: grid;
+                place-items: center;
+                font-size: clamp(2.5rem, 7vw, 5.25rem);
                 text-align: center;
-                line-height: 1em;
-                min-height: 2em;
+                line-height: 1.05;
+                min-height: 0;
+                margin: 0.25rem 0 !important;
+                transform: translateY(-0.5rem);
             }
             #controls {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                justify-content: space-between;
+                justify-content: flex-end;
                 width: 100%;
                 flex: 0;
+                gap: 0.35rem;
             }
             #incorrect-button,
             #correct-button {
-                font-size: 10vw;
-                width: 50%;
-                margin: 0% 5% 5% 5%;
+                flex: 1;
+                width: auto;
+                max-width: none;
+                min-height: clamp(7rem, 33dvh, 12rem);
+                margin: 0 !important;
+                padding: 0.25rem 0.75rem;
+                border-radius: 1rem;
             }
             .control-row {
                 display: flex;
                 justify-content: center;
+                gap: 0.75rem;
                 width: 100%;
-                margin: 0.4vh 0;
+                margin: 0.15rem 0;
+            }
+            #controls .control-row:first-child {
+                order: 2;
+                gap: 0.5rem;
+                margin: 0;
+            }
+            #controls .control-row:nth-child(2) {
+                order: 1;
+                margin: 0;
             }
             #skip-button {
-                font-size: 5vw;
-                padding: 0.4vh 1vw;
-                width: 45%;
-                margin-bottom: 2%;
+                font-size: clamp(1.25rem, 3.2vw, 1.75rem);
+                padding: 0.65rem 1.5rem;
+                width: min(40%, 13rem);
+                margin-bottom: 0;
             }
             #cancel-button {
-                font-size: 1vw;
-                padding: 0.4vh 1vw;
-                width: 45%;
+                position: absolute;
+                top: max(0.3rem, env(safe-area-inset-top));
+                left: 0;
+                z-index: 2;
+                width: auto;
+                font-size: 0.75rem;
+                padding: 0.25rem 0.5rem;
             }
             .padding-row {
                 flex: 0;
@@ -70,12 +295,22 @@
         }
         
         .duration-button {
-            height: 12vh; font-size: 4rem; width: 100%; margin-bottom: 1rem;
+            min-height: 4rem; font-size: clamp(1.5rem, 6vh, 4rem); width: 100%; margin-bottom: 1rem;
         }
         
     </style>
 </head>
 <body class="bg-dark text-white">
+    <div id="orientation-warning" role="status">
+        <div>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="7" y="2" width="10" height="20" rx="2"></rect>
+                <path d="M3 9a9 9 0 0 1 5-6"></path>
+                <path d="m3 5 .2 4 4-.2"></path>
+            </svg>
+            <h1>Prosím, otočte telefón na šírku</h1>
+        </div>
+    </div>
     <div class="container mt-3">
         <button id="fullscreen-btn" class="btn btn-primary position-fixed top-0 end-0 m-3">Fullscreen</button>
 
@@ -88,7 +323,7 @@
 
         <div id="round-duration" class="text-center" style="display: none;">
             <h1 class="display-4">Zvoľte dĺžku hry</h1>
-            <div class="btn-group-vertical" role="group" style="width: 100%; max-width: 300px;">
+            <div class="duration-grid">
                 <button class="btn btn-outline-light duration-button" data-time="30">30s</button>
                 <button class="btn btn-outline-light duration-button" data-time="60">1m</button>
                 <button class="btn btn-outline-light duration-button" data-time="90">1m 30s</button>
@@ -99,13 +334,22 @@
         </div>
 
 
+
         <div id="game-round" class="text-center" style="display: none;">
             <div id="timer" class="border rounded-circle mx-auto">00:00</div>
             <div id="word-display" class="my-4">WORD HERE</div>
             <div id="controls">
                 <div class="control-row">
-                    <button id="incorrect-button" class="btn btn-danger">❌</button>
-                    <button id="correct-button" class="btn btn-success ms-2">✅</button>
+                    <button id="incorrect-button" class="btn btn-danger" aria-label="Nesprávne">
+                        <svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M6 6l12 12M18 6 6 18"></path>
+                        </svg>
+                    </button>
+                    <button id="correct-button" class="btn btn-success ms-2" aria-label="Správne">
+                        <svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="m4 12.5 5 5L20 6.5"></path>
+                        </svg>
+                    </button>
                 </div>
                 <div class="control-row">
                     <button id="skip-button" class="btn btn-secondary">Preskočiť</button>
@@ -142,6 +386,12 @@
             <button id="ok-button" class="btn btn-primary btn-lg">Začať novú hru</button>
         </div>
     </div>
+
+    <button id="scroll-hint" type="button" aria-label="Posunúť nižšie">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m5 9 7 7 7-7"></path>
+        </svg>
+    </button>
 
     <!-- Bootstrap JS -->
     <script src="bootstrap.bundle.min.js"></script>
