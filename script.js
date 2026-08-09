@@ -54,12 +54,25 @@ function displayCategories() {
     categoriesDiv.innerHTML = '';
     categories.forEach(category => {
         const buttonDiv = document.createElement('div');
-        buttonDiv.className = 'col-md-6 d-flex justify-content-center';
+        buttonDiv.className = category === 'Všetko'
+            ? 'col-12 d-flex justify-content-center'
+            : 'col-6 d-flex justify-content-center';
 
         const button = document.createElement('button');
         const theme = categoryThemes[category] || categoryThemes['Všetko'];
-        button.className = 'btn category-button w-100';
-        button.textContent = category;
+        button.className = category === 'Všetko'
+            ? 'btn category-button category-all-button w-100'
+            : 'btn category-button w-100';
+        if (category === 'Slovensko') {
+            button.classList.add('slovensko-category-button');
+            button.setAttribute('aria-label', 'Slovensko');
+            button.innerHTML = `
+                <img src="data/flag_of_slovakia.svg" alt="">
+                <span>Slovensko</span>
+                <img src="data/flag_of_slovakia.svg" alt="">`;
+        } else {
+            button.textContent = category;
+        }
         button.style.setProperty('--category-color', theme.color);
 
         button.style.height = '10vh';
