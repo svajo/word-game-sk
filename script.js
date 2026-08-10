@@ -30,6 +30,23 @@ const categoryThemes = {
     'Značky': { color: '#374151', rgb: '55, 65, 81' }
 };
 
+const categoryEmojis = {
+    'Všetko': ['✨', '✨'],
+    'Zvieratá': ['🐾', '🐾'],
+    'Jedlo': ['🍽️', '🍽️'],
+    'Geografia': ['🌍', '🌍'],
+    'Historické osobnosti': ['🏛️', '🏛️'],
+    'Celebrity': ['🧑', '🧑'],
+    'Literatúra': ['📚', '🪶'],
+    'Hudba': ['🎵', '🎵'],
+    'Filmy a TV': ['🎬', '🎬'],
+    'Povolania': ['💼', '💼'],
+    'Domácnosť': ['🏠', '🏠'],
+    'Šport': ['⚽', '⚽'],
+    'Veda': ['🔬', '🔬'],
+    'Značky': ['🛍️', '🛍️']
+};
+
 // Load words from JSON and infer categories from the keys
 fetch('data/words.json')
     .then(response => {
@@ -52,7 +69,18 @@ fetch('data/words.json')
 function displayCategories() {
     const categoriesDiv = document.getElementById('categories');
     categoriesDiv.innerHTML = '';
-    categories.forEach(category => {
+    const featuredCategories = ['Všetko', 'Slovensko'];
+    const orderedCategories = [...categories].sort((first, second) => {
+        const firstPosition = featuredCategories.includes(first)
+            ? featuredCategories.indexOf(first)
+            : featuredCategories.length + categories.indexOf(first);
+        const secondPosition = featuredCategories.includes(second)
+            ? featuredCategories.indexOf(second)
+            : featuredCategories.length + categories.indexOf(second);
+        return firstPosition - secondPosition;
+    });
+
+    orderedCategories.forEach(category => {
         const buttonDiv = document.createElement('div');
         buttonDiv.className = category === 'Všetko'
             ? 'col-12 d-flex justify-content-center'
@@ -71,7 +99,14 @@ function displayCategories() {
                 <span>Slovensko</span>
                 <img src="data/flag_of_slovakia.svg" alt="">`;
         } else {
-            button.textContent = category;
+            const [leftEmoji, rightEmoji] = categoryEmojis[category] || ['✨', '✨'];
+            button.setAttribute('aria-label', category);
+            button.innerHTML = `
+                <span class="category-button-content">
+                    <span class="category-emoji" aria-hidden="true">${leftEmoji}</span>
+                    <span>${category}</span>
+                    <span class="category-emoji" aria-hidden="true">${rightEmoji}</span>
+                </span>`;
         }
         button.style.setProperty('--category-color', theme.color);
 
