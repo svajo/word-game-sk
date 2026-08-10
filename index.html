@@ -3,10 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>word-game-sk</title>
+    <title>Hádaj slová – slovenská slovná hra</title>
+    <meta name="description" content="Hádaj slová je jednoduchá slovenská slovná hra pre rodinu a kamarátov. Vyberte si kategóriu, dĺžku hry a uhádnite čo najviac slov.">
+    <meta name="robots" content="index,follow">
+    <meta name="theme-color" content="#212529">
+    <meta name="google-site-verification" content="MzKPifyTJmDxPo04GR7Z_PVR9YMmWfSYOGkPLGMDBVc">
+    <link rel="canonical" href="https://svajo.github.io/word-game-sk/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="sk_SK">
+    <meta property="og:site_name" content="Hádaj slová">
+    <meta property="og:title" content="Hádaj slová – slovenská slovná hra">
+    <meta property="og:description" content="Vyberte si kategóriu, dĺžku hry a uhádnite čo najviac slov.">
+    <meta property="og:url" content="https://svajo.github.io/word-game-sk/">
+    <meta name="twitter:card" content="summary">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <!-- Bootstrap CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebApplication",
+            "name": "Hádaj slová",
+            "url": "https://svajo.github.io/word-game-sk/",
+            "description": "Jednoduchá slovenská slovná hra pre rodinu a kamarátov.",
+            "applicationCategory": "GameApplication",
+            "operatingSystem": "Web browser",
+            "inLanguage": "sk",
+            "isAccessibleForFree": true
+        }
+    </script>
     <style>
         :root {
             --theme-color: #4c6ef5;
@@ -91,6 +116,11 @@
 
         #orientation-warning {
             display: none;
+        }
+
+        .game-intro {
+            max-width: 42rem;
+            margin: 0 auto 1.5rem;
         }
 
         .duration-grid {
@@ -343,7 +373,9 @@
         <button id="fullscreen-btn" class="btn btn-primary position-fixed top-0 end-0 m-3">Fullscreen</button>
 
         <div id="category-selection" class="text-center">
-            <h1 class="display-4"><strong>Zvoľte kategóriu</strong></h1>
+            <h1 class="display-4"><strong>Hádaj slová</strong></h1>
+            <p class="lead game-intro">Jednoduchá slovenská slovná hra pre rodinu a kamarátov.</p>
+            <h2 class="h3 mb-3">Zvoľte kategóriu</h2>
             <div id="categories" class="row justify-content-center g-3">
                 <!-- Categories will be dynamically added here -->
             </div>
