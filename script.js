@@ -12,6 +12,7 @@ let totalGuesses = 0;
 let roundEndsAt = 0;
 let audioContext;
 let lastWarningSecond = null;
+let wordMetadata = {};
 
 const categoryThemes = {
     'Všetko': { color: '#5b5bd6', rgb: '91, 91, 214' },
@@ -52,16 +53,23 @@ const categoryEmojis = {
 };
 
 // Load words from JSON and infer categories from the keys
-fetch('data/words.json')
-    .then(response => {
-        if (!response.ok) {
-            throw new Error(`Nepodarilo sa načítať slová (${response.status}).`);
+Promise.all([
+    fetch('data/words.json'),
+    fetch('data/words_metadata.json')
+]).then(async ([wordsResponse, metadataResponse]) => {
+        if (!wordsResponse.ok) {
+            throw new Error(`Nepodarilo sa načítať slová (${wordsResponse.status}).`);
         }
-        return response.json();
-    })
-    .then(data => {
+        if (!metadataResponse.ok) {
+            throw new Error(`Nepodarilo sa načítať metadáta slov (${metadataResponse.status}).`);
+        }
+        const [data, metadata] = await Promise.all([
+            wordsResponse.json(),
+            metadataResponse.json()
+        ]);
         categories = Object.keys(data); // Infer categories from keys
         allWords = data; // Save all words data
+        wordMetadata = metadata;
         displayCategories();
         requestAnimationFrame(updateScrollHint);
     })
@@ -183,14 +191,20 @@ function applyTheme(category) {
     document.documentElement.style.setProperty('--theme-rgb', theme.rgb);
 }
 
+function formatWord(word) {
+    const details = wordMetadata[word];
+    return details ? `${word} ${details[0]}${details[1] ? ` ${details[1]}` : ''}` : String(word);
+}
+
 function displayNextWord() {
     if (words.length > 0) {
         currentWordIndex = Math.floor(Math.random() * words.length);
         const word = String(words[currentWordIndex]);
         const wordDisplay = document.getElementById('word-display');
-        wordDisplay.textContent = word;
-        wordDisplay.classList.toggle('long-word', word.length > 28);
-        wordDisplay.classList.toggle('very-long-word', word.length > 45);
+        const formattedWord = formatWord(word);
+        wordDisplay.textContent = formattedWord;
+        wordDisplay.classList.toggle('long-word', formattedWord.length > 28);
+        wordDisplay.classList.toggle('very-long-word', formattedWord.length > 45);
         words.splice(currentWordIndex, 1); // Remove guessed word
         return true;
     } else {
