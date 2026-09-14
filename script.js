@@ -15,6 +15,8 @@ let lastWarningSecond = null;
 
 const categoryThemes = {
     'Všetko': { color: '#5b5bd6', rgb: '91, 91, 214' },
+    'Príroda': { color: '#2f855a', rgb: '47, 133, 90' },
+    'Zábava a dobrodružstvo': { color: '#c05621', rgb: '192, 86, 33' },
     'Zvieratá': { color: '#2f855a', rgb: '47, 133, 90' },
     'Jedlo': { color: '#c05621', rgb: '192, 86, 33' },
     'Geografia': { color: '#0b7285', rgb: '11, 114, 133' },
@@ -32,6 +34,8 @@ const categoryThemes = {
 
 const categoryEmojis = {
     'Všetko': ['✨', '✨'],
+    'Príroda': ['🌿', '🌦️'],
+    'Zábava a dobrodružstvo': ['🎲', '🧭'],
     'Zvieratá': ['🐾', '🐾'],
     'Jedlo': ['🍽️', '🍽️'],
     'Geografia': ['🌍', '🌍'],
@@ -135,9 +139,18 @@ function loadWords(category) {
     // No need to fetch again, words are already loaded
     // Just assign the words for the selected category
     if (category == 'Všetko') {
+        const seenWords = new Set();
         words = Object.entries(allWords)
             .filter(([name, categoryWords]) => name !== 'Všetko' && Array.isArray(categoryWords))
-            .flatMap(([, categoryWords]) => categoryWords);
+            .flatMap(([, categoryWords]) => categoryWords)
+            .filter(word => {
+                const normalizedWord = String(word).trim().toLocaleLowerCase('sk-SK');
+                if (seenWords.has(normalizedWord)) {
+                    return false;
+                }
+                seenWords.add(normalizedWord);
+                return true;
+            });
     } else {
         words = Array.isArray(allWords[category]) ? [...allWords[category]] : [];
     }
