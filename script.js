@@ -15,8 +15,8 @@ let lastWarningSecond = null;
 
 const categoryThemes = {
     'Všetko': { color: '#5b5bd6', rgb: '91, 91, 214' },
-    'Príroda': { color: '#2f855a', rgb: '47, 133, 90' },
-    'Zábava a dobrodružstvo': { color: '#c05621', rgb: '192, 86, 33' },
+    'Príroda': { color: '#647a24', rgb: '100, 122, 36' },
+    'Zábava a dobrodružstvo': { color: '#7c3aed', rgb: '124, 58, 237' },
     'Zvieratá': { color: '#2f855a', rgb: '47, 133, 90' },
     'Jedlo': { color: '#c05621', rgb: '192, 86, 33' },
     'Geografia': { color: '#0b7285', rgb: '11, 114, 133' },
@@ -115,7 +115,9 @@ function displayCategories() {
         button.style.setProperty('--category-color', theme.color);
 
         button.style.height = '10vh';
-        button.style.fontSize = '5vh';
+        button.style.fontSize = category.length > 20
+            ? 'clamp(1.2rem, 3.5vh, 3rem)'
+            : '5vh';
 
         button.onclick = () => selectCategory(category);
 
