@@ -13,6 +13,25 @@ let roundEndsAt = 0;
 let audioContext;
 let lastWarningSecond = null;
 let wordMetadata = {};
+let wordDescriptions = {};
+let roundActive = false;
+
+async function loadJson(path) {
+    const response = await fetch(path);
+    if (!response.ok) {
+        throw new Error(`Nepodarilo sa načítať ${path} (${response.status}).`);
+    }
+    return response.json();
+}
+
+async function loadOptionalJson(path) {
+    try {
+        return await loadJson(path);
+    } catch (error) {
+        console.warn(error);
+        return {};
+    }
+}
 
 const categoryThemes = {
     'Všetko': { color: '#5b5bd6', rgb: '91, 91, 214' },
@@ -54,22 +73,14 @@ const categoryEmojis = {
 
 // Load words from JSON and infer categories from the keys
 Promise.all([
-    fetch('data/words.json'),
-    fetch('data/words_metadata.json')
-]).then(async ([wordsResponse, metadataResponse]) => {
-        if (!wordsResponse.ok) {
-            throw new Error(`Nepodarilo sa načítať slová (${wordsResponse.status}).`);
-        }
-        if (!metadataResponse.ok) {
-            throw new Error(`Nepodarilo sa načítať metadáta slov (${metadataResponse.status}).`);
-        }
-        const [data, metadata] = await Promise.all([
-            wordsResponse.json(),
-            metadataResponse.json()
-        ]);
+    loadJson('data/words.json'),
+    loadOptionalJson('data/words_metadata.json'),
+    loadOptionalJson('data/word_descriptions.json')
+]).then(([data, metadata, descriptions]) => {
         categories = Object.keys(data); // Infer categories from keys
         allWords = data; // Save all words data
         wordMetadata = metadata;
+        wordDescriptions = descriptions;
         displayCategories();
         requestAnimationFrame(updateScrollHint);
     })
@@ -168,6 +179,8 @@ function loadWords(category) {
 }
 
 function startGame(duration) {
+    if (roundActive) return;
+    roundActive = true;
     remainingTime = duration;
     correctGuesses = 0;
     incorrectGuesses = 0;
@@ -192,8 +205,8 @@ function applyTheme(category) {
 }
 
 function formatWord(word) {
-    const details = wordMetadata[word];
-    return details ? `${word} ${details[0]}${details[1] ? ` ${details[1]}` : ''}` : String(word);
+    const details = wordMetadata?.[word];
+    return Array.isArray(details) ? `${word} ${details[0]}${details[1] ? ` ${details[1]}` : ''}` : String(word);
 }
 
 function displayNextWord() {
@@ -205,6 +218,11 @@ function displayNextWord() {
         wordDisplay.textContent = formattedWord;
         wordDisplay.classList.toggle('long-word', formattedWord.length > 28);
         wordDisplay.classList.toggle('very-long-word', formattedWord.length > 45);
+        const descriptionDisplay = document.getElementById('word-description');
+        const description = wordDescriptions?.[word]?.description;
+        descriptionDisplay.textContent = typeof description === 'string' ? description : '';
+        descriptionDisplay.hidden = !descriptionDisplay.textContent;
+        document.getElementById('word-card').scrollTop = 0;
         words.splice(currentWordIndex, 1); // Remove guessed word
         return true;
     } else {
@@ -243,8 +261,11 @@ function formatTime(seconds) {
 }
 
 function endGame(playSound = true) {
+    if (!roundActive) return;
+    roundActive = false;
     clearInterval(timerInterval);
     timerInterval = undefined;
+    hideConfirmationModal();
     if (playSound) {
         playEndSound();
     }
@@ -265,6 +286,15 @@ function showEndScreen() {
 }
 
 // Event listeners for game buttons
+function canRecordGuess() {
+    if (!roundActive) return false;
+    if (Date.now() >= roundEndsAt) {
+        endGame();
+        return false;
+    }
+    return true;
+}
+
 document.querySelectorAll('.duration-button').forEach(button => {
     button.addEventListener('click', () => {
         startGame(parseInt(button.getAttribute('data-time')));
@@ -272,6 +302,7 @@ document.querySelectorAll('.duration-button').forEach(button => {
 });
 
 document.getElementById('incorrect-button').addEventListener('click', () => {
+    if (!canRecordGuess()) return;
     totalGuesses++;
     incorrectGuesses++;
     playIncorrectSound();
@@ -279,6 +310,7 @@ document.getElementById('incorrect-button').addEventListener('click', () => {
 });
 
 document.getElementById('correct-button').addEventListener('click', () => {
+    if (!canRecordGuess()) return;
     totalGuesses++;
     correctGuesses++;
     playCorrectSound();
@@ -286,6 +318,7 @@ document.getElementById('correct-button').addEventListener('click', () => {
 });
 
 document.getElementById('skip-button').addEventListener('click', () => {
+    if (!canRecordGuess()) return;
     totalGuesses++;
     skippedGuesses++;
     playSkipSound();
@@ -301,9 +334,15 @@ document.getElementById('ok-button').addEventListener('click', () => {
 });
 
 function showConfirmationModal() {
+    if (!canRecordGuess()) return;
     const modal = bootstrap.Modal.getOrCreateInstance(document.getElementById('confirmation-modal'));
     modal.show();
 }
+
+// Bootstrap ignores hide() during its opening transition. Close again once shown.
+document.getElementById('confirmation-modal').addEventListener('shown.bs.modal', () => {
+    if (!roundActive) hideConfirmationModal();
+});
 
 // Function to hide the confirmation modal using Bootstrap modal methods
 function hideConfirmationModal() {
