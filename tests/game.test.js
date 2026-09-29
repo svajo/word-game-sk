@@ -7,7 +7,7 @@ const root = path.join(__dirname, '..');
 const source = fs.readFileSync(path.join(root, 'script.js'), 'utf8');
 const readJson = name => JSON.parse(fs.readFileSync(path.join(root, 'data', name), 'utf8'));
 
-async function createGame(failures = {}) {
+async function createGame(failures = {}, storage = new Map(), storageBlocked = false) {
     const elements = new Map();
     const makeElement = () => {
         const classes = new Set();
@@ -19,7 +19,7 @@ async function createGame(failures = {}) {
                 contains: name => classes.has(name),
                 toggle: (name, enabled) => enabled ? classes.add(name) : classes.delete(name)
             },
-            setAttribute() {}, appendChild(child) { this.children.push(child); },
+            setAttribute() {}, scrollIntoView() {}, appendChild(child) { this.children.push(child); },
             addEventListener(name, fn) { listeners[name] = fn; },
             fire(name) { if (listeners[name]) listeners[name](); }
         };
@@ -54,7 +54,12 @@ async function createGame(failures = {}) {
             getElementById: element, createElement: makeElement, querySelectorAll: () => [],
             body: makeElement(), documentElement: makeElement()
         },
-        window: { addEventListener() {}, scrollTo() {}, innerHeight: 375, scrollY: 0 },
+        window: { addEventListener() {}, scrollTo() {}, innerHeight: 375, scrollY: 0,
+            sessionStorage: {
+                getItem(key) { if (storageBlocked) throw new Error('Blocked'); return storage.get(key) || null; },
+                setItem(key, value) { if (storageBlocked) throw new Error('Blocked'); storage.set(key, value); }
+            }
+        },
         screen: {}, bootstrap: { Modal: { getOrCreateInstance: () => modal } },
         requestAnimationFrame: fn => fn(),
         setInterval: fn => { tick = fn; return 1; }, clearInterval: () => { tick = null; }
@@ -73,6 +78,15 @@ async function createGame(failures = {}) {
 (async () => {
     const descriptions = readJson('word_descriptions.json');
     const words = new Set(Object.values(readJson('words.json')).filter(Array.isArray).flat());
+    for (const [category, entries] of Object.entries(readJson('words.json'))) {
+        if (!Array.isArray(entries)) continue;
+        const keys = entries.map(word => word.normalize('NFC').trim().toLocaleLowerCase('sk-SK'));
+        assert.strictEqual(new Set(keys).size, entries.length, `Duplicate words in ${category}`);
+        assert(entries.every(word => word === word.trim() && word === word.normalize('NFC')));
+    }
+    for (const word of Object.keys(readJson('words_metadata.json'))) {
+        assert(words.has(word), `Metadata has no matching word: ${word}`);
+    }
     for (const [word, entry] of Object.entries(descriptions)) {
         assert(words.has(word), `Description has no matching word: ${word}`);
         assert(typeof entry.description === 'string' && entry.description.trim());
@@ -126,9 +140,67 @@ async function createGame(failures = {}) {
     cancelled.start();
     cancelled.element('confirm-yes').fire('click');
     assert.strictEqual(cancelled.eval('roundActive'), false);
-    cancelled.start(['Franz Kafka']);
+    cancelled.start(['Albert Einstein']);
     assert.strictEqual(cancelled.eval('totalGuesses'), 0);
     assert.strictEqual(cancelled.element('word-description').hidden, false);
+
+    const storage = new Map();
+    const session = await createGame({}, storage);
+    session.start(['pes', 'včela', 'orol']);
+    session.element('reset-session').fire('click');
+    assert.strictEqual(session.eval('usedWords.size'), 1, 'An active round was reset');
+    session.element('skip-button').fire('click'); // Both displayed words count, including the skipped one.
+    session.element('confirm-yes').fire('click'); // Cancelling must not return the visible word.
+    assert.strictEqual(session.eval('usedWords.size'), 2);
+    session.eval("loadWords('Príroda')");
+    assert.strictEqual(session.eval("words.includes('včela') || words.includes('pes')"), false);
+    session.eval("loadWords('Všetko')");
+    assert.strictEqual(session.eval("words.includes('včela') || words.includes('pes')"), false);
+    assert(session.element('session-counter').textContent.startsWith('Zobrazené slová: 2 /'));
+
+    const refreshed = await createGame({}, storage);
+    assert.strictEqual(refreshed.eval('usedWords.size'), 2, 'Refreshing lost the session');
+    refreshed.eval("loadWords('Zvieratá')");
+    assert.strictEqual(refreshed.eval("words.includes('pes') || words.includes('včela')"), false);
+    refreshed.element('reset-session').fire('click');
+    assert.strictEqual(refreshed.eval('usedWords.size'), 0);
+    assert.strictEqual(refreshed.element('reset-session').disabled, true);
+    refreshed.eval("loadWords('Zvieratá')");
+    assert.strictEqual(refreshed.eval("words.includes('pes') && words.includes('včela')"), true);
+    assert.strictEqual((await createGame({}, storage)).eval('usedWords.size'), 0);
+
+    const exhausted = await createGame();
+    exhausted.eval("allWords = { Všetko: null, A: ['pes', ' PES ', 'mačka'], B: ['mačka', 'orol'] }; selectCategory('A'); startGame(30);");
+    exhausted.element('correct-button').fire('click');
+    exhausted.element('incorrect-button').fire('click');
+    assert.strictEqual(exhausted.eval('totalGuesses'), 2, 'Case variants were repeated');
+    assert.strictEqual(exhausted.eval('roundActive'), false);
+    assert(exhausted.element('end-reason').textContent.includes('nezostali'));
+    exhausted.element('ok-button').fire('click');
+    exhausted.eval("selectCategory('A')");
+    assert.strictEqual(exhausted.element('category-selection').style.display, 'block');
+    assert(exhausted.element('session-message').textContent.includes('všetky slová'));
+    exhausted.eval("selectCategory('B'); startGame(30)");
+    assert.strictEqual(exhausted.element('word-display').textContent, 'orol');
+    exhausted.advance(30000);
+    exhausted.tick();
+    assert.strictEqual(exhausted.eval('usedWords.size'), 3, 'Timeout lost the displayed word');
+    exhausted.eval("loadWords('Všetko')");
+    assert.strictEqual(exhausted.eval('words.length'), 0);
+    exhausted.element('reset-session').fire('click');
+    exhausted.eval("loadWords('Všetko')");
+    assert.strictEqual(exhausted.eval('words.length'), 3);
+
+    for (const saved of ['not JSON', '{}', '[null, 5, "removed word", "PES"]']) {
+        const invalid = await createGame({}, new Map([['hadaj-slova-used-v1', saved]]));
+        invalid.start();
+        assert.strictEqual(invalid.eval('roundActive'), true, 'Invalid storage prevented play');
+    }
+    const blocked = await createGame({}, new Map(), true);
+    blocked.start(['pes']);
+    blocked.element('correct-button').fire('click');
+    blocked.eval("loadWords('Zvieratá')");
+    assert.strictEqual(blocked.eval("words.includes('pes')"), false);
 
     for (const failure of ['http', 'network', 'json']) {
         const optional = await createGame({
@@ -142,5 +214,5 @@ async function createGame(failures = {}) {
     }
     const missingWords = await createGame({ 'data/words.json': 'http' });
     assert(missingWords.element('categories').textContent.includes('nepodarilo'));
-    console.log(`Passed: ${Object.keys(descriptions).length} descriptions, scoring, deadlines, modal transitions, restart, optional loading failures.`);
+    console.log(`Passed: ${Object.keys(descriptions).length} descriptions, clean data, session repeats/reset/storage, scoring, deadlines, modal transitions, restart, optional loading failures.`);
 })().catch(error => { console.error(error); process.exitCode = 1; });

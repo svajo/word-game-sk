@@ -12,6 +12,17 @@ python -m http.server 8000
 
 Potom otvorte `http://localhost:8000`.
 
+## Slová bez opakovania
+
+Každé zobrazené slovo sa vyradí zo všetkých kategórií až do vynulovania počítadla.
+Platí to aj pre preskočené slová a slovo zobrazené pri uplynutí času či ukončení kola.
+Úvodná obrazovka zobrazuje počet použitých slov a tlačidlo na povolenie opakovania.
+Po vyčerpaní kategórie treba vybrať inú alebo vynulovať počítadlo; hra ho nenuluje automaticky.
+
+História je uložená v `sessionStorage` pre aktuálnu kartu prehliadača a prežije obnovenie
+stránky. Pri nedostupnom úložisku funguje do obnovenia stránky. Slová sa porovnávajú
+bez rozlíšenia veľkosti písmen, s normalizovanou diakritikou a bez okrajových medzier.
+
 ## Krátke vysvetlenia slov
 
 Voliteľné vysvetlenia sa zobrazujú pod slovom. Sú uložené v `data/word_descriptions.json`;
@@ -33,7 +44,7 @@ Pri nejednoznačných názvoch najprv overte, čo označujú. Odkaz na zdroj sl�
 počas hry sa externé stránky nenačítavajú. Ak slovo nemá vysvetlenie alebo voliteľný súbor
 nie je dostupný, hra zobrazí iba slovo.
 
-Súbor obsahuje 1 230 vysvetlení, najmä pre osoby, fiktívne postavy, hudobné skupiny
+Súbor obsahuje vyše 1 200 vysvetlení, najmä pre osoby, fiktívne postavy, hudobné skupiny
 a športové kluby.
 
 ## Kontroly
@@ -45,5 +56,6 @@ node --check script.js
 node tests/game.test.js
 ```
 
-Kontroly overujú vysvetlenia, skórovanie, časový limit, zatvorenie dialógu pri konci kola
-a pokračovanie hry pri chybe načítania voliteľných dát.
+Kontroly overujú slovník a vysvetlenia, neopakovanie slov medzi kategóriami, obnovenie
+a vynulovanie série, skórovanie, časový limit, zatvorenie dialógu pri konci kola
+a pokračovanie hry pri chybe načítania voliteľných dát alebo úložiska.

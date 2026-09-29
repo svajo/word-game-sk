@@ -15,6 +15,62 @@ let lastWarningSecond = null;
 let wordMetadata = {};
 let wordDescriptions = {};
 let roundActive = false;
+const sessionStorageKey = 'hadaj-slova-used-v1';
+let usedWords = new Set();
+
+function wordKey(word) {
+    return String(word).normalize('NFC').trim().toLocaleLowerCase('sk-SK');
+}
+
+function uniqueWords(candidates) {
+    const seen = new Set();
+    return candidates.filter(word => {
+        const key = wordKey(word);
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+    });
+}
+
+function sessionWordPool() {
+    return uniqueWords(Object.values(allWords).filter(Array.isArray).flat());
+}
+
+function restoreSession() {
+    try {
+        const saved = JSON.parse(window.sessionStorage.getItem(sessionStorageKey) || '[]');
+        const available = new Set(sessionWordPool().map(wordKey));
+        if (Array.isArray(saved)) {
+            usedWords = new Set(saved.filter(word => typeof word === 'string')
+                .map(wordKey).filter(key => available.has(key)));
+        }
+    } catch (_) {
+        // If storage is unavailable, repeats are still prevented until a refresh.
+    }
+    updateSessionCounter();
+}
+
+function saveSession() {
+    try {
+        window.sessionStorage.setItem(sessionStorageKey, JSON.stringify([...usedWords]));
+    } catch (_) {
+        // Private browsing or full storage must not interrupt a round.
+    }
+}
+
+function updateSessionCounter() {
+    document.getElementById('session-counter').textContent =
+        `Zobrazené slová: ${usedWords.size} / ${sessionWordPool().length}`;
+    document.getElementById('reset-session').disabled = usedWords.size === 0;
+}
+
+document.getElementById('reset-session').addEventListener('click', () => {
+    if (roundActive) return;
+    usedWords.clear();
+    saveSession();
+    updateSessionCounter();
+    document.getElementById('session-message').textContent = 'Nová séria hier. Všetky slová sú opäť dostupné.';
+});
 
 async function loadJson(path) {
     const response = await fetch(path);
@@ -81,6 +137,7 @@ Promise.all([
         allWords = data; // Save all words data
         wordMetadata = metadata;
         wordDescriptions = descriptions;
+        restoreSession();
         displayCategories();
         requestAnimationFrame(updateScrollHint);
     })
@@ -150,6 +207,14 @@ function selectCategory(category) {
     currentCategory = category;
     applyTheme(category);
     loadWords(category);
+    if (!words.length) {
+        document.getElementById('session-message').textContent =
+            `V kategórii ${category} ste už videli všetky slová. Vyberte inú kategóriu alebo povoľte opakovanie.`;
+        document.getElementById('session-controls').scrollIntoView({ block: 'center' });
+        requestAnimationFrame(updateScrollHint);
+        return;
+    }
+    document.getElementById('session-message').textContent = '';
     document.getElementById('category-selection').style.display = 'none';
     document.getElementById('round-duration').style.display = 'block';
     window.scrollTo(0, 0);
@@ -157,25 +222,8 @@ function selectCategory(category) {
 }
 
 function loadWords(category) {
-    // No need to fetch again, words are already loaded
-    // Just assign the words for the selected category
-    if (category == 'Všetko') {
-        const seenWords = new Set();
-        words = Object.entries(allWords)
-            .filter(([name, categoryWords]) => name !== 'Všetko' && Array.isArray(categoryWords))
-            .flatMap(([, categoryWords]) => categoryWords)
-            .filter(word => {
-                const normalizedWord = String(word).trim().toLocaleLowerCase('sk-SK');
-                if (seenWords.has(normalizedWord)) {
-                    return false;
-                }
-                seenWords.add(normalizedWord);
-                return true;
-            });
-    } else {
-        words = Array.isArray(allWords[category]) ? [...allWords[category]] : [];
-    }
-    
+    const candidates = category === 'Všetko' ? sessionWordPool() : (allWords[category] || []);
+    words = uniqueWords(candidates).filter(word => !usedWords.has(wordKey(word)));
 }
 
 function startGame(duration) {
@@ -187,6 +235,7 @@ function startGame(duration) {
     skippedGuesses = 0;
     totalGuesses = 0;
     lastWarningSecond = null;
+    document.getElementById('end-reason').textContent = '';
     unlockAudio();
     document.getElementById('round-duration').style.display = 'none';
     document.getElementById('game-round').style.display = 'flex';
@@ -210,6 +259,7 @@ function formatWord(word) {
 }
 
 function displayNextWord() {
+    words = words.filter(word => !usedWords.has(wordKey(word)));
     if (words.length > 0) {
         currentWordIndex = Math.floor(Math.random() * words.length);
         const word = String(words[currentWordIndex]);
@@ -223,9 +273,13 @@ function displayNextWord() {
         descriptionDisplay.textContent = typeof description === 'string' ? description : '';
         descriptionDisplay.hidden = !descriptionDisplay.textContent;
         document.getElementById('word-card').scrollTop = 0;
-        words.splice(currentWordIndex, 1); // Remove guessed word
+        words.splice(currentWordIndex, 1);
+        usedWords.add(wordKey(word));
+        saveSession();
         return true;
     } else {
+        document.getElementById('end-reason').textContent =
+            'V tejto kategórii už nezostali nevidené slová. Vyberte inú kategóriu alebo na úvodnej obrazovke povoľte opakovanie.';
         endGame();
         return false;
     }
@@ -275,6 +329,7 @@ function endGame(playSound = true) {
 }
 
 function showEndScreen() {
+    updateSessionCounter();
     const percentage = count => totalGuesses ? Math.round((count / totalGuesses) * 100) : 0;
     document.getElementById('results').innerHTML = `
         <div class="result-total">Spolu: ${totalGuesses}</div>

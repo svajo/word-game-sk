@@ -79,7 +79,7 @@
     "description": "Švédska autorka detských kníh, ktorá vytvorila postavu Pippi Dlhej Pančuchy.",
     "source": "https://en.wikipedia.org/wiki/Astrid_Lindgren"
   },
-  "J.R.R. Tolkien": {
+  "J. R. R. Tolkien": {
     "description": "Britský spisovateľ a jazykovedec, autor Hobita a Pána prsteňov.",
     "source": "https://en.wikipedia.org/wiki/J._R._R._Tolkien"
   },
@@ -155,71 +155,67 @@
     "description": "Fiktívny psychiater a kanibalský vrah, známy z Mlčania jahniat a ďalších príbehov.",
     "source": "https://en.wikipedia.org/wiki/Hannibal_Lecter"
   },
-  "Hannibal Lecter - Hannibal": {
-    "description": "Fiktívny psychiater a kanibal z trilerov Thomasa Harrisa, známy aj z filmu Mlčanie jahniat.",
-    "source": "https://en.wikipedia.org/wiki/Hannibal_Lecter"
-  },
   "Dr. Gregory House": {
     "description": "Geniálny, sarkastický lekár zo seriálu House, ktorý rieši nezvyčajné diagnostické prípady.",
     "source": "https://en.wikipedia.org/wiki/Dr._Gregory_House"
   },
-  "Falafel": {
+  "falafel": {
     "description": "Vyprážané guľky z cíceru alebo bôbu s bylinkami, obľúbené v blízkovýchodnej kuchyni.",
     "source": "https://en.wikipedia.org/wiki/Falafel"
   },
-  "Ratatouille": {
+  "ratatouille": {
     "description": "Francúzske jedlo z dusenej letnej zeleniny, typicky baklažánu, cukety, papriky a paradajok.",
     "source": "https://en.wikipedia.org/wiki/Ratatouille"
   },
-  "Poutine": {
+  "poutine": {
     "description": "Jedlo z Québecu: hranolky s kúskami čerstvého syra, poliate hnedou omáčkou.",
     "source": "https://en.wikipedia.org/wiki/Poutine"
   },
-  "Panzanella": {
+  "panzanella": {
     "description": "Taliansky šalát zo staršieho chleba, paradajok a cibule, ochutený olejom a octom.",
     "source": "https://en.wikipedia.org/wiki/Panzanella"
   },
-  "Tempeh": {
+  "tempeh": {
     "description": "Indonézska potravina z fermentovaných sójových bôbov spojených do pevného bloku.",
     "source": "https://en.wikipedia.org/wiki/Tempeh"
   },
-  "Seitan": {
+  "seitan": {
     "description": "Potravina z pšeničnej bielkoviny, používaná ako rastlinná náhrada mäsa.",
     "source": "https://en.wikipedia.org/wiki/Seitan"
   },
-  "Pho": {
+  "pho": {
     "description": "Vietnamská polievka s ryžovými rezancami, bylinkami a zvyčajne hovädzím alebo kuracím mäsom.",
     "source": "https://en.wikipedia.org/wiki/Pho"
   },
-  "Ramen": {
+  "ramen": {
     "description": "Japonská rezancová polievka s vývarom a rôznymi prílohami, napríklad vajíčkom či mäsom.",
     "source": "https://en.wikipedia.org/wiki/Ramen"
   },
-  "Quiche": {
+  "quiche": {
     "description": "Slaný koláč s vajíčkovou a smotanovou náplňou, často so syrom, slaninou alebo zeleninou.",
     "source": "https://en.wikipedia.org/wiki/Quiche"
   },
-  "Eggs Benedict": {
+  "vajcia Benedikt": {
     "description": "Pošírované vajcia na rozkrojenom anglickom muffine so šunkou či slaninou a holandskou omáčkou.",
     "source": "https://en.wikipedia.org/wiki/Eggs_Benedict"
   },
-  "Tamales": {
+  "tamales": {
     "description": "Plnené balíčky z kukuričného cesta, varené v pare v kukuričných alebo banánových listoch.",
     "source": "https://en.wikipedia.org/wiki/Tamale"
   },
-  "Sarmale": {
+  "sarmale": {
     "description": "Rumunské závitky z kapustových alebo viničových listov, plnené najmä mäsom a ryžou.",
     "source": "https://en.wikipedia.org/wiki/Sarmale"
   },
-  "Sashimi": {
+  "sashimi": {
     "description": "Japonské jedlo z tenkých plátkov surovej ryby alebo iného mäsa, podávané bez ryže.",
     "source": "https://en.wikipedia.org/wiki/Sashimi"
   },
-  "Paella": {
+  "paella": {
     "description": "Španielske ryžové jedlo pripravované na širokej panvici, pochádzajúce z oblasti Valencie.",
     "source": "https://en.wikipedia.org/wiki/Paella"
   },
-  "Tiramisu": {
+  "tiramisu": {
     "description": "Taliansky dezert z piškót namočených v káve, krému s mascarpone a kakaa.",
     "source": "https://en.wikipedia.org/wiki/Tiramisu"
   },
@@ -251,11 +247,7 @@
     "description": "Látka, ktorá urýchľuje chemickú reakciu a sama sa pri nej celkovo nespotrebúva.",
     "source": "https://en.wikipedia.org/wiki/Catalysis"
   },
-  "Genóm": {
-    "description": "Úplný súbor genetickej informácie organizmu, uložený zvyčajne v jeho DNA.",
-    "source": "https://en.wikipedia.org/wiki/Genome"
-  },
-  "Genom": {
+  "genóm": {
     "description": "Úplný súbor genetickej informácie organizmu, uložený zvyčajne v jeho DNA.",
     "source": "https://en.wikipedia.org/wiki/Genome"
   },
@@ -375,9 +367,9 @@
     "description": "Portugalský futbalový útočník, päťnásobný držiteľ Zlatej lopty a hviezda Realu Madrid.",
     "source": "https://sk.wikipedia.org/wiki/Cristiano_Ronaldo"
   },
-  "Neymar Jr.": {
+  "Neymar": {
     "description": "Brazílsky futbalový útočník, známy technickými kľučkami a pôsobením v Barcelone či Paríži.",
-    "source": "https://en.wikipedia.org/wiki/Neymar"
+    "source": "https://sk.wikipedia.org/wiki/Neymar"
   },
   "Kylian Mbappé": {
     "description": "Francúzsky futbalový útočník, majster sveta z roku 2018, známy mimoriadnou rýchlosťou.",
@@ -595,7 +587,7 @@
     "description": "Anglický futbalový stredopoliar a tréner, dlhoročný kapitán Liverpoolu.",
     "source": "https://sk.wikipedia.org/wiki/Steven_Gerrard"
   },
-  "Novak Djokovic": {
+  "Novak Đoković": {
     "description": "Srbský tenista, mnohonásobný grandslamový víťaz a dlhoročná svetová jednotka.",
     "source": "https://en.wikipedia.org/wiki/Novak_Djokovic"
   },
@@ -615,7 +607,7 @@
     "description": "Anglický futbalový tréner, ktorý doviedol Nottingham Forest k dvom európskym pohárom.",
     "source": "https://sk.wikipedia.org/wiki/Brian_Clough"
   },
-  "Sir Alex Ferguson": {
+  "Alex Ferguson": {
     "description": "Škótsky futbalový tréner, ktorý dlhé roky viedol Manchester United k mnohým titulom.",
     "source": "https://sk.wikipedia.org/wiki/Alex_Ferguson"
   },
@@ -723,7 +715,7 @@
     "description": "Gabonský futbalový útočník, známy pôsobením v Dortmunde, Arsenale a Barcelone.",
     "source": "https://sk.wikipedia.org/wiki/Pierre-Emerick_Aubameyang"
   },
-  "Luka Jovic": {
+  "Luka Jović": {
     "description": "Srbský futbalový útočník, ktorý sa presadil vo Frankfurte a prestúpil do Realu Madrid.",
     "source": "https://en.wikipedia.org/wiki/Luka_Jovi%C4%87"
   },
@@ -751,7 +743,7 @@
     "description": "Americká tenisová šampiónka a bojovníčka za rovnoprávnosť žien v športe.",
     "source": "https://sk.wikipedia.org/wiki/Billie_Jean_Kingov%C3%A1"
   },
-  "Martina Navratilova": {
+  "Martina Navrátilová": {
     "description": "Česko-americká tenistka, deväťnásobná víťazka wimbledonskej dvojhry.",
     "source": "https://en.wikipedia.org/wiki/Martina_Navratilova"
   },
@@ -851,10 +843,6 @@
     "description": "Český vytrvalostný bežec, ktorý v Helsinkách 1952 vyhral 5 000 metrov, 10 000 metrov aj maratón.",
     "source": "https://sk.wikipedia.org/wiki/Emil_Z%C3%A1topek"
   },
-  "Neymar": {
-    "description": "Brazílsky futbalový útočník, známy technickými kľučkami a pôsobením v Barcelone či Paríži.",
-    "source": "https://sk.wikipedia.org/wiki/Neymar"
-  },
   "Michel Platini": {
     "description": "Francúzsky futbalový stredopoliar, trojnásobný držiteľ Zlatej lopty a bývalý šéf UEFA.",
     "source": "https://sk.wikipedia.org/wiki/Michel_Platini"
@@ -883,7 +871,7 @@
     "description": "Španielsky futbalový brankár, kapitán majstrov sveta z roku 2010 a legenda Realu Madrid.",
     "source": "https://sk.wikipedia.org/wiki/Iker_Casillas"
   },
-  "Lev Yashin": {
+  "Lev Jašin": {
     "description": "Sovietsky futbalový brankár prezývaný Čierny pavúk, držiteľ Zlatej lopty z roku 1963.",
     "source": "https://en.wikipedia.org/wiki/Lev_Yashin"
   },
@@ -891,11 +879,11 @@
     "description": "Španielsky futbalový brankár, po ktorom je pomenovaná cena pre brankárov španielskej ligy.",
     "source": "https://en.wikipedia.org/wiki/Ricardo_Zamora"
   },
-  "Kaka": {
+  "Kaká": {
     "description": "Brazílsky futbalový ofenzívny stredopoliar, hviezda AC Miláno a držiteľ Zlatej lopty z roku 2007.",
     "source": "https://en.wikipedia.org/wiki/Kak%C3%A1"
   },
-  "Xavi Hernandez": {
+  "Xavi Hernández": {
     "description": "Španielsky futbalový stredopoliar a tréner, symbol kombinačnej hry Barcelony.",
     "source": "https://en.wikipedia.org/wiki/Xavi_%28footballer%2C_born_1980%29"
   },
@@ -1031,10 +1019,6 @@
     "description": "Český hokejový center, známy dlhoročným pôsobením v Montreale Canadiens.",
     "source": "https://sk.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Plekanec"
   },
-  "Marian Hossa": {
-    "description": "Slovenský hokejový útočník, trojnásobný víťaz Stanleyho pohára s Chicagom.",
-    "source": "https://sk.wikipedia.org/wiki/Mari%C3%A1n_Hossa"
-  },
   "Patrik Eliáš": {
     "description": "Český hokejový útočník, dlhoročná hviezda New Jersey Devils a dvojnásobný víťaz Stanleyho pohára.",
     "source": "https://sk.wikipedia.org/wiki/Patrik_Eli%C3%A1%C5%A1"
@@ -1087,7 +1071,7 @@
     "description": "Slovenský kňaz a prírodovedec, známy výskumom rastlín, archeológie a ľudovej kultúry.",
     "source": "https://sk.wikipedia.org/wiki/Andrej_Kme%C5%A5"
   },
-  "Alexander the Great": {
+  "Alexander Veľký": {
     "description": "Macedónsky kráľ a vojvodca, ktorý vytvoril ríšu siahajúcu od Grécka po Indiu.",
     "source": "https://en.wikipedia.org/wiki/Alexander_the_Great"
   },
@@ -1223,11 +1207,11 @@
     "description": "Americký režisér, scenárista a herec, známy filmami Annie Hallová a Manhattan.",
     "source": "https://sk.wikipedia.org/wiki/Woody_Allen"
   },
-  "Coen Brothers": {
+  "Bratia Coenovci": {
     "description": "Bratia Joel a Ethan Coenovci, americkí filmári a autori filmov Fargo a Big Lebowski.",
     "source": "https://en.wikipedia.org/wiki/Coen_brothers"
   },
-  "Roman Polanski": {
+  "Roman Polański": {
     "description": "Poľsko-francúzsky režisér, známy filmami Pianista, Čínska štvrť a Rosemary má dieťatko.",
     "source": "https://sk.wikipedia.org/wiki/Roman_Pola%C5%84ski"
   },
@@ -1351,7 +1335,7 @@
     "description": "Česká herečka, predstaviteľka mamy vo filme Pelíšky a dcéra Jiřiny Bohdalovej.",
     "source": "https://sk.wikipedia.org/wiki/Simona_Sta%C5%A1ov%C3%A1"
   },
-  "Vera Křesadlová": {
+  "Věra Křesadlová": {
     "description": "Česká herečka a speváčka, spojená s divadlom Semafor a filmom Konkurs.",
     "source": "https://cs.wikipedia.org/wiki/V%C4%9Bra_K%C5%99esadlov%C3%A1"
   },
@@ -1387,7 +1371,7 @@
     "description": "Otec rodiny Simpsonovcov, milovník šišiek a piva, ktorý pracuje v jadrovej elektrárni.",
     "source": "https://sk.wikipedia.org/wiki/Homer_Simpson"
   },
-  "Scully - The X-Files": {
+  "Dana Scullyová": {
     "description": "Dana Scullyová, lekárka a agentka FBI zo seriálu Akty X, partnerka Foxa Muldera.",
     "source": "https://en.wikipedia.org/wiki/Dana_Scully"
   },
@@ -1399,23 +1383,23 @@
     "description": "Kráľovná zo seriálu Hra o tróny a knižnej série Pieseň ľadu a ohňa, členka rodu Lannisterovcov.",
     "source": "https://sk.wikipedia.org/wiki/Cersei_Lannisterov%C3%A1"
   },
-  "Eleven - Stranger Things": {
+  "Eleven (Stranger Things)": {
     "description": "Dievča s telekinetickými schopnosťami zo seriálu Stranger Things, ktoré hrá Millie Bobby Brown.",
     "source": "https://en.wikipedia.org/wiki/Eleven_%28Stranger_Things%29"
   },
-  "Captain Kirk - Star Trek": {
+  "James T. Kirk": {
     "description": "James T. Kirk, kapitán vesmírnej lode Enterprise v pôvodnom seriáli Star Trek.",
     "source": "https://en.wikipedia.org/wiki/James_T._Kirk"
   },
-  "Spock - Star Trek": {
+  "Spock": {
     "description": "Vulkánsky vedecký dôstojník lode Enterprise zo Star Treku, známy logikou a špicatými ušami.",
     "source": "https://en.wikipedia.org/wiki/Spock"
   },
-  "Tony Stark - Iron Man": {
-    "description": "Geniálny vynálezca a miliardár zo sveta Marvelu, ktorý sa v obrnenom obleku stáva Iron Manom.",
+  "Iron Man": {
+    "description": "Superhrdina Tony Stark, geniálny vynálezca bojujúci v technologicky vyspelom obrnenom obleku.",
     "source": "https://en.wikipedia.org/wiki/Iron_Man"
   },
-  "Jean-Luc Picard - Star Trek": {
+  "Jean-Luc Picard": {
     "description": "Kapitán lode Enterprise zo seriálu Star Trek: Nová generácia, ktorého hrá Patrick Stewart.",
     "source": "https://en.wikipedia.org/wiki/Jean-Luc_Picard"
   },
@@ -1427,9 +1411,9 @@
     "description": "Filmový a knižný hrdina, ktorý nechtiac zasahuje do amerických dejín; vo filme ho hrá Tom Hanks.",
     "source": "https://en.wikipedia.org/wiki/Forrest_Gump"
   },
-  "Knieža Pribina": {
-    "description": "Slovanské knieža spojené s Nitrou a s vysvätením prvého známeho kresťanského kostola na našom území.",
-    "source": "https://en.wikipedia.org/wiki/Pribina"
+  "Pribina": {
+    "description": "Nitrianske knieža, spojené s prvým známym kresťanským kostolom na území Slovenska.",
+    "source": "https://sk.wikipedia.org/wiki/Pribina"
   },
   "Cyril a Metod": {
     "description": "Solúnski bratia a vierozvestcovia, ktorí priniesli na Veľkú Moravu slovanskú liturgiu a hlaholiku.",
@@ -1451,7 +1435,7 @@
     "description": "Škótsky fyzik, ktorý opísal elektrinu a magnetizmus spoločnou sústavou rovníc.",
     "source": "https://sk.wikipedia.org/wiki/James_Clerk_Maxwell"
   },
-  "Dmitri Mendeleev": {
+  "Dmitrij Mendelejev": {
     "description": "Ruský chemik, tvorca periodickej tabuľky prvkov.",
     "source": "https://en.wikipedia.org/wiki/Dmitri_Mendeleev"
   },
@@ -1491,7 +1475,7 @@
     "description": "Anglický chemik a fyzik, tvorca modernej atómovej teórie, ktorý skúmal aj farbosleposť.",
     "source": "https://sk.wikipedia.org/wiki/John_Dalton"
   },
-  "J.J. Thomson": {
+  "J. J. Thomson": {
     "description": "Britský fyzik Joseph John Thomson, objaviteľ elektrónu.",
     "source": "https://en.wikipedia.org/wiki/J._J._Thomson"
   },
@@ -1519,7 +1503,7 @@
     "description": "Britský evolučný biológ a autor knihy Sebecký gén.",
     "source": "https://sk.wikipedia.org/wiki/Richard_Dawkins"
   },
-  "Nikolaus Copernicus": {
+  "Mikuláš Kopernik": {
     "description": "Mikuláš Kopernik, astronóm, ktorý presadzoval model planét obiehajúcich okolo Slnka.",
     "source": "https://en.wikipedia.org/wiki/Nicolaus_Copernicus"
   },
@@ -1615,11 +1599,11 @@
     "description": "Nemecký astronóm, ktorý opísal zákony pohybu planét okolo Slnka.",
     "source": "https://sk.wikipedia.org/wiki/Johannes_Kepler"
   },
-  "Cleopatra": {
+  "Kleopatra": {
     "description": "Egyptská kráľovná, známa spojenectvami s Júliom Caesarom a Markom Antóniom.",
     "source": "https://en.wikipedia.org/wiki/Cleopatra"
   },
-  "Joan of Arc": {
+  "Jana z Arku": {
     "description": "Francúzska národná hrdinka Jana z Arku, ktorá viedla vojsko a bola upálená.",
     "source": "https://en.wikipedia.org/wiki/Joan_of_Arc"
   },
@@ -1631,23 +1615,23 @@
     "description": "Benátsky cestovateľ a kupec, známy rozprávaním o cestách do Číny.",
     "source": "https://sk.wikipedia.org/wiki/Marco_Polo"
   },
-  "Genghis Khan": {
+  "Džingischán": {
     "description": "Mongolský vojvodca a zakladateľ rozsiahlej Mongolskej ríše, známy ako Džingischán.",
     "source": "https://en.wikipedia.org/wiki/Genghis_Khan"
   },
-  "Confucius": {
+  "Konfucius": {
     "description": "Čínsky filozof Konfucius, ktorého učenie zdôrazňuje morálku, rodinu a spoločenský poriadok.",
     "source": "https://en.wikipedia.org/wiki/Confucius"
   },
-  "Aristotle": {
+  "Aristoteles": {
     "description": "Starogrécky filozof Aristoteles, Platónov žiak a učiteľ Alexandra Veľkého.",
     "source": "https://en.wikipedia.org/wiki/Aristotle"
   },
-  "Socrates": {
+  "Sokrates": {
     "description": "Starogrécky filozof Sokrates, známy kladením otázok a hľadaním pravdy v rozhovore.",
     "source": "https://sk.wikipedia.org/wiki/Sokrates"
   },
-  "Plato": {
+  "Platón": {
     "description": "Starogrécky filozof Platón, Sokratov žiak a zakladateľ aténskej Akadémie.",
     "source": "https://sk.wikipedia.org/wiki/Plat%C3%B3n"
   },
@@ -1671,11 +1655,11 @@
     "description": "Anglický spisovateľ, autor Olivera Twista a Vianočnej koledy.",
     "source": "https://sk.wikipedia.org/wiki/Charles_Dickens"
   },
-  "Marie Antoinette": {
-    "description": "Francúzska kráľovná rakúskeho pôvodu, manželka Ľudovíta XVI., popravená počas revolúcie.",
-    "source": "https://en.wikipedia.org/wiki/Marie_Antoinette"
+  "Mária Antoinetta": {
+    "description": "Francúzska kráľovná, dcéra Márie Terézie, popravená počas Francúzskej revolúcie.",
+    "source": "https://sk.wikipedia.org/wiki/M%C3%A1ria_Antoinetta"
   },
-  "Queen Victoria": {
+  "Kráľovná Viktória": {
     "description": "Britská kráľovná z 19. storočia, po ktorej sa nazýva viktoriánska éra.",
     "source": "https://en.wikipedia.org/wiki/Queen_Victoria"
   },
@@ -1715,7 +1699,7 @@
     "description": "Americký spisovateľ a humorista, autor príbehov Toma Sawyera a Huckleberryho Finna.",
     "source": "https://sk.wikipedia.org/wiki/Mark_Twain"
   },
-  "J.K. Rowling": {
+  "J. K. Rowling": {
     "description": "Britská spisovateľka, autorka knižnej série o mladom čarodejníkovi Harrym Potterovi.",
     "source": "https://sk.wikipedia.org/wiki/J._K._Rowlingov%C3%A1"
   },
@@ -1763,7 +1747,7 @@
     "description": "Kolumbijský spisovateľ, autor románu Sto rokov samoty a predstaviteľ magického realizmu.",
     "source": "https://sk.wikipedia.org/wiki/Gabriel_Garc%C3%ADa_M%C3%A1rquez"
   },
-  "Leo Tolstoy": {
+  "Lev Tolstoj": {
     "description": "Ruský spisovateľ Lev Tolstoj, autor románov Vojna a mier a Anna Kareninová.",
     "source": "https://en.wikipedia.org/wiki/Leo_Tolstoy"
   },
@@ -2011,7 +1995,7 @@
     "description": "Slovenské dievča z Vysokej nad Uhom, zabité v roku 1944 a neskôr blahorečené.",
     "source": "https://en.wikipedia.org/wiki/Anna_Koles%C3%A1rov%C3%A1"
   },
-  "Karol Čapek": {
+  "Karel Čapek": {
     "description": "Český spisovateľ a dramatik, autor hier R.U.R. a Biela nemoc.",
     "source": "https://en.wikipedia.org/wiki/Karel_%C4%8Capek"
   },
@@ -2079,11 +2063,11 @@
     "description": "Rakúsky skladateľ a dirigent, známy rozsiahlymi symfóniami a piesňovými cyklami.",
     "source": "https://sk.wikipedia.org/wiki/Gustav_Mahler"
   },
-  "Igor Stravinsky": {
+  "Igor Stravinskij": {
     "description": "Skladateľ ruského pôvodu, autor baletov Svätenie jari, Vták Ohnivák a Petruška.",
     "source": "https://sk.wikipedia.org/wiki/Igor_Fiodorovi%C4%8D_Stravinskij"
   },
-  "Tchaikovsky": {
+  "Piotr Iľjič Čajkovskij": {
     "description": "Ruský skladateľ Čajkovskij, autor baletov Labutie jazero, Luskáčik a Spiaca krásavica.",
     "source": "https://en.wikipedia.org/wiki/Pyotr_Ilyich_Tchaikovsky"
   },
@@ -2103,7 +2087,7 @@
     "description": "Americký skladateľ spájajúci klasickú hudbu s džezom, autor Rapsódie v modrom.",
     "source": "https://sk.wikipedia.org/wiki/George_Gershwin"
   },
-  "Queen Elizabeth I": {
+  "Alžbeta I.": {
     "description": "Anglická kráľovná Alžbeta I., dcéra Henricha VIII., vládnuca počas Shakespearovej éry.",
     "source": "https://en.wikipedia.org/wiki/Elizabeth_I"
   },
@@ -2115,55 +2099,55 @@
     "description": "Francúzsky generál a prezident, vodca odboja proti nacistom a zakladateľ Piatej republiky.",
     "source": "https://sk.wikipedia.org/wiki/Charles_de_Gaulle"
   },
-  "King Henry VIII": {
+  "Henrich VIII.": {
     "description": "Anglický kráľ Henrich VIII., známy šiestimi manželstvami a odlukou od rímskej cirkvi.",
     "source": "https://en.wikipedia.org/wiki/Henry_VIII"
   },
-  "Catherine the Great": {
+  "Katarína Veľká": {
     "description": "Ruská cárovná Katarína Veľká, panovníčka 18. storočia spojená s rozširovaním ríše.",
     "source": "https://en.wikipedia.org/wiki/Catherine_the_Great"
   },
-  "Ivan the Terrible": {
+  "Ivan Hrozný": {
     "description": "Ruský cár Ivan Hrozný, prvý korunovaný cár Ruska, známy krutou vládou.",
     "source": "https://en.wikipedia.org/wiki/Ivan_the_Terrible"
   },
-  "Tsar Nicholas II": {
+  "Mikuláš II.": {
     "description": "Posledný ruský cár Mikuláš II., popravený s rodinou po boľševickej revolúcii.",
     "source": "https://en.wikipedia.org/wiki/Nicholas_II"
   },
-  "Vladimir Lenin": {
-    "description": "Vodca boľševickej revolúcie v Rusku a zakladateľ sovietskeho štátu.",
+  "Vladimír Iľjič Lenin": {
+    "description": "Ruský revolucionár a vodca boľševikov, ktorý stál pri vzniku Sovietskeho zväzu.",
     "source": "https://sk.wikipedia.org/wiki/Vladimir_I%C4%BEji%C4%8D_Lenin"
   },
-  "Joseph Stalin": {
+  "Josif Stalin": {
     "description": "Sovietsky diktátor, ktorého vládu sprevádzali masové represie, čistky a pracovné tábory.",
     "source": "https://en.wikipedia.org/wiki/Joseph_Stalin"
   },
-  "Mikhail Gorbachev": {
+  "Michail Gorbačov": {
     "description": "Posledný vodca Sovietskeho zväzu, známy reformami perestrojka a glasnosť.",
     "source": "https://en.wikipedia.org/wiki/Mikhail_Gorbachev"
   },
-  "Peter the Great": {
+  "Peter Veľký": {
     "description": "Ruský cár Peter Veľký, reformátor ríše a zakladateľ Petrohradu.",
     "source": "https://en.wikipedia.org/wiki/Peter_the_Great"
   },
-  "Empress Maria Theresa": {
-    "description": "Habsburská panovníčka Mária Terézia, známa reformami školstva a štátnej správy.",
-    "source": "https://en.wikipedia.org/wiki/Maria_Theresa"
+  "Mária Terézia": {
+    "description": "Habsburská panovníčka, známa reformami školstva a štátnej správy v 18. storočí.",
+    "source": "https://sk.wikipedia.org/wiki/M%C3%A1ria_Ter%C3%A9zia"
   },
   "Francisco Franco": {
     "description": "Španielsky generál a diktátor, ktorý vládol po občianskej vojne až do roku 1975.",
     "source": "https://sk.wikipedia.org/wiki/Francisco_Franco"
   },
-  "King Louis XIV": {
+  "Ľudovít XIV.": {
     "description": "Francúzsky kráľ Ľudovít XIV. prezývaný Kráľ Slnko, spojený so zámkom Versailles.",
     "source": "https://en.wikipedia.org/wiki/Louis_XIV"
   },
-  "Fyodor Dostoevsky": {
+  "Fiodor Dostojevskij": {
     "description": "Ruský spisovateľ Dostojevskij, autor románov Zločin a trest a Bratia Karamazovovci.",
     "source": "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky"
   },
-  "Anton Chekhov": {
+  "Anton Čechov": {
     "description": "Ruský spisovateľ a dramatik Čechov, autor hier Čajka, Tri sestry a Višňový sad.",
     "source": "https://en.wikipedia.org/wiki/Anton_Chekhov"
   },
@@ -2171,13 +2155,9 @@
     "description": "Nemecký sociológ, známy výskumom byrokracie a vzťahu protestantskej etiky ku kapitalizmu.",
     "source": "https://sk.wikipedia.org/wiki/Max_Weber"
   },
-  "Alexander Pushkin": {
+  "Alexander Puškin": {
     "description": "Ruský básnik Puškin, autor veršovaného románu Eugen Onegin.",
     "source": "https://en.wikipedia.org/wiki/Alexander_Pushkin"
-  },
-  "Michelangelo Buonarroti": {
-    "description": "Taliansky renesančný umelec, autor sochy Dávida a malieb na strope Sixtínskej kaplnky.",
-    "source": "https://sk.wikipedia.org/wiki/Michelangelo_Buonarroti"
   },
   "Voltaire": {
     "description": "Francúzsky osvietenský filozof a spisovateľ, autor Candida a kritik náboženskej neznášanlivosti.",
@@ -2215,7 +2195,7 @@
     "description": "Stredoveký anglický básnik, autor Canterburských poviedok.",
     "source": "https://sk.wikipedia.org/wiki/Geoffrey_Chaucer"
   },
-  "King Charlemagne": {
+  "Karol Veľký": {
     "description": "Franský kráľ Karol Veľký, korunovaný za cisára v Ríme v roku 800.",
     "source": "https://en.wikipedia.org/wiki/Charlemagne"
   },
@@ -2271,7 +2251,7 @@
     "description": "Anglicko-americký politický mysliteľ, autor pamfletu Zdravý rozum podporujúceho americkú nezávislosť.",
     "source": "https://sk.wikipedia.org/wiki/Thomas_Paine"
   },
-  "King Henry II": {
+  "Henrich II. (Anglicko)": {
     "description": "Anglický kráľ Henrich II., prvý Plantagenet na tróne, známy sporom s Thomasom Becketom.",
     "source": "https://en.wikipedia.org/wiki/Henry_II_of_England"
   },
@@ -2291,7 +2271,7 @@
     "description": "Anglická šľachtičná známa ako deväťdňová kráľovná, popravená v mladom veku.",
     "source": "https://en.wikipedia.org/wiki/Lady_Jane_Grey"
   },
-  "Sir Walter Scott": {
+  "Walter Scott": {
     "description": "Škótsky spisovateľ, autor historických románov Ivanhoe a Waverley.",
     "source": "https://en.wikipedia.org/wiki/Walter_Scott"
   },
@@ -2335,10 +2315,6 @@
     "description": "Český pedagóg a filozof prezývaný Učiteľ národov, autor diela Orbis pictus.",
     "source": "https://en.wikipedia.org/wiki/John_Amos_Comenius"
   },
-  "Mária Terézia": {
-    "description": "Habsburská panovníčka, známa reformami školstva a štátnej správy v 18. storočí.",
-    "source": "https://sk.wikipedia.org/wiki/M%C3%A1ria_Ter%C3%A9zia"
-  },
   "František Jozef I.": {
     "description": "Rakúsky cisár a uhorský kráľ, dlhoročný panovník monarchie a manžel cisárovnej Sisi.",
     "source": "https://sk.wikipedia.org/wiki/Franti%C5%A1ek_Jozef_I."
@@ -2358,10 +2334,6 @@
   "Svätopluk": {
     "description": "Veľkomoravský panovník, za ktorého vlády dosiahla ríša najväčší územný rozsah.",
     "source": "https://en.wikipedia.org/wiki/Svatopluk_I_of_Moravia"
-  },
-  "Pribina": {
-    "description": "Nitrianske knieža, spojené s prvým známym kresťanským kostolom na území Slovenska.",
-    "source": "https://sk.wikipedia.org/wiki/Pribina"
   },
   "Cyril": {
     "description": "Konštantín Filozof, solúnsky vierozvestca, tvorca hlaholiky a brat Metoda.",
@@ -2423,7 +2395,7 @@
     "description": "Barbadoská speváčka a podnikateľka, známa hitmi Umbrella a Diamonds.",
     "source": "https://sk.wikipedia.org/wiki/Rihanna"
   },
-  "Celine Dion": {
+  "Céline Dion": {
     "description": "Kanadská speváčka, známa piesňou My Heart Will Go On z filmu Titanic.",
     "source": "https://sk.wikipedia.org/wiki/C%C3%A9line_Dionov%C3%A1"
   },
@@ -2499,8 +2471,8 @@
     "description": "Slovenský spevák prezývaný Meky, známy piesňami Atlantída a Biely kvet.",
     "source": "https://sk.wikipedia.org/wiki/Miroslav_%C5%BDbirka"
   },
-  "Paľo Habera": {
-    "description": "Slovenský spevák skupiny Team a porotca speváckych súťaží, známy aj sólovou tvorbou.",
+  "Pavol Habera": {
+    "description": "Slovenský spevák skupiny Team, známy aj ako porotca v súťaži SuperStar.",
     "source": "https://sk.wikipedia.org/wiki/Pavol_Habera"
   },
   "Peter Nagy": {
@@ -2535,7 +2507,7 @@
     "description": "Slovenská speváčka Kristína Peláková, známa najmä piesňou Horehronie.",
     "source": "https://sk.wikipedia.org/wiki/Krist%C3%ADna_%28spev%C3%A1%C4%8Dka%29"
   },
-  "Katka Knechtová": {
+  "Katarína Knechtová": {
     "description": "Slovenská speváčka a skladateľka, známa zo skupiny Peha a sólovou tvorbou.",
     "source": "https://sk.wikipedia.org/wiki/Katar%C3%ADna_Knechtov%C3%A1"
   },
@@ -2563,7 +2535,7 @@
     "description": "Česká speváčka prezývaná Lady Soul, známa piesňou Lásko, voníš deštěm.",
     "source": "https://sk.wikipedia.org/wiki/Marie_Rottrov%C3%A1"
   },
-  "Frederic Chopin": {
+  "Frédéric Chopin": {
     "description": "Poľský romantický skladateľ a klavírny virtuóz, známy nokturnami, mazúrkami a polonézami.",
     "source": "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin"
   },
@@ -2595,7 +2567,7 @@
     "description": "Nemecký romantický skladateľ a hudobný kritik, manžel klaviristky Clary Schumannovej.",
     "source": "https://sk.wikipedia.org/wiki/Robert_Schumann"
   },
-  "Edward Grieg": {
+  "Edvard Grieg": {
     "description": "Nórsky romantický skladateľ, známy hudbou k Peerovi Gyntovi a Klavírnym koncertom a mol.",
     "source": "https://en.wikipedia.org/wiki/Edvard_Grieg"
   },
@@ -2650,10 +2622,6 @@
   "Frodo Baggins": {
     "description": "Hobit z Pána prsteňov, ktorý nesie Jeden prsteň do Mordoru, aby ho zničil.",
     "source": "https://en.wikipedia.org/wiki/Frodo_Baggins"
-  },
-  "Iron Man": {
-    "description": "Superhrdina Tony Stark, geniálny vynálezca bojujúci v technologicky vyspelom obrnenom obleku.",
-    "source": "https://en.wikipedia.org/wiki/Iron_Man"
   },
   "Yoda": {
     "description": "Malý zelený majster Jedi z Hviezdnych vojen, známy múdrosťou a nezvyčajným slovosledom.",
@@ -2711,7 +2679,7 @@
     "description": "Robotický zabijak s ľudským vzhľadom z filmovej série, preslávený Arnoldom Schwarzeneggerom.",
     "source": "https://en.wikipedia.org/wiki/Terminator_%28character%29"
   },
-  "Princess Leia": {
+  "Princezná Leia": {
     "description": "Princezná a vodkyňa povstalcov z Hviezdnych vojen, sestra Luka Skywalkera.",
     "source": "https://en.wikipedia.org/wiki/Princess_Leia"
   },
@@ -3159,14 +3127,6 @@
     "description": "Habsburský cisár sídliaci v Prahe, známy podporou umenia, astronómie a alchýmie.",
     "source": "https://sk.wikipedia.org/wiki/Rudolf_II._%28Sv%C3%A4t%C3%A1_r%C3%ADmska_r%C3%AD%C5%A1a%29"
   },
-  "Mária Antoinetta": {
-    "description": "Francúzska kráľovná, dcéra Márie Terézie, popravená počas Francúzskej revolúcie.",
-    "source": "https://sk.wikipedia.org/wiki/M%C3%A1ria_Antoinetta"
-  },
-  "Nikolaus Kopernikus": {
-    "description": "Astronóm Mikuláš Kopernik, ktorý presadzoval model planét obiehajúcich okolo Slnka.",
-    "source": "https://sk.wikipedia.org/wiki/Mikul%C3%A1%C5%A1_Kopernik"
-  },
   "Ján Hollý": {
     "description": "Slovenský básnik a kňaz, autor eposu Svätopluk, píšuci v bernolákovčine.",
     "source": "https://en.wikipedia.org/wiki/J%C3%A1n_Holl%C3%BD"
@@ -3179,7 +3139,7 @@
     "description": "Slovenský romantický básnik prezývaný búrlivák, autor Zakliatej panny vo Váhu a divného Janka.",
     "source": "https://sk.wikipedia.org/wiki/Janko_Kr%C3%A1%C4%BE"
   },
-  "Mária Montessori": {
+  "Maria Montessori": {
     "description": "Talianska lekárka a pedagogička, zakladateľka vzdelávacej metódy podporujúcej samostatnosť detí.",
     "source": "https://en.wikipedia.org/wiki/Maria_Montessori"
   },
@@ -3187,11 +3147,11 @@
     "description": "Nemecký náboženský reformátor, ktorého 95 téz sa stalo symbolom protestantskej reformácie.",
     "source": "https://sk.wikipedia.org/wiki/Martin_Luther"
   },
-  "Viktor Hugo": {
-    "description": "Francúzsky spisovateľ Victor Hugo, autor románov Bedári a Chrám Matky Božej v Paríži.",
-    "source": "https://en.wikipedia.org/wiki/Victor_Hugo"
+  "Victor Hugo": {
+    "description": "Francúzsky spisovateľ, autor románov Bedári a Chrám Matky Božej v Paríži.",
+    "source": "https://sk.wikipedia.org/wiki/Victor_Hugo"
   },
-  "Christopher Columbus": {
+  "Krištof Kolumbus": {
     "description": "Janovský moreplavec, ktorého plavba cez Atlantik v roku 1492 otvorila európsku kolonizáciu Ameriky.",
     "source": "https://sk.wikipedia.org/wiki/Kri%C5%A1tof_Kolumbus"
   },
@@ -3231,7 +3191,7 @@
     "description": "Americký spisovateľ, autor protivojnového románu Bitúnok č. 5.",
     "source": "https://sk.wikipedia.org/wiki/Kurt_Vonnegut"
   },
-  "D.H. Lawrence": {
+  "D. H. Lawrence": {
     "description": "Anglický spisovateľ, autor románu Milenec lady Chatterleyovej.",
     "source": "https://en.wikipedia.org/wiki/D._H._Lawrence"
   },
@@ -3247,7 +3207,7 @@
     "description": "Americká spisovateľka a nositeľka Nobelovej ceny, autorka románu Milovaná.",
     "source": "https://sk.wikipedia.org/wiki/Toni_Morrisonov%C3%A1"
   },
-  "J.D. Salinger": {
+  "J. D. Salinger": {
     "description": "Americký spisovateľ, autor románu Kto chytá v žite s hrdinom Holdenom Caulfieldom.",
     "source": "https://en.wikipedia.org/wiki/J._D._Salinger"
   },
@@ -3378,10 +3338,6 @@
   "Jiří Korn": {
     "description": "Český spevák, tanečník a herec, známy sólovou tvorbou aj skupinou 4TET.",
     "source": "https://sk.wikipedia.org/wiki/Ji%C5%99%C3%AD_Korn"
-  },
-  "Pyotr Ilyich Tchaikovsky": {
-    "description": "Ruský skladateľ Čajkovskij, autor baletov Labutie jazero, Luskáčik a Spiaca krásavica.",
-    "source": "https://en.wikipedia.org/wiki/Pyotr_Ilyich_Tchaikovsky"
   },
   "Franz Liszt": {
     "description": "Uhorský romantický skladateľ a klavírny virtuóz, známy Uhorskými rapsódiami.",
@@ -3543,11 +3499,11 @@
     "description": "Britská princezná Catherine, manželka princa Williama, známa aj pod dievčenským menom.",
     "source": "https://en.wikipedia.org/wiki/Catherine%2C_Princess_of_Wales"
   },
-  "Prince William": {
+  "Princ William": {
     "description": "Britský princ, starší syn kráľa Karola III. a princeznej Diany.",
     "source": "https://en.wikipedia.org/wiki/William%2C_Prince_of_Wales"
   },
-  "Prince Harry": {
+  "Princ Harry": {
     "description": "Britský princ a vojvoda zo Sussexu, mladší syn Karola III. a princeznej Diany.",
     "source": "https://en.wikipedia.org/wiki/Prince_Harry%2C_Duke_of_Sussex"
   },
@@ -3563,7 +3519,7 @@
     "description": "Švédska klimatická aktivistka, známa školskými štrajkmi za ochranu klímy.",
     "source": "https://sk.wikipedia.org/wiki/Greta_Thunbergov%C3%A1"
   },
-  "Mother Teresa": {
+  "Matka Tereza": {
     "description": "Matka Tereza, katolícka rehoľníčka pôsobiaca medzi chudobnými v indickej Kalkate.",
     "source": "https://en.wikipedia.org/wiki/Mother_Teresa"
   },
@@ -3575,7 +3531,7 @@
     "description": "Americká diplomatka, ministerka zahraničia a poradkyňa prezidenta Georgea W. Busha.",
     "source": "https://sk.wikipedia.org/wiki/Condoleezza_Riceov%C3%A1"
   },
-  "Pope Francis": {
+  "Pápež František": {
     "description": "Pápež František, pôvodom Argentínčan Jorge Mario Bergoglio, ktorý viedol katolícku cirkev od roku 2013.",
     "source": "https://en.wikipedia.org/wiki/Pope_Francis"
   },
@@ -3663,7 +3619,7 @@
     "description": "Americký astronaut misie Apollo 11, druhý človek, ktorý kráčal po Mesiaci.",
     "source": "https://sk.wikipedia.org/wiki/Buzz_Aldrin"
   },
-  "Yuri Gagarin": {
+  "Jurij Gagarin": {
     "description": "Sovietsky kozmonaut Jurij Gagarin, prvý človek vo vesmíre v roku 1961.",
     "source": "https://en.wikipedia.org/wiki/Yuri_Gagarin"
   },
@@ -3923,14 +3879,6 @@
     "description": "Uhorský a poľský kráľ z rodu Anjouovcov, za ktorého vlády Uhorsko výrazne posilnilo.",
     "source": "https://sk.wikipedia.org/wiki/%C4%BDudov%C3%ADt_I._%28Uhorsko%29"
   },
-  "Sir Isaac Newton": {
-    "description": "Anglický fyzik a matematik, ktorý sformuloval zákony pohybu a všeobecný gravitačný zákon.",
-    "source": "https://sk.wikipedia.org/wiki/Isaac_Newton"
-  },
-  "Vladimír Iľjič Lenin": {
-    "description": "Ruský revolucionár a vodca boľševikov, ktorý stál pri vzniku Sovietskeho zväzu.",
-    "source": "https://sk.wikipedia.org/wiki/Vladimir_I%C4%BEji%C4%8D_Lenin"
-  },
   "Jiří Horák": {
     "description": "Český politik a politológ, prvý predseda obnovenej sociálnej demokracie po roku 1989.",
     "source": "https://en.wikipedia.org/wiki/Ji%C5%99%C3%AD_Hor%C3%A1k"
@@ -4095,7 +4043,7 @@
     "description": "Americký viceprezident za Billa Clintona, známy aj aktivitami proti zmene klímy.",
     "source": "https://sk.wikipedia.org/wiki/Al_Gore"
   },
-  "Princess Diana": {
+  "Princezná Diana": {
     "description": "Britská princezná, prvá manželka princa Charlesa a matka princov Williama a Harryho.",
     "source": "https://en.wikipedia.org/wiki/Diana%2C_Princess_of_Wales"
   },
@@ -4119,23 +4067,23 @@
     "description": "Francúzsky politik, prezident Francúzska v rokoch 1995 až 2007.",
     "source": "https://sk.wikipedia.org/wiki/Jacques_Chirac"
   },
-  "Queen Elizabeth II": {
+  "Alžbeta II.": {
     "description": "Alžbeta II., britská kráľovná, ktorá vládla od roku 1952 do roku 2022.",
     "source": "https://en.wikipedia.org/wiki/Elizabeth_II"
   },
-  "Princess Margaret": {
+  "Princezná Margaret": {
     "description": "Britská princezná Margaret, mladšia sestra kráľovnej Alžbety II.",
     "source": "https://en.wikipedia.org/wiki/Princess_Margaret%2C_Countess_of_Snowdon"
   },
-  "Princess Beatrice": {
+  "Princezná Beatrice": {
     "description": "Britská princezná Beatrice, staršia dcéra princa Andrewa a vnučka Alžbety II.",
     "source": "https://en.wikipedia.org/wiki/Princess_Beatrice"
   },
-  "Princess Eugenie": {
+  "Princezná Eugenie": {
     "description": "Britská princezná Eugenie, mladšia dcéra princa Andrewa a vnučka Alžbety II.",
     "source": "https://en.wikipedia.org/wiki/Princess_Eugenie"
   },
-  "Ellen Page": {
+  "Elliot Page": {
     "description": "Kanadský herec Elliot Page, známy filmami Juno a Počiatok a seriálom The Umbrella Academy.",
     "source": "https://sk.wikipedia.org/wiki/Elliot_Page"
   },
@@ -4159,7 +4107,7 @@
     "description": "Americká modelka, mladšia sestra modelky Gigi Hadid.",
     "source": "https://en.wikipedia.org/wiki/Bella_Hadid"
   },
-  "Cindy Lauper": {
+  "Cyndi Lauper": {
     "description": "Americká speváčka Cyndi Lauper, známa hitmi Girls Just Want to Have Fun a Time After Time.",
     "source": "https://en.wikipedia.org/wiki/Cyndi_Lauper"
   },
@@ -4655,10 +4603,6 @@
     "description": "Slovenský spevák a skladateľ, predstaviteľ alternatívneho popu.",
     "source": "https://en.wikipedia.org/wiki/Karol_Miklo%C5%A1"
   },
-  "Pavol Habera": {
-    "description": "Slovenský spevák skupiny Team, známy aj ako porotca v súťaži SuperStar.",
-    "source": "https://sk.wikipedia.org/wiki/Pavol_Habera"
-  },
   "Hana Hegerová": {
     "description": "Speváčka narodená v Bratislave, prezývaná kráľovná československého šansónu.",
     "source": "https://sk.wikipedia.org/wiki/Hana_Hegerov%C3%A1"
@@ -4755,7 +4699,7 @@
     "description": "Český herec a spevák, frontman skupiny Kryštof.",
     "source": "https://sk.wikipedia.org/wiki/Richard_Kraj%C4%8Do"
   },
-  "Pišťanek": {
+  "Peter Pišťanek": {
     "description": "Peter Pišťanek, slovenský spisovateľ a autor románu Rivers of Babylon.",
     "source": "https://sk.wikipedia.org/wiki/Peter_Pi%C5%A1%C5%A5anek"
   },
@@ -4822,10 +4766,6 @@
   "Ján Botto": {
     "description": "Slovenský romantický básnik, autor básnickej skladby Smrť Jánošíkova.",
     "source": "https://sk.wikipedia.org/wiki/J%C3%A1n_Botto"
-  },
-  "Victor Hugo": {
-    "description": "Francúzsky spisovateľ, autor románov Bedári a Chrám Matky Božej v Paríži.",
-    "source": "https://sk.wikipedia.org/wiki/Victor_Hugo"
   },
   "Dante Alighieri": {
     "description": "Taliansky básnik, autor Božskej komédie o putovaní peklom, očistcom a rajom.",
