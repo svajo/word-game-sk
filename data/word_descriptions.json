@@ -1515,10 +1515,6 @@
     "description": "Britská chemička, nositeľka Nobelovej ceny za určovanie štruktúr látok röntgenovou kryštalografiou.",
     "source": "https://en.wikipedia.org/wiki/Dorothy_Hodgkin"
   },
-  "Michael Crichton": {
-    "description": "Americký spisovateľ a vyštudovaný lekár, autor sci-fi románu Jurský park.",
-    "source": "https://sk.wikipedia.org/wiki/Michael_Crichton"
-  },
   "Wilhelm Röntgen": {
     "description": "Nemecký fyzik, objaviteľ röntgenového žiarenia a prvý nositeľ Nobelovej ceny za fyziku.",
     "source": "https://sk.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen"
@@ -7055,10 +7051,6 @@
     "description": "Inception je sci-fi lúpežný film z roku 2010, ktorý napísal a režíroval Christopher Nolan, ktorý ho aj produkoval so svojou manželkou Emmou Thomas.",
     "source": "https://en.wikipedia.org/wiki/Inception"
   },
-  "The Dark Knight": {
-    "description": "Temný rytier je superhrdinský film z roku 2008, ktorý režíroval Christopher Nolan, ktorý spolu so svojím bratom Jonathanom napísal scenár.",
-    "source": "https://en.wikipedia.org/wiki/The_Dark_Knight"
-  },
   "The Matrix": {
     "description": "Matrix je sci-fi-akčný film z roku 1999, ktorý napísali a režírovali manželia Wachowski.",
     "source": "https://en.wikipedia.org/wiki/The_Matrix"
@@ -7090,18 +7082,6 @@
   "The Departed": {
     "description": "The Departed je neo-noirový kriminálny triler z roku 2006, ktorý režíroval Martin Scorsese a napísal William Monahan.",
     "source": "https://en.wikipedia.org/wiki/The_Departed"
-  },
-  "The Lord of the Rings: The Return of the King": {
-    "description": "Pán prsteňov: Návrat kráľa je epický fantasy film z roku 2003, ktorý režíroval Peter Jackson podľa scenára, ktorý napísal s Fran Walsh a…",
-    "source": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings%3A_The_Return_of_the_King"
-  },
-  "Star Wars: The Empire Strikes Back": {
-    "description": "Impérium vracia úder (tiež známe ako Star Wars: Episode V – Impérium vracia úder) je americký epický vesmírny operný film z roku 1980, ktorý režíroval…",
-    "source": "https://en.wikipedia.org/wiki/The_Empire_Strikes_Back"
-  },
-  "The Dark Knight Rises": {
-    "description": "The Dark Knight Rises je superhrdinský film z roku 2012 založený na postave Batmana z DC Comics.",
-    "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_Rises"
   },
   "The Prestige": {
     "description": "The Prestige) je americký filmový triler z roku 2006 od režiséra Christophera Nolana, nakrútený podľa rovnomennej knihy Christophera Priesta z roku 1995…",
@@ -7219,10 +7199,6 @@
     "description": "Strangelove alebo: Ako som sa naučil prestať sa obávať a milovať bombu (známy jednoducho a bežnejšie ako Dr.",
     "source": "https://en.wikipedia.org/wiki/Dr._Strangelove"
   },
-  "The Matrix Revolutions": {
-    "description": "The Matrix Revolutions je americký akčný sci-fi film z roku 2003, ktorý napísali a režírovali manželia Wachowski.",
-    "source": "https://en.wikipedia.org/wiki/The_Matrix_Revolutions"
-  },
   "The Life of Brian": {
     "description": "Monty Python's Life of Brian je britská čierna komédia z roku 1979, v hlavnej úlohe ktorú napísala komediálna skupina Monty Python (Graham Chapman, John…",
     "source": "https://en.wikipedia.org/wiki/Monty_Python%27s_Life_of_Brian"
@@ -7299,17 +7275,9 @@
     "description": "Saving Private Ryan je americký vojnový film z roku 1998, ktorý režíroval Steven Spielberg a napísal Robert Rodat.",
     "source": "https://en.wikipedia.org/wiki/Saving_Private_Ryan"
   },
-  "The Godfather: Part II": {
-    "description": "The Godfather Part II je americký epický gangsterský film z roku 1974, ktorý produkoval a režíroval Francis Ford Coppola, voľne založený na románe Krstný…",
-    "source": "https://en.wikipedia.org/wiki/The_Godfather_Part_II"
-  },
   "E.T. the Extra-Terrestrial": {
     "description": "The Extra-Terrestrial (alebo jednoducho E.T.) je americký vedecký fantasy film z roku 1982, ktorý produkoval a režíroval Steven Spielberg a napísala…",
     "source": "https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial"
-  },
-  "The Godfather: Part III": {
-    "description": "The Godfather Part III je americký epický gangsterský film z roku 1990, ktorý produkoval a režíroval Francis Ford Coppola podľa scenára, ktorý napísal…",
-    "source": "https://en.wikipedia.org/wiki/The_Godfather_Part_III"
   },
   "La La Land": {
     "description": "La La Land je americká hudobná romantická komédia z roku 2016, ktorú napísal a režíroval Damien Chazelle.",
@@ -7318,10 +7286,6 @@
   "The Incredibles": {
     "description": "The Incredibles je americký animovaný superhrdinský film z roku 2004, ktorý napísal a režíroval Brad Bird.",
     "source": "https://en.wikipedia.org/wiki/The_Incredibles"
-  },
-  "The Matrix Reloaded": {
-    "description": "The Matrix Reloaded je americký akčný sci-fi film z roku 2003, ktorý napísali a režírovali manželia Wachowski.",
-    "source": "https://en.wikipedia.org/wiki/The_Matrix_Reloaded"
   },
   "The Hobbit: An Unexpected Journey": {
     "description": "Hobit: Neočakávaná cesta je epický fantasy film z roku 2012, ktorý režíroval Peter Jackson podľa scenára Fran Walsh, Philippa Boyens, Jackson a…",
@@ -7415,10 +7379,6 @@
     "description": "A Minecraft Movie) je americká dobrodružná fantasy komédia z roku 2025 na motívy videohry Minecraft od Mojang Studios z roku 2011.",
     "source": "https://sk.wikipedia.org/wiki/Minecraft_vo_filme"
   },
-  "Jurassic World Rebirth": {
-    "description": "Jurassic World Rebirth je americký sci-fi akčný film z roku 2025, ktorý režíroval Gareth Edwards a napísal David Koepp.",
-    "source": "https://en.wikipedia.org/wiki/Jurassic_World_Rebirth"
-  },
   "F1": {
     "description": "Formula 1 (F1) je najvyššia trieda celosvetových pretekov pre jednosedadlové pretekárske formulové vozidlá s otvorenými kolesami, ktoré prevádzkuje…",
     "source": "https://en.wikipedia.org/wiki/Formula_One"
@@ -7431,18 +7391,6 @@
     "description": "How to Train Your Dragon je americká fantasy dobrodružná mediálna franšíza od DreamWorks Animation založená na rovnomennej knižnej sérii od…",
     "source": "https://en.wikipedia.org/wiki/How_to_Train_Your_Dragon"
   },
-  "Zootopia 2": {
-    "description": "Zootopia 2 (na niektorých trhoch s názvom Zootropolis 2) je americká animovaná komédia s kamarátmi policajtmi z roku 2025, ktorú režírovali Jared Bush a…",
-    "source": "https://en.wikipedia.org/wiki/Zootopia_2"
-  },
-  "Wicked: For Good": {
-    "description": "Wicked: For Good (tiež známy ako Wicked: Part Two) je americký hudobný fantasy film z roku 2025, ktorý režíroval Jon M.",
-    "source": "https://en.wikipedia.org/wiki/Wicked%3A_For_Good"
-  },
-  "Avatar: Fire and Ash": {
-    "description": "Avatar: Fire and Ash je americký epický sci-fi film z roku 2025, ktorý režíroval James Cameron podľa scenára, ktorý napísal spolu s Rickom Jaffom a…",
-    "source": "https://en.wikipedia.org/wiki/Avatar%3A_Fire_and_Ash"
-  },
   "Weapons": {
     "description": "Zbraň, rameno alebo výzbroj je akýkoľvek nástroj alebo nástroj, ktorý sa používa na odstrašenie, vyhrážanie sa, spôsobenie fyzického poškodenia, ublíženia…",
     "source": "https://en.wikipedia.org/wiki/Weapon"
@@ -7454,18 +7402,6 @@
   "The Fantastic Four: First Steps": {
     "description": "The Fantastic Four: First Steps je americký superhrdinský film z roku 2025 založený na tíme superhrdinov Marvel Comics Fantastická štvorka.",
     "source": "https://en.wikipedia.org/wiki/The_Fantastic_Four%3A_First_Steps"
-  },
-  "Mission: Impossible - The Final Reckoning": {
-    "description": "Mission: Impossible – The Final Reckoning je americký akčný špionážny film z roku 2025, ktorý režíroval Christopher McQuarrie podľa scenára, ktorý napísal…",
-    "source": "https://en.wikipedia.org/wiki/Mission%3A_Impossible_%E2%80%93_The_Final_Reckoning"
-  },
-  "Final Destination Bloodlines": {
-    "description": "Final Destination Bloodlines je americký nadprirodzený horor z roku 2025, ktorý režírovali Zach Lipovský a Adam Stein a napísali ho Guy Busick a Lori…",
-    "source": "https://en.wikipedia.org/wiki/Final_Destination_Bloodlines"
-  },
-  "28 Years Later": {
-    "description": "28 Years Later je postapokalyptický hororový film o dospievaní z roku 2025, ktorý produkoval a režíroval Danny Boyle a scenár napísal Alex Garland.",
-    "source": "https://en.wikipedia.org/wiki/28_Years_Later"
   },
   "Superman (2025)": {
     "description": "Superman je americký superhrdinský film z roku 2025, ktorý napísal a režíroval James Gunn.",
@@ -7486,14 +7422,6 @@
   "Despicable Me": {
     "description": "Despicable Me je americká mediálna franšíza, ktorú vytvoril Sergio Pablos.",
     "source": "https://en.wikipedia.org/wiki/Despicable_Me"
-  },
-  "Shrek 2": {
-    "description": "Shrek 2 je americká animovaná, dobrodružná, rodinná komédia z roku 2004 o obrovi Shrekovi.",
-    "source": "https://sk.wikipedia.org/wiki/Shrek_2"
-  },
-  "The Incredibles 2": {
-    "description": "Incredibles 2 je americký animovaný superhrdinský film z roku 2018, ktorý napísal a režíroval Brad Bird.",
-    "source": "https://en.wikipedia.org/wiki/Incredibles_2"
   },
   "Home Alone": {
     "description": "Sám doma je americká vianočná komédia z roku 1990, ktorú režíroval Chris Columbus a ktorú napísal a produkoval John Hughes.",
@@ -10218,5 +10146,2793 @@
   "Jesse Owens": {
     "description": "Americký atlét, ktorý získal štyri zlaté medaily na olympiáde v Berlíne v roku 1936.",
     "source": "https://en.wikipedia.org/wiki/Jesse_Owens"
+  },
+  "Roman Pomajbo": {
+    "description": "Slovenský herec a zabávač, známy z divadla aj televíznych relácií.",
+    "source": "https://en.wikipedia.org/wiki/Roman_Pomajbo"
+  },
+  "Juraj Kemka": {
+    "description": "Slovenský divadelný a televízny herec, člen komediálneho združenia Tri Tvorivé Tvory.",
+    "source": "https://en.wikipedia.org/wiki/Juraj_Kemka"
+  },
+  "Lukáš Latinák": {
+    "description": "Slovenský herec a komik, známy zo seriálov a improvizačnej komédie.",
+    "source": "https://en.wikipedia.org/wiki/Luk%C3%A1%C5%A1_Latin%C3%A1k"
+  },
+  "Robo Jakab": {
+    "description": "Slovenský herec, ktorý účinkuje v divadle, televízii aj vo filme.",
+    "source": "https://en.wikipedia.org/wiki/Robo_Jakab"
+  },
+  "Petra Polnišová": {
+    "description": "Slovenská herečka a komička, známa zo skečov a televíznych seriálov.",
+    "source": "https://en.wikipedia.org/wiki/Petra_Polni%C5%A1ov%C3%A1"
+  },
+  "Zuzana Fialová": {
+    "description": "Slovenská herečka a režisérka, ktorá pôsobí v divadle, filme aj televízii.",
+    "source": "https://en.wikipedia.org/wiki/Zuzana_Fialov%C3%A1"
+  },
+  "Zuzana Tlučková": {
+    "description": "Slovenská herečka a komička, známa z televíznych seriálov a zábavných relácií.",
+    "source": "https://en.wikipedia.org/wiki/Zuzana_Tlu%C4%8Dkov%C3%A1"
+  },
+  "Diana Mórová": {
+    "description": "Slovenská herečka a dlhoročná členka Činohry Slovenského národného divadla.",
+    "source": "https://en.wikipedia.org/wiki/Diana_M%C3%B3rov%C3%A1"
+  },
+  "Kamila Magálová": {
+    "description": "Slovenská herečka a moderátorka, známa aj z televízneho programu Tajomstvo mojej kuchyne.",
+    "source": "https://en.wikipedia.org/wiki/Kamila_Mag%C3%A1lov%C3%A1"
+  },
+  "Božidara Turzonovová": {
+    "description": "Slovenská divadelná a filmová herečka, výrazná osobnosť slovenského divadla.",
+    "source": "https://en.wikipedia.org/wiki/Bo%C5%BEidara_Turzonovov%C3%A1"
+  },
+  "Martin Nikodým": {
+    "description": "Slovenský televízny moderátor, známy súťažnými a vedomostnými reláciami.",
+    "source": "https://en.wikipedia.org/wiki/Martin_Nikod%C3%BDm"
+  },
+  "Marcel Forgáč": {
+    "description": "Slovenský moderátor a zabávač, ktorý pôsobí v rádiu aj televízii.",
+    "source": "https://en.wikipedia.org/wiki/Marcel_Forg%C3%A1%C4%8D"
+  },
+  "Eva Kramerová": {
+    "description": "Slovenská moderátorka a komička známa pod prezývkou Evelyn.",
+    "source": "https://en.wikipedia.org/wiki/Eva_Kramerov%C3%A1"
+  },
+  "Fero Joke": {
+    "description": "Slovenský komik a tvorca internetových videí s postavami z každodenného života.",
+    "source": "https://en.wikipedia.org/wiki/Fero_Joke"
+  },
+  "Bekim Aziri": {
+    "description": "Slovenský stand-up komik a moderátor, ktorý vystupuje aj s invalidným vozíkom.",
+    "source": "https://en.wikipedia.org/wiki/Bekim_Aziri"
+  },
+  "Zuzana Šebová": {
+    "description": "Slovenská herečka a komička, známa z televíznych seriálov a skečov.",
+    "source": "https://en.wikipedia.org/wiki/Zuzana_%C5%A0ebov%C3%A1"
+  },
+  "Michal Hudák": {
+    "description": "Slovenský herec a moderátor, známy z vedomostných a zábavných televíznych relácií.",
+    "source": "https://en.wikipedia.org/wiki/Michal_Hud%C3%A1k"
+  },
+  "Peter Sklár": {
+    "description": "Slovenský herec a komik, ktorý účinkuje v televízii aj v divadle.",
+    "source": "https://en.wikipedia.org/wiki/Peter_Skl%C3%A1r"
+  },
+  "Juraj Mokrý": {
+    "description": "Slovenský moderátor a zabávač známy z televíznych relácií.",
+    "source": "https://en.wikipedia.org/wiki/Juraj_Mokr%C3%BD"
+  },
+  "Milan Junior Zimnýkoval": {
+    "description": "Slovenský moderátor, známy ako Junior z rozhlasu aj televízie.",
+    "source": "https://en.wikipedia.org/wiki/Milan_Junior_Zimn%C3%BDkoval"
+  },
+  "Zuzana Vačková": {
+    "description": "Slovenská herečka a moderátorka známa z divadla a televíznych seriálov.",
+    "source": "https://en.wikipedia.org/wiki/Zuzana_Va%C4%8Dkov%C3%A1"
+  },
+  "Henrieta Mičkovicová": {
+    "description": "Slovenská divadelná a filmová herečka.",
+    "source": "https://en.wikipedia.org/wiki/Henrieta_Mi%C4%8Dkovicov%C3%A1"
+  },
+  "Vica Kerekes": {
+    "description": "Slovensko-maďarská herečka, ktorá účinkuje v slovenských, českých aj maďarských filmoch.",
+    "source": "https://en.wikipedia.org/wiki/Vica_Kerekes"
+  },
+  "Kristína Svarinská": {
+    "description": "Slovenská filmová a televízna herečka.",
+    "source": "https://en.wikipedia.org/wiki/Krist%C3%ADna_Svarinsk%C3%A1"
+  },
+  "Rebeka Poláková": {
+    "description": "Slovenská herečka známa z divadelných a filmových úloh.",
+    "source": "https://en.wikipedia.org/wiki/Rebeka_Pol%C3%A1kov%C3%A1"
+  },
+  "Alexander Bárta": {
+    "description": "Slovenský herec a člen Činohry Slovenského národného divadla.",
+    "source": "https://en.wikipedia.org/wiki/Alexander_B%C3%A1rta"
+  },
+  "Ján Tribula": {
+    "description": "Slovenský televízny reportér známy reportážami z horského prostredia.",
+    "source": "https://en.wikipedia.org/wiki/J%C3%A1n_Tribula"
+  },
+  "Roman Juraško": {
+    "description": "Slovenský televízny moderátor a redaktor.",
+    "source": "https://en.wikipedia.org/wiki/Roman_Jura%C5%A1ko"
+  },
+  "Lenka Vavrinčíková": {
+    "description": "Slovenská televízna moderátorka a redaktorka.",
+    "source": "https://en.wikipedia.org/wiki/Lenka_Vavrin%C4%8D%C3%ADkov%C3%A1"
+  },
+  "Zuzana Plačková": {
+    "description": "Slovenská podnikateľka a internetová osobnosť, ktorá sa preslávila v reality televízii.",
+    "source": "https://en.wikipedia.org/wiki/Zuzana_Pla%C4%8Dkov%C3%A1"
+  },
+  "Ivan Trojan": {
+    "description": "Český filmový a divadelný herec, viacnásobný držiteľ ceny Český lev.",
+    "source": "https://en.wikipedia.org/wiki/Ivan_Trojan"
+  },
+  "Bolek Polívka": {
+    "description": "Český herec, klaun a dramatik, tvorca vlastného divadla v Brne.",
+    "source": "https://en.wikipedia.org/wiki/Bolek_Pol%C3%ADvka"
+  },
+  "Pavel Liška": {
+    "description": "Český filmový a divadelný herec, známy komediálnymi aj dramatickými rolami.",
+    "source": "https://en.wikipedia.org/wiki/Pavel_Li%C5%A1ka"
+  },
+  "Hynek Čermák": {
+    "description": "Český filmový a televízny herec známy kriminálnymi a dramatickými úlohami.",
+    "source": "https://en.wikipedia.org/wiki/Hynek_%C4%8Cerm%C3%A1k"
+  },
+  "Marek Taclík": {
+    "description": "Český herec, ktorý účinkuje vo filmoch, seriáloch aj divadle.",
+    "source": "https://en.wikipedia.org/wiki/Marek_Tacl%C3%ADk"
+  },
+  "Tatiana Dyková": {
+    "description": "Česká filmová a divadelná herečka, známa aj pod rodným menom Vilhelmová.",
+    "source": "https://en.wikipedia.org/wiki/Tatiana_Dykov%C3%A1"
+  },
+  "Jiřina Bohdalová": {
+    "description": "Česká herečka a komička s desaťročiami filmových a televíznych úloh.",
+    "source": "https://en.wikipedia.org/wiki/Ji%C5%99ina_Bohdalov%C3%A1"
+  },
+  "Tereza Ramba": {
+    "description": "Česká filmová a televízna herečka, predtým známa ako Tereza Voříšková.",
+    "source": "https://en.wikipedia.org/wiki/Tereza_Ramba"
+  },
+  "Kryštof Hádek": {
+    "description": "Český filmový a divadelný herec, ktorý hral napríklad vo filme Tmavomodrý svet.",
+    "source": "https://en.wikipedia.org/wiki/Kry%C5%A1tof_H%C3%A1dek"
+  },
+  "Václav Kopta": {
+    "description": "Český herec a moderátor, známy aj zo zábavných televíznych relácií.",
+    "source": "https://en.wikipedia.org/wiki/V%C3%A1clav_Kopta"
+  },
+  "Lukáš Pavlásek": {
+    "description": "Český stand-up komik a herec.",
+    "source": "https://en.wikipedia.org/wiki/Luk%C3%A1%C5%A1_Pavl%C3%A1sek"
+  },
+  "Jan Kraus": {
+    "description": "Český moderátor a herec, ktorý vedie vlastnú diskusnú talkshow.",
+    "source": "https://en.wikipedia.org/wiki/Jan_Kraus"
+  },
+  "Karel Šíp": {
+    "description": "Český televízny moderátor a autor zábavných relácií.",
+    "source": "https://en.wikipedia.org/wiki/Karel_%C5%A0%C3%ADp"
+  },
+  "Libor Bouček": {
+    "description": "Český televízny moderátor a konferenciér.",
+    "source": "https://en.wikipedia.org/wiki/Libor_Bou%C4%8Dek"
+  },
+  "Zdeněk Pohlreich": {
+    "description": "Český šéfkuchár a moderátor televíznych relácií o reštauráciách.",
+    "source": "https://en.wikipedia.org/wiki/Zden%C4%9Bk_Pohlreich"
+  },
+  "Přemek Forejt": {
+    "description": "Český šéfkuchár a porotca televíznej súťaže MasterChef Česko.",
+    "source": "https://en.wikipedia.org/wiki/P%C5%99emek_Forejt"
+  },
+  "Tereza Pergnerová": {
+    "description": "Česká televízna moderátorka, ktorá sa preslávila reláciou Eso.",
+    "source": "https://en.wikipedia.org/wiki/Tereza_Pergnerov%C3%A1"
+  },
+  "Daniel Stach": {
+    "description": "Český vedecký novinár a moderátor televíznej relácie Hyde Park Civilizace.",
+    "source": "https://en.wikipedia.org/wiki/Daniel_Stach"
+  },
+  "Khaby Lame": {
+    "description": "Taliansko-senegalský tvorca krátkych komediálnych videí bez hovorených slov.",
+    "source": "https://en.wikipedia.org/wiki/Khaby_Lame"
+  },
+  "Charli D'Amelio": {
+    "description": "Americká internetová osobnosť známa tanečnými videami na TikToku.",
+    "source": "https://en.wikipedia.org/wiki/Charli_D'Amelio"
+  },
+  "Addison Rae": {
+    "description": "Americká internetová osobnosť a herečka, ktorá sa preslávila na TikToku.",
+    "source": "https://en.wikipedia.org/wiki/Addison_Rae"
+  },
+  "Emma Chamberlain": {
+    "description": "Americká youtuberka a moderátorka známa osobnými vlogmi a rozhovormi.",
+    "source": "https://en.wikipedia.org/wiki/Emma_Chamberlain"
+  },
+  "Marques Brownlee": {
+    "description": "Americký tvorca videí, ktorý recenzuje smartfóny a inú techniku.",
+    "source": "https://en.wikipedia.org/wiki/Marques_Brownlee"
+  },
+  "Lilly Singh": {
+    "description": "Kanadsko-indická komička a moderátorka, ktorá začínala ako youtuberka.",
+    "source": "https://en.wikipedia.org/wiki/Lilly_Singh"
+  },
+  "King Charles III": {
+    "description": "Britský panovník, ktorý nastúpil na trón po kráľovnej Alžbete II.",
+    "source": "https://en.wikipedia.org/wiki/King_Charles_III"
+  },
+  "Queen Camilla": {
+    "description": "Kráľovná Spojeného kráľovstva a manželka kráľa Karola III.",
+    "source": "https://en.wikipedia.org/wiki/Queen_Camilla"
+  },
+  "Ján Johanides": {
+    "description": "Slovenský prozaik, ktorého psychologické romány skúmajú vinu, pamäť a ľudské vzťahy.",
+    "source": "https://en.wikipedia.org/wiki/J%C3%A1n_Johanides"
+  },
+  "Ján Lenčo": {
+    "description": "Slovenský spisovateľ historických a filozofických próz.",
+    "source": "https://en.wikipedia.org/wiki/J%C3%A1n_Len%C4%8Do"
+  },
+  "Ján Buzássy": {
+    "description": "Slovenský básnik a prekladateľ, autor zbierky Hra s nožmi.",
+    "source": "https://en.wikipedia.org/wiki/J%C3%A1n_Buz%C3%A1ssy"
+  },
+  "Rudolf Fabry": {
+    "description": "Slovenský básnik a predstaviteľ nadrealizmu, autor zbierky Uťaté ruky.",
+    "source": "https://en.wikipedia.org/wiki/Rudolf_Fabry"
+  },
+  "Ján Kostra": {
+    "description": "Slovenský básnik a prekladateľ, autor básne Ave Eva.",
+    "source": "https://en.wikipedia.org/wiki/J%C3%A1n_Kostra"
+  },
+  "Laco Novomeský": {
+    "description": "Slovenský básnik a novinár, jeden z predstaviteľov skupiny DAV.",
+    "source": "https://en.wikipedia.org/wiki/Laco_Novomesk%C3%BD"
+  },
+  "Július Barč-Ivan": {
+    "description": "Slovenský dramatik a prozaik, autor hry Matka.",
+    "source": "https://en.wikipedia.org/wiki/J%C3%BAlius_Bar%C4%8D-Ivan"
+  },
+  "Ivan Bukovčan": {
+    "description": "Slovenský dramatik a scenárista, autor hry Kým kohút nezaspieva.",
+    "source": "https://en.wikipedia.org/wiki/Ivan_Bukov%C4%8Dan"
+  },
+  "Ivan Stodola": {
+    "description": "Slovenský dramatik a lekár, autor komédie Jožko Púčik a jeho kariéra.",
+    "source": "https://en.wikipedia.org/wiki/Ivan_Stodola"
+  },
+  "Ján Chalupka": {
+    "description": "Slovenský dramatik a satirik, autor komédie Kocúrkovo.",
+    "source": "https://en.wikipedia.org/wiki/J%C3%A1n_Chalupka"
+  },
+  "Martin Rázus": {
+    "description": "Slovenský básnik, spisovateľ a evanjelický kňaz.",
+    "source": "https://en.wikipedia.org/wiki/Martin_R%C3%A1zus"
+  },
+  "Ján Hrušovský": {
+    "description": "Slovenský prozaik a novinár, autor novely Muž s protézou.",
+    "source": "https://en.wikipedia.org/wiki/J%C3%A1n_Hru%C5%A1ovsk%C3%BD"
+  },
+  "Ján Čajak": {
+    "description": "Slovenský spisovateľ, ktorý tvoril aj v prostredí dolnozemských Slovákov.",
+    "source": "https://en.wikipedia.org/wiki/J%C3%A1n_%C4%8Cajak"
+  },
+  "Mária Rázusová-Martáková": {
+    "description": "Slovenská poetka a autorka detských kníh, sestra Martina Rázusa.",
+    "source": "https://en.wikipedia.org/wiki/M%C3%A1ria_R%C3%A1zusov%C3%A1-Mart%C3%A1kov%C3%A1"
+  },
+  "Jaroslav Hašek": {
+    "description": "Český spisovateľ, autor satirického románu o vojakovi Švejkovi.",
+    "source": "https://en.wikipedia.org/wiki/Jaroslav_Ha%C5%A1ek"
+  },
+  "Bohumil Hrabal": {
+    "description": "Český spisovateľ, autor próz Ostře sledované vlaky a Obsluhoval jsem anglického krále.",
+    "source": "https://en.wikipedia.org/wiki/Bohumil_Hrabal"
+  },
+  "Milan Kundera": {
+    "description": "Český spisovateľ, autor románu Nesnesitelná lehkost bytí.",
+    "source": "https://en.wikipedia.org/wiki/Milan_Kundera"
+  },
+  "Karel Poláček": {
+    "description": "Český spisovateľ a humorista, autor knihy Bylo nás pět.",
+    "source": "https://en.wikipedia.org/wiki/Karel_Pol%C3%A1%C4%8Dek"
+  },
+  "Josef Škvorecký": {
+    "description": "Český spisovateľ a exilový vydavateľ, tvorca detektíva Dannyho Smiřického.",
+    "source": "https://en.wikipedia.org/wiki/Josef_%C5%A0kvoreck%C3%BD"
+  },
+  "Arnošt Lustig": {
+    "description": "Český spisovateľ, ktorého prózy sa často venujú holokaustu.",
+    "source": "https://en.wikipedia.org/wiki/Arno%C5%A1t_Lustig"
+  },
+  "Ota Pavel": {
+    "description": "Český spisovateľ a športový novinár, autor knihy Smrt krásných srnců.",
+    "source": "https://en.wikipedia.org/wiki/Ota_Pavel"
+  },
+  "Vítězslav Nezval": {
+    "description": "Český básnik a predstaviteľ avantgardnej skupiny Devětsil.",
+    "source": "https://en.wikipedia.org/wiki/V%C3%ADt%C4%9Bzslav_Nezval"
+  },
+  "Jaroslav Seifert": {
+    "description": "Český básnik a nositeľ Nobelovej ceny za literatúru.",
+    "source": "https://en.wikipedia.org/wiki/Jaroslav_Seifert"
+  },
+  "Jan Neruda": {
+    "description": "Český spisovateľ a novinár, autor Povídek malostranských.",
+    "source": "https://en.wikipedia.org/wiki/Jan_Neruda"
+  },
+  "Karel Jaromír Erben": {
+    "description": "Český básnik a zberateľ ľudových rozprávok, autor zbierky Kytice.",
+    "source": "https://en.wikipedia.org/wiki/Karel_Jarom%C3%ADr_Erben"
+  },
+  "Alois Jirásek": {
+    "description": "Český spisovateľ historických románov a povestí.",
+    "source": "https://en.wikipedia.org/wiki/Alois_Jir%C3%A1sek"
+  },
+  "Jiří Wolker": {
+    "description": "Český básnik, predstaviteľ proletárskej poézie.",
+    "source": "https://en.wikipedia.org/wiki/Ji%C5%99%C3%AD_Wolker"
+  },
+  "Ťapákovci": {
+    "description": "Poviedka Boženy Slančíkovej-Timravy o rodine, ktorá sa bráni zmenám.",
+    "source": "https://en.wikipedia.org/wiki/%C5%A4ap%C3%A1kovci"
+  },
+  "Tri gaštanové kone": {
+    "description": "Lyrický román Margity Figuli o láske Magdalény a Petra.",
+    "source": "https://en.wikipedia.org/wiki/Tri_ga%C5%A1tanov%C3%A9_kone"
+  },
+  "Drak sa vracia": {
+    "description": "Novela Dobroslava Chrobáka o mužovi, ktorého dedina považuje za čudáka.",
+    "source": "https://en.wikipedia.org/wiki/Drak_sa_vracia"
+  },
+  "Polnočná omša": {
+    "description": "Divadelná hra Petra Karvaša odohrávajúca sa počas Slovenského národného povstania.",
+    "source": "https://en.wikipedia.org/wiki/Polno%C4%8Dn%C3%A1_om%C5%A1a"
+  },
+  "Čenkovej deti": {
+    "description": "Román Fraňa Kráľa o chudobných deťoch a ich ťažkom živote.",
+    "source": "https://en.wikipedia.org/wiki/%C4%8Cenkovej_deti"
+  },
+  "Bačova žena": {
+    "description": "Dráma Ivana Stodolu o žene, ktorá po rokoch čelí návratu prvého manžela.",
+    "source": "https://en.wikipedia.org/wiki/Ba%C4%8Dova_%C5%BEena"
+  },
+  "Kým kohút nezaspieva": {
+    "description": "Dráma Ivana Bukovčana o skupine ľudí uväznených počas vojny.",
+    "source": "https://en.wikipedia.org/wiki/K%C3%BDm_koh%C3%BAt_nezaspieva"
+  },
+  "Rivers of Babylon": {
+    "description": "Román Petra Pišťanka o vekslákovi, ktorý sa po revolúcii dostane k moci.",
+    "source": "https://en.wikipedia.org/wiki/Rivers_of_Babylon"
+  },
+  "Krakatit": {
+    "description": "Román Karla Čapka o vynálezcovi výbušniny s ničivou silou.",
+    "source": "https://en.wikipedia.org/wiki/Krakatit"
+  },
+  "R.U.R.": {
+    "description": "Divadelná hra Karla Čapka, ktorá preslávila slovo robot.",
+    "source": "https://en.wikipedia.org/wiki/R.U.R."
+  },
+  "Válka s mloky": {
+    "description": "Satirický román Karla Čapka o inteligentných mlokoch, ktorých ľudia využívajú.",
+    "source": "https://en.wikipedia.org/wiki/V%C3%A1lka_s_mloky"
+  },
+  "Osudy dobrého vojáka Švejka": {
+    "description": "Satirický román Jaroslava Haška o vojakovi počas prvej svetovej vojny.",
+    "source": "https://en.wikipedia.org/wiki/Osudy_dobr%C3%A9ho_voj%C3%A1ka_%C5%A0vejka"
+  },
+  "Spalovač mrtvol": {
+    "description": "Psychologický román Ladislava Fuksa o zamestnancovi krematória, ktorého ovládne nacistická ideológia.",
+    "source": "https://en.wikipedia.org/wiki/Spalova%C4%8D_mrtvol"
+  },
+  "Ostře sledované vlaky": {
+    "description": "Novela Bohumila Hrabala o mladom železničiarovi počas druhej svetovej vojny.",
+    "source": "https://en.wikipedia.org/wiki/Ost%C5%99e_sledovan%C3%A9_vlaky"
+  },
+  "Žert": {
+    "description": "Román Milana Kunderu o tom, ako nevinný žart zmení človeku život.",
+    "source": "https://en.wikipedia.org/wiki/%C5%BDert"
+  },
+  "Nesnesitelná lehkost bytí": {
+    "description": "Román Milana Kunderu o láske, slobode a živote v období Pražskej jari.",
+    "source": "https://en.wikipedia.org/wiki/Nesnesiteln%C3%A1_lehkost_byt%C3%AD"
+  },
+  "Saturnin": {
+    "description": "Humoristický román Zdeňka Jirotku o výstrednom sluhovi a jeho pánovi.",
+    "source": "https://en.wikipedia.org/wiki/Saturnin"
+  },
+  "Babička": {
+    "description": "Román Boženy Němcovej inšpirovaný jej spomienkami na detstvo na vidieku.",
+    "source": "https://en.wikipedia.org/wiki/Babi%C4%8Dka"
+  },
+  "Terry Pratchett": {
+    "description": "Britský autor humoristickej fantasy série Úžasná Plochozem.",
+    "source": "https://en.wikipedia.org/wiki/Terry_Pratchett"
+  },
+  "Ursula K. Le Guin": {
+    "description": "Americká autorka sci-fi a fantasy, známa sériami Zememorí a Hain.",
+    "source": "https://en.wikipedia.org/wiki/Ursula_K._Le_Guin"
+  },
+  "Margaret Atwood": {
+    "description": "Kanadská spisovateľka, autorka dystopického románu Príbeh služobníčky.",
+    "source": "https://en.wikipedia.org/wiki/Margaret_Atwood"
+  },
+  "Neil Gaiman": {
+    "description": "Britský autor fantasy a komiksov, tvorca série Sandman.",
+    "source": "https://en.wikipedia.org/wiki/Neil_Gaiman"
+  },
+  "George R. R. Martin": {
+    "description": "Americký autor fantasy ságy Pieseň ľadu a ohňa.",
+    "source": "https://en.wikipedia.org/wiki/George_R._R._Martin"
+  },
+  "Arthur C. Clarke": {
+    "description": "Britský autor sci-fi, spoluautor príbehu filmu 2001: Vesmírna odysea.",
+    "source": "https://en.wikipedia.org/wiki/Arthur_C._Clarke"
+  },
+  "Isaac Asimov": {
+    "description": "Americký autor sci-fi, známy sériou Nadácia a tromi zákonmi robotiky.",
+    "source": "https://en.wikipedia.org/wiki/Isaac_Asimov"
+  },
+  "Philip K. Dick": {
+    "description": "Americký autor sci-fi, podľa ktorého diel vznikli filmy Blade Runner a Total Recall.",
+    "source": "https://en.wikipedia.org/wiki/Philip_K._Dick"
+  },
+  "H. P. Lovecraft": {
+    "description": "Americký autor hororov, tvorca mýtov o Cthulhu.",
+    "source": "https://en.wikipedia.org/wiki/H._P._Lovecraft"
+  },
+  "Ray Bradbury": {
+    "description": "Americký autor sci-fi a fantasy, autor románu 451 stupňov Fahrenheita.",
+    "source": "https://en.wikipedia.org/wiki/Ray_Bradbury"
+  },
+  "Emily Brontë": {
+    "description": "Anglická spisovateľka, autorka románu Búrlivé výšiny.",
+    "source": "https://en.wikipedia.org/wiki/Emily_Bront%C3%AB"
+  },
+  "Charlotte Brontë": {
+    "description": "Anglická spisovateľka, autorka románu Jana Eyrová.",
+    "source": "https://en.wikipedia.org/wiki/Charlotte_Bront%C3%AB"
+  },
+  "Harper Lee": {
+    "description": "Americká spisovateľka, autorka románu Nezabíjajte vtáčika.",
+    "source": "https://en.wikipedia.org/wiki/Harper_Lee"
+  },
+  "Paulo Coelho": {
+    "description": "Brazílsky spisovateľ, autor románu Alchymista.",
+    "source": "https://en.wikipedia.org/wiki/Paulo_Coelho"
+  },
+  "Umberto Eco": {
+    "description": "Taliansky spisovateľ a semiotik, autor románu Meno ruže.",
+    "source": "https://en.wikipedia.org/wiki/Umberto_Eco"
+  },
+  "Hercule Poirot": {
+    "description": "Belgický detektív Agathy Christie, známy upravenými fúzmi a malými sivými bunkami.",
+    "source": "https://en.wikipedia.org/wiki/Hercule_Poirot"
+  },
+  "Slečna Marplová": {
+    "description": "Staršia amatérska detektívka Agathy Christie, ktorá rieši zločiny pozorovaním ľudí.",
+    "source": "https://en.wikipedia.org/wiki/Sle%C4%8Dna_Marplov%C3%A1"
+  },
+  "Alice": {
+    "description": "Dievča z knihy Alica v krajine zázrakov, ktoré sa dostane do podivného sveta.",
+    "source": "https://en.wikipedia.org/wiki/Alice"
+  },
+  "Peter Pan": {
+    "description": "Chlapec, ktorý nechce vyrásť a žije v Krajine-Nekrajine.",
+    "source": "https://en.wikipedia.org/wiki/Peter_Pan"
+  },
+  "Kapitán Hook": {
+    "description": "Pirát s hákom namiesto ruky, úhlavný nepriateľ Petra Pana.",
+    "source": "https://en.wikipedia.org/wiki/Kapit%C3%A1n_Hook"
+  },
+  "Pinocchio": {
+    "description": "Drevená bábka z rozprávky Carla Collodiho, ktorej pri klamstve rastie nos.",
+    "source": "https://en.wikipedia.org/wiki/Pinocchio"
+  },
+  "Pippi Dlhá Pančucha": {
+    "description": "Silné a nezávislé dievča z kníh Astrid Lindgrenovej, ktoré žije vo vile Vilôčke.",
+    "source": "https://en.wikipedia.org/wiki/Pippi_Dlh%C3%A1_Pan%C4%8Ducha"
+  },
+  "Mumintroll": {
+    "description": "Dobrosrdečný biely tvor z kníh fínsko-švédskej autorky Tove Janssonovej.",
+    "source": "https://en.wikipedia.org/wiki/Mumintroll"
+  },
+  "Matilda Wormwood": {
+    "description": "Mimoriadne nadané dievča z knihy Roalda Dahla, ktoré objaví telekinetické schopnosti.",
+    "source": "https://en.wikipedia.org/wiki/Matilda_Wormwood"
+  },
+  "Charlie Bucket": {
+    "description": "Chudobný chlapec, ktorý vyhrá návštevu továrne Willyho Wonku.",
+    "source": "https://en.wikipedia.org/wiki/Charlie_Bucket"
+  },
+  "Anne Shirley": {
+    "description": "Ryšavá sirota z knihy Anna zo Zeleného domu, ktorú si adoptujú súrodenci na farme.",
+    "source": "https://en.wikipedia.org/wiki/Anne_Shirley"
+  },
+  "Jo Marchová": {
+    "description": "Jedna zo sestier z románu Malé ženy, ktorá túži stať sa spisovateľkou.",
+    "source": "https://en.wikipedia.org/wiki/Jo_Marchov%C3%A1"
+  },
+  "Atticus Finch": {
+    "description": "Právnik z románu Nezabíjajte vtáčika, ktorý obhajuje Toma Robinsona.",
+    "source": "https://en.wikipedia.org/wiki/Atticus_Finch"
+  },
+  "Scout Finchová": {
+    "description": "Rozprávačka románu Nezabíjajte vtáčika a dcéra právnika Atticusa Fincha.",
+    "source": "https://en.wikipedia.org/wiki/Scout_Finchov%C3%A1"
+  },
+  "Jay Gatsby": {
+    "description": "Záhadný boháč z románu Veľký Gatsby, ktorý organizuje veľkolepé večierky.",
+    "source": "https://en.wikipedia.org/wiki/Jay_Gatsby"
+  },
+  "Holden Caulfield": {
+    "description": "Mladý rozprávač románu Kto chytá v žite, ktorý kritizuje dospelácky svet.",
+    "source": "https://en.wikipedia.org/wiki/Holden_Caulfield"
+  },
+  "Frodo Bublík": {
+    "description": "Hobit z Pána prsteňov, ktorý dostane úlohu zničiť Jeden prsteň.",
+    "source": "https://en.wikipedia.org/wiki/Frodo_Bubl%C3%ADk"
+  },
+  "Bilbo Bublík": {
+    "description": "Hobit z knihy Hobit, ktorý sa vydá na cestu s čarodejníkom a trpaslíkmi.",
+    "source": "https://en.wikipedia.org/wiki/Bilbo_Bubl%C3%ADk"
+  },
+  "Aragorn": {
+    "description": "Dedič trónu Gondoru a člen Spoločenstva prsteňa v Pánovi prsteňov.",
+    "source": "https://en.wikipedia.org/wiki/Aragorn"
+  },
+  "Hermiona Grangerová": {
+    "description": "Bystrá čarodejnica z kníh o Harrym Potterovi a jeho blízka priateľka.",
+    "source": "https://en.wikipedia.org/wiki/Hermiona_Grangerov%C3%A1"
+  },
+  "Severus Snape": {
+    "description": "Učiteľ elixírov z Harryho Pottera, ktorého skutočná vernosť zostáva dlho záhadou.",
+    "source": "https://en.wikipedia.org/wiki/Severus_Snape"
+  },
+  "Rubeus Hagrid": {
+    "description": "Láskavý poloobor a správca Rokfortu v príbehoch o Harrym Potterovi.",
+    "source": "https://en.wikipedia.org/wiki/Rubeus_Hagrid"
+  },
+  "Lord Voldemort": {
+    "description": "Temný čarodejník z Harryho Pottera, ktorý sa usiluje ovládnuť čarodejnícky svet.",
+    "source": "https://en.wikipedia.org/wiki/Lord_Voldemort"
+  },
+  "Katniss Everdeenová": {
+    "description": "Lukostrelkyňa a hlavná hrdinka dystopickej série Hry o život.",
+    "source": "https://en.wikipedia.org/wiki/Katniss_Everdeenov%C3%A1"
+  },
+  "Odysseus": {
+    "description": "Grécky hrdina, ktorého dlhá cesta domov je opísaná v Homérovej Odysei.",
+    "source": "https://en.wikipedia.org/wiki/Odysseus"
+  },
+  "Achilles": {
+    "description": "Najväčší grécky bojovník v Iliade, zraniteľný podľa legendy iba na päte.",
+    "source": "https://en.wikipedia.org/wiki/Achilles"
+  },
+  "Penelopa": {
+    "description": "Verná manželka Odysea, ktorá naňho čaká počas jeho dlhého putovania.",
+    "source": "https://en.wikipedia.org/wiki/Penelopa"
+  },
+  "Hektor": {
+    "description": "Trójsky princ a obranca Tróje, ktorý bojuje proti Achillovi.",
+    "source": "https://en.wikipedia.org/wiki/Hektor"
+  },
+  "Kirké": {
+    "description": "Čarodejnica z Odysey, ktorá premieňa Odyseových mužov na svine.",
+    "source": "https://en.wikipedia.org/wiki/Kirk%C3%A9"
+  },
+  "Beowulf": {
+    "description": "Hrdina staroanglickej epickej básne, ktorý bojuje s netvorom Grendelom.",
+    "source": "https://en.wikipedia.org/wiki/Beowulf"
+  },
+  "Kráľ Artuš": {
+    "description": "Legendárny britský kráľ, ktorého rytieri zasadali pri okrúhlom stole.",
+    "source": "https://en.wikipedia.org/wiki/Kr%C3%A1%C4%BE_Artu%C5%A1"
+  },
+  "Lancelot": {
+    "description": "Jeden z najznámejších rytierov okrúhleho stola a milenec kráľovnej Guinevery.",
+    "source": "https://en.wikipedia.org/wiki/Lancelot"
+  },
+  "Robin Hood": {
+    "description": "Legendárny zbojník, ktorý podľa povestí bohatým bral a chudobným dával.",
+    "source": "https://en.wikipedia.org/wiki/Robin_Hood"
+  },
+  "Faust": {
+    "description": "Učenec z nemeckej legendy, ktorý uzavrie dohodu s diablom.",
+    "source": "https://en.wikipedia.org/wiki/Faust"
+  },
+  "Ebenezer Scrooge": {
+    "description": "Lakomec z Vianočnej koledy Charlesa Dickensa, ktorého navštívia traja duchovia.",
+    "source": "https://en.wikipedia.org/wiki/Ebenezer_Scrooge"
+  },
+  "Oliver Twist": {
+    "description": "Sirota z románu Charlesa Dickensa, ktorá vyrastá medzi londýnskymi zlodejmi.",
+    "source": "https://en.wikipedia.org/wiki/Oliver_Twist"
+  },
+  "Don Quijote": {
+    "description": "Zidealizovaný rytier z románu Cervantesa, ktorý bojuje s veternými mlynmi.",
+    "source": "https://en.wikipedia.org/wiki/Don_Quijote"
+  },
+  "Zajac Bugs": {
+    "description": "Šibalský kreslený zajac z príbehov Looney Tunes.",
+    "source": "https://en.wikipedia.org/wiki/Zajac_Bugs"
+  },
+  "Švejk": {
+    "description": "Dobrácky český vojak z románu Jaroslava Haška, ktorý prežíva prvú svetovú vojnu.",
+    "source": "https://en.wikipedia.org/wiki/%C5%A0vejk"
+  },
+  "Rumcajs": {
+    "description": "Český rozprávkový zbojník, ktorý žije v lese Řáholec.",
+    "source": "https://en.wikipedia.org/wiki/Rumcajs"
+  },
+  "Krteček": {
+    "description": "Malý český kreslený krtko vytvorený výtvarníkom Zdeňkom Milerom.",
+    "source": "https://en.wikipedia.org/wiki/Krte%C4%8Dek"
+  },
+  "Kocúr Mikeš": {
+    "description": "Rozprávkový kocúr, ktorý rozpráva a cestuje po svete v knihách Josefa Ladu.",
+    "source": "https://en.wikipedia.org/wiki/Koc%C3%BAr_Mike%C5%A1"
+  },
+  "Dune": {
+    "description": "Sci-fi román Franka Herberta o púštnej planéte Arrakis a vzácnom korení.",
+    "source": "https://en.wikipedia.org/wiki/Dune"
+  },
+  "The Chronicles of Narnia": {
+    "description": "Fantasy séria C. S. Lewisa o krajine, do ktorej sa vstupuje cez skriňu.",
+    "source": "https://en.wikipedia.org/wiki/The_Chronicles_of_Narnia"
+  },
+  "The Lion, the Witch and the Wardrobe": {
+    "description": "Prvá vydaná kniha Letopisov Narnie, v ktorej deti nájdu čarovnú krajinu.",
+    "source": "https://en.wikipedia.org/wiki/The_Lion%2C_the_Witch_and_the_Wardrobe"
+  },
+  "The Kite Runner": {
+    "description": "Román Khaleda Hosseiniho o priateľstve dvoch chlapcov v Afganistane.",
+    "source": "https://en.wikipedia.org/wiki/The_Kite_Runner"
+  },
+  "The Book Thief": {
+    "description": "Román Markusa Zusaka o dievčati, ktoré si počas vojny požičiava knihy.",
+    "source": "https://en.wikipedia.org/wiki/The_Book_Thief"
+  },
+  "The Fault in Our Stars": {
+    "description": "Román Johna Greena o dvoch tínedžeroch, ktorí sa stretnú v podpornej skupine.",
+    "source": "https://en.wikipedia.org/wiki/The_Fault_in_Our_Stars"
+  },
+  "Misery": {
+    "description": "Román Stephena Kinga o spisovateľovi, ktorého po nehode väzní posadnutá čitateľka.",
+    "source": "https://en.wikipedia.org/wiki/Misery"
+  },
+  "The Stand": {
+    "description": "Postapokalyptický román Stephena Kinga o boji dobra a zla po epidémii.",
+    "source": "https://en.wikipedia.org/wiki/The_Stand"
+  },
+  "The Colour of Magic": {
+    "description": "Prvá kniha fantasy série Úžasná Plochozem Terryho Pratchetta.",
+    "source": "https://en.wikipedia.org/wiki/The_Colour_of_Magic"
+  },
+  "Foundation": {
+    "description": "Sci-fi séria Isaaca Asimova o pláne zachovať poznanie po páde galaktickej ríše.",
+    "source": "https://en.wikipedia.org/wiki/Foundation"
+  },
+  "The Name of the Rose": {
+    "description": "Historická detektívka Umberta Eca z kláštora, kde sa dejú záhadné úmrtia.",
+    "source": "https://en.wikipedia.org/wiki/The_Name_of_the_Rose"
+  },
+  "The Secret History": {
+    "description": "Román Donny Tarttovej o skupine študentov klasickej gréčtiny a vražde.",
+    "source": "https://en.wikipedia.org/wiki/The_Secret_History"
+  },
+  "The Curious Incident of the Dog in the Night-Time": {
+    "description": "Román Marka Haddona rozprávaný tínedžerom, ktorý vyšetruje smrť susedovho psa.",
+    "source": "https://en.wikipedia.org/wiki/The_Curious_Incident_of_the_Dog_in_the_Night-Time"
+  },
+  "The Perks of Being a Wallflower": {
+    "description": "Román v listoch o stredoškolákovi Charliem, ktorý hľadá svoje miesto medzi rovesníkmi.",
+    "source": "https://en.wikipedia.org/wiki/The_Perks_of_Being_a_Wallflower"
+  },
+  "The Giver": {
+    "description": "Dystopický román Lois Lowryovej o chlapcovi, ktorý spozná skryté spomienky svojej spoločnosti.",
+    "source": "https://en.wikipedia.org/wiki/The_Giver"
+  },
+  "The Three-Body Problem": {
+    "description": "Sci-fi román Liou Cch’-sina o kontakte ľudstva s civilizáciou z inej hviezdnej sústavy.",
+    "source": "https://en.wikipedia.org/wiki/The_Three-Body_Problem"
+  },
+  "The Neverending Story": {
+    "description": "Fantasy román Michaela Endeho, v ktorom chlapec číta o krajine Fantázia.",
+    "source": "https://en.wikipedia.org/wiki/The_Neverending_Story"
+  },
+  "The Golden Compass": {
+    "description": "Fantasy román Philipa Pullmana o Lyre a jej ceste do ďalekého severu.",
+    "source": "https://en.wikipedia.org/wiki/The_Golden_Compass"
+  },
+  "The Call of the Wild": {
+    "description": "Dobrodružný román Jacka Londona o psovi Buckovi na Aljaške.",
+    "source": "https://en.wikipedia.org/wiki/The_Call_of_the_Wild"
+  },
+  "White Fang": {
+    "description": "Román Jacka Londona o vlkovi, ktorý sa učí žiť medzi ľuďmi.",
+    "source": "https://en.wikipedia.org/wiki/White_Fang"
+  },
+  "The Jungle Book": {
+    "description": "Zbierka príbehov Rudyarda Kiplinga o Mauglím, ktorý vyrastá medzi vlkmi.",
+    "source": "https://en.wikipedia.org/wiki/The_Jungle_Book"
+  },
+  "Treasure Island": {
+    "description": "Dobrodružný román Roberta Louisa Stevensona o hľadaní zakopaného pirátskeho pokladu.",
+    "source": "https://en.wikipedia.org/wiki/Treasure_Island"
+  },
+  "The Wonderful Wizard of Oz": {
+    "description": "Detský román o Dorotke, ktorú víchrica zanesie do krajiny Oz.",
+    "source": "https://en.wikipedia.org/wiki/The_Wonderful_Wizard_of_Oz"
+  },
+  "Alice's Adventures in Wonderland": {
+    "description": "Kniha Lewisa Carrolla o dievčati, ktoré spadne do sveta plného nezmyselných dobrodružstiev.",
+    "source": "https://en.wikipedia.org/wiki/Alice's_Adventures_in_Wonderland"
+  },
+  "The Wind in the Willows": {
+    "description": "Detský román Kennetha Grahama o Krtkovi, Potkanovi, Jazvecovi a pánovi Ropuchovi.",
+    "source": "https://en.wikipedia.org/wiki/The_Wind_in_the_Willows"
+  },
+  "The Very Hungry Caterpillar": {
+    "description": "Obrázková kniha Erica Carleho o húsenici, ktorá sa premení na motýľa.",
+    "source": "https://en.wikipedia.org/wiki/The_Very_Hungry_Caterpillar"
+  },
+  "Where the Wild Things Are": {
+    "description": "Detská kniha Mauricea Sendaka o chlapcovi Maxovi a divokých tvoroch.",
+    "source": "https://en.wikipedia.org/wiki/Where_the_Wild_Things_Are"
+  },
+  "The Tale of Peter Rabbit": {
+    "description": "Detská kniha Beatrix Potterovej o nezbednom králikovi, ktorý vnikne do záhrady.",
+    "source": "https://en.wikipedia.org/wiki/The_Tale_of_Peter_Rabbit"
+  },
+  "The Tale of Genji": {
+    "description": "Japonský román z 11. storočia, ktorý napísala dvorná dáma Murasaki Shikibu.",
+    "source": "https://en.wikipedia.org/wiki/The_Tale_of_Genji"
+  },
+  "The Canterbury Tales": {
+    "description": "Zbierka príbehov Geoffreyho Chaucera, ktoré si rozprávajú pútnici na ceste.",
+    "source": "https://en.wikipedia.org/wiki/The_Canterbury_Tales"
+  },
+  "The Decameron": {
+    "description": "Zbierka sto príbehov Giovanniho Boccaccia, ktoré si rozpráva skupina mladých ľudí.",
+    "source": "https://en.wikipedia.org/wiki/The_Decameron"
+  },
+  "The Aeneid": {
+    "description": "Rímsky epos Vergília o hrdinovi Aeneovi a legendárnych počiatkoch Ríma.",
+    "source": "https://en.wikipedia.org/wiki/The_Aeneid"
+  },
+  "The Art of War": {
+    "description": "Staroveké čínske pojednanie o stratégii pripisované Sun-c’.",
+    "source": "https://en.wikipedia.org/wiki/The_Art_of_War"
+  },
+  "The Prince": {
+    "description": "Politické dielo Niccola Machiavelliho o tom, ako vládnuť a udržať si moc.",
+    "source": "https://en.wikipedia.org/wiki/The_Prince"
+  },
+  "Medvedík Pú": {
+    "description": "Medvedík z kníh A. A. Milnea, ktorý miluje med.",
+    "source": "https://en.wikipedia.org/wiki/Winnie-the-Pooh"
+  },
+  "The Incredible Hulk": {
+    "description": "MCU film o Bruce Bannerovi, vedcovi, ktorý sa po premene stáva obrovským zeleným Hulkom.",
+    "source": "https://en.wikipedia.org/wiki/The_Incredible_Hulk"
+  },
+  "Captain America: The First Avenger": {
+    "description": "Prvý film o Captain America, ktorý sa počas druhej svetovej vojny stane supervojakom.",
+    "source": "https://en.wikipedia.org/wiki/Captain_America:_The_First_Avenger"
+  },
+  "Thor: The Dark World": {
+    "description": "MCU film, v ktorom Thor bojuje proti temným elfom vedeným Malekithom.",
+    "source": "https://en.wikipedia.org/wiki/Thor:_The_Dark_World"
+  },
+  "Captain America: The Winter Soldier": {
+    "description": "Thriller MCU, v ktorom Captain America odhalí sprisahanie vo vlastnej organizácii.",
+    "source": "https://en.wikipedia.org/wiki/Captain_America:_The_Winter_Soldier"
+  },
+  "Avengers: Age of Ultron": {
+    "description": "Film o Avengers, ktorí bojujú proti umelej inteligencii Ultronovi.",
+    "source": "https://en.wikipedia.org/wiki/Avengers:_Age_of_Ultron"
+  },
+  "Ant-Man": {
+    "description": "Superhrdina Scott Lang, ktorý sa dokáže zmenšiť na veľkosť mravca.",
+    "source": "https://en.wikipedia.org/wiki/Ant-Man"
+  },
+  "Captain America: Civil War": {
+    "description": "MCU film, v ktorom sa Avengers rozdelia pre spor o dohľad nad superhrdinami.",
+    "source": "https://en.wikipedia.org/wiki/Captain_America:_Civil_War"
+  },
+  "Doctor Strange": {
+    "description": "Bývalý chirurg Stephen Strange, ktorý sa stane jedným z najmocnejších mágov Marvelu.",
+    "source": "https://en.wikipedia.org/wiki/Doctor_Strange"
+  },
+  "Spider-Man: Homecoming": {
+    "description": "MCU film, v ktorom Peter Parker balansuje medzi strednou školou a životom superhrdinu.",
+    "source": "https://en.wikipedia.org/wiki/Spider-Man:_Homecoming"
+  },
+  "Thor: Ragnarok": {
+    "description": "MCU dobrodružstvo, v ktorom Thor musí zastaviť skazu svojho domova Asgardu.",
+    "source": "https://en.wikipedia.org/wiki/Thor:_Ragnarok"
+  },
+  "Black Panther": {
+    "description": "T’Challa, kráľ Wakandy a hrdina, ktorý získava schopnosti vďaka byline v tvare srdca.",
+    "source": "https://en.wikipedia.org/wiki/Black_Panther"
+  },
+  "Avengers: Infinity War": {
+    "description": "Avengers a ich spojenci sa pokúšajú zastaviť Thanosa a jeho plán s Kameňmi nekonečna.",
+    "source": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War"
+  },
+  "Ant-Man and the Wasp": {
+    "description": "MCU film, v ktorom Ant-Man a Wasp skúmajú tajomnú kvantovú ríšu.",
+    "source": "https://en.wikipedia.org/wiki/Ant-Man_and_the_Wasp"
+  },
+  "Captain Marvel": {
+    "description": "Carol Danversová, pilotka a kozmická hrdinka s mimoriadnou silou.",
+    "source": "https://en.wikipedia.org/wiki/Captain_Marvel"
+  },
+  "Avengers: Endgame": {
+    "description": "Zvyšní Avengers sa pokúšajú napraviť následky Thanosovho víťazstva.",
+    "source": "https://en.wikipedia.org/wiki/Avengers:_Endgame"
+  },
+  "Spider-Man: Far From Home": {
+    "description": "Peter Parker sa počas školského výletu v Európe stretne s novým hrdinom Mysteriom.",
+    "source": "https://en.wikipedia.org/wiki/Spider-Man:_Far_From_Home"
+  },
+  "Black Widow": {
+    "description": "Ruská špiónka Natasha Romanoffová, ktorá sa pridá k Avengers.",
+    "source": "https://en.wikipedia.org/wiki/Black_Widow"
+  },
+  "Shang-Chi and the Legend of the Ten Rings": {
+    "description": "MCU film o bojovníkovi Shang-Chim a tajomnej organizácii Desať prsteňov.",
+    "source": "https://en.wikipedia.org/wiki/Shang-Chi_and_the_Legend_of_the_Ten_Rings"
+  },
+  "Eternals": {
+    "description": "MCU film o nesmrteľných bytostiach, ktoré po tisícročiach chránia ľudstvo.",
+    "source": "https://en.wikipedia.org/wiki/Eternals"
+  },
+  "Doctor Strange in the Multiverse of Madness": {
+    "description": "Doctor Strange cestuje naprieč multiverzom a stretáva jeho nebezpečné alternatívy.",
+    "source": "https://en.wikipedia.org/wiki/Doctor_Strange_in_the_Multiverse_of_Madness"
+  },
+  "Thor: Love and Thunder": {
+    "description": "Thor sa spojí s Valkýrou, Korgom a Jane Fosterovou proti Gorrovi.",
+    "source": "https://en.wikipedia.org/wiki/Thor:_Love_and_Thunder"
+  },
+  "Black Panther: Wakanda Forever": {
+    "description": "Wakanda smúti za T’Challom a čelí konfliktu s podmorskou civilizáciou Talokan.",
+    "source": "https://en.wikipedia.org/wiki/Black_Panther:_Wakanda_Forever"
+  },
+  "Ant-Man and the Wasp: Quantumania": {
+    "description": "Ant-Man a Wasp sa ocitnú v kvantovej ríši a stretnú Kanga Dobyvateľa.",
+    "source": "https://en.wikipedia.org/wiki/Ant-Man_and_the_Wasp:_Quantumania"
+  },
+  "The Marvels": {
+    "description": "Captain Marvel, Monica Rambeauová a Ms. Marvel si pri použití schopností vymieňajú miesta.",
+    "source": "https://en.wikipedia.org/wiki/The_Marvels"
+  },
+  "Deadpool & Wolverine": {
+    "description": "Deadpool vtiahne Wolverina do chaotického dobrodružstva naprieč multiverzom.",
+    "source": "https://en.wikipedia.org/wiki/Deadpool_&_Wolverine"
+  },
+  "Captain America: Brave New World": {
+    "description": "Sam Wilson ako nový Captain America vyšetruje medzinárodné sprisahanie.",
+    "source": "https://en.wikipedia.org/wiki/Captain_America:_Brave_New_World"
+  },
+  "Hulk": {
+    "description": "Superhrdina Bruce Banner, ktorý sa pri hneve mení na obrovského zeleného obra.",
+    "source": "https://en.wikipedia.org/wiki/Hulk"
+  },
+  "Hawkeye": {
+    "description": "Avenger a majster lukostrelec, ktorého civilné meno je Clint Barton.",
+    "source": "https://en.wikipedia.org/wiki/Hawkeye"
+  },
+  "Loki": {
+    "description": "Thorov adoptívny brat a boh ľsti, ktorý sa často ocitá na opačnej strane hrdinov.",
+    "source": "https://en.wikipedia.org/wiki/Loki"
+  },
+  "Thanos": {
+    "description": "Mocný mimozemský zloduch, ktorý chce pomocou Kameňov nekonečna vyhubiť polovicu života.",
+    "source": "https://en.wikipedia.org/wiki/Thanos"
+  },
+  "Scarlet Witch": {
+    "description": "Wanda Maximoffová, Avengerka s mocnou mágiou a schopnosťou meniť realitu.",
+    "source": "https://en.wikipedia.org/wiki/Scarlet_Witch"
+  },
+  "Vision": {
+    "description": "Umelá bytosť vytvorená z vibránia a Kameňa mysle, ktorá sa pridá k Avengers.",
+    "source": "https://en.wikipedia.org/wiki/Vision"
+  },
+  "The Wasp": {
+    "description": "Superhrdinka Hope van Dyne, ktorá vie zmenšovať sa a lietať pomocou krídel.",
+    "source": "https://en.wikipedia.org/wiki/The_Wasp"
+  },
+  "Falcon": {
+    "description": "Sam Wilson, bývalý vojak a Avenger používajúci lietajúci mechanický postroj.",
+    "source": "https://en.wikipedia.org/wiki/Falcon"
+  },
+  "Winter Soldier": {
+    "description": "Bucky Barnes, bývalý priateľ Captain America, ktorého vymytý mozog zmenil na zabijaka.",
+    "source": "https://en.wikipedia.org/wiki/Winter_Soldier"
+  },
+  "Nick Fury": {
+    "description": "Tajomný šéf organizácie S.H.I.E.L.D., ktorý zhromaždil prvých Avengers.",
+    "source": "https://en.wikipedia.org/wiki/Nick_Fury"
+  },
+  "Star-Lord": {
+    "description": "Peter Quill, pozemský dobrodruh a vodca Strážcov galaxie.",
+    "source": "https://en.wikipedia.org/wiki/Star-Lord"
+  },
+  "Groot": {
+    "description": "Stromovitý člen Strážcov galaxie, ktorý hovorí najmä vetou „Ja som Groot.“",
+    "source": "https://en.wikipedia.org/wiki/Groot"
+  },
+  "Rocket Raccoon": {
+    "description": "Vtipkujúci geneticky upravený mýval, ktorý je členom Strážcov galaxie.",
+    "source": "https://en.wikipedia.org/wiki/Rocket_Raccoon"
+  },
+  "Gamora": {
+    "description": "Zelená bojovníčka a členka Strážcov galaxie, ktorú vychoval Thanos.",
+    "source": "https://en.wikipedia.org/wiki/Gamora"
+  },
+  "Drax the Destroyer": {
+    "description": "Silný bojovník Strážcov galaxie, ktorý túži pomstiť svoju rodinu.",
+    "source": "https://en.wikipedia.org/wiki/Drax_the_Destroyer"
+  },
+  "Nebula": {
+    "description": "Kyborgová bojovníčka a dcéra Thanosa, ktorá sa pridá k Strážcom galaxie.",
+    "source": "https://en.wikipedia.org/wiki/Nebula"
+  },
+  "Mantis": {
+    "description": "Empatická členka Strážcov galaxie, ktorá dokáže vnímať a ovplyvňovať emócie.",
+    "source": "https://en.wikipedia.org/wiki/Mantis"
+  },
+  "Shang-Chi": {
+    "description": "Majster bojových umení z Marvelu, ktorý bojuje pomocou desiatich prsteňov.",
+    "source": "https://en.wikipedia.org/wiki/Shang-Chi"
+  },
+  "Wong": {
+    "description": "Knihovník a ochranca mystických umení, ktorý pomáha Doctorovi Strangeovi.",
+    "source": "https://en.wikipedia.org/wiki/Wong"
+  },
+  "Ultron": {
+    "description": "Umelá inteligencia vytvorená Tonym Starkom, ktorá sa rozhodne zničiť ľudstvo.",
+    "source": "https://en.wikipedia.org/wiki/Ultron"
+  },
+  "Doctor Doom": {
+    "description": "Geniálny a obrnený protivník Fantastickej štvorky, vládca Latverie.",
+    "source": "https://en.wikipedia.org/wiki/Doctor_Doom"
+  },
+  "Human Torch": {
+    "description": "Johnny Storm z Fantastickej štvorky, ktorý dokáže vzplanúť a lietať.",
+    "source": "https://en.wikipedia.org/wiki/Human_Torch"
+  },
+  "Invisible Woman": {
+    "description": "Sue Storm z Fantastickej štvorky, ktorá sa dokáže zneviditeľniť a vytvárať silové polia.",
+    "source": "https://en.wikipedia.org/wiki/Invisible_Woman"
+  },
+  "Mister Fantastic": {
+    "description": "Reed Richards z Fantastickej štvorky, vedec s pružným a naťahovateľným telom.",
+    "source": "https://en.wikipedia.org/wiki/Mister_Fantastic"
+  },
+  "Daredevil": {
+    "description": "Slepý právnik Matt Murdock, ktorý v noci bojuje so zločinom v Hell’s Kitchen.",
+    "source": "https://en.wikipedia.org/wiki/Daredevil"
+  },
+  "Magneto": {
+    "description": "Mutant ovládajúci magnetizmus, ktorý často vedie skupinu X-Menovcov.",
+    "source": "https://en.wikipedia.org/wiki/Magneto"
+  },
+  "Professor X": {
+    "description": "Charles Xavier, telepat a zakladateľ školy pre mladých mutantov.",
+    "source": "https://en.wikipedia.org/wiki/Professor_X"
+  },
+  "Batman Begins": {
+    "description": "Film o mladom Bruceovi Waynovi, ktorý sa po výcviku vráti do Gothamu ako Batman.",
+    "source": "https://en.wikipedia.org/wiki/Batman_Begins"
+  },
+  "The Dark Knight": {
+    "description": "Batman sa spojí s komisárom Gordonom a prokurátorom Dentom, aby zastavili Jokera v Gothame.",
+    "source": "https://en.wikipedia.org/wiki/The_Dark_Knight"
+  },
+  "The Dark Knight Rises": {
+    "description": "Po rokoch v ústraní sa Batman vracia do Gothamu, aby čelil Baneovi.",
+    "source": "https://en.wikipedia.org/wiki/The_Dark_Knight_Rises"
+  },
+  "kominár": {
+    "description": "Čistí a kontroluje komíny a dymovody, aby bezpečne odvádzali spaliny.",
+    "source": "https://en.wikipedia.org/wiki/komin%C3%A1r"
+  },
+  "strechár": {
+    "description": "Montuje a opravuje strešné krytiny a konštrukcie striech.",
+    "source": "https://en.wikipedia.org/wiki/strech%C3%A1r"
+  },
+  "pokrývač": {
+    "description": "Pokladá na strechy škridly, plech alebo inú ochrannú krytinu.",
+    "source": "https://en.wikipedia.org/wiki/pokr%C3%BDva%C4%8D"
+  },
+  "klampiar": {
+    "description": "Vyrába a montuje plechové časti striech, odkvapov a fasád.",
+    "source": "https://en.wikipedia.org/wiki/klampiar"
+  },
+  "podlahár": {
+    "description": "Pripravuje podklady a pokladá parkety, dlažbu či iné podlahy.",
+    "source": "https://en.wikipedia.org/wiki/podlah%C3%A1r"
+  },
+  "obkladač": {
+    "description": "Obkladá steny a podlahy keramickými dlaždicami a kameňom.",
+    "source": "https://en.wikipedia.org/wiki/obklada%C4%8D"
+  },
+  "sadrokartonista": {
+    "description": "Stavia priečky a podhľady zo sadrokartónových dosiek.",
+    "source": "https://en.wikipedia.org/wiki/sadrokartonista"
+  },
+  "sklenár": {
+    "description": "Reže, osádza a opravuje sklenené tabule a výrobky.",
+    "source": "https://en.wikipedia.org/wiki/sklen%C3%A1r"
+  },
+  "hodinár": {
+    "description": "Opravuje a nastavuje mechanické aj elektronické hodinky.",
+    "source": "https://en.wikipedia.org/wiki/hodin%C3%A1r"
+  },
+  "sústružník": {
+    "description": "Na sústruhu obrába kov alebo drevo do požadovaného tvaru.",
+    "source": "https://en.wikipedia.org/wiki/s%C3%BAstru%C5%BEn%C3%ADk"
+  },
+  "frézar": {
+    "description": "Obrába materiál frézou a vyrába presné strojové súčiastky.",
+    "source": "https://en.wikipedia.org/wiki/fr%C3%A9zar"
+  },
+  "nástrojár": {
+    "description": "Vyrába a opravuje formy, nástroje a prípravky pre strojársku výrobu.",
+    "source": "https://en.wikipedia.org/wiki/n%C3%A1stroj%C3%A1r"
+  },
+  "knihár": {
+    "description": "Zväzuje vytlačené strany do kníh a opravuje poškodené väzby.",
+    "source": "https://en.wikipedia.org/wiki/knih%C3%A1r"
+  },
+  "hrnčiar": {
+    "description": "Tvaruje z hliny nádoby a iné výrobky, často na hrnčiarskom kruhu.",
+    "source": "https://en.wikipedia.org/wiki/hrn%C4%8Diar"
+  },
+  "košikár": {
+    "description": "Pletie koše a úžitkové predmety z prútia alebo iných vlákien.",
+    "source": "https://en.wikipedia.org/wiki/ko%C5%A1ik%C3%A1r"
+  },
+  "švec": {
+    "description": "Opravuje a vyrába obuv, napríklad vymieňa podrážky a podpätky.",
+    "source": "https://en.wikipedia.org/wiki/%C5%A1vec"
+  },
+  "someliér": {
+    "description": "Odporúča vína k jedlám a stará sa o ich výber a podávanie.",
+    "source": "https://en.wikipedia.org/wiki/someli%C3%A9r"
+  },
+  "arborista": {
+    "description": "Ošetruje stromy v mestách a parkoch, často pracuje vo výškach.",
+    "source": "https://en.wikipedia.org/wiki/arborista"
+  },
+  "vinohradník": {
+    "description": "Pestuje vinič a stará sa o vinicu počas celého roka.",
+    "source": "https://en.wikipedia.org/wiki/vinohradn%C3%ADk"
+  },
+  "ovocinár": {
+    "description": "Pestuje ovocné stromy a kríky a dohliada na úrodu.",
+    "source": "https://en.wikipedia.org/wiki/ovocin%C3%A1r"
+  },
+  "strihač oviec": {
+    "description": "Strihá ovciam vlnu a pomáha pri ich sezónnej starostlivosti.",
+    "source": "https://en.wikipedia.org/wiki/striha%C4%8D_oviec"
+  },
+  "ortopéd": {
+    "description": "Lekár, ktorý lieči ochorenia a úrazy kostí, kĺbov a svalov.",
+    "source": "https://en.wikipedia.org/wiki/ortop%C3%A9d"
+  },
+  "dermatológ": {
+    "description": "Lekár špecializujúci sa na kožu, vlasy a nechty.",
+    "source": "https://en.wikipedia.org/wiki/dermatol%C3%B3g"
+  },
+  "kardiológ": {
+    "description": "Lekár, ktorý diagnostikuje a lieči ochorenia srdca a ciev.",
+    "source": "https://en.wikipedia.org/wiki/kardiol%C3%B3g"
+  },
+  "gynekológ": {
+    "description": "Lekár, ktorý sa stará o zdravie ženských reprodukčných orgánov.",
+    "source": "https://en.wikipedia.org/wiki/gynekol%C3%B3g"
+  },
+  "rádiológ": {
+    "description": "Lekár, ktorý diagnostikuje choroby pomocou röntgenu, CT a ďalších snímok.",
+    "source": "https://en.wikipedia.org/wiki/r%C3%A1diol%C3%B3g"
+  },
+  "urológ": {
+    "description": "Lekár, ktorý lieči močové cesty a mužské reprodukčné orgány.",
+    "source": "https://en.wikipedia.org/wiki/urol%C3%B3g"
+  },
+  "očný lekár": {
+    "description": "Lekár, ktorý vyšetruje zrak a lieči ochorenia očí.",
+    "source": "https://en.wikipedia.org/wiki/o%C4%8Dn%C3%BD_lek%C3%A1r"
+  },
+  "pôrodná asistentka": {
+    "description": "Zdravotníčka, ktorá sprevádza ženu počas tehotenstva a pôrodu.",
+    "source": "https://en.wikipedia.org/wiki/p%C3%B4rodn%C3%A1_asistentka"
+  },
+  "fyzioterapeut": {
+    "description": "Pomáha obnoviť pohyb a zmierniť bolesť pomocou cvičenia a rehabilitácie.",
+    "source": "https://en.wikipedia.org/wiki/fyzioterapeut"
+  },
+  "záchranár": {
+    "description": "Poskytuje neodkladnú zdravotnú pomoc a často pracuje v sanitke.",
+    "source": "https://en.wikipedia.org/wiki/z%C3%A1chran%C3%A1r"
+  },
+  "zubný technik": {
+    "description": "Vyrába zubné náhrady, korunky a ortodontické pomôcky podľa odtlačkov.",
+    "source": "https://en.wikipedia.org/wiki/zubn%C3%BD_technik"
+  },
+  "logopéd": {
+    "description": "Pomáha ľuďom s výslovnosťou, rečou, hlasom a porozumením jazyka.",
+    "source": "https://en.wikipedia.org/wiki/logop%C3%A9d"
+  },
+  "ergoterapeut": {
+    "description": "Pomáha ľuďom znovu zvládať každodenné činnosti po chorobe alebo úraze.",
+    "source": "https://en.wikipedia.org/wiki/ergoterapeut"
+  },
+  "entomológ": {
+    "description": "Vedec, ktorý skúma hmyz a jeho rozmanité druhy.",
+    "source": "https://en.wikipedia.org/wiki/entomol%C3%B3g"
+  },
+  "paleontológ": {
+    "description": "Skúma skameneliny a podľa nich rekonštruuje dávny život na Zemi.",
+    "source": "https://en.wikipedia.org/wiki/paleontol%C3%B3g"
+  },
+  "vulkanológ": {
+    "description": "Vedec, ktorý skúma sopky, lávu a sopečnú činnosť.",
+    "source": "https://en.wikipedia.org/wiki/vulkanol%C3%B3g"
+  },
+  "klimatológ": {
+    "description": "Skúma dlhodobé podnebie a jeho zmeny.",
+    "source": "https://en.wikipedia.org/wiki/klimatol%C3%B3g"
+  },
+  "kryptograf": {
+    "description": "Navrhuje a analyzuje metódy na bezpečné šifrovanie informácií.",
+    "source": "https://en.wikipedia.org/wiki/kryptograf"
+  },
+  "oceanológ": {
+    "description": "Skúma oceány, ich prúdy, ekosystémy a fyzikálne vlastnosti.",
+    "source": "https://en.wikipedia.org/wiki/oceanol%C3%B3g"
+  },
+  "etológ": {
+    "description": "Vedec, ktorý skúma správanie zvierat.",
+    "source": "https://en.wikipedia.org/wiki/etol%C3%B3g"
+  },
+  "forenzný analytik": {
+    "description": "Vyhodnocuje stopy a dôkazy, ktoré môžu pomôcť pri vyšetrovaní trestného činu.",
+    "source": "https://en.wikipedia.org/wiki/forenzn%C3%BD_analytik"
+  },
+  "balistik": {
+    "description": "Skúma strely, zbrane a ich stopy pri vyšetrovaní zločinov.",
+    "source": "https://en.wikipedia.org/wiki/balistik"
+  },
+  "toxikológ": {
+    "description": "Skúma účinky jedov a škodlivých látok na živé organizmy.",
+    "source": "https://en.wikipedia.org/wiki/toxikol%C3%B3g"
+  },
+  "mykológ": {
+    "description": "Biológ, ktorý sa špecializuje na huby a plesne.",
+    "source": "https://en.wikipedia.org/wiki/mykol%C3%B3g"
+  },
+  "ornitológ": {
+    "description": "Vedec, ktorý skúma vtáky, ich správanie a migráciu.",
+    "source": "https://en.wikipedia.org/wiki/ornitol%C3%B3g"
+  },
+  "kartograf": {
+    "description": "Zostavuje a aktualizuje mapy na základe geografických údajov.",
+    "source": "https://en.wikipedia.org/wiki/kartograf"
+  },
+  "numizmatik": {
+    "description": "Odborník alebo zberateľ, ktorý skúma mince a medaily.",
+    "source": "https://en.wikipedia.org/wiki/numizmatik"
+  },
+  "dramaturg": {
+    "description": "Pripravuje výber a podobu hier či scenárov pre divadlo alebo film.",
+    "source": "https://en.wikipedia.org/wiki/dramaturg"
+  },
+  "choreograf": {
+    "description": "Vymýšľa a aranžuje tanečné pohyby pre predstavenia.",
+    "source": "https://en.wikipedia.org/wiki/choreograf"
+  },
+  "dabér": {
+    "description": "Nahovára hlas postavy v cudzojazyčnom filme alebo seriáli.",
+    "source": "https://en.wikipedia.org/wiki/dab%C3%A9r"
+  },
+  "komiksový kresliar": {
+    "description": "Kreslí postavy a jednotlivé obrazy, z ktorých vzniká komiks.",
+    "source": "https://en.wikipedia.org/wiki/komiksov%C3%BD_kresliar"
+  },
+  "3D animátor": {
+    "description": "Vytvára pohyb digitálnych postáv a objektov v trojrozmernom prostredí.",
+    "source": "https://en.wikipedia.org/wiki/3D_anim%C3%A1tor"
+  },
+  "storyboardista": {
+    "description": "Kreslí plán scén, ktorý ukazuje, ako sa bude film vizuálne rozprávať.",
+    "source": "https://en.wikipedia.org/wiki/storyboardista"
+  },
+  "zvukový dizajnér": {
+    "description": "Vytvára a upravuje zvukové efekty pre film, hry či divadlo.",
+    "source": "https://en.wikipedia.org/wiki/zvukov%C3%BD_dizajn%C3%A9r"
+  },
+  "rekvizitár": {
+    "description": "Pripravuje predmety používané hercami na javisku alebo vo filme.",
+    "source": "https://en.wikipedia.org/wiki/rekvizit%C3%A1r"
+  },
+  "osvetľovač": {
+    "description": "Navrhuje a obsluhuje svetlá na javisku alebo pri filmovaní.",
+    "source": "https://en.wikipedia.org/wiki/osvet%C4%BEova%C4%8D"
+  },
+  "scénograf": {
+    "description": "Navrhuje podobu javiska, kulís a priestoru pre divadelné predstavenie.",
+    "source": "https://en.wikipedia.org/wiki/sc%C3%A9nograf"
+  },
+  "bábkoherec": {
+    "description": "Rozhýbe a hlasovo stvárňuje bábky v divadle alebo televízii.",
+    "source": "https://en.wikipedia.org/wiki/b%C3%A1bkoherec"
+  },
+  "kaskadér": {
+    "description": "Zastupuje hercov pri nebezpečných filmových a televíznych scénach.",
+    "source": "https://en.wikipedia.org/wiki/kaskad%C3%A9r"
+  },
+  "rušňovodič": {
+    "description": "Riadi vlak a zodpovedá za jeho bezpečnú jazdu po železnici.",
+    "source": "https://en.wikipedia.org/wiki/ru%C5%A1%C5%88ovodi%C4%8D"
+  },
+  "vlakvedúci": {
+    "description": "Dohliada na cestujúcich a chod osobného vlaku počas jazdy.",
+    "source": "https://en.wikipedia.org/wiki/vlakved%C3%BAci"
+  },
+  "lodník": {
+    "description": "Pracuje na lodi a pomáha s jej prevádzkou a údržbou.",
+    "source": "https://en.wikipedia.org/wiki/lodn%C3%ADk"
+  },
+  "kapitán lode": {
+    "description": "Velí posádke a zodpovedá za bezpečnú plavbu lode.",
+    "source": "https://en.wikipedia.org/wiki/kapit%C3%A1n_lode"
+  },
+  "systémový administrátor": {
+    "description": "Spravuje počítačové systémy, účty a servery organizácie.",
+    "source": "https://en.wikipedia.org/wiki/syst%C3%A9mov%C3%BD_administr%C3%A1tor"
+  },
+  "cloud architekt": {
+    "description": "Navrhuje, ako budú firemné aplikácie a dáta fungovať v cloudových službách.",
+    "source": "https://en.wikipedia.org/wiki/cloud_architekt"
+  },
+  "dátový vedec": {
+    "description": "Analyzuje rozsiahle súbory dát a hľadá v nich vzorce a súvislosti.",
+    "source": "https://en.wikipedia.org/wiki/d%C3%A1tov%C3%BD_vedec"
+  },
+  "tester softvéru": {
+    "description": "Hľadá chyby v aplikáciách predtým, než sa dostanú k používateľom.",
+    "source": "https://en.wikipedia.org/wiki/tester_softv%C3%A9ru"
+  },
+  "etický hacker": {
+    "description": "So súhlasom majiteľa hľadá slabiny v počítačových systémoch.",
+    "source": "https://en.wikipedia.org/wiki/etick%C3%BD_hacker"
+  },
+  "penetračný tester": {
+    "description": "Simuluje kybernetický útok, aby odhalil slabiny systému.",
+    "source": "https://en.wikipedia.org/wiki/penetra%C4%8Dn%C3%BD_tester"
+  },
+  "UX writer": {
+    "description": "Píše krátke texty v aplikáciách, ktoré pomáhajú ľuďom orientovať sa.",
+    "source": "https://en.wikipedia.org/wiki/UX_writer"
+  },
+  "produktový manažér": {
+    "description": "Určuje, čo sa má vo výrobku alebo aplikácii zlepšiť a pre koho.",
+    "source": "https://en.wikipedia.org/wiki/produktov%C3%BD_mana%C5%BE%C3%A9r"
+  },
+  "dátový analytik": {
+    "description": "Spracúva údaje a pripravuje z nich prehľady pre rozhodovanie.",
+    "source": "https://en.wikipedia.org/wiki/d%C3%A1tov%C3%BD_analytik"
+  },
+  "bezpečnostný analytik": {
+    "description": "Sleduje kybernetické hrozby a pomáha chrániť počítačové siete.",
+    "source": "https://en.wikipedia.org/wiki/bezpe%C4%8Dnostn%C3%BD_analytik"
+  },
+  "food stylist": {
+    "description": "Upravuje jedlo tak, aby dobre vyzeralo na fotografiách a vo filme.",
+    "source": "https://en.wikipedia.org/wiki/food_stylist"
+  },
+  "degustátor": {
+    "description": "Ochutnáva a hodnotí chuť a kvalitu potravín či nápojov.",
+    "source": "https://en.wikipedia.org/wiki/degust%C3%A1tor"
+  },
+  "testovač hier": {
+    "description": "Hrá rozpracované videohry a hľadá chyby alebo nejasné miesta.",
+    "source": "https://en.wikipedia.org/wiki/testova%C4%8D_hier"
+  },
+  "titulkovateľ": {
+    "description": "Prepisuje hovorené slová do titulkov a synchronizuje ich s obrazom.",
+    "source": "https://en.wikipedia.org/wiki/titulkovate%C4%BE"
+  },
+  "súdny tlmočník": {
+    "description": "Prekladá medzi jazykmi pri súdnych konaniach a úradných úkonoch.",
+    "source": "https://en.wikipedia.org/wiki/s%C3%BAdny_tlmo%C4%8Dn%C3%ADk"
+  },
+  "patentový zástupca": {
+    "description": "Pomáha vynálezcom a firmám chrániť technické nápady patentom.",
+    "source": "https://en.wikipedia.org/wiki/patentov%C3%BD_z%C3%A1stupca"
+  },
+  "ombudsman": {
+    "description": "Nezávisle preveruje sťažnosti ľudí na postup úradov.",
+    "source": "https://en.wikipedia.org/wiki/ombudsman"
+  },
+  "kronikár": {
+    "description": "Zaznamenáva dôležité udalosti obce, mesta alebo inej komunity.",
+    "source": "https://en.wikipedia.org/wiki/kronik%C3%A1r"
+  },
+  "pyrotechnik": {
+    "description": "Navrhuje alebo bezpečne odpaľuje ohňostroje a pyrotechnické efekty.",
+    "source": "https://en.wikipedia.org/wiki/pyrotechnik"
+  },
+  "gemológ": {
+    "description": "Odborník, ktorý určuje pravosť, kvalitu a hodnotu drahokamov.",
+    "source": "https://en.wikipedia.org/wiki/gemol%C3%B3g"
+  },
+  "správca národného parku": {
+    "description": "Dohliada na ochranu prírody a návštevníkov v národnom parku.",
+    "source": "https://en.wikipedia.org/wiki/spr%C3%A1vca_n%C3%A1rodn%C3%A9ho_parku"
+  },
+  "strážca majáka": {
+    "description": "Stará sa o maják, ktorý pomáha lodiam bezpečne nájsť cestu.",
+    "source": "https://en.wikipedia.org/wiki/str%C3%A1%C5%BEca_maj%C3%A1ka"
+  },
+  "patentový rešeršér": {
+    "description": "Vyhľadáva v patentových databázach, či už podobný vynález existuje.",
+    "source": "https://en.wikipedia.org/wiki/patentov%C3%BD_re%C5%A1er%C5%A1%C3%A9r"
+  },
+  "riadiaci letovej prevádzky": {
+    "description": "Usmerňuje lietadlá vo vzduchu a na letisku, aby sa bezpečne míňali.",
+    "source": "https://en.wikipedia.org/wiki/riadiaci_letovej_prev%C3%A1dzky"
+  },
+  "horský vodca": {
+    "description": "Vedie ľudí bezpečnými trasami v horách a pomáha pri náročných výstupoch.",
+    "source": "https://en.wikipedia.org/wiki/horsk%C3%BD_vodca"
+  },
+  "lavínový záchranár": {
+    "description": "Vyhľadáva a zachraňuje ľudí zasypaných lavínou.",
+    "source": "https://en.wikipedia.org/wiki/lav%C3%ADnov%C3%BD_z%C3%A1chran%C3%A1r"
+  },
+  "herpetológ": {
+    "description": "Zoológ, ktorý skúma plazy a obojživelníky.",
+    "source": "https://en.wikipedia.org/wiki/herpetol%C3%B3g"
+  },
+  "archeobotanik": {
+    "description": "Skúma rastlinné zvyšky z archeologických nálezísk a dávne stravovanie.",
+    "source": "https://en.wikipedia.org/wiki/archeobotanik"
+  },
+  "forenzný antropológ": {
+    "description": "Pomáha určovať totožnosť a okolnosti smrti podľa ľudských kostí.",
+    "source": "https://en.wikipedia.org/wiki/forenzn%C3%BD_antropol%C3%B3g"
+  },
+  "lingvista pre umelú inteligenciu": {
+    "description": "Pomáha počítačovým systémom rozpoznávať a vytvárať ľudskú reč.",
+    "source": "https://en.wikipedia.org/wiki/lingvista_pre_umel%C3%BA_inteligenciu"
+  },
+  "animátor postáv": {
+    "description": "Vytvára pohyby a výrazy digitálnych postáv vo filme alebo hre.",
+    "source": "https://en.wikipedia.org/wiki/anim%C3%A1tor_post%C3%A1v"
+  },
+  "orlojník": {
+    "description": "Opravuje a nastavuje zložité mechanické vežové hodiny.",
+    "source": "https://en.wikipedia.org/wiki/orlojn%C3%ADk"
+  },
+  "brusič diamantov": {
+    "description": "Tvaruje diamant rezaním a brúsením, aby vynikol jeho lesk.",
+    "source": "https://en.wikipedia.org/wiki/brusi%C4%8D_diamantov"
+  },
+  "profesionálny organizátor": {
+    "description": "Pomáha ľuďom triediť veci a vytvoriť funkčný poriadok doma či v práci.",
+    "source": "https://en.wikipedia.org/wiki/profesion%C3%A1lny_organiz%C3%A1tor"
+  },
+  "sládok": {
+    "description": "Varí pivo a dohliada na jeho výrobu od prípravy sladu až po kvasenie.",
+    "source": "https://en.wikipedia.org/wiki/Brewer"
+  },
+  "Premier League": {
+    "description": "Najvyššia súťaž anglického klubového futbalu.",
+    "source": "https://en.wikipedia.org/wiki/Premier_League"
+  },
+  "La Liga": {
+    "description": "Najvyššia španielska futbalová liga, v ktorej hrajú kluby ako Real Madrid a Barcelona.",
+    "source": "https://en.wikipedia.org/wiki/La_Liga"
+  },
+  "Bundesliga": {
+    "description": "Najvyššia nemecká futbalová liga.",
+    "source": "https://en.wikipedia.org/wiki/Bundesliga"
+  },
+  "Serie A": {
+    "description": "Najvyššia talianska futbalová súťaž.",
+    "source": "https://en.wikipedia.org/wiki/Serie_A"
+  },
+  "Ligue 1": {
+    "description": "Najvyššia francúzska futbalová liga.",
+    "source": "https://en.wikipedia.org/wiki/Ligue_1"
+  },
+  "Copa Libertadores": {
+    "description": "Najvýznamnejšia klubová futbalová súťaž Južnej Ameriky.",
+    "source": "https://en.wikipedia.org/wiki/Copa_Libertadores"
+  },
+  "Copa América": {
+    "description": "Turnaj juhoamerických národných futbalových reprezentácií.",
+    "source": "https://en.wikipedia.org/wiki/Copa_Am%C3%A9rica"
+  },
+  "FA Cup": {
+    "description": "Najstaršia národná pohárová súťaž v anglickom futbale.",
+    "source": "https://en.wikipedia.org/wiki/FA_Cup"
+  },
+  "Copa del Rey": {
+    "description": "Španielsky futbalový pohár pre kluby z rôznych úrovní.",
+    "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  "DFB-Pokal": {
+    "description": "Nemecký futbalový pohár otvorený klubom z rôznych líg.",
+    "source": "https://en.wikipedia.org/wiki/DFB-Pokal"
+  },
+  "EFL Cup": {
+    "description": "Anglický ligový pohár pre profesionálne futbalové kluby.",
+    "source": "https://en.wikipedia.org/wiki/EFL_Cup"
+  },
+  "Major League Soccer": {
+    "description": "Najvyššia profesionálna futbalová liga v USA a Kanade.",
+    "source": "https://en.wikipedia.org/wiki/Major_League_Soccer"
+  },
+  "Saudi Pro League": {
+    "description": "Najvyššia profesionálna futbalová súťaž v Saudskej Arábii.",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Pro_League"
+  },
+  "Eredivisie": {
+    "description": "Najvyššia holandská futbalová liga.",
+    "source": "https://en.wikipedia.org/wiki/Eredivisie"
+  },
+  "Primeira Liga": {
+    "description": "Najvyššia portugalská futbalová liga.",
+    "source": "https://en.wikipedia.org/wiki/Primeira_Liga"
+  },
+  "Scottish Premiership": {
+    "description": "Najvyššia futbalová súťaž v Škótsku.",
+    "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  "Wimbledon": {
+    "description": "Najstarší a jeden z najznámejších tenisových grandslamových turnajov.",
+    "source": "https://en.wikipedia.org/wiki/Wimbledon"
+  },
+  "Australian Open": {
+    "description": "Tenisový grandslamový turnaj, ktorý sa hrá v Melbourne.",
+    "source": "https://en.wikipedia.org/wiki/Australian_Open"
+  },
+  "French Open": {
+    "description": "Tenisový grandslam na antuke v Paríži, známy aj ako Roland-Garros.",
+    "source": "https://en.wikipedia.org/wiki/French_Open"
+  },
+  "US Open": {
+    "description": "Tenisový grandslamový turnaj hraný v New Yorku.",
+    "source": "https://en.wikipedia.org/wiki/US_Open"
+  },
+  "Tenisový Grand Slam": {
+    "description": "Štyri najväčšie tenisové turnaje: Australian Open, French Open, Wimbledon a US Open.",
+    "source": "https://en.wikipedia.org/wiki/Tenisov%C3%BD_Grand_Slam"
+  },
+  "Davis Cup": {
+    "description": "Medzinárodná tímová súťaž mužských tenisových reprezentácií.",
+    "source": "https://en.wikipedia.org/wiki/Davis_Cup"
+  },
+  "Billie Jean King Cup": {
+    "description": "Medzinárodná tímová súťaž ženských tenisových reprezentácií.",
+    "source": "https://en.wikipedia.org/wiki/Billie_Jean_King_Cup"
+  },
+  "ATP Finals": {
+    "description": "Záverečný turnaj tenisovej sezóny pre osem najlepších mužov roka.",
+    "source": "https://en.wikipedia.org/wiki/ATP_Finals"
+  },
+  "WTA Finals": {
+    "description": "Záverečný turnaj tenisovej sezóny pre najlepšie hráčky roka.",
+    "source": "https://en.wikipedia.org/wiki/WTA_Finals"
+  },
+  "NBA": {
+    "description": "Severoamerická profesionálna basketbalová liga mužov.",
+    "source": "https://en.wikipedia.org/wiki/NBA"
+  },
+  "WNBA": {
+    "description": "Severoamerická profesionálna basketbalová liga žien.",
+    "source": "https://en.wikipedia.org/wiki/WNBA"
+  },
+  "EuroLeague": {
+    "description": "Najprestížnejšia celoeurópska klubová basketbalová súťaž mužov.",
+    "source": "https://en.wikipedia.org/wiki/EuroLeague"
+  },
+  "Super Bowl": {
+    "description": "Finálový zápas sezóny amerického futbalu v lige NFL.",
+    "source": "https://en.wikipedia.org/wiki/Super_Bowl"
+  },
+  "World Series": {
+    "description": "Finálová séria severoamerickej baseballovej ligy MLB.",
+    "source": "https://en.wikipedia.org/wiki/World_Series"
+  },
+  "Stanley Cup playoffs": {
+    "description": "Vyraďovacia fáza NHL, v ktorej kluby bojujú o Stanleyho pohár.",
+    "source": "https://en.wikipedia.org/wiki/Stanley_Cup_playoffs"
+  },
+  "Stanley Cup Final": {
+    "description": "Záverečná séria play-off NHL o Stanleyho pohár.",
+    "source": "https://en.wikipedia.org/wiki/Stanley_Cup_Final"
+  },
+  "Diamond League": {
+    "description": "Medzinárodná séria prestížnych atletických mítingov.",
+    "source": "https://en.wikipedia.org/wiki/Diamond_League"
+  },
+  "Tour de France": {
+    "description": "Najznámejšie etapové cyklistické preteky, ktoré sa konajú najmä vo Francúzsku.",
+    "source": "https://en.wikipedia.org/wiki/Tour_de_France"
+  },
+  "Giro d'Italia": {
+    "description": "Talianske etapové cyklistické preteky, jedny z troch veľkých okruhov.",
+    "source": "https://en.wikipedia.org/wiki/Giro_d'Italia"
+  },
+  "Vuelta a España": {
+    "description": "Španielske etapové cyklistické preteky patriace medzi tri veľké okruhy.",
+    "source": "https://en.wikipedia.org/wiki/Vuelta_a_Espa%C3%B1a"
+  },
+  "Indianapolis 500": {
+    "description": "Americké automobilové preteky na ovále, ktoré merajú 500 míľ.",
+    "source": "https://en.wikipedia.org/wiki/Indianapolis_500"
+  },
+  "Indian Premier League": {
+    "description": "Profesionálna kriketová liga, v ktorej hrajú mestské tímy z Indie.",
+    "source": "https://en.wikipedia.org/wiki/Indian_Premier_League"
+  },
+  "The Ashes": {
+    "description": "Tradičná séria testovacích kriketových zápasov medzi Anglickom a Austráliou.",
+    "source": "https://en.wikipedia.org/wiki/The_Ashes"
+  },
+  "UFC": {
+    "description": "Najznámejšia organizácia, ktorá usporadúva zápasy zmiešaných bojových umení.",
+    "source": "https://en.wikipedia.org/wiki/UFC"
+  },
+  "ONE Championship": {
+    "description": "Ázijská organizácia bojových športov so zápasmi MMA, kickboxu a muay thai.",
+    "source": "https://en.wikipedia.org/wiki/ONE_Championship"
+  },
+  "Stanley Cup": {
+    "description": "Pohár udeľovaný víťazovi play-off severoamerickej hokejovej ligy NHL.",
+    "source": "https://en.wikipedia.org/wiki/Stanley_Cup"
+  },
+  "Vince Lombardi Trophy": {
+    "description": "Trofej, ktorú získa víťaz Super Bowlu v americkom futbale.",
+    "source": "https://en.wikipedia.org/wiki/Vince_Lombardi_Trophy"
+  },
+  "Larry O'Brien Championship Trophy": {
+    "description": "Trofej udeľovaná víťazovi finále basketbalovej ligy NBA.",
+    "source": "https://en.wikipedia.org/wiki/Larry_O'Brien_Championship_Trophy"
+  },
+  "Webb Ellis Cup": {
+    "description": "Trofej pre víťaza mužského svetového pohára v ragby.",
+    "source": "https://en.wikipedia.org/wiki/Webb_Ellis_Cup"
+  },
+  "Ryder Cup": {
+    "description": "Tímová golfová súťaž medzi Európou a Spojenými štátmi.",
+    "source": "https://en.wikipedia.org/wiki/Ryder_Cup"
+  },
+  "Claret Jug": {
+    "description": "Strieborná trofej, ktorú dostáva víťaz golfového turnaja The Open.",
+    "source": "https://en.wikipedia.org/wiki/Claret_Jug"
+  },
+  "America's Cup": {
+    "description": "Najstaršia medzinárodná jachtárska súťaž, v ktorej tímy pretekajú na plachetniciach.",
+    "source": "https://en.wikipedia.org/wiki/America's_Cup"
+  },
+  "pickleball": {
+    "description": "Šport s raketami a plastovou loptičkou, ktorý kombinuje prvky tenisu a bedmintonu.",
+    "source": "https://en.wikipedia.org/wiki/pickleball"
+  },
+  "squash": {
+    "description": "Halový raketový šport, pri ktorom hráči odrážajú loptičku od steny.",
+    "source": "https://en.wikipedia.org/wiki/squash"
+  },
+  "skeleton": {
+    "description": "Zjazd na ľadovej dráhe na malej sanici, pri ktorom športovec leží hlavou vpred.",
+    "source": "https://en.wikipedia.org/wiki/skeleton"
+  },
+  "wakeboarding": {
+    "description": "Vodný šport, pri ktorom jazdec stojí na doske ťahanej lanom za člnom.",
+    "source": "https://en.wikipedia.org/wiki/wakeboarding"
+  },
+  "kitesurfing": {
+    "description": "Jazda na doske po vode, ktorú poháňa veľký riadiaci drak.",
+    "source": "https://en.wikipedia.org/wiki/kitesurfing"
+  },
+  "paragliding": {
+    "description": "Lietanie pod mäkkým krídlom, ktoré pilot riadi vzdušnými prúdmi.",
+    "source": "https://en.wikipedia.org/wiki/paragliding"
+  },
+  "strongman": {
+    "description": "Silová súťaž, v ktorej pretekári prenášajú a dvíhajú mimoriadne ťažké predmety.",
+    "source": "https://en.wikipedia.org/wiki/strongman"
+  },
+  "kabaddi": {
+    "description": "Kontaktný tímový šport, v ktorom útočník vnikne na súperovu polovicu a snaží sa dotknúť obrancov.",
+    "source": "https://en.wikipedia.org/wiki/kabaddi"
+  },
+  "sepaktakraw": {
+    "description": "Ázijský tímový šport podobný volejbalu, pri ktorom sa lopta odráža nohami a hlavou.",
+    "source": "https://en.wikipedia.org/wiki/sepaktakraw"
+  },
+  "hurling": {
+    "description": "Rýchly írsky tímový šport, v ktorom sa lopta odpaľuje drevenou hokejkou.",
+    "source": "https://en.wikipedia.org/wiki/hurling"
+  },
+  "teqball": {
+    "description": "Šport podobný futbalu, pri ktorom hráči odrážajú loptu od zakriveného stola.",
+    "source": "https://en.wikipedia.org/wiki/teqball"
+  },
+  "Zimné olympijské hry": {
+    "description": "Olympijské hry venované zimným športom na snehu a ľade.",
+    "source": "https://en.wikipedia.org/wiki/Winter_Olympics"
+  },
+  "Olympijské hry": {
+    "description": "Medzinárodné športové hry, na ktorých súťažia reprezentanti z celého sveta.",
+    "source": "https://en.wikipedia.org/wiki/Olympic_Games"
+  },
+  "Paralympijské hry": {
+    "description": "Medzinárodné športové hry pre športovcov so zdravotným znevýhodnením.",
+    "source": "https://en.wikipedia.org/wiki/Paralympic_Games"
+  },
+  "Turnaj NCAA v basketbale": {
+    "description": "Americký univerzitný basketbalový turnaj známy ako March Madness.",
+    "source": "https://en.wikipedia.org/wiki/NCAA_basketball_tournament"
+  },
+  "Play-off NFL": {
+    "description": "Vyraďovacia fáza, ktorá určí účastníkov Super Bowlu.",
+    "source": "https://en.wikipedia.org/wiki/NFL_playoffs"
+  },
+  "Majstrovstvá sveta v ľadovom hokeji": {
+    "description": "Každoročný svetový šampionát mužských hokejových reprezentácií.",
+    "source": "https://en.wikipedia.org/wiki/IIHF_World_Championship"
+  },
+  "Majstrovstvá sveta v atletike": {
+    "description": "Svetový šampionát v atletických disciplínach.",
+    "source": "https://en.wikipedia.org/wiki/World_Athletics_Championships"
+  },
+  "Bostonský maratón": {
+    "description": "Jeden z najstarších a najznámejších maratónskych behov na svete.",
+    "source": "https://en.wikipedia.org/wiki/Boston_Marathon"
+  },
+  "Newyorský maratón": {
+    "description": "Veľký mestský maratón, ktorý vedie cez päť častí New Yorku.",
+    "source": "https://en.wikipedia.org/wiki/New_York_City_Marathon"
+  },
+  "Majstrovstvá sveta v cestnej cyklistike": {
+    "description": "Svetový šampionát cestnej cyklistiky; víťaz jazdí v dúhovom drese.",
+    "source": "https://en.wikipedia.org/wiki/UCI_Road_World_Championships"
+  },
+  "Majstrovstvá sveta Formuly 1": {
+    "description": "Svetový šampionát monopostov Formuly 1.",
+    "source": "https://en.wikipedia.org/wiki/Formula_One_World_Championship"
+  },
+  "Veľká cena Monaka": {
+    "description": "Slávne preteky Formuly 1 vedené úzkymi ulicami Monaka.",
+    "source": "https://en.wikipedia.org/wiki/Monaco_Grand_Prix"
+  },
+  "24 hodín Le Mans": {
+    "description": "Vytrvalostné automobilové preteky vo Francúzsku, ktoré trvajú celý deň.",
+    "source": "https://en.wikipedia.org/wiki/24_Hours_of_Le_Mans"
+  },
+  "Rely Dakar": {
+    "description": "Náročná viacdňová rely, v ktorej vozidlá prechádzajú púštnym terénom.",
+    "source": "https://en.wikipedia.org/wiki/Dakar_Rally"
+  },
+  "Majstrovstvá sveta MotoGP": {
+    "description": "Najvyššia svetová súťaž cestných motocyklových pretekov.",
+    "source": "https://en.wikipedia.org/wiki/MotoGP_World_Championship"
+  },
+  "Majstrovstvá sveta v krikete": {
+    "description": "Hlavný medzinárodný turnaj mužských kriketových reprezentácií.",
+    "source": "https://en.wikipedia.org/wiki/Cricket_World_Cup"
+  },
+  "Turnaj šiestich národov v ragby": {
+    "description": "Každoročný turnaj v ragby medzi šiestimi európskymi reprezentáciami.",
+    "source": "https://en.wikipedia.org/wiki/Six_Nations_Championship"
+  },
+  "Majstrovstvá sveta v ragby": {
+    "description": "Svetový šampionát mužských reprezentácií v ragby.",
+    "source": "https://en.wikipedia.org/wiki/Rugby_World_Cup"
+  },
+  "Majstrovstvá sveta v boxe": {
+    "description": "Svetový šampionát amatérskych boxerov.",
+    "source": "https://en.wikipedia.org/wiki/World_Boxing_Championship"
+  },
+  "vodné pólo": {
+    "description": "Tímový šport v bazéne, pri ktorom hráči hádžu loptu do súperovej bránky.",
+    "source": "https://en.wikipedia.org/wiki/water_polo"
+  },
+  "synchronizované skoky do vody": {
+    "description": "Skoky do vody, pri ktorých dvojica športovcov vykonáva pohyby súčasne.",
+    "source": "https://en.wikipedia.org/wiki/synchronized_diving"
+  },
+  "moderná gymnastika": {
+    "description": "Gymnastická disciplína spájajúca tanec s obručou, stuhou, loptou alebo kužeľmi.",
+    "source": "https://en.wikipedia.org/wiki/rhythmic_gymnastics"
+  },
+  "krasokorčuľovanie": {
+    "description": "Krasokorčuľovanie, pri ktorom športovci predvádzajú skoky a piruety na ľade.",
+    "source": "https://en.wikipedia.org/wiki/figure_skating"
+  },
+  "rýchlokorčuľovanie": {
+    "description": "Rýchlokorčuľovanie, v ktorom pretekári súťažia na ľadovom ovále.",
+    "source": "https://en.wikipedia.org/wiki/speed_skating"
+  },
+  "rýchlokorčuľovanie na krátkej dráhe": {
+    "description": "Rýchlokorčuľovanie na krátkej dráhe, kde jazdí viac pretekárov naraz.",
+    "source": "https://www.olympic.sk/sport/sortrek"
+  },
+  "boby": {
+    "description": "Zimný šport, v ktorom posádka jazdí v boboch po ľadovej dráhe.",
+    "source": "https://en.wikipedia.org/wiki/bobsleigh"
+  },
+  "sánkovanie": {
+    "description": "Sánkarský šport, v ktorom pretekár leží na chrbte a nohami vpred.",
+    "source": "https://en.wikipedia.org/wiki/luge"
+  },
+  "skialpinizmus": {
+    "description": "Zimný šport, v ktorom pretekári stúpajú na lyžiach a potom zjazdujú horský terén.",
+    "source": "https://en.wikipedia.org/wiki/ski_mountaineering"
+  },
+  "orientačný beh": {
+    "description": "Beh alebo lyžovanie v teréne, pri ktorom pretekár hľadá kontrolné body podľa mapy.",
+    "source": "https://en.wikipedia.org/wiki/orienteering"
+  },
+  "športová chôdza": {
+    "description": "Atletická disciplína rýchlej chôdze s pravidlom, že jedna noha musí byť stále na zemi.",
+    "source": "https://en.wikipedia.org/wiki/race_walking"
+  },
+  "beh na 3000 metrov cez prekážky": {
+    "description": "Bežecká atletická disciplína s prekážkami a vodnou priekopou.",
+    "source": "https://en.wikipedia.org/wiki/steeplechase"
+  },
+  "skok o žrdi": {
+    "description": "Atletický skok, pri ktorom športovec pomocou dlhej tyče prekonáva latku.",
+    "source": "https://en.wikipedia.org/wiki/pole_vault"
+  },
+  "vrh guľou": {
+    "description": "Atletická disciplína, v ktorej sa ťažká kovová guľa vrhá z ramena.",
+    "source": "https://en.wikipedia.org/wiki/shot_put"
+  },
+  "hod diskom": {
+    "description": "Atletická disciplína, pri ktorej športovec hádže ťažký plochý disk.",
+    "source": "https://en.wikipedia.org/wiki/discus_throw"
+  },
+  "hod kladivom": {
+    "description": "Atletická disciplína, v ktorej sa vrhá guľa pripevnená na lanku a rukoväti.",
+    "source": "https://en.wikipedia.org/wiki/hammer_throw"
+  },
+  "hod oštepom": {
+    "description": "Atletická disciplína, v ktorej športovec hádže dlhý oštep.",
+    "source": "https://en.wikipedia.org/wiki/javelin_throw"
+  },
+  "preteky dračích lodí": {
+    "description": "Preteky posádok v dlhých člnoch s hlavou draka na prove.",
+    "source": "https://en.wikipedia.org/wiki/dragon_boat_racing"
+  },
+  "BMX preteky": {
+    "description": "Bicyklové preteky na krátkej trati s kopcami a ostrými zákrutami.",
+    "source": "https://en.wikipedia.org/wiki/BMX_racing"
+  },
+  "ultramaratón": {
+    "description": "Bežecké preteky na vzdialenosť dlhšiu než klasický maratón.",
+    "source": "https://en.wikipedia.org/wiki/ultramarathon"
+  },
+  "prekážkové preteky": {
+    "description": "Prekážkové preteky, pri ktorých bežci preliezajú steny a ďalšie prekážky.",
+    "source": "https://en.wikipedia.org/wiki/obstacle_course_racing"
+  },
+  "silový trojboj": {
+    "description": "Silový šport, v ktorom sa súťaží v drepe, tlaku na lavičke a mŕtvom ťahu.",
+    "source": "https://en.wikipedia.org/wiki/powerlifting"
+  },
+  "kulturistika": {
+    "description": "Súťažné pózovanie, v ktorom rozhodcovia hodnotia svalovú hmotu a symetriu tela.",
+    "source": "https://en.wikipedia.org/wiki/bodybuilding"
+  },
+  "šachbox": {
+    "description": "Šport, v ktorom sa striedajú kolá šachu a boxu.",
+    "source": "https://en.wikipedia.org/wiki/chess_boxing"
+  },
+  "petang": {
+    "description": "Francúzska guľová hra, pri ktorej sa kovové gule hádžu k malej cieľovej guli.",
+    "source": "https://en.wikipedia.org/wiki/p%C3%A9tanque"
+  },
+  "austrálsky futbal": {
+    "description": "Austrálsky tímový šport, ktorý kombinuje prvky rugby a futbalu.",
+    "source": "https://en.wikipedia.org/wiki/Australian_rules_football"
+  },
+  "galský futbal": {
+    "description": "Írsky tímový šport, ktorý spája prvky futbalu a rugby.",
+    "source": "https://en.wikipedia.org/wiki/Gaelic_football"
+  },
+  "Liga majstrov UEFA": {
+    "description": "Každoročná európska klubová súťaž najlepších futbalových tímov.",
+    "source": "https://en.wikipedia.org/wiki/UEFA_Champions_League"
+  },
+  "Európska liga UEFA": {
+    "description": "Druhá najvýznamnejšia európska klubová futbalová súťaž.",
+    "source": "https://en.wikipedia.org/wiki/UEFA_Europa_League"
+  },
+  "Konferenčná liga UEFA": {
+    "description": "Európska klubová súťaž pre tímy z nižšie postavených líg.",
+    "source": "https://en.wikipedia.org/wiki/UEFA_Conference_League"
+  },
+  "Majstrovstvá Európy vo futbale": {
+    "description": "Šampionát európskych národných futbalových tímov, známy aj ako EURO.",
+    "source": "https://en.wikipedia.org/wiki/UEFA_European_Championship"
+  },
+  "Liga národov UEFA": {
+    "description": "Súťaž európskych futbalových reprezentácií hraná v ligových skupinách.",
+    "source": "https://en.wikipedia.org/wiki/UEFA_Nations_League"
+  },
+  "Majstrovstvá sveta vo futbale": {
+    "description": "Najväčší medzinárodný turnaj mužských futbalových reprezentácií.",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup"
+  },
+  "Majstrovstvá sveta vo futbale žien": {
+    "description": "Najvýznamnejší medzinárodný turnaj ženských futbalových reprezentácií.",
+    "source": "https://en.wikipedia.org/wiki/FIFA_Women's_World_Cup"
+  },
+  "Majstrovstvá sveta klubov vo futbale": {
+    "description": "Medzinárodná súťaž klubových futbalových šampiónov.",
+    "source": "https://en.wikipedia.org/wiki/FIFA_Club_World_Cup"
+  },
+  "temná hmota": {
+    "description": "Neviditeľná zložka vesmíru, ktorej gravitácia ovplyvňuje pohyb galaxií.",
+    "source": "https://en.wikipedia.org/wiki/temn%C3%A1_hmota"
+  },
+  "temná energia": {
+    "description": "Neznámy jav, ktorý sa spája so zrýchľujúcim sa rozpínaním vesmíru.",
+    "source": "https://en.wikipedia.org/wiki/temn%C3%A1_energia"
+  },
+  "gravitačné vlny": {
+    "description": "Vlnky v časopriestore spôsobené pohybom veľmi hmotných telies.",
+    "source": "https://en.wikipedia.org/wiki/gravita%C4%8Dn%C3%A9_vlny"
+  },
+  "kvantové previazanie": {
+    "description": "Jav, pri ktorom vlastnosti dvoch častíc zostávajú navzájom prepojené aj na diaľku.",
+    "source": "https://en.wikipedia.org/wiki/kvantov%C3%A9_previazanie"
+  },
+  "antihmota": {
+    "description": "Hmota z častíc, ktoré majú opačný elektrický náboj než bežné častice.",
+    "source": "https://en.wikipedia.org/wiki/antihmota"
+  },
+  "plazma": {
+    "description": "Stav hmoty tvorený elektricky nabitými časticami; nachádza sa napríklad v hviezdach.",
+    "source": "https://en.wikipedia.org/wiki/plazma"
+  },
+  "entropia": {
+    "description": "Veličina opisujúca mieru neusporiadanosti alebo rozptýlenia energie v systéme.",
+    "source": "https://en.wikipedia.org/wiki/entropia"
+  },
+  "jadrová fúzia": {
+    "description": "Proces, pri ktorom sa ľahké atómové jadrá spájajú a uvoľňujú energiu.",
+    "source": "https://en.wikipedia.org/wiki/jadrov%C3%A1_f%C3%BAzia"
+  },
+  "jadrové štiepenie": {
+    "description": "Proces, pri ktorom sa ťažké atómové jadro rozdelí na menšie a uvoľní energiu.",
+    "source": "https://en.wikipedia.org/wiki/jadrov%C3%A9_%C5%A1tiepenie"
+  },
+  "slnečná sústava": {
+    "description": "Slnko a všetky planéty, mesiace a menšie telesá, ktoré obiehajú okolo neho.",
+    "source": "https://en.wikipedia.org/wiki/slne%C4%8Dn%C3%A1_s%C3%BAstava"
+  },
+  "Mliečna cesta": {
+    "description": "Galaxia, v ktorej sa nachádza naša Slnečná sústava.",
+    "source": "https://en.wikipedia.org/wiki/Mlie%C4%8Dna_cesta"
+  },
+  "exoplanéta": {
+    "description": "Planéta, ktorá obieha okolo inej hviezdy než Slnka.",
+    "source": "https://en.wikipedia.org/wiki/exoplan%C3%A9ta"
+  },
+  "ozónová vrstva": {
+    "description": "Časť atmosféry, ktorá pohlcuje väčšinu škodlivého ultrafialového žiarenia zo Slnka.",
+    "source": "https://en.wikipedia.org/wiki/oz%C3%B3nov%C3%A1_vrstva"
+  },
+  "uhlíkový cyklus": {
+    "description": "Kolobeh uhlíka medzi atmosférou, oceánmi, pôdou a živými organizmami.",
+    "source": "https://en.wikipedia.org/wiki/uhl%C3%ADkov%C3%BD_cyklus"
+  },
+  "potravový reťazec": {
+    "description": "Poradie organizmov, v ktorom každý slúži ako potrava pre ďalší.",
+    "source": "https://en.wikipedia.org/wiki/potravov%C3%BD_re%C5%A5azec"
+  },
+  "biodiverzita": {
+    "description": "Rozmanitosť života vrátane druhov, génov a ekosystémov.",
+    "source": "https://en.wikipedia.org/wiki/biodiverzita"
+  },
+  "CRISPR": {
+    "description": "Metóda, ktorá umožňuje vedcom cielene upravovať DNA.",
+    "source": "https://en.wikipedia.org/wiki/CRISPR"
+  },
+  "RNA": {
+    "description": "Molekula, ktorá prenáša genetické pokyny a pomáha bunkám vytvárať bielkoviny.",
+    "source": "https://en.wikipedia.org/wiki/RNA"
+  },
+  "mRNA vakcína": {
+    "description": "Vakcína, ktorá bunkám dočasne poskytne návod na vytvorenie časti neškodného antigénu.",
+    "source": "https://en.wikipedia.org/wiki/mRNA_vakc%C3%ADna"
+  },
+  "klonovanie": {
+    "description": "Vytvorenie geneticky veľmi podobnej kópie génu, bunky alebo organizmu.",
+    "source": "https://en.wikipedia.org/wiki/klonovanie"
+  },
+  "mikrobióm": {
+    "description": "Súbor mikroorganizmov žijúcich v určitom prostredí, napríklad v ľudskom čreve.",
+    "source": "https://en.wikipedia.org/wiki/mikrobi%C3%B3m"
+  },
+  "mikroplasty": {
+    "description": "Drobné kúsky plastu, ktoré vznikajú rozpadom väčších plastových predmetov.",
+    "source": "https://en.wikipedia.org/wiki/mikroplasty"
+  },
+  "pH": {
+    "description": "Stupnica, ktorá vyjadruje, či je roztok kyslý, neutrálny alebo zásaditý.",
+    "source": "https://en.wikipedia.org/wiki/pH"
+  },
+  "akustika": {
+    "description": "Veda o zvuku, jeho šírení a vlastnostiach priestorov.",
+    "source": "https://en.wikipedia.org/wiki/akustika"
+  },
+  "optika": {
+    "description": "Oblasť fyziky, ktorá skúma svetlo a jeho správanie.",
+    "source": "https://en.wikipedia.org/wiki/optika"
+  },
+  "mechanika": {
+    "description": "Oblasť fyziky, ktorá skúma pohyb telies a pôsobenie síl.",
+    "source": "https://en.wikipedia.org/wiki/mechanika"
+  },
+  "seizmológia": {
+    "description": "Veda, ktorá skúma zemetrasenia a šírenie seizmických vĺn.",
+    "source": "https://en.wikipedia.org/wiki/seizmol%C3%B3gia"
+  },
+  "kvantový počítač": {
+    "description": "Počítač, ktorý pri výpočtoch využíva vlastnosti kvantových častíc.",
+    "source": "https://en.wikipedia.org/wiki/kvantov%C3%BD_po%C4%8D%C3%ADta%C4%8D"
+  },
+  "genetické sekvenovanie": {
+    "description": "Určovanie poradia písmen v DNA alebo RNA.",
+    "source": "https://en.wikipedia.org/wiki/genetick%C3%A9_sekvenovanie"
+  },
+  "transplantácia orgánov": {
+    "description": "Prenesenie orgánu od darcu k príjemcovi, aby nahradil nefunkčný orgán.",
+    "source": "https://en.wikipedia.org/wiki/transplant%C3%A1cia_org%C3%A1nov"
+  },
+  "dialýza": {
+    "description": "Liečebný postup, ktorý čistí krv, keď obličky nedokážu pracovať správne.",
+    "source": "https://en.wikipedia.org/wiki/dial%C3%BDza"
+  },
+  "anestézia": {
+    "description": "Použitie liekov na znecitlivenie alebo uspatie pacienta počas zákroku.",
+    "source": "https://en.wikipedia.org/wiki/anest%C3%A9zia"
+  },
+  "magnetická rezonancia": {
+    "description": "Zobrazovacie vyšetrenie, ktoré pomocou magnetického poľa vytvára detailné snímky tela.",
+    "source": "https://en.wikipedia.org/wiki/magnetick%C3%A1_rezonancia"
+  },
+  "lipa": {
+    "description": "Opadavý strom s veľkými listami a voňavými kvetmi, ktoré navštevujú včely.",
+    "source": "https://en.wikipedia.org/wiki/lipa"
+  },
+  "jaseň": {
+    "description": "Vysoký listnatý strom s ľahkým a pružným drevom.",
+    "source": "https://en.wikipedia.org/wiki/jase%C5%88"
+  },
+  "jelša": {
+    "description": "Strom, ktorý často rastie pri vodných tokoch a na mokrej pôde.",
+    "source": "https://en.wikipedia.org/wiki/jel%C5%A1a"
+  },
+  "topoľ": {
+    "description": "Rýchlo rastúci strom s vysokým rovným kmeňom a ľahkým drevom.",
+    "source": "https://en.wikipedia.org/wiki/topo%C4%BE"
+  },
+  "osika": {
+    "description": "Druh topoľa, ktorého listy sa chvejú aj pri slabom vetre.",
+    "source": "https://en.wikipedia.org/wiki/osika"
+  },
+  "tis": {
+    "description": "Ihličnatý strom s červenými plodmi; jeho časti sú jedovaté.",
+    "source": "https://en.wikipedia.org/wiki/tis"
+  },
+  "agát": {
+    "description": "Trnitý strom s voňavými bielymi kvetmi, ktoré poskytujú nektár včelám.",
+    "source": "https://en.wikipedia.org/wiki/ag%C3%A1t"
+  },
+  "platan": {
+    "description": "Veľký mestský strom s charakteristickou škvrnitou kôrou.",
+    "source": "https://en.wikipedia.org/wiki/platan"
+  },
+  "cyprus": {
+    "description": "Vždyzelený ihličnatý strom typický pre oblasti okolo Stredozemného mora.",
+    "source": "https://en.wikipedia.org/wiki/cyprus"
+  },
+  "céder": {
+    "description": "Vysoký ihličnatý strom, ktorý rastie najmä v horských oblastiach.",
+    "source": "https://en.wikipedia.org/wiki/c%C3%A9der"
+  },
+  "smrekovec": {
+    "description": "Ihličnatý strom, ktorý na jeseň zhadzuje ihličie.",
+    "source": "https://en.wikipedia.org/wiki/smrekovec"
+  },
+  "borievka": {
+    "description": "Ihličnatý ker alebo strom, ktorého plody sa používajú ako korenie.",
+    "source": "https://en.wikipedia.org/wiki/borievka"
+  },
+  "tuja": {
+    "description": "Vždyzelený ihličnatý strom často vysádzaný ako živý plot.",
+    "source": "https://en.wikipedia.org/wiki/tuja"
+  },
+  "sekvoja": {
+    "description": "Obrovský strom zo západu Severnej Ameriky, ktorý môže žiť tisíce rokov.",
+    "source": "https://en.wikipedia.org/wiki/sekvoja"
+  },
+  "baobab": {
+    "description": "Mohutný africký strom, ktorý si v širokom kmeni uchováva vodu.",
+    "source": "https://en.wikipedia.org/wiki/baobab"
+  },
+  "bambus": {
+    "description": "Rýchlo rastúca vysoká tráva s dutými a pevnými stonkami.",
+    "source": "https://en.wikipedia.org/wiki/bambus"
+  },
+  "brečtan": {
+    "description": "Popínavá vždyzelená rastlina, ktorá sa prichytáva na steny a kmene.",
+    "source": "https://en.wikipedia.org/wiki/bre%C4%8Dtan"
+  },
+  "eukalyptus": {
+    "description": "Voňavý strom pôvodom z Austrálie, ktorého listy sú potravou koál.",
+    "source": "https://en.wikipedia.org/wiki/eukalyptus"
+  },
+  "olivovník": {
+    "description": "Stredomorský strom, na ktorom rastú olivy.",
+    "source": "https://en.wikipedia.org/wiki/olivovn%C3%ADk"
+  },
+  "kakaovník": {
+    "description": "Tropický strom, ktorého semená sa používajú na výrobu kakaa a čokolády.",
+    "source": "https://en.wikipedia.org/wiki/kakaovn%C3%ADk"
+  },
+  "orchidea": {
+    "description": "Veľká skupina rastlín známa nápadnými a často nezvyčajne tvarovanými kvetmi.",
+    "source": "https://en.wikipedia.org/wiki/orchidea"
+  },
+  "leknín": {
+    "description": "Vodná rastlina s veľkými listami plávajúcimi na hladine a nápadnými kvetmi.",
+    "source": "https://en.wikipedia.org/wiki/lekn%C3%ADn"
+  },
+  "lotos": {
+    "description": "Vodná rastlina s veľkými kvetmi, ktorá má význam v ázijskej kultúre.",
+    "source": "https://en.wikipedia.org/wiki/lotos"
+  },
+  "magnólia": {
+    "description": "Okrasný strom alebo ker, ktorý kvitne veľkými voňavými kvetmi.",
+    "source": "https://en.wikipedia.org/wiki/magn%C3%B3lia"
+  },
+  "orgován": {
+    "description": "Kvitnúci ker s hustými strapcami voňavých kvetov.",
+    "source": "https://en.wikipedia.org/wiki/orgov%C3%A1n"
+  },
+  "hortenzia": {
+    "description": "Okrasný ker s veľkými guľovitými súkvetiami.",
+    "source": "https://en.wikipedia.org/wiki/hortenzia"
+  },
+  "pivonka": {
+    "description": "Záhradná rastlina s veľkými, často voňavými kvetmi.",
+    "source": "https://en.wikipedia.org/wiki/pivonka"
+  },
+  "kosatec": {
+    "description": "Rastlina s výraznými kvetmi a dlhými úzkymi listami.",
+    "source": "https://en.wikipedia.org/wiki/kosatec"
+  },
+  "narcis": {
+    "description": "Jarná cibuľovina so žltým alebo bielym kvetom v tvare trúbky.",
+    "source": "https://en.wikipedia.org/wiki/narcis"
+  },
+  "hyacint": {
+    "description": "Jarná cibuľovina s hustým strapcom voňavých kvetov.",
+    "source": "https://en.wikipedia.org/wiki/hyacint"
+  },
+  "ľalia": {
+    "description": "Vysoká záhradná rastlina s veľkými výraznými kvetmi.",
+    "source": "https://en.wikipedia.org/wiki/%C4%BEalia"
+  },
+  "karafiát": {
+    "description": "Kvetina s riasenými okvetnými lístkami, často používaná do kytíc.",
+    "source": "https://en.wikipedia.org/wiki/karafi%C3%A1t"
+  },
+  "gerbera": {
+    "description": "Farebná kvetina podobná veľkej sedmokráske.",
+    "source": "https://en.wikipedia.org/wiki/gerbera"
+  },
+  "begónia": {
+    "description": "Okrasná rastlina pestovaná pre farebné kvety alebo ozdobné listy.",
+    "source": "https://en.wikipedia.org/wiki/beg%C3%B3nia"
+  },
+  "muškát": {
+    "description": "Obľúbená balkónová rastlina s nápadnými kvetmi.",
+    "source": "https://en.wikipedia.org/wiki/mu%C5%A1k%C3%A1t"
+  },
+  "chryzantéma": {
+    "description": "Jesenná kvetina s mnohými hustými okvetnými lístkami.",
+    "source": "https://en.wikipedia.org/wiki/chryzant%C3%A9ma"
+  },
+  "snežienka": {
+    "description": "Drobná biela kvetina, ktorá často kvitne ešte počas zimy.",
+    "source": "https://en.wikipedia.org/wiki/sne%C5%BEienka"
+  },
+  "bleduľa": {
+    "description": "Jarná cibuľovina s bielymi zvončekovitými kvetmi a zelenými škvrnami.",
+    "source": "https://en.wikipedia.org/wiki/bledu%C4%BEa"
+  },
+  "prvosienka": {
+    "description": "Jedna z prvých jarných kvetín, ktorá rastie na lúkach aj v záhradách.",
+    "source": "https://en.wikipedia.org/wiki/prvosienka"
+  },
+  "ne vädza": {
+    "description": "Modrá lúčna kvetina, ktorá kedysi často rástla medzi obilím.",
+    "source": "https://en.wikipedia.org/wiki/ne_v%C3%A4dza"
+  },
+  "ďatelina": {
+    "description": "Lúčna rastlina s trojpočetnými listami a guľatými kvetmi.",
+    "source": "https://en.wikipedia.org/wiki/%C4%8Fatelina"
+  },
+  "materina dúška": {
+    "description": "Voňavá nízka bylinka rastúca na slnečných lúkach a svahoch.",
+    "source": "https://en.wikipedia.org/wiki/materina_d%C3%BA%C5%A1ka"
+  },
+  "rumanček": {
+    "description": "Voňavá bylina s bielymi lupeňmi a žltým stredom, používaná aj na čaj.",
+    "source": "https://en.wikipedia.org/wiki/ruman%C4%8Dek"
+  },
+  "repík": {
+    "description": "Lúčna bylina so žltými kvetmi, tradične používaná v bylinkárstve.",
+    "source": "https://en.wikipedia.org/wiki/rep%C3%ADk"
+  },
+  "skorocel": {
+    "description": "Bežná lúčna rastlina s ružicou listov a dlhým klasom drobných kvetov.",
+    "source": "https://en.wikipedia.org/wiki/skorocel"
+  },
+  "medovka": {
+    "description": "Voňavá bylina s citrónovou vôňou, z ktorej sa pripravuje čaj.",
+    "source": "https://en.wikipedia.org/wiki/medovka"
+  },
+  "ľubovník": {
+    "description": "Lúčna bylina so žltými kvetmi, známa aj ako ľubovník bodkovaný.",
+    "source": "https://en.wikipedia.org/wiki/%C4%BEubovn%C3%ADk"
+  },
+  "lopúch": {
+    "description": "Rastlina s veľkými listami a guľatými bodliakovitými úbormi, ktoré sa zachytávajú na oblečení.",
+    "source": "https://en.wikipedia.org/wiki/lop%C3%BAch"
+  },
+  "rozchodník": {
+    "description": "Odolná sukulentná rastlina, ktorá rastie aj na skalách a suchých miestach.",
+    "source": "https://en.wikipedia.org/wiki/rozchodn%C3%ADk"
+  },
+  "papyrus": {
+    "description": "Vysoká močiarna rastlina, z ktorej starí Egypťania vyrábali písací materiál.",
+    "source": "https://en.wikipedia.org/wiki/papyrus"
+  },
+  "liána": {
+    "description": "Dlhá popínavá drevnatá rastlina, ktorá sa vinie okolo stromov v tropických lesoch.",
+    "source": "https://en.wikipedia.org/wiki/li%C3%A1na"
+  },
+  "orchidea vanilková": {
+    "description": "Popínavá orchidea, ktorej struky sú zdrojom vanilky.",
+    "source": "https://en.wikipedia.org/wiki/orchidea_vanilkov%C3%A1"
+  },
+  "mucholapka podivná": {
+    "description": "Mäsožravá rastlina, ktorá lapá hmyz listami pripomínajúcimi pascu.",
+    "source": "https://en.wikipedia.org/wiki/mucholapka_podivn%C3%A1"
+  },
+  "rosička": {
+    "description": "Mäsožravá rastlina s lepkavými kvapkami na listoch, do ktorých sa zachytáva hmyz.",
+    "source": "https://en.wikipedia.org/wiki/rosi%C4%8Dka"
+  },
+  "fjord": {
+    "description": "Úzky morský záliv s vysokými strmými svahmi, vytvorený ľadovcom.",
+    "source": "https://en.wikipedia.org/wiki/fjord"
+  },
+  "kaňon": {
+    "description": "Hlboké úzke údolie so strmými skalnými stenami.",
+    "source": "https://en.wikipedia.org/wiki/ka%C5%88on"
+  },
+  "delta": {
+    "description": "Územie pri ústí rieky, kde sa tok rozdeľuje na viac ramien.",
+    "source": "https://en.wikipedia.org/wiki/delta"
+  },
+  "lagúna": {
+    "description": "Plytká vodná plocha oddelená od mora pásom piesku alebo útesom.",
+    "source": "https://en.wikipedia.org/wiki/lag%C3%BAna"
+  },
+  "koralový útes": {
+    "description": "Podmorská stavba vytvorená kolóniami koralov v teplých moriach.",
+    "source": "https://en.wikipedia.org/wiki/koralov%C3%BD_%C3%BAtes"
+  },
+  "gejzír": {
+    "description": "Prameň, ktorý v pravidelných intervaloch vystrekuje horúcu vodu a paru.",
+    "source": "https://en.wikipedia.org/wiki/gejz%C3%ADr"
+  },
+  "atol": {
+    "description": "Prstencový koralový ostrov obklopujúci lagúnu.",
+    "source": "https://en.wikipedia.org/wiki/atol"
+  },
+  "tundra": {
+    "description": "Chladná bezlesá krajina, kde v podzemí často zostáva trvalo zamrznutá pôda.",
+    "source": "https://en.wikipedia.org/wiki/tundra"
+  },
+  "tajga": {
+    "description": "Rozsiahly severný les tvorený najmä ihličnatými stromami.",
+    "source": "https://en.wikipedia.org/wiki/tajga"
+  },
+  "savana": {
+    "description": "Tropická krajina s trávami a roztrúsenými stromami.",
+    "source": "https://en.wikipedia.org/wiki/savana"
+  },
+  "mangrovový les": {
+    "description": "Pobrežný les tropických oblastí, ktorého stromy rastú v slanej vode.",
+    "source": "https://en.wikipedia.org/wiki/mangrovov%C3%BD_les"
+  },
+  "prales": {
+    "description": "Pôvodný les, ktorý výrazne nezmenila ľudská činnosť.",
+    "source": "https://en.wikipedia.org/wiki/prales"
+  },
+  "dažďový prales": {
+    "description": "Hustý teplý les, v ktorom počas roka spadne veľa zrážok.",
+    "source": "https://en.wikipedia.org/wiki/da%C5%BE%C4%8Fov%C3%BD_prales"
+  },
+  "meander": {
+    "description": "Zákruta, ktorú si rieka vytvorí v pomaly tečúcom úseku.",
+    "source": "https://en.wikipedia.org/wiki/meander"
+  },
+  "stalaktit": {
+    "description": "Kvapľový útvar, ktorý visí zo stropu jaskyne.",
+    "source": "https://en.wikipedia.org/wiki/stalaktit"
+  },
+  "stalagmit": {
+    "description": "Kvapľový útvar, ktorý rastie od dna jaskyne smerom nahor.",
+    "source": "https://en.wikipedia.org/wiki/stalagmit"
+  },
+  "permafrost": {
+    "description": "Pôda, ktorá zostáva zamrznutá najmenej dva roky po sebe.",
+    "source": "https://en.wikipedia.org/wiki/permafrost"
+  },
+  "polárna žiara": {
+    "description": "Farebné svetelné záclony na oblohe v blízkosti severného alebo južného pólu.",
+    "source": "https://en.wikipedia.org/wiki/pol%C3%A1rna_%C5%BEiara"
+  },
+  "ľadová jaskyňa": {
+    "description": "Jaskyňa, v ktorej sa dlhodobo udržiava ľad alebo sneh.",
+    "source": "https://en.wikipedia.org/wiki/%C4%BEadov%C3%A1_jasky%C5%88a"
+  },
+  "ľadopád": {
+    "description": "Zamrznutý vodopád alebo strmý ľadový útvar na svahu.",
+    "source": "https://en.wikipedia.org/wiki/%C4%BEadop%C3%A1d"
+  },
+  "piesková duna": {
+    "description": "Vyvýšenina z piesku navŕšená vetrom.",
+    "source": "https://en.wikipedia.org/wiki/pieskov%C3%A1_duna"
+  },
+  "soľná pláň": {
+    "description": "Rozsiahly rovný povrch pokrytý vrstvou soli.",
+    "source": "https://en.wikipedia.org/wiki/so%C4%BEn%C3%A1_pl%C3%A1%C5%88"
+  },
+  "krasová planina": {
+    "description": "Vápencová krajina s jamami, škrapmi a podzemnými jaskyňami.",
+    "source": "https://en.wikipedia.org/wiki/krasov%C3%A1_planina"
+  },
+  "žula": {
+    "description": "Tvrdá vyvretá hornina, ktorú tvoria najmä kremeň a živce.",
+    "source": "https://en.wikipedia.org/wiki/%C5%BEula"
+  },
+  "mramor": {
+    "description": "Premenená hornina, ktorá sa často používa na sochy a obklady.",
+    "source": "https://en.wikipedia.org/wiki/mramor"
+  },
+  "bridlica": {
+    "description": "Jemnozrnná hornina, ktorá sa ľahko štiepi na tenké vrstvy.",
+    "source": "https://en.wikipedia.org/wiki/bridlica"
+  },
+  "čadič": {
+    "description": "Tmavá sopečná hornina, ktorá vzniká ochladením lávy.",
+    "source": "https://en.wikipedia.org/wiki/%C4%8Dadi%C4%8D"
+  },
+  "vápenec": {
+    "description": "Usadená hornina vytvorená najmä z uhličitanu vápenatého.",
+    "source": "https://en.wikipedia.org/wiki/v%C3%A1penec"
+  },
+  "kremeň": {
+    "description": "Tvrdý a bežný minerál, ktorý tvorí súčasť mnohých hornín.",
+    "source": "https://en.wikipedia.org/wiki/kreme%C5%88"
+  },
+  "ametyst": {
+    "description": "Fialová odroda kremeňa používaná ako drahokam.",
+    "source": "https://en.wikipedia.org/wiki/ametyst"
+  },
+  "opál": {
+    "description": "Drahokam, ktorý môže pri dopade svetla meniť farby.",
+    "source": "https://en.wikipedia.org/wiki/op%C3%A1l"
+  },
+  "achát": {
+    "description": "Pásikavá odroda kremeňa, ktorá sa používa v šperkoch.",
+    "source": "https://en.wikipedia.org/wiki/ach%C3%A1t"
+  },
+  "granát": {
+    "description": "Skupina drahokamov, často tmavočervených, s rôznym chemickým zložením.",
+    "source": "https://en.wikipedia.org/wiki/gran%C3%A1t"
+  },
+  "diamant": {
+    "description": "Najtvrdší prirodzene sa vyskytujúci minerál, používaný v šperkoch aj nástrojoch.",
+    "source": "https://en.wikipedia.org/wiki/diamant"
+  },
+  "rubín": {
+    "description": "Červená odroda minerálu korund, cenená ako drahokam.",
+    "source": "https://en.wikipedia.org/wiki/rub%C3%ADn"
+  },
+  "zafír": {
+    "description": "Najčastejšie modrá odroda minerálu korund.",
+    "source": "https://en.wikipedia.org/wiki/zaf%C3%ADr"
+  },
+  "smaragd": {
+    "description": "Zelená odroda minerálu beryl, známa ako drahokam.",
+    "source": "https://en.wikipedia.org/wiki/smaragd"
+  },
+  "jantár": {
+    "description": "Skamenená živica dávnych stromov, v ktorej sa niekedy zachová hmyz.",
+    "source": "https://en.wikipedia.org/wiki/jant%C3%A1r"
+  },
+  "obsidián": {
+    "description": "Tmavé prírodné sklo, ktoré vzniká rýchlym ochladením lávy.",
+    "source": "https://en.wikipedia.org/wiki/obsidi%C3%A1n"
+  },
+  "meteorit": {
+    "description": "Kúsok vesmírneho telesa, ktorý preletí atmosférou a dopadne na Zem.",
+    "source": "https://en.wikipedia.org/wiki/meteorit"
+  },
+  "Merkúr": {
+    "description": "Najbližšia planéta k Slnku a zároveň najmenšia planéta Slnečnej sústavy.",
+    "source": "https://en.wikipedia.org/wiki/Merk%C3%BAr"
+  },
+  "Venuša": {
+    "description": "Planéta s veľmi hustou a horúcou atmosférou, druhá od Slnka.",
+    "source": "https://en.wikipedia.org/wiki/Venu%C5%A1a"
+  },
+  "Mars": {
+    "description": "Červená planéta, ktorú skúmajú robotické vozidlá a sondy.",
+    "source": "https://en.wikipedia.org/wiki/Mars"
+  },
+  "Jupiter": {
+    "description": "Najväčšia planéta Slnečnej sústavy, známa Veľkou červenou škvrnou.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+  },
+  "Saturn": {
+    "description": "Plynná planéta obklopená výraznou sústavou prstencov.",
+    "source": "https://en.wikipedia.org/wiki/Saturn"
+  },
+  "Urán": {
+    "description": "Ľadový obor, ktorý obieha okolo Slnka výrazne naklonený na bok.",
+    "source": "https://en.wikipedia.org/wiki/Ur%C3%A1n"
+  },
+  "Neptún": {
+    "description": "Vzdialená modrá planéta a najvzdialenejšia planéta Slnečnej sústavy.",
+    "source": "https://en.wikipedia.org/wiki/Nept%C3%BAn"
+  },
+  "Pluto": {
+    "description": "Trpasličia planéta v Kuiperovom páse za Neptúnom.",
+    "source": "https://en.wikipedia.org/wiki/Pluto"
+  },
+  "Ceres": {
+    "description": "Najväčšie teleso v hlavnom páse asteroidov a trpasličia planéta.",
+    "source": "https://en.wikipedia.org/wiki/Ceres"
+  },
+  "Eris": {
+    "description": "Veľká trpasličia planéta v ďalekej oblasti Slnečnej sústavy.",
+    "source": "https://en.wikipedia.org/wiki/Eris"
+  },
+  "Ganymedes": {
+    "description": "Najväčší mesiac Jupitera a najväčší mesiac v Slnečnej sústave.",
+    "source": "https://en.wikipedia.org/wiki/Ganymedes"
+  },
+  "Titan": {
+    "description": "Najväčší mesiac Saturnu, ktorý má hustú atmosféru a jazerá metánu.",
+    "source": "https://en.wikipedia.org/wiki/Titan"
+  },
+  "Enceladus": {
+    "description": "Ľadový mesiac Saturnu, z ktorého na južnom póle tryskajú gejzíry.",
+    "source": "https://en.wikipedia.org/wiki/Enceladus"
+  },
+  "Io": {
+    "description": "Mesiac Jupitera s najaktívnejším sopečným povrchom v Slnečnej sústave.",
+    "source": "https://en.wikipedia.org/wiki/Io"
+  },
+  "Halleyova kométa": {
+    "description": "Kométa, ktorá sa približne každých 76 rokov vracia do blízkosti Zeme.",
+    "source": "https://en.wikipedia.org/wiki/Halleyova_kom%C3%A9ta"
+  },
+  "Orionova hmlovina": {
+    "description": "Oblasť, kde vznikajú hviezdy, viditeľná ako hmlistá škvrna v súhvezdí Orióna.",
+    "source": "https://en.wikipedia.org/wiki/Orionova_hmlovina"
+  },
+  "Andromeda": {
+    "description": "Najbližšia veľká galaxia k Mliečnej ceste, viditeľná aj voľným okom.",
+    "source": "https://en.wikipedia.org/wiki/Andromeda"
+  },
+  "Proxima Centauri": {
+    "description": "Najbližšia hviezda k Slnku po zohľadnení vzdialenosti celej sústavy Alfa Centauri.",
+    "source": "https://en.wikipedia.org/wiki/Proxima_Centauri"
+  },
+  "Polárka": {
+    "description": "Hviezda blízko severného nebeského pólu, ktorá pomáha určiť sever.",
+    "source": "https://en.wikipedia.org/wiki/Pol%C3%A1rka"
+  },
+  "Betelgeuze": {
+    "description": "Červený nadobor v súhvezdí Orióna, ktorý patrí medzi najjasnejšie hviezdy oblohy.",
+    "source": "https://en.wikipedia.org/wiki/Betelgeuze"
+  },
+  "Sirius": {
+    "description": "Najjasnejšia hviezda nočnej oblohy, súčasť súhvezdia Veľkého psa.",
+    "source": "https://en.wikipedia.org/wiki/Sirius"
+  },
+  "Vega": {
+    "description": "Jasná hviezda v súhvezdí Lýry, ktorá patrí medzi najjasnejšie na nočnej oblohe.",
+    "source": "https://en.wikipedia.org/wiki/Vega"
+  },
+  "Plejády": {
+    "description": "Otvorená hviezdokopa v súhvezdí Býka, známa aj ako Sedem sestier.",
+    "source": "https://en.wikipedia.org/wiki/Plej%C3%A1dy"
+  },
+  "Tetris": {
+    "description": "Klasická logická hra, v ktorej hráč ukladá padajúce rôznofarebné bloky.",
+    "source": "https://en.wikipedia.org/wiki/Tetris"
+  },
+  "Minecraft": {
+    "description": "Sandboxová hra, v ktorej hráči stavajú z kociek a objavujú procedurálne vytvorený svet.",
+    "source": "https://en.wikipedia.org/wiki/Minecraft"
+  },
+  "Super Mario Bros.": {
+    "description": "Platformová hra od Nintenda, v ktorej Mario zachraňuje princeznú Peach.",
+    "source": "https://en.wikipedia.org/wiki/Super_Mario_Bros."
+  },
+  "The Legend of Zelda": {
+    "description": "Dobrodružná herná séria od Nintenda; jej typickým hrdinom je Link.",
+    "source": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda"
+  },
+  "Pokémon": {
+    "description": "Herná séria, v ktorej hráči chytajú, trénujú a zbierajú fantastické tvory.",
+    "source": "https://en.wikipedia.org/wiki/Pok%C3%A9mon"
+  },
+  "Sonic the Hedgehog": {
+    "description": "Herná séria o rýchlom modrom ježkovi od spoločnosti Sega.",
+    "source": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog"
+  },
+  "Pac-Man": {
+    "description": "Klasická arkádová hra, v ktorej žltá postavička zbiera bodky a uniká duchom.",
+    "source": "https://en.wikipedia.org/wiki/Pac-Man"
+  },
+  "Donkey Kong": {
+    "description": "Herná séria od Nintenda, ktorá preslávila gorilu Donkey Konga aj Maria.",
+    "source": "https://en.wikipedia.org/wiki/Donkey_Kong"
+  },
+  "Kirby": {
+    "description": "Ružový hrdina Nintenda, ktorý dokáže vdychovať nepriateľov a preberať ich schopnosti.",
+    "source": "https://en.wikipedia.org/wiki/Kirby"
+  },
+  "Captain Price": {
+    "description": "Britský kapitán SAS a výrazná postava hernej série Call of Duty.",
+    "source": "https://en.wikipedia.org/wiki/Captain_Price"
+  },
+  "Master Chief": {
+    "description": "Obrnený supersoldier a hlavný hrdina hernej série Halo.",
+    "source": "https://en.wikipedia.org/wiki/Master_Chief"
+  },
+  "Geralt of Rivia": {
+    "description": "Zaklínač, ktorý loví príšery v knižnej a hernej sérii Zaklínač.",
+    "source": "https://en.wikipedia.org/wiki/Geralt_of_Rivia"
+  },
+  "Kratos": {
+    "description": "Bojovník známy zo série God of War, ktorý sa stretáva s gréckymi a severskými bohmi.",
+    "source": "https://en.wikipedia.org/wiki/Kratos"
+  },
+  "Aloy": {
+    "description": "Lovkyňa a hlavná hrdinka hernej série Horizon.",
+    "source": "https://en.wikipedia.org/wiki/Aloy"
+  },
+  "Nathan Drake": {
+    "description": "Lovec pokladov a hlavný hrdina dobrodružnej série Uncharted.",
+    "source": "https://en.wikipedia.org/wiki/Nathan_Drake"
+  },
+  "Ellie Williams": {
+    "description": "Mladá preživšia z postapokalyptického sveta hry The Last of Us.",
+    "source": "https://en.wikipedia.org/wiki/Ellie_Williams"
+  },
+  "Arthur Morgan": {
+    "description": "Člen gangu Van der Linde a hlavná postava hry Red Dead Redemption 2.",
+    "source": "https://en.wikipedia.org/wiki/Arthur_Morgan"
+  },
+  "Ezio Auditore": {
+    "description": "Taliansky asasín a jedna z najznámejších postáv série Assassin’s Creed.",
+    "source": "https://en.wikipedia.org/wiki/Ezio_Auditore"
+  },
+  "Scorpion": {
+    "description": "Nindža bojovník a jedna z ikonických postáv série Mortal Kombat.",
+    "source": "https://en.wikipedia.org/wiki/Scorpion"
+  },
+  "Ryu": {
+    "description": "Japonský bojovník a hlavná postava série Street Fighter.",
+    "source": "https://en.wikipedia.org/wiki/Ryu"
+  },
+  "Cloud Strife": {
+    "description": "Bývalý vojak a hlavný hrdina hry Final Fantasy VII.",
+    "source": "https://en.wikipedia.org/wiki/Cloud_Strife"
+  },
+  "Solid Snake": {
+    "description": "Tajný agent a hlavný hrdina série Metal Gear.",
+    "source": "https://en.wikipedia.org/wiki/Solid_Snake"
+  },
+  "Doom Slayer": {
+    "description": "Legendárny bojovník, ktorý v sérii Doom bojuje proti démonom.",
+    "source": "https://en.wikipedia.org/wiki/Doom_Slayer"
+  },
+  "Grand Theft Auto": {
+    "description": "Herná séria s otvoreným svetom, zasadená najmä do fiktívnych miest a prostredia zločinu.",
+    "source": "https://en.wikipedia.org/wiki/Grand_Theft_Auto"
+  },
+  "Fortnite": {
+    "description": "Online hra známa režimom Battle Royale, stavbou a pravidelnými hernými udalosťami.",
+    "source": "https://en.wikipedia.org/wiki/Fortnite"
+  },
+  "Roblox": {
+    "description": "Online platforma, na ktorej používatelia vytvárajú a hrajú množstvo vlastných hier.",
+    "source": "https://en.wikipedia.org/wiki/Roblox"
+  },
+  "Among Us": {
+    "description": "Spoločenská online hra, v ktorej posádka hľadá podvodníka medzi svojimi členmi.",
+    "source": "https://en.wikipedia.org/wiki/Among_Us"
+  },
+  "League of Legends": {
+    "description": "Tímová online strategická hra žánru MOBA od spoločnosti Riot Games.",
+    "source": "https://en.wikipedia.org/wiki/League_of_Legends"
+  },
+  "World of Warcraft": {
+    "description": "Online hra na hrdinov pre viacerých hráčov, odohrávajúca sa vo svete Azeroth.",
+    "source": "https://en.wikipedia.org/wiki/World_of_Warcraft"
+  },
+  "Overwatch": {
+    "description": "Tímová strieľačka od Blizzardu s hrdinami, ktorí majú rôzne schopnosti.",
+    "source": "https://en.wikipedia.org/wiki/Overwatch"
+  },
+  "Counter-Strike": {
+    "description": "Séria taktických tímových strieľačiek, v ktorých proti sebe stoja teroristi a protiteroristická jednotka.",
+    "source": "https://en.wikipedia.org/wiki/Counter-Strike"
+  },
+  "Animal Crossing": {
+    "description": "Herná séria, v ktorej hráč žije v pokojnej dedine obývanej zvieracími susedmi.",
+    "source": "https://en.wikipedia.org/wiki/Animal_Crossing"
+  },
+  "The Sims": {
+    "description": "Simulačná herná séria, v ktorej hráč vytvára postavy a riadi ich každodenný život.",
+    "source": "https://en.wikipedia.org/wiki/The_Sims"
+  },
+  "Resident Evil": {
+    "description": "Herná séria známa hororom, zombíkmi a bojom o prežitie.",
+    "source": "https://en.wikipedia.org/wiki/Resident_Evil"
+  },
+  "Elden Ring": {
+    "description": "Akčná hra na hrdinov s otvoreným svetom od štúdia FromSoftware.",
+    "source": "https://en.wikipedia.org/wiki/Elden_Ring"
+  },
+  "Dark Souls": {
+    "description": "Séria náročných akčných hier na hrdinov od štúdia FromSoftware.",
+    "source": "https://en.wikipedia.org/wiki/Dark_Souls"
+  },
+  "EA Sports FC": {
+    "description": "Futbalová herná séria od spoločnosti Electronic Arts, predtým známa ako FIFA.",
+    "source": "https://en.wikipedia.org/wiki/EA_Sports_FC"
+  },
+  "Space Invaders": {
+    "description": "Klasická arkádová hra, v ktorej hráč bráni Zem pred vlnami mimozemšťanov.",
+    "source": "https://en.wikipedia.org/wiki/Space_Invaders"
+  },
+  "Asteroids": {
+    "description": "Arkádová hra, v ktorej hráč pilotuje loď a rozbíja asteroidy vo vesmíre.",
+    "source": "https://en.wikipedia.org/wiki/Asteroids"
+  },
+  "Frogger": {
+    "description": "Klasická hra, v ktorej žaba bezpečne prechádza cez cestu a rieku.",
+    "source": "https://en.wikipedia.org/wiki/Frogger"
+  },
+  "Pong": {
+    "description": "Jedna z prvých úspešných videohier; dvaja hráči odrážajú virtuálnu loptičku.",
+    "source": "https://en.wikipedia.org/wiki/Pong"
+  },
+  "Portal": {
+    "description": "Logická hra, v ktorej hráč rieši úlohy pomocou zariadenia vytvárajúceho portály.",
+    "source": "https://en.wikipedia.org/wiki/Portal"
+  },
+  "Half-Life": {
+    "description": "Sci-fi herná séria od Valve, ktorej prvý diel sleduje vedca Gordona Freemana.",
+    "source": "https://en.wikipedia.org/wiki/Half-Life"
+  },
+  "Plants vs. Zombies": {
+    "description": "Obranná strategická hra, v ktorej rastliny chránia dom pred zombíkmi.",
+    "source": "https://en.wikipedia.org/wiki/Plants_vs._Zombies"
+  },
+  "Angry Birds": {
+    "description": "Mobilná hra, v ktorej hráči prakom vystreľujú vtáky na stavby prasiatok.",
+    "source": "https://en.wikipedia.org/wiki/Angry_Birds"
+  },
+  "Clash of Clans": {
+    "description": "Mobilná strategická hra o budovaní dediny a bojoch medzi klanmi.",
+    "source": "https://en.wikipedia.org/wiki/Clash_of_Clans"
+  },
+  "Candy Crush Saga": {
+    "description": "Mobilná logická hra, v ktorej hráč spája cukríky rovnakej farby.",
+    "source": "https://en.wikipedia.org/wiki/Candy_Crush_Saga"
+  },
+  "Subway Surfers": {
+    "description": "Nekonečná bežecká hra, v ktorej postava uteká pred železničným dozorcom.",
+    "source": "https://en.wikipedia.org/wiki/Subway_Surfers"
+  },
+  "Brawl Stars": {
+    "description": "Tímová mobilná akčná hra od tvorcov Clash of Clans.",
+    "source": "https://en.wikipedia.org/wiki/Brawl_Stars"
+  },
+  "The Elder Scrolls": {
+    "description": "Fantasy herná séria na hrdinov, do ktorej patrí napríklad Skyrim.",
+    "source": "https://en.wikipedia.org/wiki/The_Elder_Scrolls"
+  },
+  "Fallout": {
+    "description": "Postapokalyptická herná séria na hrdinov, odohrávajúca sa po jadrovej vojne.",
+    "source": "https://en.wikipedia.org/wiki/Fallout"
+  },
+  "Diablo": {
+    "description": "Fantasy akčná RPG séria od Blizzardu, v ktorej hrdinovia bojujú s démonmi.",
+    "source": "https://en.wikipedia.org/wiki/Diablo"
+  },
+  "StarCraft": {
+    "description": "Sci-fi strategická herná séria o konflikte Terranov, Zergov a Protossov.",
+    "source": "https://en.wikipedia.org/wiki/StarCraft"
+  },
+  "Hearthstone": {
+    "description": "Digitálna zberateľská kartová hra zo sveta Warcraftu.",
+    "source": "https://en.wikipedia.org/wiki/Hearthstone"
+  },
+  "Civilization": {
+    "description": "Ťahová strategická herná séria, v ktorej hráč vedie civilizáciu naprieč dejinami.",
+    "source": "https://en.wikipedia.org/wiki/Civilization"
+  },
+  "SimCity": {
+    "description": "Séria hier, v ktorých hráč plánuje a spravuje vlastné mesto.",
+    "source": "https://en.wikipedia.org/wiki/SimCity"
+  },
+  "Hades": {
+    "description": "Akčná roguelike hra, v ktorej sa Zagreus pokúša uniknúť z podsvetia.",
+    "source": "https://en.wikipedia.org/wiki/Hades"
+  },
+  "Stardew Valley": {
+    "description": "Farmárska hra, v ktorej hráč obnovuje zanedbanú farmu a spoznáva obyvateľov mestečka.",
+    "source": "https://en.wikipedia.org/wiki/Stardew_Valley"
+  },
+  "Undertale": {
+    "description": "Nezávislá RPG hra, v ktorej možno s príšerami bojovať alebo sa s nimi spriateliť.",
+    "source": "https://en.wikipedia.org/wiki/Undertale"
+  },
+  "Hollow Knight": {
+    "description": "Akčná plošinovka o malom rytierovi, ktorý skúma podzemné kráľovstvo hmyzu.",
+    "source": "https://en.wikipedia.org/wiki/Hollow_Knight"
+  },
+  "Cuphead": {
+    "description": "Akčná hra s ručne kreslenou grafikou inšpirovanou starými animovanými filmami.",
+    "source": "https://en.wikipedia.org/wiki/Cuphead"
+  },
+  "Dungeons & Dragons": {
+    "description": "Stolová hra na hrdinov, v ktorej hráči spoločne vytvárajú fantasy dobrodružstvo.",
+    "source": "https://en.wikipedia.org/wiki/Dungeons_%26_Dragons"
+  },
+  "Sega": {
+    "description": "Japonská herná spoločnosť známa najmä postavou Sonica.",
+    "source": "https://en.wikipedia.org/wiki/Sega"
+  },
+  "Atari": {
+    "description": "Priekopnícka americká spoločnosť, ktorá pomohla spopularizovať domáce videohry.",
+    "source": "https://en.wikipedia.org/wiki/Atari"
+  },
+  "Valve": {
+    "description": "Americké herné štúdio a prevádzkovateľ platformy Steam; vytvorilo Half-Life a Portal.",
+    "source": "https://en.wikipedia.org/wiki/Valve"
+  },
+  "Rockstar Games": {
+    "description": "Herné štúdio známe sériami Grand Theft Auto a Red Dead Redemption.",
+    "source": "https://en.wikipedia.org/wiki/Rockstar_Games"
+  },
+  "Mojang Studios": {
+    "description": "Švédske herné štúdio, ktoré vytvorilo Minecraft.",
+    "source": "https://en.wikipedia.org/wiki/Mojang_Studios"
+  },
+  "Epic Games": {
+    "description": "Herná spoločnosť známa hrou Fortnite a vývojárskym nástrojom Unreal Engine.",
+    "source": "https://en.wikipedia.org/wiki/Epic_Games"
+  },
+  "Ubisoft": {
+    "description": "Francúzska herná spoločnosť, ktorá vydáva série Assassin’s Creed a Far Cry.",
+    "source": "https://en.wikipedia.org/wiki/Ubisoft"
+  },
+  "Capcom": {
+    "description": "Japonské štúdio známe hrami Resident Evil, Street Fighter a Monster Hunter.",
+    "source": "https://en.wikipedia.org/wiki/Capcom"
+  },
+  "CD Projekt Red": {
+    "description": "Poľské herné štúdio, ktoré vytvorilo Zaklínača 3 a Cyberpunk 2077.",
+    "source": "https://en.wikipedia.org/wiki/CD_Projekt_Red"
+  },
+  "Blizzard Entertainment": {
+    "description": "Americké štúdio známe hrami Warcraft, Diablo a Overwatch.",
+    "source": "https://en.wikipedia.org/wiki/Blizzard_Entertainment"
+  },
+  "Electronic Arts": {
+    "description": "Americká herná spoločnosť, ktorá vydáva EA Sports FC a The Sims.",
+    "source": "https://en.wikipedia.org/wiki/Electronic_Arts"
+  },
+  "Bethesda Game Studios": {
+    "description": "Štúdio zodpovedné za série The Elder Scrolls a Fallout.",
+    "source": "https://en.wikipedia.org/wiki/Bethesda_Game_Studios"
+  },
+  "Bandai Namco": {
+    "description": "Japonský vydavateľ a vývojár hier, známy napríklad sériami Tekken a Pac-Man.",
+    "source": "https://en.wikipedia.org/wiki/Bandai_Namco"
+  },
+  "Square Enix": {
+    "description": "Japonská herná spoločnosť známa sériami Final Fantasy a Dragon Quest.",
+    "source": "https://en.wikipedia.org/wiki/Square_Enix"
+  },
+  "Konami": {
+    "description": "Japonská herná spoločnosť, ktorá vytvorila série Metal Gear a Castlevania.",
+    "source": "https://en.wikipedia.org/wiki/Konami"
+  },
+  "Naughty Dog": {
+    "description": "Americké štúdio, ktoré vytvorilo Uncharted a The Last of Us.",
+    "source": "https://en.wikipedia.org/wiki/Naughty_Dog"
+  },
+  "FromSoftware": {
+    "description": "Japonské štúdio známe hrami Dark Souls, Elden Ring a Sekiro.",
+    "source": "https://en.wikipedia.org/wiki/FromSoftware"
+  },
+  "Supercell": {
+    "description": "Fínske mobilné herné štúdio, ktoré vytvorilo Clash of Clans a Brawl Stars.",
+    "source": "https://en.wikipedia.org/wiki/Supercell"
+  },
+  "Riot Games": {
+    "description": "Americké herné štúdio, ktoré vytvorilo League of Legends a Valorant.",
+    "source": "https://en.wikipedia.org/wiki/Riot_Games"
+  },
+  "Game Freak": {
+    "description": "Japonské štúdio, ktoré vyvíja hlavné hry zo série Pokémon.",
+    "source": "https://en.wikipedia.org/wiki/Game_Freak"
+  },
+  "Respawn Entertainment": {
+    "description": "Americké štúdio, ktoré vytvorilo Apex Legends a sériu Titanfall.",
+    "source": "https://en.wikipedia.org/wiki/Respawn_Entertainment"
+  },
+  "Team Cherry": {
+    "description": "Austrálske nezávislé štúdio, tvorcovia hry Hollow Knight.",
+    "source": "https://en.wikipedia.org/wiki/Team_Cherry"
+  },
+  "Unity": {
+    "description": "Herný engine, ktorý vývojári používajú na tvorbu 2D a 3D hier.",
+    "source": "https://en.wikipedia.org/wiki/Unity"
+  },
+  "Unreal Engine": {
+    "description": "Herný engine od Epic Games používaný na tvorbu 3D hier a virtuálnych svetov.",
+    "source": "https://en.wikipedia.org/wiki/Unreal_Engine"
   }
 }
