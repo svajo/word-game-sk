@@ -44,8 +44,8 @@ Pri nejednoznačných názvoch najprv overte, čo označujú. Odkaz na zdroj sl�
 počas hry sa externé stránky nenačítavajú. Ak slovo nemá vysvetlenie alebo voliteľný súbor
 nie je dostupný, hra zobrazí iba slovo.
 
-Súbor obsahuje vyše 1 200 vysvetlení, najmä pre osoby, fiktívne postavy, hudobné skupiny
-a športové kluby.
+Súbor obsahuje vysvetlenia osôb, kníh a filmov, miest, značiek, hudobných skupín,
+športových klubov a ďalších slov.
 
 ## Kontroly
 
