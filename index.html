@@ -60,13 +60,46 @@
         }
 
         body.game-active #fullscreen-btn {
-            margin: max(0.3rem, env(safe-area-inset-top)) max(0.3rem, env(safe-area-inset-right)) 0 0 !important;
+            margin: 0 !important;
             padding: 0.25rem 0.5rem;
             font-size: 0.75rem;
         }
 
-        #fullscreen-btn {
-            z-index: 10;
+        body.game-active #top-controls {
+            top: max(0.3rem, env(safe-area-inset-top)) !important;
+            right: max(0.3rem, env(safe-area-inset-right)) !important;
+            margin: 0 !important;
+        }
+
+        #top-controls { z-index: 10; display: flex; align-items: center; gap: 0.35rem; }
+        #top-controls .btn { padding: 0.35rem 0.55rem; font-size: 0.8rem; }
+        #top-controls .setting-toggle { display: grid; place-items: center; width: 2.4rem; height: 2.4rem; padding: .35rem; }
+        #top-controls .setting-toggle:focus:not(:focus-visible) { box-shadow: none; outline: none; }
+        #top-controls .setting-toggle.is-disabled:hover,
+        #top-controls .setting-toggle.is-disabled:focus,
+        #top-controls .setting-toggle.is-disabled:active {
+            color: #f8f9fa !important;
+            background-color: transparent !important;
+            border-color: #f8f9fa !important;
+            box-shadow: none !important;
+        }
+        #top-controls .setting-toggle { -webkit-tap-highlight-color: transparent; }
+        .setting-toggle.is-enabled { background: #fff; color: #212529; border-color: #fff; }
+        .setting-icon { width: 1.25rem; height: 1.25rem; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+        .settings-off-slash { display: none; }
+        .setting-toggle.is-disabled .settings-off-slash { display: block; }
+        #fullscreen-btn svg { width: 1.1rem; height: 1.1rem; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+        @media (max-width: 575.98px) {
+            #top-controls {
+                top: max(.5rem, env(safe-area-inset-top)) !important;
+                right: max(.5rem, env(safe-area-inset-right)) !important;
+                margin: 0 !important;
+                gap: .25rem;
+            }
+            #top-controls .setting-toggle, #fullscreen-btn { width: 2.35rem; height: 2.35rem; padding: .35rem; }
+            #fullscreen-btn { display: grid; place-items: center; }
+            #fullscreen-btn .fullscreen-label { display: none; }
         }
 
         @media (pointer: coarse) {
@@ -117,6 +150,13 @@
             overflow-wrap: anywhere;
         }
 
+        #word-card.feedback-correct { animation: feedback-correct 0.25s ease-out; }
+        #word-card.feedback-incorrect { animation: feedback-incorrect 0.25s ease-out; }
+        #word-card.feedback-skipped { animation: feedback-skipped 0.25s ease-out; }
+        @keyframes feedback-correct { 50% { filter: drop-shadow(0 0 1.5rem rgba(110, 231, 168, .75)); } }
+        @keyframes feedback-incorrect { 50% { filter: drop-shadow(0 0 1.5rem rgba(255, 119, 119, .75)); } }
+        @keyframes feedback-skipped { 50% { filter: drop-shadow(0 0 1.5rem rgba(185, 193, 204, .7)); } }
+
         #word-display.long-word {
             font-size: clamp(1.8rem, 5.4vw, 3.96rem);
         }
@@ -157,6 +197,29 @@
 
         .duration-grid .duration-button {
             margin-bottom: 0;
+        }
+
+        .duration-button.selected { background: #fff; color: #212529; border-color: #fff; box-shadow: 0 0 0 .2rem rgba(255,255,255,.2); }
+        .custom-timer { margin: 1rem auto 0; }
+        .custom-timer-controls { display: flex; justify-content: center; align-items: end; gap: 1rem; }
+        .timer-picker { display: grid; grid-template-columns: auto auto; align-items: center; gap: .5rem; }
+        .timer-picker > span { text-align: right; }
+        .timer-picker-toggle { min-width: 4rem; }
+        .timer-option-menu { min-width: 4rem !important; width: 4rem; max-height: 45vh; overflow-y: auto; padding: .25rem; background: #343a40; }
+        .timer-option-menu .dropdown-item { color: #fff; text-align: center; padding: .35rem .5rem; }
+        .timer-option-menu .dropdown-item:hover, .timer-option-menu .dropdown-item:focus { color: #212529; }
+        .timer-navigation { display: flex; justify-content: center; gap: 1rem; margin: 2rem auto 0; }
+        #guesser-navigation .flow-nav-button, #round-duration .flow-nav-button {
+            box-sizing: border-box;
+            width: min(10rem, 42vw);
+            min-width: 0;
+            height: 4rem;
+            min-height: 4rem;
+            padding: .5rem .75rem;
+            font-size: clamp(1rem, 2.5vw, 1.4rem);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .category-button {
@@ -229,7 +292,7 @@
 
         .end-summary-actions {
             display: grid;
-            grid-template-columns: minmax(0, 1.3fr) minmax(8rem, 0.7fr);
+            grid-template-columns: minmax(0, 1.1fr) repeat(2, minmax(8rem, 0.7fr));
             align-items: stretch;
             gap: clamp(0.75rem, 3vw, 2rem);
             width: min(100%, 58rem);
@@ -255,6 +318,21 @@
         }
 
         #result-rankings table { width: 100%; }
+
+        #round-recap { width: min(100%, 58rem); }
+        #round-recap tbody tr.recap-correct > * {
+            --bs-table-color: #75e0a1;
+            --bs-table-bg: rgba(25, 135, 84, 0.28);
+            color: #75e0a1;
+            font-weight: 700;
+        }
+        #round-recap tbody tr.recap-incorrect > * {
+            --bs-table-color: #ff8989;
+            --bs-table-bg: rgba(220, 53, 69, 0.28);
+            color: #ff8989;
+            font-weight: 700;
+        }
+        #round-recap tbody td { border-bottom: 1px solid rgba(255, 255, 255, 0.28); }
 
         #ok-button {
             width: 100%;
@@ -433,6 +511,10 @@
         }
 
         @media (orientation: landscape) and (max-height: 450px) {
+            #round-duration h1 { font-size: 2rem; margin-bottom: .5rem; }
+            .duration-button { min-height: 3rem; font-size: 1.5rem; margin-bottom: 0; }
+            .custom-timer { margin-top: .5rem; }
+            .timer-navigation { margin-top: 1.25rem; }
             #timer { padding: 0.2rem 0.75rem; font-size: 1.4rem; }
             #word-display { font-size: clamp(3.78rem, 19.44dvh, 5.94rem); }
             #word-display.long-word { font-size: clamp(3.24rem, 14.58dvh, 4.86rem); }
@@ -478,6 +560,8 @@
         #previous-guessers { gap: .75rem !important; margin: 1.5rem 0 !important; }
         #previous-guessers .btn { min-height: 3rem; padding: .5rem 1.25rem; font-size: 1.15rem; }
         #continue-to-duration { min-height: 4rem; padding: .75rem 2rem; font-size: 1.5rem; }
+        .guesser-navigation { display: flex; justify-content: center; align-items: stretch; gap: 1rem; margin-top: 2rem; }
+        #round-duration .screen-back { display: block; margin: 1.5rem auto 0; }
         @media (max-width: 575px) { .session-panels, .history-filters { grid-template-columns: 1fr; } }
         
     </style>
@@ -493,8 +577,19 @@
             <h1>Prosím, otočte telefón na šírku</h1>
         </div>
     </div>
+    <div id="top-controls" class="position-fixed top-0 end-0 m-3" aria-label="Nastavenia hry">
+        <button id="effects-toggle" type="button" class="btn btn-outline-light setting-toggle" aria-label="Efekty zapnuté" title="Efekty" aria-pressed="true">
+            <svg class="setting-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 1.7 5.3L19 10l-5.3 1.7L12 17l-1.7-5.3L5 10l5.3-1.7L12 3Z"></path><path d="m19 16 .8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8L19 16Z"></path><path class="settings-off-slash" d="M3 3 21 21"></path></svg>
+        </button>
+        <button id="sound-toggle" type="button" class="btn btn-outline-light setting-toggle" aria-label="Zvuk zapnutý" title="Zvuk" aria-pressed="true">
+            <svg class="setting-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10v4h4l5 4V6l-5 4H4Z"></path><path d="M17 9a5 5 0 0 1 0 6M19.5 6.5a9 9 0 0 1 0 11"></path><path class="settings-off-slash" d="M3 3 21 21"></path></svg>
+        </button>
+        <button id="fullscreen-btn" class="btn btn-primary" aria-label="Fullscreen" title="Fullscreen">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M3 16v5h5M21 16v5h-5"></path></svg>
+            <span class="fullscreen-label">Fullscreen</span>
+        </button>
+    </div>
     <div class="container mt-3">
-        <button id="fullscreen-btn" class="btn btn-primary position-fixed top-0 end-0 m-3">Fullscreen</button>
 
         <div id="category-selection" class="text-center">
             <h1 class="display-4"><strong>Hádaj slová</strong></h1>
@@ -525,7 +620,10 @@
             <div class="guesser-form mx-auto">
                 <input id="guesser-name" class="form-control form-control-lg text-center" maxlength="20" autocomplete="off" placeholder="Meno (nepovinné)">
                 <div id="previous-guessers" class="d-flex flex-wrap justify-content-center gap-2 my-3"></div>
-                <button id="continue-to-duration" class="btn btn-primary btn-lg">Pokračovať</button>
+                <div id="guesser-navigation" class="guesser-navigation">
+                    <button id="back-to-category" type="button" class="btn btn-warning screen-back flow-nav-button">← Späť</button>
+                    <button id="continue-to-duration" class="btn btn-primary btn-lg flow-nav-button">Pokračovať</button>
+                </div>
             </div>
         </div>
 
@@ -534,12 +632,44 @@
             <div class="duration-grid">
                 <button class="btn btn-outline-light duration-button" data-time="30">30s</button>
                 <button class="btn btn-outline-light duration-button" data-time="60">1m</button>
-                <button class="btn btn-outline-light duration-button" data-time="90">1m 30s</button>
                 <button class="btn btn-outline-light duration-button" data-time="120">2m</button>
-                <button class="btn btn-outline-light duration-button" data-time="150">2m 30s</button>
-                <button class="btn btn-outline-light duration-button" data-time="180">3m</button>
-                <button class="btn btn-outline-light duration-button" data-time="240">4m</button>
                 <button class="btn btn-outline-light duration-button" data-time="300">5m</button>
+            </div>
+            <div class="custom-timer">
+                <h2 class="h5 mb-2">Vlastný čas</h2>
+                <div class="custom-timer-controls">
+                    <div class="timer-picker dropdown">
+                        <span>Minúty</span>
+                        <button id="minutes-picker" class="btn btn-outline-light dropdown-toggle timer-picker-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">0</button>
+                        <div class="dropdown-menu timer-option-menu" aria-labelledby="minutes-picker">
+                            <button class="dropdown-item minute-option" type="button" data-value="0">0</button>
+                            <button class="dropdown-item minute-option" type="button" data-value="1">1</button>
+                            <button class="dropdown-item minute-option" type="button" data-value="2">2</button>
+                            <button class="dropdown-item minute-option" type="button" data-value="3">3</button>
+                            <button class="dropdown-item minute-option" type="button" data-value="4">4</button>
+                            <button class="dropdown-item minute-option" type="button" data-value="5">5</button>
+                            <button class="dropdown-item minute-option" type="button" data-value="6">6</button>
+                            <button class="dropdown-item minute-option" type="button" data-value="7">7</button>
+                            <button class="dropdown-item minute-option" type="button" data-value="8">8</button>
+                            <button class="dropdown-item minute-option" type="button" data-value="9">9</button>
+                            <button class="dropdown-item minute-option" type="button" data-value="10">10</button>
+                        </div>
+                    </div>
+                    <div class="timer-picker dropdown">
+                        <span>Sekundy</span>
+                        <button id="seconds-picker" class="btn btn-outline-light dropdown-toggle timer-picker-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">00</button>
+                        <div class="dropdown-menu timer-option-menu" aria-labelledby="seconds-picker">
+                            <button class="dropdown-item second-option" type="button" data-value="0">00</button>
+                            <button class="dropdown-item second-option" type="button" data-value="15">15</button>
+                            <button class="dropdown-item second-option" type="button" data-value="30">30</button>
+                            <button class="dropdown-item second-option" type="button" data-value="45">45</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="timer-navigation">
+                <button id="back-to-guesser" type="button" class="btn btn-warning flow-nav-button">← Späť</button>
+                <button id="start-selected-game" type="button" class="btn btn-primary flow-nav-button" disabled>Pokračovať</button>
             </div>
         </div>
 
@@ -644,8 +774,20 @@
                 <div class="result-actions">
                     <button id="ok-button" class="btn btn-primary btn-lg">Začať<br>novú<br>hru</button>
                 </div>
+                <div class="result-actions">
+                    <button id="replay-button" class="btn btn-success btn-lg">Rovnaká<br>hra</button>
+                </div>
             </div>
             <div id="result-rankings" class="mx-auto my-4"></div>
+            <section id="round-recap" class="mx-auto my-4" aria-labelledby="round-recap-title">
+                <h2 id="round-recap-title" class="h4">Rekapitulácia kola</h2>
+                <div class="table-responsive">
+                    <table class="table table-dark table-sm align-middle">
+                        <thead><tr><th scope="col">Slovo</th><th scope="col">Výsledok</th><th scope="col">Čas</th></tr></thead>
+                        <tbody id="round-recap-rows"></tbody>
+                    </table>
+                </div>
+            </section>
         </div>
     </div>
 

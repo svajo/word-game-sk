@@ -20,14 +20,53 @@ const resultsStorageKey = 'hadaj-slova-results-v1';
 const guessersStorageKey = 'hadaj-slova-guessers-v1';
 const resultsLimit = 500;
 const resultsPerPage = 10;
+const gameSettingsStorageKey = 'hadaj-slova-settings-v1';
 let gameResults = [];
 let currentPage = 1;
 let sortColumn = 'date';
 let sortDirection = -1;
 let currentGuesser = '';
 let selectedDuration = 0;
+let durationSelectionType = '';
+let customMinutes = 0;
+let customSeconds = 0;
 let guessers = [];
+let soundEnabled = true;
+let effectsEnabled = true;
+let roundRecap = [];
+let activeRecapWord = null;
 let usedWords = new Set();
+
+function saveGameSettings() {
+    try { window.localStorage.setItem(gameSettingsStorageKey, JSON.stringify({ sound: soundEnabled, effects: effectsEnabled })); } catch (_) {}
+}
+
+function updateSettingButtons() {
+    const soundButton = document.getElementById('sound-toggle');
+    soundButton.setAttribute('aria-pressed', String(soundEnabled));
+    soundButton.setAttribute('aria-label', `Zvuk ${soundEnabled ? 'zapnutý' : 'vypnutý'}`);
+    soundButton.classList.toggle('is-enabled', soundEnabled);
+    soundButton.classList.toggle('is-disabled', !soundEnabled);
+    const effectsButton = document.getElementById('effects-toggle');
+    effectsButton.setAttribute('aria-pressed', String(effectsEnabled));
+    effectsButton.setAttribute('aria-label', `Efekty ${effectsEnabled ? 'zapnuté' : 'vypnuté'}`);
+    effectsButton.classList.toggle('is-enabled', effectsEnabled);
+    effectsButton.classList.toggle('is-disabled', !effectsEnabled);
+}
+
+try {
+    const savedSettings = JSON.parse(window.localStorage.getItem(gameSettingsStorageKey) || '{}');
+    if (typeof savedSettings.sound === 'boolean') soundEnabled = savedSettings.sound;
+    if (typeof savedSettings.effects === 'boolean') effectsEnabled = savedSettings.effects;
+} catch (_) {}
+updateSettingButtons();
+
+document.getElementById('sound-toggle').addEventListener('click', () => {
+    soundEnabled = !soundEnabled; saveGameSettings(); updateSettingButtons();
+});
+document.getElementById('effects-toggle').addEventListener('click', () => {
+    effectsEnabled = !effectsEnabled; saveGameSettings(); updateSettingButtons();
+});
 
 function readStoredArray(key) {
     try {
@@ -235,6 +274,10 @@ function displayCategories() {
 
 function selectCategory(category) {
     currentCategory = category;
+    selectedDuration = 0;
+    durationSelectionType = '';
+    document.querySelectorAll('.duration-button').forEach(button => button.classList.remove('selected'));
+    document.getElementById('start-selected-game').disabled = true;
     applyTheme(category);
     loadWords(category);
     if (!words.length) {
@@ -273,6 +316,20 @@ document.getElementById('continue-to-duration').addEventListener('click', () => 
     document.getElementById('round-duration').style.display = 'block';
 });
 
+document.getElementById('back-to-category').addEventListener('click', () => {
+    document.getElementById('guesser-selection').style.display = 'none';
+    document.getElementById('category-selection').style.display = 'block';
+    window.scrollTo(0, 0);
+    requestAnimationFrame(updateScrollHint);
+});
+
+document.getElementById('back-to-guesser').addEventListener('click', () => {
+    document.getElementById('round-duration').style.display = 'none';
+    document.getElementById('guesser-selection').style.display = 'block';
+    window.scrollTo(0, 0);
+    requestAnimationFrame(updateScrollHint);
+});
+
 function loadWords(category) {
     const candidates = category === 'Všetko' ? sessionWordPool() : (allWords[category] || []);
     words = uniqueWords(candidates).filter(word => !usedWords.has(wordKey(word)));
@@ -283,6 +340,8 @@ function startGame(duration) {
     roundActive = true;
     remainingTime = duration;
     selectedDuration = duration;
+    roundRecap = [];
+    activeRecapWord = null;
     correctGuesses = 0;
     incorrectGuesses = 0;
     skippedGuesses = 0;
@@ -322,6 +381,7 @@ function displayNextWord() {
         wordDisplay.classList.toggle('long-word', formattedWord.length > 28);
         wordDisplay.classList.toggle('very-long-word', formattedWord.length > 45);
         fitWordToSingleLine(wordDisplay);
+        activeRecapWord = { word: formattedWord, startedAt: Date.now() };
         const descriptionDisplay = document.getElementById('word-description');
         const description = wordDescriptions?.[word]?.description;
         descriptionDisplay.textContent = typeof description === 'string' ? description : '';
@@ -337,6 +397,27 @@ function displayNextWord() {
         endGame();
         return false;
     }
+}
+
+function completeActiveRecapWord(outcome) {
+    if (!activeRecapWord) return;
+    roundRecap.push({
+        word: activeRecapWord.word,
+        outcome,
+        seconds: Math.max(0, (Date.now() - activeRecapWord.startedAt) / 1000)
+    });
+    activeRecapWord = null;
+}
+
+function showAnswerFeedback(kind) {
+    if (!effectsEnabled) return;
+    const card = document.getElementById('word-card');
+    ['correct', 'incorrect', 'skipped'].forEach(name => card.classList.remove(`feedback-${name}`));
+    void card.offsetWidth;
+    card.classList.add(`feedback-${kind}`);
+    if (typeof setTimeout === 'function') setTimeout(() => card.classList.remove(`feedback-${kind}`), 300);
+    const vibration = { correct: 25, incorrect: [35, 25, 35], skipped: 15 }[kind];
+    try { window.navigator?.vibrate?.(vibration); } catch (_) {}
 }
 
 function fitWordToSingleLine(wordDisplay) {
@@ -387,6 +468,7 @@ function endGame(playSound = true, saveResult = true) {
     if (playSound) {
         playEndSound();
     }
+    completeActiveRecapWord(saveResult ? 'Čas vypršal' : 'Koniec hry');
     if (saveResult) {
         gameResults.unshift({
             id: `${Date.now()}-${Math.random()}`, guesser: currentGuesser || '—', category: currentCategory,
@@ -533,7 +615,20 @@ function showEndScreen(saved = true) {
         });
         table.appendChild(body); rankingContainer.appendChild(table);
     }
+    const recapRows = document.getElementById('round-recap-rows');
+    recapRows.innerHTML = '';
+    roundRecap.forEach(item => {
+        const row = document.createElement('tr');
+        if (item.outcome === 'Správne') row.className = 'recap-correct';
+        if (item.outcome === 'Nesprávne') row.className = 'recap-incorrect';
+        [item.word, item.outcome, `${item.seconds.toFixed(1)} s`].forEach(value => {
+            const cell = document.createElement('td'); cell.textContent = String(value);
+            row.appendChild(cell);
+        });
+        recapRows.appendChild(row);
+    });
     document.getElementById('end-screen').style.display = 'block';
+    requestAnimationFrame(updateScrollHint);
 }
 
 // Event listeners for game buttons
@@ -546,32 +641,67 @@ function canRecordGuess() {
     return true;
 }
 
+function updateTimerSelection() {
+    document.querySelectorAll('.duration-button').forEach(button => {
+        button.classList.toggle('selected', durationSelectionType === 'preset' && Number(button.getAttribute('data-time')) === selectedDuration);
+    });
+    document.getElementById('start-selected-game').disabled = selectedDuration <= 0;
+}
+
 document.querySelectorAll('.duration-button').forEach(button => {
     button.addEventListener('click', () => {
-        startGame(parseInt(button.getAttribute('data-time')));
+        selectedDuration = Number(button.getAttribute('data-time'));
+        durationSelectionType = 'preset';
+        updateTimerSelection();
     });
+});
+
+function selectCustomTimer() {
+    selectedDuration = customMinutes * 60 + customSeconds;
+    durationSelectionType = 'custom';
+    updateTimerSelection();
+}
+
+document.querySelectorAll('.minute-option').forEach(button => button.addEventListener('click', () => {
+    customMinutes = Number(button.getAttribute('data-value'));
+    document.getElementById('minutes-picker').textContent = String(customMinutes);
+    selectCustomTimer();
+}));
+document.querySelectorAll('.second-option').forEach(button => button.addEventListener('click', () => {
+    customSeconds = Number(button.getAttribute('data-value'));
+    document.getElementById('seconds-picker').textContent = String(customSeconds).padStart(2, '0');
+    selectCustomTimer();
+}));
+document.getElementById('start-selected-game').addEventListener('click', () => {
+    if (selectedDuration > 0) startGame(selectedDuration);
 });
 
 document.getElementById('incorrect-button').addEventListener('click', () => {
     if (!canRecordGuess()) return;
+    completeActiveRecapWord('Nesprávne');
     totalGuesses++;
     incorrectGuesses++;
+    showAnswerFeedback('incorrect');
     playIncorrectSound();
     displayNextWord();
 });
 
 document.getElementById('correct-button').addEventListener('click', () => {
     if (!canRecordGuess()) return;
+    completeActiveRecapWord('Správne');
     totalGuesses++;
     correctGuesses++;
+    showAnswerFeedback('correct');
     playCorrectSound();
     displayNextWord();
 });
 
 document.getElementById('skip-button').addEventListener('click', () => {
     if (!canRecordGuess()) return;
+    completeActiveRecapWord('Preskočené');
     totalGuesses++;
     skippedGuesses++;
+    showAnswerFeedback('skipped');
     playSkipSound();
     displayNextWord();
 });
@@ -584,6 +714,20 @@ document.getElementById('ok-button').addEventListener('click', () => {
     document.getElementById('guesser-name').value = '';
     window.scrollTo(0, 0);
     requestAnimationFrame(updateScrollHint);
+});
+
+document.getElementById('replay-button').addEventListener('click', () => {
+    document.getElementById('end-screen').style.display = 'none';
+    loadWords(currentCategory);
+    if (!words.length) {
+        document.getElementById('category-selection').style.display = 'block';
+        document.getElementById('session-message').textContent =
+            `V kategórii ${currentCategory} ste už videli všetky slová. Povoľte opakovanie alebo vyberte inú kategóriu.`;
+        window.scrollTo(0, 0);
+        requestAnimationFrame(updateScrollHint);
+        return;
+    }
+    startGame(selectedDuration);
 });
 
 function showConfirmationModal() {
@@ -685,7 +829,7 @@ function playSkipSound() {
 }
 
 function playTone(frequency, delay, duration, level, type = 'sine') {
-    if (!audioContext || audioContext.state !== 'running') {
+    if (!soundEnabled || !audioContext || audioContext.state !== 'running') {
         return;
     }
 
