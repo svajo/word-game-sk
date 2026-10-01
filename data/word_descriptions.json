@@ -56,8 +56,8 @@
     "source": "https://en.wikipedia.org/wiki/Gregor_Mendel"
   },
   "Marie Curie": {
-    "description": "Vedkyňa skúmajúca rádioaktivitu, spoluobjaviteľka rádia a polónia a dvojnásobná nositeľka Nobelovej ceny.",
-    "source": "https://en.wikipedia.org/wiki/Marie_Curie"
+    "description": "Fyzikálna chemička, ktorá spolu s Pierrom Curie objavila prvky polónium a rádium; Nobelovu cenu získala dvakrát.",
+    "source": "https://www.nobelprize.org/prizes/themes/marie-and-pierre-curie-and-the-discovery-of-polonium-and-radium/"
   },
   "Nikola Tesla": {
     "description": "Vynálezca a elektrotechnik, známy prácou na systémoch využívajúcich striedavý prúd.",
@@ -364,8 +364,8 @@
     "source": "https://sk.wikipedia.org/wiki/Manchester_United_FC"
   },
   "Cristiano Ronaldo": {
-    "description": "Portugalský futbalový útočník, päťnásobný držiteľ Zlatej lopty a hviezda Realu Madrid.",
-    "source": "https://sk.wikipedia.org/wiki/Cristiano_Ronaldo"
+    "description": "Portugalský futbalista, päťnásobný držiteľ Zlatej lopty a majster Európy z roku 2016.",
+    "source": "https://en.wikipedia.org/wiki/Cristiano_Ronaldo"
   },
   "Neymar": {
     "description": "Brazílsky futbalový útočník, známy technickými kľučkami a pôsobením v Barcelone či Paríži.",
@@ -1144,7 +1144,7 @@
     "source": "https://sk.wikipedia.org/wiki/Zooey_Deschanelov%C3%A1"
   },
   "Eva Green": {
-    "description": "Francúzska herečka, predstaviteľka Vesper Lyndovej v bondovke Casino Royale.",
+    "description": "Francúzska herečka, ktorá vo filme Casino Royale stvárnila agentku Vesper Lynd.",
     "source": "https://sk.wikipedia.org/wiki/Eva_Greenov%C3%A1"
   },
   "Carey Mulligan": {
@@ -1204,7 +1204,7 @@
     "source": "https://sk.wikipedia.org/wiki/Tim_Burton"
   },
   "Woody Allen": {
-    "description": "Americký režisér, scenárista a herec, známy filmami Annie Hallová a Manhattan.",
+    "description": "Americký režisér, scenárista a herec, známy filmami o vzťahoch a živote v New Yorku.",
     "source": "https://sk.wikipedia.org/wiki/Woody_Allen"
   },
   "Bratia Coenovci": {
@@ -1364,16 +1364,12 @@
     "source": "https://sk.wikipedia.org/wiki/Pavel_Landovsk%C3%BD"
   },
   "Jiří Lábus": {
-    "description": "Český herec a komik, predstaviteľ Rumburaka z Arabely a český hlas Marge Simpsonovej.",
+    "description": "Český herec a komik, predstaviteľ Rumburaka z Arabely a český hlas postavy Marge Simpson.",
     "source": "https://sk.wikipedia.org/wiki/Ji%C5%99%C3%AD_L%C3%A1bus"
   },
   "Homer Simpson": {
     "description": "Otec rodiny Simpsonovcov, milovník šišiek a piva, ktorý pracuje v jadrovej elektrárni.",
     "source": "https://sk.wikipedia.org/wiki/Homer_Simpson"
-  },
-  "Dana Scullyová": {
-    "description": "Dana Scullyová, lekárka a agentka FBI zo seriálu Akty X, partnerka Foxa Muldera.",
-    "source": "https://en.wikipedia.org/wiki/Dana_Scully"
   },
   "Fox Mulder": {
     "description": "Agent FBI zo seriálu Akty X, ktorý s Danou Scullyovou vyšetruje paranormálne javy.",
@@ -1504,7 +1500,7 @@
     "source": "https://sk.wikipedia.org/wiki/Richard_Dawkins"
   },
   "Mikuláš Kopernik": {
-    "description": "Mikuláš Kopernik, astronóm, ktorý presadzoval model planét obiehajúcich okolo Slnka.",
+    "description": "Astronóm, ktorý presadzoval model, v ktorom Zem a ostatné planéty obiehajú okolo Slnka.",
     "source": "https://en.wikipedia.org/wiki/Nicolaus_Copernicus"
   },
   "Henry Moseley": {
@@ -1600,7 +1596,7 @@
     "source": "https://en.wikipedia.org/wiki/Cleopatra"
   },
   "Jana z Arku": {
-    "description": "Francúzska národná hrdinka Jana z Arku, ktorá viedla vojsko a bola upálená.",
+    "description": "Francúzska bojovníčka, ktorá počas storočnej vojny viedla vojsko a skončila na hranici.",
     "source": "https://en.wikipedia.org/wiki/Joan_of_Arc"
   },
   "Thomas Edison": {
@@ -1612,7 +1608,7 @@
     "source": "https://sk.wikipedia.org/wiki/Marco_Polo"
   },
   "Džingischán": {
-    "description": "Mongolský vojvodca a zakladateľ rozsiahlej Mongolskej ríše, známy ako Džingischán.",
+    "description": "Mongolský vodca, ktorý zjednotil mongolské kmene a položil základy rozsiahlej Mongolskej ríše.",
     "source": "https://en.wikipedia.org/wiki/Genghis_Khan"
   },
   "Konfucius": {
@@ -2072,8 +2068,8 @@
     "source": "https://sk.wikipedia.org/wiki/Johannes_Brahms"
   },
   "Franz Schubert": {
-    "description": "Rakúsky skladateľ, známy piesňami a Nedokončenou symfóniou.",
-    "source": "https://sk.wikipedia.org/wiki/Franz_Schubert"
+    "description": "Rakúsky skladateľ piesní a symfónií, medzi ktorých najznámejšie diela patrí Nedokončená symfónia.",
+    "source": "https://en.wikipedia.org/wiki/Franz_Schubert"
   },
   "Johann Sebastian Bach": {
     "description": "Nemecký barokový skladateľ a organista, známy fúgami, kantátami a pašiami.",
@@ -2152,7 +2148,7 @@
     "source": "https://sk.wikipedia.org/wiki/Max_Weber"
   },
   "Alexander Puškin": {
-    "description": "Ruský básnik Puškin, autor veršovaného románu Eugen Onegin.",
+    "description": "Ruský básnik a prozaik, autor veršovaného románu Eugen Onegin.",
     "source": "https://en.wikipedia.org/wiki/Alexander_Pushkin"
   },
   "Voltaire": {
@@ -2236,8 +2232,8 @@
     "source": "https://en.wikipedia.org/wiki/Alfred_the_Great"
   },
   "Évariste Galois": {
-    "description": "Francúzsky matematik, zakladateľ teórie nesúcej jeho meno, ktorý zomrel mladý po súboji.",
-    "source": "https://sk.wikipedia.org/wiki/%C3%89variste_Galois"
+    "description": "Francúzsky matematik, ktorého práca o rovniciach položila základy teórie nesúcej jeho meno; zomrel po súboji ako dvadsaťročný.",
+    "source": "https://en.wikipedia.org/wiki/%C3%89variste_Galois"
   },
   "Arthur Conan Doyle": {
     "description": "Škótsky spisovateľ a lekár, tvorca detektíva Sherlocka Holmesa.",
@@ -2828,7 +2824,7 @@
     "source": "https://sk.wikipedia.org/wiki/Ellen_DeGeneresov%C3%A1"
   },
   "Emma Watson": {
-    "description": "Britská herečka, známa ako Hermiona Grangerová vo filmoch o Harrym Potterovi.",
+    "description": "Britská herečka, ktorá vo filmoch o Harrym Potterovi stvárnila Hermionu Granger.",
     "source": "https://sk.wikipedia.org/wiki/Emma_Watsonov%C3%A1"
   },
   "Daniel Radcliffe": {
@@ -3900,7 +3896,7 @@
     "source": "https://sk.wikipedia.org/wiki/Julia_Gillardov%C3%A1"
   },
   "Hu Jintao": {
-    "description": "Čínsky politik, prezident Číny v rokoch 2003 až 2013.",
+    "description": "Čínsky prezident v rokoch 2003 až 2013, ktorý viedol krajinu počas rýchleho hospodárskeho rastu.",
     "source": "https://en.wikipedia.org/wiki/Hu_Jintao"
   },
   "Deng Xiaoping": {
@@ -3908,7 +3904,7 @@
     "source": "https://en.wikipedia.org/wiki/Deng_Xiaoping"
   },
   "Kim Jong-un": {
-    "description": "Severokórejský diktátor, syn a nástupca Kim Čong-ila.",
+    "description": "Vodca Severnej Kórey a syn predchádzajúceho vodcu Kim Čong-ila.",
     "source": "https://en.wikipedia.org/wiki/Kim_Jong_Un"
   },
   "Moon Jae-in": {
@@ -4052,8 +4048,8 @@
     "source": "https://sk.wikipedia.org/wiki/Jeff_Bezos"
   },
   "Richard Branson": {
-    "description": "Britský podnikateľ, zakladateľ skupiny firiem Virgin.",
-    "source": "https://sk.wikipedia.org/wiki/Richard_Branson"
+    "description": "Britský podnikateľ, ktorý založil skupinu Virgin a leteckú spoločnosť Virgin Atlantic.",
+    "source": "https://en.wikipedia.org/wiki/Richard_Branson"
   },
   "Hillary Clinton": {
     "description": "Americká politička, bývalá prvá dáma, ministerka zahraničia a prezidentská kandidátka.",
@@ -4096,11 +4092,11 @@
     "source": "https://en.wikipedia.org/wiki/Chrissy_Teigen"
   },
   "Gigi Hadid": {
-    "description": "Americká modelka, staršia sestra modelky Belly Hadid.",
+    "description": "Americká modelka, ktorá spolupracovala s veľkými módnymi značkami; je staršou sestrou Belly Hadid.",
     "source": "https://en.wikipedia.org/wiki/Gigi_Hadid"
   },
   "Bella Hadid": {
-    "description": "Americká modelka, mladšia sestra modelky Gigi Hadid.",
+    "description": "Americká modelka známa z titulných strán módnych časopisov; je mladšou sestrou Gigi Hadid.",
     "source": "https://en.wikipedia.org/wiki/Bella_Hadid"
   },
   "Cyndi Lauper": {
@@ -4860,208 +4856,208 @@
     "source": "https://sk.wikipedia.org/wiki/Afganistan"
   },
   "Albánsko": {
-    "description": "Shqipëria), dlhý tvar Albánska republika (albán.",
-    "source": "https://sk.wikipedia.org/wiki/Alb%C3%A1nsko"
+    "description": "Balkánska krajina s pobrežím pri Jadranskom a Iónskom mori; jej hlavné mesto je Tirana.",
+    "source": "https://en.wikipedia.org/wiki/Albania"
   },
   "Alžírsko": {
-    "description": "الجزائر al-Džazá’ir) dlhý tvar Alžírska demokratická ľudová republika (arab.",
-    "source": "https://sk.wikipedia.org/wiki/Al%C5%BE%C3%ADrsko"
+    "description": "Najväčší štát Afriky, ktorého vnútrozemie z veľkej časti pokrýva Sahara.",
+    "source": "https://en.wikipedia.org/wiki/Algeria"
   },
   "Andorra": {
-    "description": "Andorra, dlhý tvar Andorrské kniežatstvo, je suverénny vnútrozemský štát na Pyrenejskom polostrove vo východnej časti Pyrenejí v juhozápadnej Európe…",
-    "source": "https://sk.wikipedia.org/wiki/Andorra"
+    "description": "Malý vnútrozemský štát v Pyrenejach, natlačený medzi Francúzsko a Španielsko.",
+    "source": "https://en.wikipedia.org/wiki/Andorra"
   },
   "Angola": {
-    "description": "Angola, dlhý tvar: Angolská republika (port.",
-    "source": "https://sk.wikipedia.org/wiki/Angola"
+    "description": "Krajina na juhozápade Afriky s dlhým pobrežím Atlantického oceána.",
+    "source": "https://en.wikipedia.org/wiki/Angola"
   },
   "Antigua a Barbuda": {
     "description": "Antigua a Barbuda je štát v strednej Amerike, ktorý leží na troch ostrovoch (Antigua 279,6 km², Barbuda 160,5 km² a Redonda 1,5 km²) v Malých Antilách.",
     "source": "https://sk.wikipedia.org/wiki/Antigua_a_Barbuda"
   },
   "Argentína": {
-    "description": "Argentína, dlhý tvar Argentínska republika, je štát v južnej časti Južnej Ameriky.",
-    "source": "https://sk.wikipedia.org/wiki/Argent%C3%ADna"
+    "description": "Rozľahlá krajina na juhu Južnej Ameriky, ktorá siaha od Ánd až po Ohňovú zem.",
+    "source": "https://en.wikipedia.org/wiki/Argentina"
   },
   "Arménsko": {
-    "description": "Arménsko (súčasný normovaný názov; staršie (cca do 70.",
-    "source": "https://sk.wikipedia.org/wiki/Arm%C3%A9nsko"
+    "description": "Hornatá krajina na južnom Kaukaze, ktorej hlavným mestom je Jerevan.",
+    "source": "https://en.wikipedia.org/wiki/Armenia"
   },
   "Azerbajdžan": {
-    "description": "Azerbajdžan, dlhý tvar Azerbajdžanská republika, je vnútrozemský štát v juhozápadnej Ázii.",
-    "source": "https://sk.wikipedia.org/wiki/Azerbajd%C5%BEan"
+    "description": "Krajina na Kaukaze pri Kaspickom mori, na rozhraní Európy a Ázie.",
+    "source": "https://en.wikipedia.org/wiki/Azerbaijan"
   },
   "Bahamy": {
-    "description": "Bahamy, dlhý tvar názvu Bahamské spoločenstvo, sú nezávislý anglicky hovoriaci štát v oblasti Karibského mora ležiaci na rovnomennom súostroví (pozri nižšie).",
-    "source": "https://sk.wikipedia.org/wiki/Bahamy"
+    "description": "Súostrovie v Atlantickom oceáne, severne od Kuby a juhovýchodne od Floridy.",
+    "source": "https://en.wikipedia.org/wiki/The_Bahamas"
   },
   "Bahrajn": {
-    "description": "Bahrajn, dlhý tvar Bahrajnské kráľovstvo (arab.: مملكة البحرين – Mamlaka al-Bahrajn), je ostrovný štát v Perzskom zálive.",
-    "source": "https://sk.wikipedia.org/wiki/Bahrajn"
+    "description": "Malý ostrovný štát v Perzskom zálive, spojený mostom so Saudskou Arábiou.",
+    "source": "https://en.wikipedia.org/wiki/Bahrain"
   },
   "Bangladéš": {
-    "description": "Bangladéš, dlhý tvar názvu Bangladéšska ľudová republika, je štát v južnej Ázii.",
-    "source": "https://sk.wikipedia.org/wiki/Banglad%C3%A9%C5%A1"
+    "description": "Husto osídlená krajina v delte riek Ganga a Brahmaputra pri Bengálskom zálive.",
+    "source": "https://en.wikipedia.org/wiki/Bangladesh"
   },
   "Barbados": {
-    "description": "Barbados je ostrovný štát v Karibskom mori.",
-    "source": "https://sk.wikipedia.org/wiki/Barbados"
+    "description": "Karibský ostrovný štát ležiaci východne od hlavného reťazca Malých Antíl.",
+    "source": "https://en.wikipedia.org/wiki/Barbados"
   },
   "Belgicko": {
-    "description": "Belgicko, dlhý názov Belgické kráľovstvo (holandsky: Koninkrijk België; francúzsky: Royaume de Belgique; nemecky: Königreich Belgien), je štát v západnej…",
-    "source": "https://sk.wikipedia.org/wiki/Belgicko"
+    "description": "Západoeurópska krajina, v ktorej sídlia hlavné inštitúcie Európskej únie.",
+    "source": "https://en.wikipedia.org/wiki/Belgium"
   },
   "Belize": {
     "description": "Belize je štát nachádzajúci sa na východnom pobreží Strednej Ameriky pri Karibskom mori.",
     "source": "https://sk.wikipedia.org/wiki/Belize"
   },
   "Benin": {
-    "description": "Dahomey / Dahomé), dlhý tvar Beninská republika, je štát nachádzajúci sa medzi Togom a Nigériou na západnom pobreží Afriky.",
-    "source": "https://sk.wikipedia.org/wiki/Benin"
+    "description": "Západoafrická krajina pri Guinejskom zálive, medzi Togom a Nigériou.",
+    "source": "https://en.wikipedia.org/wiki/Benin"
   },
   "Bhután": {
-    "description": "Bhután, dlhý tvar názvu Bhutánske kráľovstvo, je ázijský štát.",
-    "source": "https://sk.wikipedia.org/wiki/Bhut%C3%A1n"
+    "description": "Himalájsky štát medzi Indiou a Čínou, známy dôrazom na hrubé národné šťastie.",
+    "source": "https://en.wikipedia.org/wiki/Bhutan"
   },
   "Bielorusko": {
-    "description": "Белару́сь), dlhý tvar názvu Bieloruská republika (biel.",
-    "source": "https://sk.wikipedia.org/wiki/Bielorusko"
+    "description": "Vnútrozemská krajina vo východnej Európe, susediaca okrem iného s Poľskom a Ruskom.",
+    "source": "https://en.wikipedia.org/wiki/Belarus"
   },
   "Bolívia": {
-    "description": "Bolívia, dlhý tvar názvu Bolívijský mnohonárodný štát (špa.",
-    "source": "https://sk.wikipedia.org/wiki/Bol%C3%ADvia"
+    "description": "Vnútrozemská krajina Ánd, známa soľnou pláňou Salar de Uyuni; ústavným hlavným mestom je Sucre.",
+    "source": "https://en.wikipedia.org/wiki/Bolivia"
   },
   "Bosna a Hercegovina": {
     "description": "Босна и Херцеговина) je štát v juhovýchodnej Európe ležiaci na západe Balkánskeho polostrova, federatívna republika, krajina bývalej Juhoslávie.",
     "source": "https://sk.wikipedia.org/wiki/Bosna_a_Hercegovina"
   },
   "Botswana": {
-    "description": "Botswana, dlhý tvar Botswanská republika, je vnútrozemský štát na juhu Afriky susediaci s Juhoafrickou republikou na juhu, Namíbiou na západe, Zambiou na…",
-    "source": "https://sk.wikipedia.org/wiki/Botswana"
+    "description": "Vnútrozemský štát na juhu Afriky, ktorého severu dominuje delta rieky Okavango.",
+    "source": "https://en.wikipedia.org/wiki/Botswana"
   },
   "Brazília": {
-    "description": "Brazília, dlhý tvar Brazílska federatívna republika (port.",
-    "source": "https://sk.wikipedia.org/wiki/Braz%C3%ADlia"
+    "description": "Najväčší štát Južnej Ameriky, ktorého severom preteká Amazonka.",
+    "source": "https://en.wikipedia.org/wiki/Brazil"
   },
   "Brunej": {
-    "description": "Brunej (Brunej-Darussalam), dlhý tvar názvu Brunejsko-darussalamský štát, je štát v juhovýchodnej Ázii.",
-    "source": "https://sk.wikipedia.org/wiki/Brunej"
+    "description": "Malý štát na ostrove Borneo, obklopený malajzijským územím a Juhočínskym morom.",
+    "source": "https://en.wikipedia.org/wiki/Brunei"
   },
   "Bulharsko": {
-    "description": "Bulharsko (po bulharsky: България), dlhý tvar Bulharská republika (po bulharsky: Република България), je štát v juhovýchodnej Európe ležiaci vo východnej…",
-    "source": "https://sk.wikipedia.org/wiki/Bulharsko"
+    "description": "Balkánska krajina s pobrežím pri Čiernom mori.",
+    "source": "https://en.wikipedia.org/wiki/Bulgaria"
   },
   "Burkina Faso": {
-    "description": "Burkina, dlhý tvar Burkina Faso, je vnútrozemský štát v Západnej Afrike, ktorého rozloha činí 274 200 km2.",
-    "source": "https://sk.wikipedia.org/wiki/Burkina"
+    "description": "Vnútrozemský štát v oblasti Sahelu na západe Afriky.",
+    "source": "https://en.wikipedia.org/wiki/Burkina_Faso"
   },
   "Burundi": {
-    "description": "Burundi (v minulosti Urundi), dlhý tvar: Burundská republika, je malý štát z okolia Veľkých jazier na juhovýchode strednej Afriky, ktorý hraničí s…",
-    "source": "https://sk.wikipedia.org/wiki/Burundi"
+    "description": "Malý vnútrozemský štát v oblasti Veľkých afrických jazier.",
+    "source": "https://en.wikipedia.org/wiki/Burundi"
   },
   "Cyprus": {
-    "description": "Kibris) dlhý tvar Cyperská republika (gr.",
-    "source": "https://sk.wikipedia.org/wiki/Cyprus"
+    "description": "Ostrovný štát vo východnej časti Stredozemného mora, južne od Turecka.",
+    "source": "https://en.wikipedia.org/wiki/Cyprus"
   },
   "Čad": {
-    "description": "Čad (dlhý tvar: Čadská republika) je štát, ktorý sa rozprestiera vo vnútrozemí Afriky na plošinách Sahary.",
-    "source": "https://sk.wikipedia.org/wiki/%C4%8Cad"
+    "description": "Rozľahlý vnútrozemský štát v Afrike, ktorého severnú časť pokrýva Sahara.",
+    "source": "https://en.wikipedia.org/wiki/Chad"
   },
   "Česko": {
-    "description": "Česko, dlhý tvar Česká republika, je vnútrozemský štát v strednej Európe.",
-    "source": "https://sk.wikipedia.org/wiki/%C4%8Cesko"
+    "description": "Vnútrozemský štát v strednej Európe, ktorého historickým centrom je Praha.",
+    "source": "https://en.wikipedia.org/wiki/Czech_Republic"
   },
   "Čierna Hora": {
-    "description": "Montenegro [doslova „čierna hora“] a odtiaľ aj po špa.",
-    "source": "https://sk.wikipedia.org/wiki/%C4%8Cierna_Hora"
+    "description": "Balkánska krajina s hornatým vnútrozemím a pobrežím Jadranského mora.",
+    "source": "https://en.wikipedia.org/wiki/Montenegro"
   },
   "Čile": {
-    "description": "Čile, dlhý tvar Čilská republika (do roku 2000 bol slovenský pravopis týchto názvov Chile a Čílska republika), je štát v Južnej Amerike.",
-    "source": "https://sk.wikipedia.org/wiki/%C4%8Cile"
+    "description": "Dlhý a úzky štát medzi Andami a Tichým oceánom na západe Južnej Ameriky.",
+    "source": "https://en.wikipedia.org/wiki/Chile"
   },
   "Čína": {
-    "description": "中国 – pchin-jin: Zhōng guó; doslova: „krajina uprostred“), dlhý tvar Čínska ľudová republika (čín.",
-    "source": "https://sk.wikipedia.org/wiki/%C4%8C%C3%ADna"
+    "description": "Rozľahlá východoázijská krajina, v ktorej sa nachádza Veľký čínsky múr.",
+    "source": "https://en.wikipedia.org/wiki/China"
   },
   "Dánsko": {
-    "description": "Danmark), dlhý tvar Dánske kráľovstvo, je severský štát v severnej Európe.",
-    "source": "https://sk.wikipedia.org/wiki/D%C3%A1nsko"
+    "description": "Severské kráľovstvo tvorené Jutským polostrovom a stovkami ostrovov.",
+    "source": "https://en.wikipedia.org/wiki/Denmark"
   },
   "Dominika": {
-    "description": "Dominika je české, poľské a slovenské ženské krstné meno, náprotivok mena Dominik.",
-    "source": "https://en.wikipedia.org/wiki/Dominika"
+    "description": "Karibský ostrovný štát medzi Guadeloupom a Martinikom; jeho hlavným mestom je Roseau.",
+    "source": "https://dominica.gov.dm/about-dominica/country-profile"
   },
   "Dominikánska republika": {
     "description": "República Dominicana, po ciguaysky Kiskéya) je štát vo východnej časti ostrova Hispaniola, východne od Haiti.",
     "source": "https://sk.wikipedia.org/wiki/Dominik%C3%A1nska_republika"
   },
   "Džibutsko": {
-    "description": "Džibutsko, dlhý tvar Džibutská republika, je štát v Afrike.",
-    "source": "https://sk.wikipedia.org/wiki/D%C5%BEibutsko"
+    "description": "Malý štát pri prielive Báb al-Mandab, ktorý spája Červené more s Adenským zálivom.",
+    "source": "https://en.wikipedia.org/wiki/Djibouti"
   },
   "Egypt": {
-    "description": "مصر‎ Misr), dlhý tvar Egyptská arabská republika, je transkontinentálny štát rozprestierajúci sa na severovýchode Afriky a Sinajskom polostrove v…",
-    "source": "https://sk.wikipedia.org/wiki/Egypt"
+    "description": "Severoafrickú krajinu pretína Níl; jej územie zahŕňa aj Sinajský polostrov v Ázii.",
+    "source": "https://en.wikipedia.org/wiki/Egypt"
   },
   "Ekvádor": {
-    "description": "Ekvádor (staršie názvy pozri nižšie), dlhý názov Ekvádorská republika, je štát v Južnej Amerike.",
-    "source": "https://sk.wikipedia.org/wiki/Ekv%C3%A1dor"
+    "description": "Juhoamerický štát pomenovaný podľa rovníka, ktorý ním prechádza; patria k nemu aj Galapágy.",
+    "source": "https://en.wikipedia.org/wiki/Ecuador"
   },
   "Eritrea": {
-    "description": "Eritrea (zastarano: Erytrea, pôvodne: Erythr(a)ea), dlhý tvar: Eritrejský štát, je štát nachádzajúci sa v severovýchodnej Afrike na pobreží Červeného mora.",
-    "source": "https://sk.wikipedia.org/wiki/Eritrea"
+    "description": "Krajina v Africkom rohu s dlhým pobrežím pri Červenom mori.",
+    "source": "https://en.wikipedia.org/wiki/Eritrea"
   },
   "Estónsko": {
-    "description": "Eesti), dlhý tvar Estónska republika (estón.",
-    "source": "https://sk.wikipedia.org/wiki/Est%C3%B3nsko"
+    "description": "Najsevernejší z pobaltských štátov leží pri Baltskom mori oproti Fínsku.",
+    "source": "https://en.wikipedia.org/wiki/Estonia"
   },
   "Eswatini": {
-    "description": "Eswatini (svazijsky: eSwatini), dlhý tvar Eswatinské kráľovstvo, známy aj pod svojím bývalým oficiálnym názvom Svazijsko (dlhý tvar Svazijské kráľovstvo)…",
-    "source": "https://sk.wikipedia.org/wiki/Eswatini"
+    "description": "Malé vnútrozemské kráľovstvo na juhu Afriky, obklopené Juhoafrickou republikou a Mozambikom.",
+    "source": "https://en.wikipedia.org/wiki/Eswatini"
   },
   "Etiópia": {
-    "description": "Etiópia (po amharsky ኢትዮጵያ, Itjopja; historické názvy pozri nižšie), dlhý tvar Etiópska federatívna demokratická republika (po amharsky የኢትዮጵያ ፈደራላዊ…",
-    "source": "https://sk.wikipedia.org/wiki/Eti%C3%B3pia"
+    "description": "Hornatá krajina Afrického rohu, kde sa nachádza prameň Modrého Nílu.",
+    "source": "https://en.wikipedia.org/wiki/Ethiopia"
   },
   "Fidži": {
-    "description": "Fidži, dlhý tvar Fidžijská republika (staršie Republika Fidžijských ostrovov), je ostrovný štát v Tichom oceáne.",
-    "source": "https://sk.wikipedia.org/wiki/Fid%C5%BEi"
+    "description": "Ostrovný štát v južnom Pacifiku, ktorého dva najväčšie ostrovy sú Viti Levu a Vanua Levu.",
+    "source": "https://en.wikipedia.org/wiki/Fiji"
   },
   "Filipíny": {
-    "description": "Filipíny: je to štát v juhovýchodnej Ázii.",
-    "source": "https://sk.wikipedia.org/wiki/Filip%C3%ADny"
+    "description": "Ostrovný štát v juhovýchodnej Ázii tvorí viac než 7 000 ostrovov; hlavným mestom je Manila.",
+    "source": "https://en.wikipedia.org/wiki/Philippines"
   },
   "Fínsko": {
-    "description": "Fínsko, dlhý tvar Fínska republika, (vo fínčine Suomen tasavalta, vo švédčine Republiken Finland) je severský štát v severnej Európe, ktorý obmýva Baltské…",
-    "source": "https://sk.wikipedia.org/wiki/F%C3%ADnsko"
+    "description": "Severská krajina medzi Švédskom a Ruskom, preslávená tisíckami jazier.",
+    "source": "https://en.wikipedia.org/wiki/Finland"
   },
   "Francúzsko": {
-    "description": "La France, výslovnosť IPA [fʀɑ̃s]), dlhý tvar Francúzska republika (franc.",
-    "source": "https://sk.wikipedia.org/wiki/Franc%C3%BAzsko"
+    "description": "Západoeurópska krajina s pobrežím pri Atlantiku aj Stredozemnom mori; jej hlavným mestom je Paríž.",
+    "source": "https://en.wikipedia.org/wiki/France"
   },
   "Gabon": {
-    "description": "Gabon, dlhý názov Gabonská republika (fran.",
-    "source": "https://sk.wikipedia.org/wiki/Gabon"
+    "description": "Krajina na západnom pobreží strednej Afriky, z veľkej časti pokrytá tropickým dažďovým pralesom.",
+    "source": "https://en.wikipedia.org/wiki/Gabon"
   },
   "Gambia": {
     "description": "Gambia, oficiálne Gambijská republika, je štát v západnej Afrike.",
     "source": "https://en.wikipedia.org/wiki/The_Gambia"
   },
   "Ghana": {
-    "description": "Ghana, dlhý tvar Ghanská republika, je štát v Afrike.",
-    "source": "https://sk.wikipedia.org/wiki/Ghana"
+    "description": "Západoafrická krajina pri Guinejskom zálive; jej hlavné mesto Accra leží na pobreží.",
+    "source": "https://en.wikipedia.org/wiki/Ghana"
   },
   "Grécko": {
-    "description": "Ελλάδα – Ellada alebo Ελλάς – Ellas; starogr.",
-    "source": "https://sk.wikipedia.org/wiki/Gr%C3%A9cko"
+    "description": "Krajina na juhu Balkánu s tisíckami ostrovov v Egejskom a Iónskom mori.",
+    "source": "https://en.wikipedia.org/wiki/Greece"
   },
   "Grenada": {
     "description": "Grenada (grenadskou kreolskou francúzštinou: Gwenad) je ostrovný štát v Malých Antilách v Karibskom mori na južnom konci ostrovného reťazca Grenadíny.",
     "source": "https://sk.wikipedia.org/wiki/Grenada"
   },
   "Gruzínsko": {
-    "description": "Gruzínsko (v slovenčine do roku 2000 dlhý tvar Gruzínska republika; po gruzínsky: საქართველო – transliterácia: Sakartvelo) je štát v juhozápadnej Ázii.",
-    "source": "https://sk.wikipedia.org/wiki/Gruz%C3%ADnsko"
+    "description": "Kaukazská krajina pri Čiernom mori, ležiaca medzi Ruskom a Tureckom.",
+    "source": "https://en.wikipedia.org/wiki/Georgia_(country)"
   },
   "Guatemala": {
     "description": "Guatemala, oficiálne Guatemalská republika, je štát na severe Strednej Ameriky.",
@@ -5072,8 +5068,8 @@
     "source": "https://en.wikipedia.org/wiki/Guinea"
   },
   "Guinea-Bissau": {
-    "description": "Guinea-Bissau, dlhý tvar Guinejsko-bissauská republika, je prezidentská republika nachádzajúca sa na západnom pobreží Afriky medzi Guineou a Senegalom.",
-    "source": "https://sk.wikipedia.org/wiki/Guinea-Bissau"
+    "description": "Západoafrická krajina pri Atlantiku, ku ktorej patrí súostrovie Bijagós.",
+    "source": "https://en.wikipedia.org/wiki/Guinea-Bissau"
   },
   "Guyana": {
     "description": "Guyana, oficiálne Guyanské družstvo, je krajina na severnom pobreží Južnej Ameriky.",
@@ -5088,108 +5084,108 @@
     "source": "https://sk.wikipedia.org/wiki/Holandsko"
   },
   "Honduras": {
-    "description": "Honduras, dlhý tvar Honduraská republika, je štát na severe Strednej Ameriky, hraničiaci na západe s Guatemalou, na juhozápade so Salvádorom, na…",
-    "source": "https://sk.wikipedia.org/wiki/Honduras"
+    "description": "Stredoamerická krajina s pobrežím pri Karibskom mori aj Tichom oceáne.",
+    "source": "https://en.wikipedia.org/wiki/Honduras"
   },
   "Chorvátsko": {
-    "description": "Hrvatska), dlhý tvar Chorvátska republika, je štát v strednej a juhovýchodnej Európe ležiaci v severozápadnej časti Balkánskeho polostrova a na pobreží…",
-    "source": "https://sk.wikipedia.org/wiki/Chorv%C3%A1tsko"
+    "description": "Balkánska krajina s dlhým členitým pobrežím Jadranského mora.",
+    "source": "https://en.wikipedia.org/wiki/Croatia"
   },
   "India": {
-    "description": "India (iné názvy pozri v kapitole Názvy), dlhý tvar Indická republika, je štát v južnej Ázii.",
-    "source": "https://sk.wikipedia.org/wiki/India"
+    "description": "Juhoázijský štát medzi Himalájami a Indickým oceánom.",
+    "source": "https://en.wikipedia.org/wiki/India"
   },
   "Indonézia": {
-    "description": "Indonézia, dlhý tvar Indonézska republika, je štát v juhovýchodnej Ázii a Oceánii tvorený 17 508 ostrovmi.",
-    "source": "https://sk.wikipedia.org/wiki/Indon%C3%A9zia"
+    "description": "Rozľahlé súostrovie pretínajúce rovník medzi Indickým a Tichým oceánom.",
+    "source": "https://en.wikipedia.org/wiki/Indonesia"
   },
   "Irak": {
-    "description": "Irak, dlhý tvar Iracká republika, je štát v juhozápadnej Ázii.",
-    "source": "https://sk.wikipedia.org/wiki/Irak"
+    "description": "Krajina v juhozápadnej Ázii, ktorou pretekajú rieky Tigris a Eufrat.",
+    "source": "https://en.wikipedia.org/wiki/Iraq"
   },
   "Irán": {
-    "description": "Irán (do roku 1935 Perzia), dlhý tvar Iránska islamská republika (Džomhúri-je eslámí-je Írán), je štát v juhozápadnej Ázii.",
-    "source": "https://sk.wikipedia.org/wiki/Ir%C3%A1n"
+    "description": "Rozľahlá hornatá krajina na Blízkom východe, medzi Kaspickým morom a Perzským zálivom.",
+    "source": "https://en.wikipedia.org/wiki/Iran"
   },
   "Írsko": {
-    "description": "Ireland), niekedy Írska republika (ír.",
-    "source": "https://sk.wikipedia.org/wiki/%C3%8Drsko"
+    "description": "Ostrov na západ od Veľkej Británie, ktorého väčšinu územia tvorí samostatný štát.",
+    "source": "https://en.wikipedia.org/wiki/Ireland"
   },
   "Island": {
     "description": "Island (islandsky: Ísland) je severská ostrovná krajina medzi Severným Atlantikom a Severným ľadovým oceánom, na stredoatlantickom hrebeni medzi Severnou…",
     "source": "https://sk.wikipedia.org/wiki/Island"
   },
   "Izrael": {
-    "description": "Izrael (po hebrejsky: יִשְרָאֵל – Jisrael; po arabsky: إسرائيل – 'Isráíl), dlhý tvar Izraelský štát (nesprávne: Štát Izrael ; hebrejsky: מְדִינַת…",
-    "source": "https://sk.wikipedia.org/wiki/Izrael"
+    "description": "Krajina na východnom pobreží Stredozemného mora, susediaca s Libanonom, Sýriou, Jordánskom a Egyptom.",
+    "source": "https://en.wikipedia.org/wiki/Israel"
   },
   "Jamajka": {
     "description": "Jamajka je štát v strednej Amerike, ktorý sa nachádza na rovnomennom ostrove s dĺžkou 234 km a šírkou 80 km vo Veľkých Antilách v Karibskom mori.",
     "source": "https://sk.wikipedia.org/wiki/Jamajka"
   },
   "Japonsko": {
-    "description": "日本 – Nippon alebo Nihon; formálne: jap.",
-    "source": "https://sk.wikipedia.org/wiki/Japonsko"
+    "description": "Ostrovný štát vo východnej Ázii, ktorý tvorí tisíce ostrovov v Tichom oceáne.",
+    "source": "https://en.wikipedia.org/wiki/Japan"
   },
   "Jemen": {
-    "description": "اليمن – al-Jaman ), dlhý tvar Jemenská republika (arab.",
-    "source": "https://sk.wikipedia.org/wiki/Jemen"
+    "description": "Krajina na juhu Arabského polostrova pri Červenom mori a Adenskom zálive.",
+    "source": "https://en.wikipedia.org/wiki/Yemen"
   },
   "Jordánsko": {
-    "description": "Jordánsko, dlhý tvar Jordánske hášimovské kráľovstvo, je štát ležiaci na Blízkom východe.",
-    "source": "https://sk.wikipedia.org/wiki/Jord%C3%A1nsko"
+    "description": "Krajina na Blízkom východe, v ktorej sa nachádza časť Mŕtveho mora.",
+    "source": "https://en.wikipedia.org/wiki/Jordan"
   },
   "Južný Sudán": {
-    "description": "South Sudan), dlhý tvar Juhosudánska republika (Republic of South Sudan), je štát v severovýchodnej Afrike.",
-    "source": "https://sk.wikipedia.org/wiki/Ju%C5%BEn%C3%BD_Sud%C3%A1n"
+    "description": "Vnútrozemský štát vo východnej Afrike, samostatný od Sudánu od roku 2011.",
+    "source": "https://en.wikipedia.org/wiki/South_Sudan"
   },
   "Kambodža": {
-    "description": "Kambodža, dlhý tvar Kambodžské kráľovstvo (od roku 1976 [na Slovensku až od cca 1985] do roku 1989: Kampučia, dlhý tvar: 1976 – 1978 Demokratická…",
-    "source": "https://sk.wikipedia.org/wiki/Kambod%C5%BEa"
+    "description": "Krajina juhovýchodnej Ázie, v ktorej sa nachádza rozsiahly chrámový komplex Angkor Wat.",
+    "source": "https://en.wikipedia.org/wiki/Cambodia"
   },
   "Kamerun": {
-    "description": "Kamerun, dlhý tvar Kamerunská republika, je prezidentská republika v strednej Afrike.",
-    "source": "https://sk.wikipedia.org/wiki/Kamerun"
+    "description": "Krajina v strednej Afrike, ktorej najvyšším vrchom je činná sopka Mount Cameroon.",
+    "source": "https://en.wikipedia.org/wiki/Cameroon"
   },
   "Kanada": {
     "description": "Kanada je severoamerický štát, ktorý pozostáva z desiatich provincií a troch teritórií.",
     "source": "https://sk.wikipedia.org/wiki/Kanada"
   },
   "Kapverdy": {
-    "description": "Kapverdy, dlhý tvar Kapverdská republika (portug.",
-    "source": "https://sk.wikipedia.org/wiki/Kapverdy"
+    "description": "Súostrovie sopečných ostrovov v Atlantiku, približne 600 kilometrov od západného pobrežia Afriky.",
+    "source": "https://en.wikipedia.org/wiki/Cape_Verde"
   },
   "Katar": {
-    "description": "Katar je typ tlačnej dýky z indického subkontinentu.",
-    "source": "https://en.wikipedia.org/wiki/Katar"
+    "description": "Malý štát na polostrove v Perzskom zálive; jeho hlavným mestom je Dauha.",
+    "source": "https://mofa.gov.qa/en/state-of-qatar/Key-Facts-and-Information"
   },
   "Kazachstan": {
-    "description": "Kazachstan (kazašsky: Қазақстан, romanizovane: Qazaqstan; rusky: Казахстан, romanizovane: Kazachstan), dlhý tvar Kazašská republika (kazašsky: Қазақстан…",
-    "source": "https://sk.wikipedia.org/wiki/Kazachstan"
+    "description": "Rozľahlá vnútrozemská krajina v strednej Ázii, ktorá susedí aj s Ruskom a Čínou.",
+    "source": "https://en.wikipedia.org/wiki/Kazakhstan"
   },
   "Keňa": {
-    "description": "Keňa, dlhý tvar Kenská republika, je prímorský štát vo východnej Afrike pri brehoch Indického oceánu.",
-    "source": "https://sk.wikipedia.org/wiki/Ke%C5%88a"
+    "description": "Východoafrickú krajinu pretína rovník a na juhovýchode ju obmýva Indický oceán.",
+    "source": "https://en.wikipedia.org/wiki/Kenya"
   },
   "Kirgizsko": {
-    "description": "Kirgizsko (normovaný názov; staršie: Kirgizstan, Kyrgyzstan, po kirgizsky Кыргызстан - Kyrgyzstan), dlhý tvar Kirgizská republika, je vnútrozemský štát v…",
-    "source": "https://sk.wikipedia.org/wiki/Kirgizsko"
+    "description": "Hornatá vnútrozemská krajina strednej Ázie, ktorej veľkú časť zaberá pohorie Ťan-šan.",
+    "source": "https://en.wikipedia.org/wiki/Kyrgyzstan"
   },
   "Kiribati": {
-    "description": "Kiribati, dlhý tvar Kiribatská republika (angl.",
-    "source": "https://sk.wikipedia.org/wiki/Kiribati"
+    "description": "Ostrovný štát v Tichom oceáne rozprestierajúci sa po oboch stranách rovníka.",
+    "source": "https://en.wikipedia.org/wiki/Kiribati"
   },
   "Kolumbia": {
-    "description": "Kolumbia, dlhý tvar Kolumbijská republika, je štát v Južnej Amerike.",
-    "source": "https://sk.wikipedia.org/wiki/Kolumbia"
+    "description": "Jediný štát Južnej Ameriky s pobrežím pri Karibskom mori aj Tichom oceáne.",
+    "source": "https://en.wikipedia.org/wiki/Colombia"
   },
   "Komory": {
-    "description": "Komory, dlhý tvar Komorský zväz (do roku 2001 Komorská federatívna islamská republika), je ostrovný štát v Afrike.",
-    "source": "https://sk.wikipedia.org/wiki/Komory"
+    "description": "Ostrovné súostrovie v Indickom oceáne medzi Madagaskarom a pobrežím Mozambiku.",
+    "source": "https://en.wikipedia.org/wiki/Comoros"
   },
   "Konžská demokratická republika": {
-    "description": "Konžská demokratická republika (do roku 1997: Zair; iné slovenské názvy pozri nižšie) je štát v strednej Afrike.",
-    "source": "https://sk.wikipedia.org/wiki/Kon%C5%BEsk%C3%A1_demokratick%C3%A1_republika"
+    "description": "Rozľahlý štát v strednej Afrike, ktorého stredom preteká rieka Kongo.",
+    "source": "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo"
   },
   "Kórejská ľudovodemokratická republika": {
     "description": "Kórejská ľudovodemokratická republika (hovorovo označovaná aj ako Severná Kórea, čo však nie je oficiálny slovenský krátky tvar názvu tohto štátu) je štát…",
@@ -5204,48 +5200,48 @@
     "source": "https://sk.wikipedia.org/wiki/Kosovo"
   },
   "Kostarika": {
-    "description": "Kostarika (po španielsky a zastarano aj po slovensky: Costa Rica), dlhý tvar Kostarická republika, je štát v Strednej Amerike.",
-    "source": "https://sk.wikipedia.org/wiki/Kostarika"
+    "description": "Stredoamerická krajina medzi Tichým oceánom a Karibským morom, známa chránenými prírodnými oblasťami.",
+    "source": "https://en.wikipedia.org/wiki/Costa_Rica"
   },
   "Kuba": {
-    "description": "Kuba, dlhý tvar Kubánska republika, je štát v Karibskom mori.",
-    "source": "https://sk.wikipedia.org/wiki/Kuba"
+    "description": "Najväčší ostrov Karibiku, ktorý tvorí väčšinu územia rovnomenného štátu.",
+    "source": "https://en.wikipedia.org/wiki/Cuba"
   },
   "Laos": {
-    "description": "Laos, oficiálne Laoská ľudovodemokratická republika, je vnútrozemský štát v juhovýchodnej Ázii na polostrove Zadná India.",
-    "source": "https://sk.wikipedia.org/wiki/Laos"
+    "description": "Jediný vnútrozemský štát juhovýchodnej Ázie; jeho krajinou preteká Mekong.",
+    "source": "https://en.wikipedia.org/wiki/Laos"
   },
   "Lesotho": {
-    "description": "Lesotho, dlhý tvar Lesothské kráľovstvo, je malý vnútrozemský štát v Afrike.",
-    "source": "https://sk.wikipedia.org/wiki/Lesotho"
+    "description": "Hornaté kráľovstvo, ktoré je celé obklopené územím Juhoafrickej republiky.",
+    "source": "https://en.wikipedia.org/wiki/Lesotho"
   },
   "Libanon": {
-    "description": "O rovnomennom pohorí pozri Libanon (pohorie).",
-    "source": "https://sk.wikipedia.org/wiki/Libanon"
+    "description": "Krajinu na východnom pobreží Stredozemného mora preslávili cédrové lesy a staroveké fénické mestá.",
+    "source": "https://en.wikipedia.org/wiki/Lebanon"
   },
   "Libéria": {
     "description": "Libéria, oficiálne Libérijská republika, je krajina na západnom pobreží Afriky.",
     "source": "https://sk.wikipedia.org/wiki/Lib%C3%A9ria"
   },
   "Líbya": {
-    "description": "Líbya, dlhý tvar Líbyjský štát, je štát v severnej Afrike.",
-    "source": "https://sk.wikipedia.org/wiki/L%C3%ADbya"
+    "description": "Severoafrický štát s pobrežím Stredozemného mora a rozsiahlym púštnym vnútrozemím.",
+    "source": "https://en.wikipedia.org/wiki/Libya"
   },
   "Lichtenštajnsko": {
     "description": "Lichtenštajnsko, celý názov Lichtenštajnské kniežatstvo, je malý vnútrozemský štát v strednej Európe.",
     "source": "https://sk.wikipedia.org/wiki/Lichten%C5%A1tajnsko"
   },
   "Litva": {
-    "description": "Litva (po litovsky: Lietuva), dlhý tvar Litovská republika (po litovsky: Lietuvos Respublika) je štát v severovýchodnej Európe.",
-    "source": "https://sk.wikipedia.org/wiki/Litva"
+    "description": "Najjužnejší z pobaltských štátov, ktorý leží pri Baltskom mori.",
+    "source": "https://en.wikipedia.org/wiki/Lithuania"
   },
   "Lotyšsko": {
-    "description": "Lotyšsko, lotyšsky: Latvija, dlhý tvar Lotyšská republika, je štát v severovýchodnej Európe, prostredná z troch pobaltských krajín.",
-    "source": "https://sk.wikipedia.org/wiki/Loty%C5%A1sko"
+    "description": "Pobaltská krajina medzi Estónskom a Litvou, s pobrežím pri Baltskom mori.",
+    "source": "https://en.wikipedia.org/wiki/Latvia"
   },
   "Luxembursko": {
-    "description": "Luxembursko, dlhý tvar Luxemburské veľkovojvodstvo (lux.",
-    "source": "https://sk.wikipedia.org/wiki/Luxembursko"
+    "description": "Malý vnútrozemský štát medzi Belgickom, Francúzskom a Nemeckom.",
+    "source": "https://en.wikipedia.org/wiki/Luxembourg"
   },
   "Madagaskar": {
     "description": "Madagaskar, oficiálne Madagaskarská republika, je ostrovný štát, ktorý sa skladá z ostrova Madagaskar a mnohých menších okrajových ostrovov.",
@@ -5264,196 +5260,196 @@
     "source": "https://en.wikipedia.org/wiki/Malawi"
   },
   "Maldivy": {
-    "description": "Maldivy (do roku 1996 [a dnes ešte nespisovne]: Maledivy), dlhý tvar Maldivská republika, je štát na rovnomennom súostroví južne od Indie.",
-    "source": "https://sk.wikipedia.org/wiki/Maldivy"
+    "description": "Nízko položené tropické súostrovie v Indickom oceáne južne od Indie.",
+    "source": "https://en.wikipedia.org/wiki/Maldives"
   },
   "Mali": {
-    "description": "Mali, dlhý tvar Malijská republika, je vnútrozemský štát v západnej Afrike v povodí rieky Niger.",
-    "source": "https://sk.wikipedia.org/wiki/Mali"
+    "description": "Vnútrozemská krajina západnej Afriky, cez ktorú preteká rieka Niger.",
+    "source": "https://en.wikipedia.org/wiki/Mali"
   },
   "Malta": {
-    "description": "Malta, dlhý tvar Maltská republika (po maltsky Repubblika ta’ Malta, angl.",
-    "source": "https://sk.wikipedia.org/wiki/Malta"
+    "description": "Malý ostrovný štát v Stredozemnom mori južne od Sicílie.",
+    "source": "https://en.wikipedia.org/wiki/Malta"
   },
   "Maroko": {
-    "description": "Maroko, dlhý tvar Marocké kráľovstvo, je štát nachádzajúci sa na severe Afriky.",
-    "source": "https://sk.wikipedia.org/wiki/Maroko"
+    "description": "Severoafrická krajina s pobrežím pri Atlantickom oceáne aj Stredozemnom mori.",
+    "source": "https://en.wikipedia.org/wiki/Morocco"
   },
   "Marshallove ostrovy": {
-    "description": "Marshallove ostrovy (nespisovne: Maršalove ostrovy), dlhý tvar Republika Marshallových ostrovov (angl.",
-    "source": "https://sk.wikipedia.org/wiki/Marshallove_ostrovy"
+    "description": "Tichomorský štát zložený z nízkych koralových atolov.",
+    "source": "https://en.wikipedia.org/wiki/Marshall_Islands"
   },
   "Maurícius": {
-    "description": "Maurícius, dlhý tvar Maurícijská republika (bývalý slov.",
-    "source": "https://sk.wikipedia.org/wiki/Maur%C3%ADcius"
+    "description": "Ostrovný štát v Indickom oceáne, ktorý leží východne od Madagaskaru.",
+    "source": "https://en.wikipedia.org/wiki/Mauritius"
   },
   "Mauritánia": {
-    "description": "Mauretánia alebo Mauritánia môže byť aj staroveká krajina v dnešnom severnom Maroku a severnom Alžírsku, istý čas aj rímska provincia, po latinsky…",
-    "source": "https://sk.wikipedia.org/wiki/Maurit%C3%A1nia"
+    "description": "Púštna krajina v severozápadnej Afrike s pobrežím Atlantického oceána.",
+    "source": "https://en.wikipedia.org/wiki/Mauritania"
   },
   "Mexiko": {
-    "description": "Mexiko, dlhý tvar Spojené štáty mexické (po španielsky México alebo zriedkavejšie Méjico [výslovnosť v oboch prípadoch: mechiko] , dlhý tvar: Estados…",
-    "source": "https://sk.wikipedia.org/wiki/Mexiko"
+    "description": "Severoamerická krajina medzi Spojenými štátmi a Strednou Amerikou, s pobrežím pri dvoch oceánoch.",
+    "source": "https://en.wikipedia.org/wiki/Mexico"
   },
   "Mjanmarsko": {
-    "description": "Mjanmarsko, dlhý tvar Mjanmarská zväzová republika (iné názvy pozri nižšie), je štát v juhovýchodnej Ázii.",
-    "source": "https://sk.wikipedia.org/wiki/Mjanmarsko"
+    "description": "Krajina juhovýchodnej Ázie, ktorou od severu na juh preteká rieka Iravádí.",
+    "source": "https://en.wikipedia.org/wiki/Myanmar"
   },
   "Moldavsko": {
-    "description": "Moldova), dlhý tvar Moldavská republika (rum.",
-    "source": "https://sk.wikipedia.org/wiki/Moldavsko"
+    "description": "Malá vnútrozemská krajina medzi Rumunskom a Ukrajinou.",
+    "source": "https://en.wikipedia.org/wiki/Moldova"
   },
   "Monako": {
-    "description": "Monako, dlhý tvar Monacké kniežatstvo, je suverénny mestský štát a mikroštát na Francúzskej riviére, niekoľko kilometrov západne od talianskeho regiónu…",
-    "source": "https://sk.wikipedia.org/wiki/Monako"
+    "description": "Maličký mestský štát na Francúzskej riviére, známy kasínom v Monte Carle a pretekmi Formuly 1.",
+    "source": "https://en.wikipedia.org/wiki/Monaco"
   },
   "Mongolsko": {
-    "description": "Mongolsko (-toto je krátky aj dlhý tvar názvu; mong.",
-    "source": "https://sk.wikipedia.org/wiki/Mongolsko"
+    "description": "Vnútrozemská krajina medzi Ruskom a Čínou; jej hlavným mestom je Ulánbátar.",
+    "source": "https://www.britannica.com/place/Mongolia"
   },
   "Mozambik": {
-    "description": "Mozambik, dlhý tvar Mozambická republika, je štát v Afrike.",
-    "source": "https://sk.wikipedia.org/wiki/Mozambik"
+    "description": "Krajina na juhovýchode Afriky s dlhým pobrežím Indického oceána.",
+    "source": "https://en.wikipedia.org/wiki/Mozambique"
   },
   "Namíbia": {
-    "description": "Namíbia, dlhý tvar Namíbijská republika, je štát v juhozápadnej Afrike.",
-    "source": "https://sk.wikipedia.org/wiki/Nam%C3%ADbia"
+    "description": "Krajina na juhozápade Afriky, kde sa púšť Namib stretáva s Atlantikom.",
+    "source": "https://en.wikipedia.org/wiki/Namibia"
   },
   "Nauru": {
-    "description": "Nauru (naursky Naoero), dlhý tvar Nauruská republika (naursky Repubrikin Naoero) je štát na rovnomennom koralovom ostrove.",
-    "source": "https://sk.wikipedia.org/wiki/Nauru"
+    "description": "Drobný ostrovný štát v Tichom oceáne, ktorý nemá oficiálne určené hlavné mesto.",
+    "source": "https://en.wikipedia.org/wiki/Nauru"
   },
   "Nemecko": {
-    "description": "Nemecko, dlhý tvar Nemecká spolková republika, skr.",
-    "source": "https://sk.wikipedia.org/wiki/Nemecko"
+    "description": "Stredoeurópsky štát s pobrežím pri Severnom aj Baltskom mori.",
+    "source": "https://en.wikipedia.org/wiki/Germany"
   },
   "Nepál": {
-    "description": "Nepál, dlhý tvar Nepálska federatívna demokratická republika (podrobnosti o názvoch pozri nižšie), je štát v južnej Ázii.",
-    "source": "https://sk.wikipedia.org/wiki/Nep%C3%A1l"
+    "description": "Himalájska krajina medzi Indiou a Čínou, v ktorej leží Mount Everest.",
+    "source": "https://en.wikipedia.org/wiki/Nepal"
   },
   "Niger": {
-    "description": "Niger, dlhý tvar Nigerská republika, je prezidentská republika nachádzajúca sa takmer uprostred Afriky medzi štátmi Mali, Alžírsko, Líbya, Čad, Nigéria…",
-    "source": "https://sk.wikipedia.org/wiki/Niger"
+    "description": "Vnútrozemský štát v oblasti Sahelu; väčšinu jeho územia pokrýva Sahara.",
+    "source": "https://en.wikipedia.org/wiki/Niger"
   },
   "Nigéria": {
-    "description": "Nigéria, dlhý tvar Nigérijská federatívna republika, je štát v Afrike s rozlohou 923 768 km².",
-    "source": "https://sk.wikipedia.org/wiki/Nig%C3%A9ria"
+    "description": "Západoafrická krajina pri Guinejskom zálive, ktorou preteká rieka Niger.",
+    "source": "https://en.wikipedia.org/wiki/Nigeria"
   },
   "Nikaragua": {
-    "description": "Nikaragua, dlhý tvar Nikaragujská republika, [lokál je v slovenčine (v) Nikarague] je štát v Strednej Amerike.",
-    "source": "https://sk.wikipedia.org/wiki/Nikaragua"
+    "description": "Najväčší štát Strednej Ameriky, ležiaci medzi Hondurasom a Kostarikou.",
+    "source": "https://en.wikipedia.org/wiki/Nicaragua"
   },
   "Nórsko": {
     "description": "Noreg), oficiálne Nórske kráľovstvo, je severský štát v severnej Európe, ktorého pevninské územie zahŕňa západnú a najsevernejšiu časť Škandinávskeho…",
     "source": "https://sk.wikipedia.org/wiki/N%C3%B3rsko"
   },
   "Nový Zéland": {
-    "description": "Nový Zéland (anglicky New Zealand, maorsky Aotearoa) je ostrovný štát v Austrálii a Oceánii.",
-    "source": "https://sk.wikipedia.org/wiki/Nov%C3%BD_Z%C3%A9land"
+    "description": "Ostrovný štát v juhozápadnom Tichom oceáne, ktorý tvoria najmä Severný a Južný ostrov.",
+    "source": "https://en.wikipedia.org/wiki/New_Zealand"
   },
   "Omán": {
-    "description": "عُمان – Umán ), dlhý tvar Ománsky sultanát (arab.",
-    "source": "https://sk.wikipedia.org/wiki/Om%C3%A1n"
+    "description": "Krajina na juhovýchode Arabského polostrova s pobrežím pri Arabskom mori.",
+    "source": "https://en.wikipedia.org/wiki/Oman"
   },
   "Pakistan": {
-    "description": "Pakistan, dlhý tvar Pakistanská islamská republika, je štát v južnej Ázii.",
-    "source": "https://sk.wikipedia.org/wiki/Pakistan"
+    "description": "Juhoázijská krajina medzi Indiou, Iránom a Afganistanom, ktorou preteká Indus.",
+    "source": "https://en.wikipedia.org/wiki/Pakistan"
   },
   "Palau": {
-    "description": "Palau, dlhý tvar Palauská republika, je štát v Austrálii a Oceánii.",
-    "source": "https://sk.wikipedia.org/wiki/Palau"
+    "description": "Ostrovný štát v západnom Tichom oceáne, známy koralovými útesmi a Skalnatými ostrovmi.",
+    "source": "https://en.wikipedia.org/wiki/Palau"
   },
   "Panama": {
-    "description": "Panama, oficiálne Panamská republika, je krajina nachádzajúca sa na južnom konci Strednej Ameriky v Severnej Amerike, hraničiaca s Južnou Amerikou.",
+    "description": "Úzky stredoamerický štát, ktorého prieplav spája Atlantický a Tichý oceán.",
     "source": "https://en.wikipedia.org/wiki/Panama"
   },
   "Papua-Nová Guinea": {
-    "description": "Papua-Nová Guinea, dlhý názov Nezávislý štát Papua-Nová Guinea je prímorský štát v Oceánii.",
-    "source": "https://sk.wikipedia.org/wiki/Papua-Nov%C3%A1_Guinea"
+    "description": "Ostrovný štát severne od Austrálie, ktorý zaberá východnú polovicu ostrova Nová Guinea.",
+    "source": "https://en.wikipedia.org/wiki/Papua_New_Guinea"
   },
   "Paraguaj": {
-    "description": "Paraguaj, dlhý tvar Paraguajská republika (iné názvy pozri nižšie), je štát v Južnej Amerike.",
-    "source": "https://sk.wikipedia.org/wiki/Paraguaj"
+    "description": "Vnútrozemský štát Južnej Ameriky medzi Brazíliou, Bolíviou a Argentínou.",
+    "source": "https://en.wikipedia.org/wiki/Paraguay"
   },
   "Peru": {
-    "description": "Piruw), dlhý tvar Peruánska republika (špa.",
-    "source": "https://sk.wikipedia.org/wiki/Peru"
+    "description": "Krajina na západe Južnej Ameriky, kde sa Andy stretávajú s pobrežím Tichého oceána.",
+    "source": "https://en.wikipedia.org/wiki/Peru"
   },
   "Pobrežie Slonoviny": {
     "description": "Pobrežie Slonoviny (nespisovne alebo staršie [do roku 1962]: Pobrežie slonoviny; nespisovne: Côte d’Ivoire; fr.",
     "source": "https://sk.wikipedia.org/wiki/Pobre%C5%BEie_Slonoviny"
   },
   "Poľsko": {
-    "description": "Poľsko, dlhý tvar Poľská republika (poľ.",
-    "source": "https://sk.wikipedia.org/wiki/Po%C4%BEsko"
+    "description": "Stredoeurópska krajina s pobrežím Baltského mora a hranicou s Nemeckom.",
+    "source": "https://en.wikipedia.org/wiki/Poland"
   },
   "Portugalsko": {
-    "description": "Portugalsko, dlhý tvar Portugalská republika, je štát ležiaci na Pyrenejskom polostrove v juhozápadnej Európe, ktorého územie zahŕňa aj makaronézske…",
-    "source": "https://sk.wikipedia.org/wiki/Portugalsko"
+    "description": "Krajina na západnom okraji Pyrenejského polostrova pri Atlantickom oceáne.",
+    "source": "https://en.wikipedia.org/wiki/Portugal"
   },
   "Rakúsko": {
-    "description": "Rakúsko, dlhý tvar Rakúska republika (nem.",
-    "source": "https://sk.wikipedia.org/wiki/Rak%C3%BAsko"
+    "description": "Vnútrozemský štát strednej Európy, ktorého veľkú časť pokrývajú Alpy.",
+    "source": "https://en.wikipedia.org/wiki/Austria"
   },
   "Rovníková Guinea": {
-    "description": "Rovníková Guinea, dlhý tvar Republika Rovníkovej Guiney, je štát v Afrike.",
-    "source": "https://sk.wikipedia.org/wiki/Rovn%C3%ADkov%C3%A1_Guinea"
+    "description": "Krajina v strednej Afrike s územím na pevnine aj na ostrove Bioko; jej nové hlavné mesto je Ciudad de la Paz.",
+    "source": "https://www.guineaecuatorialpress.com/index.php/noticias/el_presidente_de_la_republica_proclama_la_ciudad_de_la_paz_como_capital_de_la_republica_de_guinea_ecuatorial_con_la_firma_de_un_decreto_ley"
   },
   "Rumunsko": {
-    "description": "Rumunsko (– toto je krátky a zároveň dlhý tvar názvu; po rumunsky: România) je štát v juhovýchodnej Európe.",
-    "source": "https://sk.wikipedia.org/wiki/Rumunsko"
+    "description": "Krajina juhovýchodnej Európy, ktorej stredom prechádzajú Karpaty a na juhu leží pri Čiernom mori.",
+    "source": "https://en.wikipedia.org/wiki/Romania"
   },
   "Rusko": {
-    "description": "Россия – Rossija), dlhý tvar Ruská federácia (RF; rus.",
-    "source": "https://sk.wikipedia.org/wiki/Rusko"
+    "description": "Najrozľahlejší štát sveta sa rozprestiera vo východnej Európe aj severnej Ázii.",
+    "source": "https://en.wikipedia.org/wiki/Russia"
   },
   "Rwanda": {
-    "description": "Rwanda, dlhý tvar Rwandská republika, je menší vnútrozemský štát v Afrike.",
-    "source": "https://sk.wikipedia.org/wiki/Rwanda"
+    "description": "Vnútrozemský štát vo východnej Afrike prezývaný krajina tisícich pahorkov.",
+    "source": "https://en.wikipedia.org/wiki/Rwanda"
   },
   "Salvádor": {
-    "description": "Salvádor, dlhý tvar Salvádorská republika (špa.",
-    "source": "https://sk.wikipedia.org/wiki/Salv%C3%A1dor"
+    "description": "Najmenší štát Strednej Ameriky, ležiaci pri Tichom oceáne.",
+    "source": "https://en.wikipedia.org/wiki/El_Salvador"
   },
   "Samoa": {
     "description": "Samoa, oficiálne Nezávislý štát Samoa, je ostrovný štát v Polynézii, časť Oceánie, ktorá leží v južnom Tichom oceáne.",
     "source": "https://en.wikipedia.org/wiki/Samoa"
   },
   "San Maríno": {
-    "description": "San Maríno (v slovenčine staršie: San Marino; po taliansky: San Marino [vyslov: sanmaríno]), dlhý tvar Sanmarínska republika (staršie: Sanmarinská…",
-    "source": "https://sk.wikipedia.org/wiki/San_Mar%C3%ADno"
+    "description": "Mikroštát obklopený Talianskom, ležiaci na svahoch Apenín.",
+    "source": "https://en.wikipedia.org/wiki/San_Marino"
   },
   "Saudská Arábia": {
-    "description": "السعودية – as-Suúdíja , hovorovo: as-Saúdíja), dlhý tvar Saudskoarabské kráľovstvo (arab.",
-    "source": "https://sk.wikipedia.org/wiki/Saudsk%C3%A1_Ar%C3%A1bia"
+    "description": "Najväčší štát Arabského polostrova, ktorý zaberá väčšinu jeho územia.",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Arabia"
   },
   "Senegal": {
-    "description": "Senegal (francúzsky: Sénégal; wolofšsky: Senegaal), dlhý tvar Senegalská republika (francúzsky: République du Sénégal; wolofšsky: Réewum Senegaal), je…",
-    "source": "https://sk.wikipedia.org/wiki/Senegal"
+    "description": "Západoafrická krajina pri Atlantiku, ktorej územie takmer obklopuje štát Gambia.",
+    "source": "https://en.wikipedia.org/wiki/Senegal"
   },
   "Severné Macedónsko": {
-    "description": "februára 2019: Macedónsko), dlhý tvar Severomacedónska republika (od 1991 do 11.",
-    "source": "https://sk.wikipedia.org/wiki/Severn%C3%A9_Maced%C3%B3nsko"
+    "description": "Vnútrozemská balkánska krajina, ktorej hlavným mestom je Skopje.",
+    "source": "https://en.wikipedia.org/wiki/North_Macedonia"
   },
   "Seychely": {
-    "description": "Seychely (výslovnosť: „Sejšely“, dlhý tvar: Seychelská republika) je ostrovná republika v západnej časti Indického oceána, v blízkom susedstve Madagaskaru…",
-    "source": "https://sk.wikipedia.org/wiki/Seychely"
+    "description": "Ostrovný štát v Indickom oceáne severovýchodne od Madagaskaru.",
+    "source": "https://en.wikipedia.org/wiki/Seychelles"
   },
   "Sierra Leone": {
-    "description": "Sierra Leone, dlhý tvar Sierraleonská republika je štát v západnej Afrike.",
-    "source": "https://sk.wikipedia.org/wiki/Sierra_Leone"
+    "description": "Západoafrická krajina s pobrežím Atlantického oceána a hlavným mestom Freetown.",
+    "source": "https://en.wikipedia.org/wiki/Sierra_Leone"
   },
   "Singapur": {
-    "description": "Singapur, dlhý tvar Singapurská republika, je moderný mestský štát a ostrovná krajina v juhovýchodnej Ázii.",
-    "source": "https://sk.wikipedia.org/wiki/Singapur"
+    "description": "Ostrovný mestský štát na južnom cípe Malajského polostrova.",
+    "source": "https://en.wikipedia.org/wiki/Singapore"
   },
   "Slovensko": {
-    "description": "Slovensko, dlhý tvar Slovenská republika, je vnútrozemský štát v strednej Európe.",
-    "source": "https://sk.wikipedia.org/wiki/Slovensko"
+    "description": "Vnútrozemská krajina v strednej Európe, ktorej severu dominujú Karpaty a Vysoké Tatry.",
+    "source": "https://en.wikipedia.org/wiki/Slovakia"
   },
   "Slovinsko": {
-    "description": "Slovenija), dlhý tvar Slovinská republika (slov.",
-    "source": "https://sk.wikipedia.org/wiki/Slovinsko"
+    "description": "Krajina na juhu strednej Európy, kde sa Alpy stretávajú s Jadranským morom.",
+    "source": "https://en.wikipedia.org/wiki/Slovenia"
   },
   "Somálsko": {
     "description": "Somálsko (somálsky Soomaaliya; arabsky الصومال = as-Súmál), oficiálne Somálska federatívna republika (po somálsky Jamhuuriyadda Soomaaliya, po arabsky…",
@@ -5464,40 +5460,40 @@
     "source": "https://sk.wikipedia.org/wiki/Spojen%C3%A9_arabsk%C3%A9_emir%C3%A1ty"
   },
   "Spojené kráľovstvo": {
-    "description": "Spojené kráľovstvo, dlhý tvar Spojené kráľovstvo Veľkej Británie a Severného Írska (angl.",
-    "source": "https://sk.wikipedia.org/wiki/Spojen%C3%A9_kr%C3%A1%C4%BEovstvo"
+    "description": "Ostrovný štát pri severozápadnom pobreží Európy, ktorý zahŕňa Veľkú Britániu a Severné Írsko.",
+    "source": "https://en.wikipedia.org/wiki/United_Kingdom"
   },
   "Spojené štáty americké": {
-    "description": "Spojené štáty alebo USA, dlhý tvar Spojené štáty americké (podrobnosti o názvoch pozri nižšie), je demokratická federatívna prezidentská republika v…",
-    "source": "https://sk.wikipedia.org/wiki/Spojen%C3%A9_%C5%A1t%C3%A1ty"
+    "description": "Rozsiahly štát Severnej Ameriky s pobrežím pri Atlantickom aj Tichom oceáne.",
+    "source": "https://en.wikipedia.org/wiki/United_States"
   },
   "Srbsko": {
-    "description": "Србија/Srbija), dlhý tvar Srbská republika (srb.",
-    "source": "https://sk.wikipedia.org/wiki/Srbsko"
+    "description": "Vnútrozemská balkánska krajina, cez ktorú preteká Dunaj a ktorej hlavným mestom je Belehrad.",
+    "source": "https://en.wikipedia.org/wiki/Serbia"
   },
   "Srí Lanka": {
-    "description": "Srí Lanka (-kodifikovaný pravý slovenský tvar; nekodifikovaný tvar opierajúci sa viac o pôvodnú výslovnosť: Šrí Lanka alebo ešte presnejšie Šrí Lanká)…",
-    "source": "https://sk.wikipedia.org/wiki/Sr%C3%AD_Lanka"
+    "description": "Tropický ostrovný štát v Indickom oceáne, ktorý leží južne od Indie.",
+    "source": "https://en.wikipedia.org/wiki/Sri_Lanka"
   },
   "Stredoafrická republika": {
-    "description": "Stredoafrická republika je štát v Afrike.",
-    "source": "https://sk.wikipedia.org/wiki/Stredoafrick%C3%A1_republika"
+    "description": "Vnútrozemský štát v srdci Afriky, ktorého hlavným mestom je Bangui.",
+    "source": "https://en.wikipedia.org/wiki/Central_African_Republic"
   },
   "Sudán": {
-    "description": "stor.: Sudan, Súdán), dlhý tvar Sudánska republika, je štát v subsaharskej Afrike.",
-    "source": "https://sk.wikipedia.org/wiki/Sud%C3%A1n"
+    "description": "Krajina v severovýchodnej Afrike, cez ktorú na ceste do Egypta preteká Níl.",
+    "source": "https://en.wikipedia.org/wiki/Sudan"
   },
   "Surinam": {
-    "description": "Surinam, dlhý tvar Surinamská republika, (historický názov Holandská Gu(a)yana) je prímorský štát v Južnej Amerike pri pobreží Atlantického oceánu.",
-    "source": "https://sk.wikipedia.org/wiki/Surinam"
+    "description": "Najmenší samostatný štát Južnej Ameriky, ležiaci na jej severnom pobreží.",
+    "source": "https://en.wikipedia.org/wiki/Suriname"
   },
   "Svätá Lucia": {
     "description": "Sainte-Lucie) je ostrovný miništát v Karibskom mori v súostroví Malých Antíl (patrí medzi Náveterné ostrovy), severne až severovýchodne od Svätého…",
     "source": "https://sk.wikipedia.org/wiki/Sv%C3%A4t%C3%A1_Lucia"
   },
   "Svätý Krištof a Nevis": {
-    "description": "Svätý Krištof a Nevis (do roku 2006 slovenský krátky tvar Svätý Krištof), dlhý tvar Federácia Svätého Krištofa a Nevisu (angl.",
-    "source": "https://sk.wikipedia.org/wiki/Sv%C3%A4t%C3%BD_Kri%C5%A1tof_a_Nevis"
+    "description": "Karibský štát, ktorý tvoria dva ostrovy: Svätý Krištof a Nevis.",
+    "source": "https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis"
   },
   "Svätý Tomáš a Princov ostrov": {
     "description": "Svätý Tomáš a Princov ostrov (portugalsky: São Tomé e Príncipe) oficiálne Demokratická republika Svätého Tomáša a Princovho ostrova (portugalsky…",
@@ -5508,120 +5504,120 @@
     "source": "https://sk.wikipedia.org/wiki/Sv%C3%A4t%C3%BD_Vincent_a_Grenad%C3%ADny"
   },
   "Sýria": {
-    "description": "Sýria, dlhý tvar Sýrska arabská republika, je štát na Blízkom východe (v západnej Ázii).",
-    "source": "https://sk.wikipedia.org/wiki/S%C3%BDria"
+    "description": "Krajina na východnom pobreží Stredozemného mora, v oblasti nazývanej Levanta.",
+    "source": "https://en.wikipedia.org/wiki/Syria"
   },
   "Španielsko": {
-    "description": "España), dlhý tvar Španielske kráľovstvo (špa.",
-    "source": "https://sk.wikipedia.org/wiki/%C5%A0panielsko"
+    "description": "Krajina na Pyrenejskom polostrove, ktorej územie zahŕňa aj Baleárske a Kanárske ostrovy.",
+    "source": "https://en.wikipedia.org/wiki/Spain"
   },
   "Švajčiarsko": {
     "description": "Švajčiarsko, oficiálne Švajčiarska konfederácia, je vnútrozemský štát ležiaci na rozhraní strednej, západnej a južnej Európy.",
     "source": "https://sk.wikipedia.org/wiki/%C5%A0vaj%C4%8Diarsko"
   },
   "Švédsko": {
-    "description": "Švédsko (švédsky: Sverige vypočuj si), oficiálne Švédske kráľovstvo (švédsky: Konungariket Sverige vypočuj si), je severský štát na Škandinávskom…",
-    "source": "https://sk.wikipedia.org/wiki/%C5%A0v%C3%A9dsko"
+    "description": "Severská krajina na východe Škandinávskeho polostrova s dlhým pobrežím Baltského mora.",
+    "source": "https://en.wikipedia.org/wiki/Sweden"
   },
   "Tadžikistan": {
-    "description": "Tadžikistan (slovenský normovaný tvar; zriedkavý nenormovaný tvar je Tadžicko), dlhý tvar Tadžická republika, je štát v strednej Ázii, hraničiaci s…",
-    "source": "https://sk.wikipedia.org/wiki/Tad%C5%BEikistan"
+    "description": "Hornatá vnútrozemská krajina v strednej Ázii, ktorú z veľkej časti pokrýva pohorie Pamír.",
+    "source": "https://en.wikipedia.org/wiki/Tajikistan"
   },
   "Taiwan": {
-    "description": "Taiwan (staršie slovenské názvy: Tchaj-wan alebo Tajvan), dlhý tvar Čínska republika, je ostrovný štát vo východnej Ázii.",
-    "source": "https://sk.wikipedia.org/wiki/Taiwan"
+    "description": "Ostrov pri juhovýchodnom pobreží Číny, na ktorom leží mesto Tchaj-pej.",
+    "source": "https://en.wikipedia.org/wiki/Taiwan"
   },
   "Taliansko": {
-    "description": "Italia), plným názvom Talianska republika (tal.",
-    "source": "https://sk.wikipedia.org/wiki/Taliansko"
+    "description": "Krajina v tvare čižmy na juhu Európy, ktorej územie zahŕňa aj Sicíliu a Sardíniu.",
+    "source": "https://en.wikipedia.org/wiki/Italy"
   },
   "Tanzánia": {
-    "description": "Tanzánia, dlhý tvar Tanzánijská zjednotená republika, je štát v Afrike.",
-    "source": "https://sk.wikipedia.org/wiki/Tanz%C3%A1nia"
+    "description": "Východoafrická krajina, v ktorej leží Kilimandžáro aj veľká časť Viktóriinho jazera.",
+    "source": "https://en.wikipedia.org/wiki/Tanzania"
   },
   "Thajsko": {
-    "description": "Thajsko, dlhý tvar Thajské kráľovstvo, je štát v juhovýchodnej Ázii.",
-    "source": "https://sk.wikipedia.org/wiki/Thajsko"
+    "description": "Krajina juhovýchodnej Ázie s pobrežím pri Thajskom zálive a Andamanskom mori.",
+    "source": "https://en.wikipedia.org/wiki/Thailand"
   },
   "Togo": {
-    "description": "Togo, dlhý tvar Togská republika, je štát v západnej Afrike.",
-    "source": "https://sk.wikipedia.org/wiki/Togo"
+    "description": "Úzky západoafrický štát medzi Ghanou a Beninom, s krátkym pobrežím pri Guinejskom zálive.",
+    "source": "https://en.wikipedia.org/wiki/Togo"
   },
   "Tonga": {
-    "description": "Tonga, dlhý tvar Tongské kráľovstvo (v slovenčine do roku 2000: Tonžské kráľovstvo) je štát v Austrálii a Oceánii, rozkladajúci sa na súostroví Tonga v…",
-    "source": "https://sk.wikipedia.org/wiki/Tonga"
+    "description": "Polynézske kráľovstvo tvorené súostrovím v južnej časti Tichého oceána.",
+    "source": "https://en.wikipedia.org/wiki/Tonga"
   },
   "Trinidad a Tobago": {
     "description": "Trinidad a Tobago, oficiálne Republika Trinidadu a Tobaga, je ostrovný štát v Karibskom mori pri severnom pobreží Južnej Ameriky.",
     "source": "https://sk.wikipedia.org/wiki/Trinidad_a_Tobago"
   },
   "Tunisko": {
-    "description": "Tunisko, dlhý názov Tuniská republika, je štát v Severnej Afrike.",
-    "source": "https://sk.wikipedia.org/wiki/Tunisko"
+    "description": "Najsevernejšia krajina Afriky, ktorej severné a východné pobrežie obmýva Stredozemné more.",
+    "source": "https://en.wikipedia.org/wiki/Tunisia"
   },
   "Turecko": {
-    "description": "Slovo Turecko môže (z dnešného pohľadu menej vhodne) označovať aj Osmanskú ríšu, pozri Osmanská ríša.",
-    "source": "https://sk.wikipedia.org/wiki/Turecko"
+    "description": "Krajina na rozhraní Európy a Ázie, ktorú oddeľujú úžiny Bospor a Dardanely.",
+    "source": "https://en.wikipedia.org/wiki/Turkey"
   },
   "Turkménsko": {
-    "description": "Turkménsko (normovaný názov; staršie, t.",
-    "source": "https://sk.wikipedia.org/wiki/Turkm%C3%A9nsko"
+    "description": "Vnútrozemská krajina strednej Ázie, ktorej juhozápadné pobrežie leží pri Kaspickom mori.",
+    "source": "https://en.wikipedia.org/wiki/Turkmenistan"
   },
   "Tuvalu": {
-    "description": "Tuvalu je ostrovný štát v Tichom oceáne medzi Havajom a Austráliou.",
-    "source": "https://sk.wikipedia.org/wiki/Tuvalu"
+    "description": "Malý ostrovný štát v Polynézii, ktorého územie tvoria nízke koralové atoly.",
+    "source": "https://en.wikipedia.org/wiki/Tuvalu"
   },
   "Uganda": {
-    "description": "Uganda, dlhý tvar Ugandská republika, je prezidentská republika, nachádzajúca sa vo východnej Afrike, ktorá hraničí s Južným Sudánom na severe, s Keňou na…",
-    "source": "https://sk.wikipedia.org/wiki/Uganda"
+    "description": "Vnútrozemská krajina východnej Afriky, ktorej územie zasahuje k Viktóriinmu jazeru.",
+    "source": "https://en.wikipedia.org/wiki/Uganda"
   },
   "Ukrajina": {
-    "description": "Україна – Ukrajina [ʊkrɐˈjinɐ]) je štát vo východnej Európe.",
-    "source": "https://sk.wikipedia.org/wiki/Ukrajina"
+    "description": "Rozľahlá krajina východnej Európy s pobrežím pri Čiernom mori.",
+    "source": "https://en.wikipedia.org/wiki/Ukraine"
   },
   "Uruguaj": {
-    "description": "Uruguaj, dlhý tvar Uruguajská východná republika (iné názvy pozri nižšie), je štát v Južnej Amerike.",
-    "source": "https://sk.wikipedia.org/wiki/Uruguaj"
+    "description": "Malá juhoamerická krajina medzi Brazíliou, Argentínou a Atlantickým oceánom.",
+    "source": "https://en.wikipedia.org/wiki/Uruguay"
   },
   "Uzbekistan": {
-    "description": "Uzbekistan, dlhý tvar Uzbecká republika, je štát nachádzajúci sa v Strednej Ázii.",
-    "source": "https://sk.wikipedia.org/wiki/Uzbekistan"
+    "description": "Vnútrozemská krajina strednej Ázie, ktorá patrí medzi dvojito vnútrozemské štáty.",
+    "source": "https://en.wikipedia.org/wiki/Uzbekistan"
   },
   "Vanuatu": {
-    "description": "Vanuatu, dlhý tvar Vanuatská republika (bývalý názov Nové Hebridy), je štát v Austrálii a Oceánii.",
-    "source": "https://sk.wikipedia.org/wiki/Vanuatu"
+    "description": "Súostrovný štát v južnom Pacifiku, východne od Austrálie.",
+    "source": "https://en.wikipedia.org/wiki/Vanuatu"
   },
   "Vatikán": {
-    "description": "Vatikán, dlhý tvar Vatikánsky mestský štát (lat.",
-    "source": "https://sk.wikipedia.org/wiki/Vatik%C3%A1n"
+    "description": "Najmenší nezávislý štát sveta, úplne obklopený mestom Rím.",
+    "source": "https://en.wikipedia.org/wiki/Vatican_City"
   },
   "Venezuela": {
-    "description": "Venezuela, dlhý tvar: Venezuelská bolívarovská republika, je federatívna republika na severe Južnej Ameriky.",
-    "source": "https://sk.wikipedia.org/wiki/Venezuela"
+    "description": "Severojuhoamerická krajina pri Karibskom mori, v ktorej sa nachádza najvyšší vodopád sveta Angelov vodopád.",
+    "source": "https://en.wikipedia.org/wiki/Venezuela"
   },
   "Vietnam": {
-    "description": "Vietnam, dlhý tvar Vietnamská socialistická republika je štát v juhovýchodnej Ázii na polostrove Zadná India, leží na pobreží Juhočínskeho mora, pri…",
-    "source": "https://sk.wikipedia.org/wiki/Vietnam"
+    "description": "Dlhá a úzka krajina juhovýchodnej Ázie s pobrežím pri Juhočínskom mori.",
+    "source": "https://en.wikipedia.org/wiki/Vietnam"
   },
   "Východný Timor": {
-    "description": "Východný Timor, dlhý tvar Východotimorská demokratická republika, je ostrovný štát v juhovýchodnej Ázii.",
-    "source": "https://sk.wikipedia.org/wiki/V%C3%BDchodn%C3%BD_Timor"
+    "description": "Malý štát v juhovýchodnej Ázii, ktorý zaberá východnú polovicu ostrova Timor.",
+    "source": "https://en.wikipedia.org/wiki/East_Timor"
   },
   "Zambia": {
-    "description": "Zambia, dlhý tvar Zambijská republika (1911 – 1963 Severná Rodézia), je vnútrozemský štát v južnej Afrike.",
-    "source": "https://sk.wikipedia.org/wiki/Zambia"
+    "description": "Vnútrozemská krajina na juhu Afriky, na hranici so Zimbabwe ležia Viktóriine vodopády.",
+    "source": "https://en.wikipedia.org/wiki/Zambia"
   },
   "Zimbabwe": {
-    "description": "Zimbabwe, dlhý tvar Zimbabwianska republika (1898/1901 – 1964 Južná Rodézia, 1964 – jún 1979 a december 1979 – 1980 Rodézia, jún – december 1979…",
-    "source": "https://sk.wikipedia.org/wiki/Zimbabwe"
+    "description": "Vnútrozemská krajina na juhu Afriky, známa ruinami starovekého kamenného mesta Veľké Zimbabwe.",
+    "source": "https://en.wikipedia.org/wiki/Zimbabwe"
   },
   "Tisovec": {
-    "description": "Taxovia) je mesto na strednom Slovensku.",
-    "source": "https://en.wikipedia.org/wiki/Tisovec"
+    "description": "Mesto na okraji Muránskej planiny, známe ozubnicovou železnicou vedúcou do Brezna.",
+    "source": "https://sk.wikipedia.org/wiki/Tisovec"
   },
   "Košice": {
-    "description": "Košice (iné názvy pozri kapitolu Názov) sú metropolou východného Slovenska a s takmer 230 000 obyvateľmi druhým najľudnatejším mestom na Slovensku.",
-    "source": "https://sk.wikipedia.org/wiki/Ko%C5%A1ice"
+    "description": "Najväčšie mesto východného Slovenska, ktorého historickému centru dominuje Dóm svätej Alžbety.",
+    "source": "https://en.wikipedia.org/wiki/Ko%C5%A1ice"
   },
   "Trnava": {
     "description": "Tyrnau) je krajské mesto na západe Slovenska, sídlo Trnavského samosprávneho kraja a Trnavského okresu.",
@@ -5640,23 +5636,23 @@
     "source": "https://sk.wikipedia.org/wiki/Pre%C5%A1ov"
   },
   "Žilina": {
-    "description": "Żylina) je krajské a okresné mesto na severnom Slovensku.",
-    "source": "https://sk.wikipedia.org/wiki/%C5%BDilina"
+    "description": "Mesto na severozápade Slovenska pri sútoku Váhu, Kysuce a Rajčianky.",
+    "source": "https://en.wikipedia.org/wiki/%C5%BDilina"
   },
   "Poprad": {
     "description": "Deutschendorf) je okresné mesto na severo-východe Slovenska v Prešovskom kraji.",
     "source": "https://sk.wikipedia.org/wiki/Poprad"
   },
   "Spišská Nová Ves": {
-    "description": "Spišská Nová Ves ( slovenská výslovnosť, lat.",
-    "source": "https://sk.wikipedia.org/wiki/Spi%C5%A1sk%C3%A1_Nov%C3%A1_Ves"
+    "description": "Mesto na Spiši s jedným z najdlhších šošovkovitých námestí v Európe.",
+    "source": "https://en.wikipedia.org/wiki/Spi%C5%A1sk%C3%A1_Nov%C3%A1_Ves"
   },
   "Považská Bystrica": {
     "description": "Považská Bystrica je okresné, priemyselné mesto na severozápade Slovenska na rieke Váh.",
     "source": "https://sk.wikipedia.org/wiki/Pova%C5%BEsk%C3%A1_Bystrica"
   },
   "Šaľa": {
-    "description": "Šaľa (do roku 1927 Šaľa nad Váhom, ľudovo Šala, nem.",
+    "description": "Mesto na juhozápade Slovenska, ktoré leží na oboch brehoch rieky Váh.",
     "source": "https://sk.wikipedia.org/wiki/%C5%A0a%C4%BEa"
   },
   "Nové Zámky": {
@@ -5668,7 +5664,7 @@
     "source": "https://sk.wikipedia.org/wiki/Handlov%C3%A1"
   },
   "Levice": {
-    "description": "Levice (; slovenská výslovnosť: [ˈleʋitse]; maďarský: Léva, maďarská výslovnosť: [ˈleːvɒ]; nemčina: Lewenz) je mesto na západnom Slovensku.",
+    "description": "Mesto v Tekove, ktorého historickému centru dominuje zrúcanina Levického hradu.",
     "source": "https://en.wikipedia.org/wiki/Levice"
   },
   "Partizánske": {
@@ -5676,16 +5672,16 @@
     "source": "https://sk.wikipedia.org/wiki/Partiz%C3%A1nske"
   },
   "Ružomberok": {
-    "description": "Rózsahegy) je okresné mesto ležiace v Žilinskom kraji.",
-    "source": "https://sk.wikipedia.org/wiki/Ru%C5%BEomberok"
+    "description": "Mesto na Liptove pri sútoku Váhu a Revúcej, neďaleko Vlkolínca.",
+    "source": "https://en.wikipedia.org/wiki/Ru%C5%BEomberok"
   },
   "Trebišov": {
-    "description": "Trebischau) je mesto na Slovensku ležiace v Košickom kraji.",
+    "description": "Mesto na východe Slovenska, v ktorom sa nachádza kaštieľ Andrássyovcov s múzeom.",
     "source": "https://sk.wikipedia.org/wiki/Trebi%C5%A1ov"
   },
   "Pezinok": {
-    "description": "Pezinok (v miestnom nárečí Pezinek, nem.",
-    "source": "https://sk.wikipedia.org/wiki/Pezinok"
+    "description": "Mesto na úpätí Malých Karpát, známe vinohradníctvom a každoročným vinobraním.",
+    "source": "https://en.wikipedia.org/wiki/Pezinok"
   },
   "Banská Štiavnica": {
     "description": "Banská Štiavnica je historické slobodné kráľovské banské mesto na strednom Slovensku s výrazne multikultúrnou minulosťou.",
@@ -5696,8 +5692,8 @@
     "source": "https://sk.wikipedia.org/wiki/Hlohovec"
   },
   "Čadca": {
-    "description": "Čaca), je okresné mesto v Žilinskom kraji.",
-    "source": "https://sk.wikipedia.org/wiki/%C4%8Cadca"
+    "description": "Mesto na Kysuciach pri hraniciach s Českom a Poľskom.",
+    "source": "https://en.wikipedia.org/wiki/%C4%8Cadca"
   },
   "Prievidza": {
     "description": "Privigye) je okresné mesto ležiace v Trenčianskom kraji vzdialené 48 km od krajského mesta Trenčín.",
@@ -5708,39 +5704,39 @@
     "source": "https://sk.wikipedia.org/wiki/Malacky"
   },
   "Sereď": {
-    "description": "Sereď je mesto ležiace v Trnavskom kraji.",
-    "source": "https://sk.wikipedia.org/wiki/Sere%C4%8F"
+    "description": "Mesto na západnom Slovensku, kde sídli Múzeum holokaustu v bývalom pracovnom a koncentračnom tábore.",
+    "source": "https://en.wikipedia.org/wiki/Sere%C4%8F"
   },
   "Stará Ľubovňa": {
     "description": "Stará Ľubovňa je mesto ležiace v severovýchodnej časti Slovenska, v Prešovskom kraji, v blízkosti hraníc s Poľskom.",
     "source": "https://sk.wikipedia.org/wiki/Star%C3%A1_%C4%BDubov%C5%88a"
   },
   "Dubnica nad Váhom": {
-    "description": "Dubnica nad Váhom (v minulosti Dubnica, nem.",
+    "description": "Mesto v Považí, ktorého dominantou je renesančný kaštieľ s parkom.",
     "source": "https://sk.wikipedia.org/wiki/Dubnica_nad_V%C3%A1hom"
   },
   "Zvolen": {
-    "description": "Vetusolium) je okresné mesto na Slovensku.",
-    "source": "https://sk.wikipedia.org/wiki/Zvolen"
+    "description": "Mesto na strednom Slovensku, nad ktorým stojí gotický Zvolenský zámok.",
+    "source": "https://en.wikipedia.org/wiki/Zvolen"
   },
   "Rajec": {
-    "description": "Rajetz) je mesto na Slovensku ležiace v Žilinskom kraji.",
+    "description": "Mestečko na hornom Považí, neďaleko Rajeckých Teplíc a Súľovských vrchov.",
     "source": "https://sk.wikipedia.org/wiki/Rajec"
   },
   "Svätý Jur": {
-    "description": "Svätý Jur ( slovenská výslovnosť, nem.",
-    "source": "https://sk.wikipedia.org/wiki/Sv%C3%A4t%C3%BD_Jur"
+    "description": "Malé vinohradnícke mesto na úpätí Malých Karpát, severovýchodne od Bratislavy.",
+    "source": "https://en.wikipedia.org/wiki/Sv%C3%A4t%C3%BD_Jur"
   },
   "Kremnica": {
-    "description": "Cremnicium) je mesto ležiace v okrese Žiar nad Hronom.",
-    "source": "https://sk.wikipedia.org/wiki/Kremnica"
+    "description": "Banské mesto, kde sa od 14. storočia razia mince v dodnes fungujúcej mincovni.",
+    "source": "https://en.wikipedia.org/wiki/Kremnica"
   },
   "Turčianske Teplice": {
-    "description": "Turčianske Teplice (do roku 1948 Štubnianske Teplice, nem.",
-    "source": "https://sk.wikipedia.org/wiki/Tur%C4%8Dianske_Teplice"
+    "description": "Kúpeľné mesto v Turci, známe termálnymi prameňmi využívanými na liečebné pobyty.",
+    "source": "https://en.wikipedia.org/wiki/Tur%C4%8Dianske_Teplice"
   },
   "Žiar nad Hronom": {
-    "description": "Žiar nad Hronom (hovorovo len Žiar; do r.",
+    "description": "Mesto v údolí Hrona, ktoré sa v minulosti výrazne rozrástlo vďaka hlinikárni.",
     "source": "https://sk.wikipedia.org/wiki/%C5%BDiar_nad_Hronom"
   },
   "Nové Mesto nad Váhom": {
@@ -5748,19 +5744,19 @@
     "source": "https://sk.wikipedia.org/wiki/Nov%C3%A9_Mesto_nad_V%C3%A1hom"
   },
   "Senica": {
-    "description": "Senica je mesto, ležiace na Záhorí, v Trnavskom kraji.",
-    "source": "https://sk.wikipedia.org/wiki/Senica"
+    "description": "Mesto na Záhorí, ktorého okolie je známe aj rekreačnou vodnou nádržou Kunov.",
+    "source": "https://en.wikipedia.org/wiki/Senica"
   },
   "Vranov nad Topľou": {
-    "description": "Vranov nad Topľou je okresné mesto ležiace v Prešovskom kraji.",
+    "description": "Mesto na východe Slovenska, ktorým preteká rieka Topľa.",
     "source": "https://sk.wikipedia.org/wiki/Vranov_nad_Top%C4%BEou"
   },
   "Humenné": {
-    "description": "Homenau) je mesto na východnom Slovensku v Prešovskom kraji.",
+    "description": "Mesto na východe Slovenska s renesančným kaštieľom, v ktorom sídli múzeum.",
     "source": "https://sk.wikipedia.org/wiki/Humenn%C3%A9"
   },
   "Kopčany": {
-    "description": "Kopcsány) sú obec a obec v Trnavskom kraji na Slovensku.",
+    "description": "Obec pri českej hranici s jedným z najstarších zachovaných kostolov na Slovensku, Kostolom svätej Margity Antiochijskej.",
     "source": "https://en.wikipedia.org/wiki/Kop%C4%8Dany"
   },
   "Chtelnica": {
@@ -5768,8 +5764,8 @@
     "source": "https://sk.wikipedia.org/wiki/Chtelnica"
   },
   "Topoľčany": {
-    "description": "Topoľčany (do roku 1920 Veľké Topoľčany, nem.",
-    "source": "https://sk.wikipedia.org/wiki/Topo%C4%BE%C4%8Dany"
+    "description": "Mesto v Nitrianskom kraji, prezývané aj brána do Ponitria.",
+    "source": "https://en.wikipedia.org/wiki/Topo%C4%BE%C4%8Dany"
   },
   "Galanta": {
     "description": "Galánta) je okresné mesto ležiace na západe Slovenska v Trnavskom kraji.",
@@ -5796,7 +5792,7 @@
     "source": "https://sk.wikipedia.org/wiki/Tvrdo%C5%A1%C3%ADn"
   },
   "Šurany": {
-    "description": "Šurany (v minulosti Veľké Šurany, maď.",
+    "description": "Mesto na juhozápade Slovenska pri rieke Nitra.",
     "source": "https://sk.wikipedia.org/wiki/%C5%A0urany"
   },
   "Štúrovo": {
@@ -5812,15 +5808,15 @@
     "source": "https://sk.wikipedia.org/wiki/Ve%C4%BEk%C3%BD_Krt%C3%AD%C5%A1"
   },
   "Liptovský Hrádok": {
-    "description": "Liptau Hradek) je mesto na Slovensku ležiace v Žilinskom kraji.",
-    "source": "https://sk.wikipedia.org/wiki/Liptovsk%C3%BD_Hr%C3%A1dok"
+    "description": "Mesto na Liptove, pri ktorom sa stretávajú rieky Belá a Váh a stojí hrad s kaštieľom.",
+    "source": "https://en.wikipedia.org/wiki/Liptovsk%C3%BD_Hr%C3%A1dok"
   },
   "Oravská Lesná": {
     "description": "Erdőtka, 1920-1927 Erdútka, 1927-1945 Erdótka) je obec na Slovensku v okrese Námestovo.",
     "source": "https://sk.wikipedia.org/wiki/Oravsk%C3%A1_Lesn%C3%A1"
   },
   "Kraľovany": {
-    "description": "Kraľovany sú obec na Slovensku v okrese Dolný Kubín.",
+    "description": "Obec v údolí Váhu, kde sa stretávajú cesty do Oravy a Liptova.",
     "source": "https://sk.wikipedia.org/wiki/Kra%C4%BEovany"
   },
   "Hrabušice": {
@@ -5828,16 +5824,16 @@
     "source": "https://sk.wikipedia.org/wiki/Hrabu%C5%A1ice"
   },
   "Liptovský Mikuláš": {
-    "description": "Liptovský Mikuláš (v minulosti do roku 1952 slov.",
-    "source": "https://sk.wikipedia.org/wiki/Liptovsk%C3%BD_Mikul%C3%A1%C5%A1"
+    "description": "Mesto na Liptove pri vodnej nádrži Liptovská Mara, neďaleko Nízkych Tatier.",
+    "source": "https://en.wikipedia.org/wiki/Liptovsk%C3%BD_Mikul%C3%A1%C5%A1"
   },
   "Hranovnica": {
     "description": "Grenitz alebo Gränitz) je obec na Slovensku v okrese Poprad v oblasti Severného Spiša",
     "source": "https://sk.wikipedia.org/wiki/Hranovnica"
   },
   "Púchov": {
-    "description": "Puchau) je mesto na Slovensku ležiace v Trenčianskom kraji.",
-    "source": "https://sk.wikipedia.org/wiki/P%C3%BAchov"
+    "description": "Mesto v Považí, po ktorom archeológovia pomenovali pravekú púchovskú kultúru.",
+    "source": "https://en.wikipedia.org/wiki/P%C3%BAchov"
   },
   "Kysucké Nové Mesto": {
     "description": "Kysucké Nové Mesto je okresné mesto na Slovensku ležiace v Žilinskom kraji.",
@@ -5848,7 +5844,7 @@
     "source": "https://sk.wikipedia.org/wiki/Lu%C4%8Denec"
   },
   "Moldava nad Bodvou": {
-    "description": "Moldava nad Bodvou (v minulosti len Moldava, maď.",
+    "description": "Mesto na východe Slovenska neďaleko Slovenského krasu a hraníc s Maďarskom.",
     "source": "https://sk.wikipedia.org/wiki/Moldava_nad_Bodvou"
   },
   "Rožňava": {
@@ -5860,24 +5856,24 @@
     "source": "https://en.wikipedia.org/wiki/Vysok%C3%A9_Tatry"
   },
   "Abuja": {
-    "description": "Nachádza sa severne od ústia rieky Benue do Nigeru.",
-    "source": "https://sk.wikipedia.org/wiki/Abuja"
+    "description": "Plánované hlavné mesto Nigérie, ktoré v roku 1991 nahradilo Lagos.",
+    "source": "https://en.wikipedia.org/wiki/Abuja"
   },
   "Addis Abeba": {
     "description": "Addis Abeba je hlavné mesto Etiópie, politické, hospodárske a kultúrne centrum štátu.",
     "source": "https://sk.wikipedia.org/wiki/Addis_Abeba"
   },
   "Aden": {
-    "description": "Aden (slovenský normovaný názov) alebo Adan (v spisovnej arabčine عدن - prepis podľa spisovnej arabčiny Adan; miestna výslovnosť ['adän]), v staroveku…",
-    "source": "https://sk.wikipedia.org/wiki/Aden"
+    "description": "Jemenský prístav pri úžine vedúcej z Adenského zálivu do Červeného mora.",
+    "source": "https://en.wikipedia.org/wiki/Aden"
   },
   "Alžír": {
     "description": "مدينة الجزائر Madína al-Džazá’ir alebo len الجزائر al-Džazá’ir) je hlavné a najväčšie mesto Alžírska.",
     "source": "https://sk.wikipedia.org/wiki/Al%C5%BE%C3%ADr"
   },
   "Ammán": {
-    "description": "عمان – Ammán ) je hlavné a najväčšie mesto Jordánska.",
-    "source": "https://sk.wikipedia.org/wiki/Amm%C3%A1n"
+    "description": "Hlavné mesto Jordánska, ktorého staroveké centrum zdobí rímsky amfiteáter.",
+    "source": "https://en.wikipedia.org/wiki/Amman"
   },
   "Andorra la Vella": {
     "description": "Andorra (po katalánsky Andorra la Vella) je hlavné mesto štátu Andorra v Pyrenejách medzi Španielskom a Francúzskom.",
@@ -5892,16 +5888,16 @@
     "source": "https://sk.wikipedia.org/wiki/Asmara"
   },
   "Astana": {
-    "description": "Астана), v rokoch 2019 – 2022 Nur-Sultan (kaz.",
-    "source": "https://sk.wikipedia.org/wiki/Astana"
+    "description": "Hlavné mesto Kazachstanu leží na rieke Išim uprostred rozsiahlej kazašskej stepi.",
+    "source": "https://en.wikipedia.org/wiki/Astana"
   },
   "Bagdad": {
     "description": "بغداد‎ – Bagdád) je hlavné a najväčšie mesto Iraku a guvernorátu Bagdad.",
     "source": "https://sk.wikipedia.org/wiki/Bagdad"
   },
   "Baku": {
-    "description": "باراکا‎ Badkube) je hlavné a najväčšie mesto Azerbajdžanu.",
-    "source": "https://sk.wikipedia.org/wiki/Baku"
+    "description": "Hlavné mesto Azerbajdžanu na pobreží Kaspického mora, známe historickým opevneným centrom.",
+    "source": "https://en.wikipedia.org/wiki/Baku"
   },
   "Bamako": {
     "description": "Bamako je hlavné a s počtom obyvateľov 1 690 471 (2006) aj najväčšie mesto Mali.",
@@ -5920,32 +5916,32 @@
     "source": "https://sk.wikipedia.org/wiki/Bejr%C3%BAt"
   },
   "Belmopan": {
-    "description": "V roku 1961 hurikán Hattie zničil hlavné mesto Belize City.",
-    "source": "https://sk.wikipedia.org/wiki/Belmopan"
+    "description": "Hlavné mesto Belize, vybudované vo vnútrozemí po tom, čo hurikán Hattie v roku 1961 poškodil Belize City.",
+    "source": "https://en.wikipedia.org/wiki/Belmopan"
   },
   "Berlín": {
     "description": "Berlin) je mesto vo forme mestského štátu a hlavné mesto Nemecka.",
     "source": "https://sk.wikipedia.org/wiki/Berl%C3%ADn"
   },
   "Biafra": {
-    "description": "Biafra (bee-AF-rə; Igbo: Bịafra), oficiálne Republika Biafra (Igbo: Ripọblik du Bịafra), bol čiastočne uznaný štát v západnej Afrike, ktorý…",
-    "source": "https://en.wikipedia.org/wiki/Biafra"
+    "description": "Krátko existujúci štát v juhovýchodnej Nigérii, ktorý sa v rokoch 1967 až 1970 pokúsil odtrhnúť od Nigérie.",
+    "source": "https://en.wikipedia.org/wiki/Republic_of_Biafra"
   },
   "Bissau": {
     "description": "Bissau je prístavné, najväčšie a hlavné mesto Guiney-Bissau.",
     "source": "https://sk.wikipedia.org/wiki/Bissau"
   },
   "Bogotá": {
-    "description": "Bogota (administratívne aj Bogota, D.C.",
-    "source": "https://sk.wikipedia.org/wiki/Bogota"
+    "description": "Vysoko položené hlavné mesto Kolumbie leží v Andách, vyše 2 600 metrov nad morom.",
+    "source": "https://en.wikipedia.org/wiki/Bogot%C3%A1"
   },
   "Brasília": {
     "description": "Brasília) je hlavné mesto Brazílie a zároveň hlavné mesto federálneho dištriktu Distrito Federal do Brasil.",
     "source": "https://sk.wikipedia.org/wiki/Braz%C3%ADlia_%28mesto%29"
   },
   "Bratislava": {
-    "description": "Bratislava ( slovenská výslovnosť, lat.",
-    "source": "https://sk.wikipedia.org/wiki/Bratislava"
+    "description": "Hlavné mesto Slovenska na Dunaji; jeho hrad stojí na kopci nad historickým centrom.",
+    "source": "https://en.wikipedia.org/wiki/Bratislava"
   },
   "Brusel": {
     "description": "Brüssel; na odlíšenie od regiónu sa mesto niekedy neformálne označuje ako Stad Brussel/Ville de Bruxelles/City of Brussels/Stadt Brüssel, ale nejde o…",
@@ -5968,32 +5964,32 @@
     "source": "https://sk.wikipedia.org/wiki/Buenos_Aires"
   },
   "Káhira": {
-    "description": "Cairo) je hlavné a najväčšie mesto Egypta a tiež hlavné mesto guvernorátu Káhira.",
-    "source": "https://sk.wikipedia.org/wiki/K%C3%A1hira"
+    "description": "Hlavné mesto Egypta na Níle; neďaleko ležia pyramídy v Gíze.",
+    "source": "https://en.wikipedia.org/wiki/Cairo"
   },
   "Canberra": {
-    "description": "Canberra je hlavné mesto Austrálie a s počtom obyvateľov 420 000 najväčšie vnútrozemské mesto.",
-    "source": "https://sk.wikipedia.org/wiki/Canberra"
+    "description": "Plánované hlavné mesto Austrálie, vybudované medzi Sydney a Melbourne.",
+    "source": "https://en.wikipedia.org/wiki/Canberra"
   },
   "Caracas": {
-    "description": "Mesto má 3 247 000 obyvateľov (sčítanie obyvateľstva z roku 1998).",
-    "source": "https://sk.wikipedia.org/wiki/Caracas"
+    "description": "Hlavné mesto Venezuely leží v údolí pri pobreží Karibského mora.",
+    "source": "https://en.wikipedia.org/wiki/Caracas"
   },
   "Castries": {
-    "description": "Castries ( ) je hlavné a najväčšie mesto Svätej Lucie, ostrovnej krajiny v Karibiku.",
+    "description": "Hlavné mesto ostrovného štátu Svätá Lucia v Karibiku.",
     "source": "https://en.wikipedia.org/wiki/Castries"
   },
   "Kišiňov": {
-    "description": "Kišiňov (po slovensky nesprávne Kišinev, rum.",
-    "source": "https://sk.wikipedia.org/wiki/Ki%C5%A1i%C5%88ov"
+    "description": "Hlavné mesto Moldavska, rozložené na siedmich pahorkoch pri rieke Bîc.",
+    "source": "https://en.wikipedia.org/wiki/Chi%C8%99in%C4%83u"
   },
   "Colombo": {
-    "description": "Colombo ( kə-LUM-boh; sinhálčina: කොළඹ, po latinsky: Koḷam̆ba, IPA: [ˈkoləᵐbə]; tamilčina: கொழும்பு, umbɯu], po latinsky: Ko isɸɯɯ) Výkonný riaditeľ Srí…",
+    "description": "Najväčšie mesto Srí Lanky a dôležitý prístav na pobreží Indického oceána.",
     "source": "https://en.wikipedia.org/wiki/Colombo"
   },
   "Conakry": {
-    "description": "Žijú tu približne 2 milióny obyvateľov.",
-    "source": "https://sk.wikipedia.org/wiki/Konakry"
+    "description": "Prístavné hlavné mesto Guiney leží na polostrove pri Atlantickom oceáne.",
+    "source": "https://en.wikipedia.org/wiki/Conakry"
   },
   "Cotonou": {
     "description": "Cotonou je sídlo vlády a najväčšie mesto Beninu.",
@@ -6004,8 +6000,8 @@
     "source": "https://sk.wikipedia.org/wiki/Dakar"
   },
   "Damask": {
-    "description": "Damask (zastarano Damašk alebo Damašek; arab.",
-    "source": "https://sk.wikipedia.org/wiki/Damask"
+    "description": "Hlavné mesto Sýrie, ktorého staré mesto patrí k najvýznamnejším historickým centrám Blízkeho východu.",
+    "source": "https://en.wikipedia.org/wiki/Damascus"
   },
   "Dháka": {
     "description": "Dháka (bengálska výslovnosť [dhaka], teda s krátkym a) je hlavné a najväčšie mesto Bangladéšu.",
@@ -6024,8 +6020,8 @@
     "source": "https://sk.wikipedia.org/wiki/Dodoma"
   },
   "Dauha": {
-    "description": "Dauha (-normovaný slovenský názov; iné slov.",
-    "source": "https://sk.wikipedia.org/wiki/Dauha"
+    "description": "Hlavné mesto Kataru a významný prístav na pobreží Perzského zálivu.",
+    "source": "https://en.wikipedia.org/wiki/Doha"
   },
   "Dublin": {
     "description": "Dublin (po írsky Baile Átha Cliath) je hlavné a najväčšie mesto Írska a zároveň aj najväčšie mesto na ostrove Írsko.",
@@ -6036,56 +6032,56 @@
     "source": "https://sk.wikipedia.org/wiki/Du%C5%A1anbe"
   },
   "Edinburgh": {
-    "description": "Edinburgh (/ˈɛdɪnbərə/) je hlavné mesto Škótska.",
-    "source": "https://sk.wikipedia.org/wiki/Edinburgh"
+    "description": "Škótske hlavné mesto, ktorému dominuje hrad na skalnom brale nad starým mestom.",
+    "source": "https://en.wikipedia.org/wiki/Edinburgh"
   },
   "Freetown": {
-    "description": "Freetown je hlavné mesto Sierra Leone.",
-    "source": "https://sk.wikipedia.org/wiki/Freetown"
+    "description": "Hlavné mesto Sierra Leone, založené ako osada pre oslobodených otrokov.",
+    "source": "https://en.wikipedia.org/wiki/Freetown"
   },
   "Funafuti": {
-    "description": "Funafuti je hlavným z deviatich atolov tvoriacich ostrovný štát Tuvalu v južnom Tichom oceáne.",
-    "source": "https://sk.wikipedia.org/wiki/Funafuti"
+    "description": "Atol v Tichom oceáne, na ktorom leží hlavné mesto ostrovného štátu Tuvalu.",
+    "source": "https://en.wikipedia.org/wiki/Funafuti"
   },
   "Gaborone": {
     "description": "Gaborone je hlavné a najväčšie mesto Botswany a predstavuje hospodárske, politické a kultúrne centrum krajiny.",
     "source": "https://sk.wikipedia.org/wiki/Gaborone"
   },
   "Ženeva": {
-    "description": "Genf) je mesto nachádzajúce sa na juhu Švajčiarska.",
-    "source": "https://sk.wikipedia.org/wiki/%C5%BDeneva"
+    "description": "Švajčiarske mesto na brehu Ženevského jazera, kde sídli európska centrála OSN.",
+    "source": "https://en.wikipedia.org/wiki/Geneva"
   },
   "Gitega": {
     "description": "Gitega je hlavné a druhé najväčšie mesto východoafrického štátu Burundi.",
     "source": "https://sk.wikipedia.org/wiki/Gitega"
   },
   "Helsinki": {
-    "description": "Helsinki (po fínsky Helsinki, po švédsky Helsingfors, rus.",
-    "source": "https://sk.wikipedia.org/wiki/Helsinki"
+    "description": "Hlavné mesto Fínska na pobreží Fínskeho zálivu, oproti estónskemu Tallinnu.",
+    "source": "https://en.wikipedia.org/wiki/Helsinki"
   },
   "Honiara": {
     "description": "Honiara je hlavné mesto Šalamúnových ostrovov.",
     "source": "https://sk.wikipedia.org/wiki/Honiara"
   },
   "Islamabad": {
-    "description": "Islamabad (-slovenský normovaný názov; iné slovenské názvy: Islámábád, zriedkavo Islámabád, zriedkavo Islamabád; urd اسلام آباد - prepis: Islámábád -…",
-    "source": "https://sk.wikipedia.org/wiki/Islamabad"
+    "description": "Plánované hlavné mesto Pakistanu, postavené na úpätí pohoria Margalla.",
+    "source": "https://en.wikipedia.org/wiki/Islamabad"
   },
   "Jakarta": {
     "description": "Jakarta [vyslov: džakarta] (Jakarta je domáci aj kodifikovaný slovenský názov; do indonézskej reformy pravopisu z roku 1972 sa písalo: Djakarta…",
     "source": "https://sk.wikipedia.org/wiki/Jakarta"
   },
   "Jaunde": {
-    "description": "Yaoundé (Spojené kráľovstvo: ; USA: , francúzska výslovnosť: [ja.unde]) je hlavné mesto Kamerunu.",
+    "description": "Hlavné mesto Kamerunu leží v kopcovitej oblasti strednej časti krajiny.",
     "source": "https://en.wikipedia.org/wiki/Yaound%C3%A9"
   },
   "Jerevan": {
-    "description": "Nachádza sa na západe krajiny, len 12 km od tureckých hraníc.",
-    "source": "https://sk.wikipedia.org/wiki/Jerevan"
+    "description": "Hlavné mesto Arménska, nad ktorým sa pri dobrej viditeľnosti týči biblická hora Ararat.",
+    "source": "https://en.wikipedia.org/wiki/Yerevan"
   },
   "Kapské Mesto": {
-    "description": "Cape Town) je po Johannesburgu a Durbane tretie najväčšie mesto Juhoafrickej republiky, sídlo parlamentu (tzv.",
-    "source": "https://sk.wikipedia.org/wiki/Kapsk%C3%A9_Mesto"
+    "description": "Prístavné mesto na juhozápade Afriky, nad ktorým sa týči Stolová hora; sídli tu juhoafrický parlament.",
+    "source": "https://en.wikipedia.org/wiki/Cape_Town"
   },
   "Kigali": {
     "description": "Kigali je hlavné a najväčšie mesto Rwandy.",
@@ -6100,8 +6096,8 @@
     "source": "https://sk.wikipedia.org/wiki/Lima"
   },
   "Londýn": {
-    "description": "London) je hlavným a najväčším mestom Anglicka aj Spojeného kráľovstva, s počtom obyvateľov 9,1 milióna v roku 2024.",
-    "source": "https://sk.wikipedia.org/wiki/Lond%C3%BDn"
+    "description": "Hlavné mesto Spojeného kráľovstva na Temži, známe parlamentom a hodinovou vežou Big Ben.",
+    "source": "https://en.wikipedia.org/wiki/London"
   },
   "Luanda": {
     "description": "Luanda je hlavné a najväčšie mesto Angoly.",
@@ -6136,12 +6132,12 @@
     "source": "https://en.wikipedia.org/wiki/Mbabane"
   },
   "Mexico City": {
-    "description": "Mexiko (-normovaný slovenský názov; špan.",
-    "source": "https://sk.wikipedia.org/wiki/Mexiko_%28mesto%29"
+    "description": "Hlavné mesto Mexika stojí na mieste niekdajšieho aztéckeho mesta Tenochtitlán.",
+    "source": "https://en.wikipedia.org/wiki/Mexico_City"
   },
   "Minsk": {
-    "description": "Má rozlohu 348,85 km² a žije tu 1 992 700 obyvateľov.",
-    "source": "https://sk.wikipedia.org/wiki/Minsk"
+    "description": "Hlavné mesto Bieloruska, ktorého historické centrum bolo po druhej svetovej vojne z veľkej časti prestavané.",
+    "source": "https://en.wikipedia.org/wiki/Minsk"
   },
   "Mogadišo": {
     "description": "مقعد شاه‎ – Mak'ad-i-Šach - sídlo šacha) je hlavné a najväčšie mesto Somálska.",
@@ -6152,12 +6148,12 @@
     "source": "https://sk.wikipedia.org/wiki/Monrovia"
   },
   "Moskva": {
-    "description": "Москва) je hlavné a najväčšie mesto Ruska.",
-    "source": "https://sk.wikipedia.org/wiki/Moskva"
+    "description": "Hlavné mesto Ruska, ktorého historickým centrom je Kremeľ a Červené námestie.",
+    "source": "https://en.wikipedia.org/wiki/Moscow"
   },
   "Nairobi": {
-    "description": "Je najľudnatejšie mesto vo Východnej Afrike a 12.",
-    "source": "https://sk.wikipedia.org/wiki/Nairobi"
+    "description": "Hlavné mesto Kene; na jeho okraji leží národný park, v ktorom žijú divé zvieratá.",
+    "source": "https://en.wikipedia.org/wiki/Nairobi"
   },
   "Námestovo": {
     "description": "Námestovo je okresné mesto ležiace na brehu vodnej nádrže Oravská priehrada na severe stredného Slovenska v Žilinskom kraji.",
@@ -6168,16 +6164,16 @@
     "source": "https://en.wikipedia.org/wiki/Ngerulmud"
   },
   "Oslo": {
-    "description": "Žije v ňom asi pol milióna obyvateľov.",
-    "source": "https://sk.wikipedia.org/wiki/Oslo"
+    "description": "Hlavné mesto Nórska leží na konci rovnomenného fjordu.",
+    "source": "https://en.wikipedia.org/wiki/Oslo"
   },
   "Ottawa": {
     "description": "Ottawa je hlavné mesto Kanady a zároveň štvrté najväčšie kanadské mesto.",
     "source": "https://sk.wikipedia.org/wiki/Ottawa"
   },
   "Palikir": {
-    "description": "Súradnice: 6°55′ sever, 158°9′ východ (6.91667, 158.15).",
-    "source": "https://sk.wikipedia.org/wiki/Palikir"
+    "description": "Hlavné mesto ostrovného štátu Mikronézia leží na ostrove Pohnpei.",
+    "source": "https://en.wikipedia.org/wiki/Palikir"
   },
   "Paramaribo": {
     "description": "Paramaribo je hlavné mesto Surinamu.",
@@ -6208,12 +6204,12 @@
     "source": "https://en.wikipedia.org/wiki/Rabat"
   },
   "Rím": {
-    "description": "Roma) je hlavné mesto Talianska a regiónu Lazio.",
-    "source": "https://sk.wikipedia.org/wiki/R%C3%ADm"
+    "description": "Hlavné mesto Talianska, v ktorého centre leží samostatný štát Vatikán.",
+    "source": "https://en.wikipedia.org/wiki/Rome"
   },
   "Rijád": {
-    "description": "الرياض‎ – ar-Rijád) je hlavné mesto Saudskej Arábie.",
-    "source": "https://sk.wikipedia.org/wiki/Rij%C3%A1d"
+    "description": "Hlavné mesto Saudskej Arábie leží uprostred púštnej plošiny Nadžd.",
+    "source": "https://en.wikipedia.org/wiki/Riyadh"
   },
   "San Salvador": {
     "description": "San Salvador (španielska výslovnosť: [san salβaðoɾ]) je hlavné a najväčšie mesto Salvadoru a jeho rovnomenného departementu.",
@@ -6236,24 +6232,24 @@
     "source": "https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9"
   },
   "Soul": {
-    "description": "서울) je hlavné mesto Kórejskej republiky.",
-    "source": "https://sk.wikipedia.org/wiki/Soul"
+    "description": "Hlavné mesto Južnej Kórey leží pri rieke Han, neďaleko hranice so Severnou Kóreou.",
+    "source": "https://en.wikipedia.org/wiki/Seoul"
   },
   "Sofia": {
     "description": "S počtom obyvateľov 1 286 383 (oficiálny počet obyvateľov - reálne sa odhaduje okolo 2 000 000) je to zároveň najväčšie bulharské mesto (15.",
     "source": "https://sk.wikipedia.org/wiki/Sofia"
   },
   "Štokholm": {
-    "description": "Štokholm (slovenský normovaný názov; švéd.",
-    "source": "https://sk.wikipedia.org/wiki/%C5%A0tokholm"
+    "description": "Hlavné mesto Švédska sa rozprestiera na ostrovoch medzi jazerom Mälaren a Baltským morom.",
+    "source": "https://en.wikipedia.org/wiki/Stockholm"
   },
   "Sucre": {
-    "description": "Sucre (historické názvy: Charcas, La Plata alebo Chuquisaca) je oficiálne hlavné mesto Bolívie.",
-    "source": "https://sk.wikipedia.org/wiki/Sucre"
+    "description": "Ústavné hlavné mesto Bolívie; sídli tu najvyšší súd krajiny.",
+    "source": "https://en.wikipedia.org/wiki/Sucre"
   },
   "Tchaj-pej": {
-    "description": "Tchaj-pej (čín.: 臺北市, pchin-jin: Táiběi Shì – slov.",
-    "source": "https://sk.wikipedia.org/wiki/Tchaj-pej"
+    "description": "Najväčšie mesto Taiwanu, známe mrakodrapom Tchaj-pej 101.",
+    "source": "https://en.wikipedia.org/wiki/Taipei"
   },
   "Tallinn": {
     "description": "Tallinn (v rokoch 1219 – 1917 Reveľ; 1940 – 1991 po rusky Таллин (Tallin) a Таллинн (Tallinn), nem.",
@@ -6268,16 +6264,16 @@
     "source": "https://sk.wikipedia.org/wiki/Tegucigalpa"
   },
   "Teherán": {
-    "description": "تهران‎ Tehrán) je hlavné a najväčšie mesto Iránu.",
-    "source": "https://sk.wikipedia.org/wiki/Teher%C3%A1n"
+    "description": "Hlavné mesto Iránu leží na úpätí pohoria Alborz.",
+    "source": "https://en.wikipedia.org/wiki/Tehran"
   },
   "Thimphu": {
     "description": "Thimphu je hlavné a zároveň najväčšie mesto Bhutánu.",
     "source": "https://sk.wikipedia.org/wiki/Thimphu"
   },
   "Tokio": {
-    "description": "Tokyo, vypočuj si; pôvodný názov jap.",
-    "source": "https://sk.wikipedia.org/wiki/Tokio"
+    "description": "Hlavné mesto Japonska a jedna z najväčších metropolitných oblastí sveta.",
+    "source": "https://en.wikipedia.org/wiki/Tokyo"
   },
   "Tripolis": {
     "description": "طرابلس – Tarábulus alebo na odlíšenie od rovnomenného mesta v Libanone tiež dlhým názvom arab.",
@@ -6296,8 +6292,8 @@
     "source": "https://sk.wikipedia.org/wiki/Vancouver"
   },
   "Varšava": {
-    "description": "Warsaw) je hlavné a najväčšie mesto Poľska.",
-    "source": "https://sk.wikipedia.org/wiki/Var%C5%A1ava"
+    "description": "Hlavné mesto Poľska na rieke Visla, obnovené po tom, čo bolo počas druhej svetovej vojny rozsiahlo zničené.",
+    "source": "https://en.wikipedia.org/wiki/Warsaw"
   },
   "Viedeň": {
     "description": "Vienna) je hlavné a najväčšie mesto Rakúska, ležiace na rieke Dunaj.",
@@ -6308,8 +6304,8 @@
     "source": "https://sk.wikipedia.org/wiki/Vilnius"
   },
   "Washington D.C.": {
-    "description": "alebo Washington (slovenská výslovnosť: [vošinkton] alebo [vašinkton], anglická výslovnosť: [uošinktn]) je hlavné mesto Spojených štátov amerických a…",
-    "source": "https://sk.wikipedia.org/wiki/Washington%2C_D._C."
+    "description": "Hlavné mesto Spojených štátov na rieke Potomac, kde sídlia Biely dom aj Kapitol.",
+    "source": "https://en.wikipedia.org/wiki/Washington,_D.C."
   },
   "Wellington": {
     "description": "Wellington IPA: [wɛlɪŋtən] (maor.:Te Whanganui-á-Tara) je hlavné mesto a významný prístav Nového Zélandu.",
@@ -6320,8 +6316,8 @@
     "source": "https://sk.wikipedia.org/wiki/Yamoussoukro"
   },
   "Záhreb": {
-    "description": "O rovnomennej župe pozri Záhrebská župa.",
-    "source": "https://sk.wikipedia.org/wiki/Z%C3%A1hreb"
+    "description": "Hlavné mesto Chorvátska leží na úpätí pohoria Medvednica.",
+    "source": "https://en.wikipedia.org/wiki/Zagreb"
   },
   "Zanzibar": {
     "description": "Zanzibar je tanzánijská poloautonómna oblasť pri pobreží východnej Afriky.",
@@ -6332,20 +6328,20 @@
     "source": "https://sk.wikipedia.org/wiki/Stonehenge"
   },
   "Eiffelova veža": {
-    "description": "La Tour Eiffel, francúzska výslovnosť /latuʀɛfɛl/, zaužívaná slovenská výslovnosť /'ai̯fɛlɔva'veʒa/ ) je kovová konštrukcia postavená na Champ de Mars v…",
-    "source": "https://sk.wikipedia.org/wiki/Eiffelova_ve%C5%BEa"
+    "description": "Parížska železná veža postavená pri príležitosti svetovej výstavy v roku 1889.",
+    "source": "https://en.wikipedia.org/wiki/Eiffel_Tower"
   },
   "Veľký čínsky múr": {
-    "description": "Veľký čínsky múr alebo Čínsky múr (čín.",
-    "source": "https://sk.wikipedia.org/wiki/Ve%C4%BEk%C3%BD_%C4%8D%C3%ADnsky_m%C3%BAr"
+    "description": "Sústava opevnení budovaná čínskymi dynastiami na ochranu severných hraníc.",
+    "source": "https://en.wikipedia.org/wiki/Great_Wall_of_China"
   },
   "pyramídy v Gíze": {
-    "description": "Nekropola pri Gíze (iné názvy: Pohrebisko pri [nepresne: v] Gíze/Al-Džíze, Pyramídové pole pri [nepresne: v] Gíze/Al-Džíze) je nekropola v Egypte, ktorá…",
-    "source": "https://sk.wikipedia.org/wiki/Nekropola_pri_G%C3%ADze"
+    "description": "Tri staroveké egyptské pyramídy pri Káhire; najväčšia je Chufuova, známa aj ako Cheopsova.",
+    "source": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
   },
   "Taj Mahal": {
-    "description": "máj 1942, New York) je americký bluesový hudobník.",
-    "source": "https://sk.wikipedia.org/wiki/Taj_Mahal"
+    "description": "Bielomramorové mauzóleum v indickej Agre dal postaviť mogul Šáhdžahán pre svoju manželku Mumtáz Mahal.",
+    "source": "https://en.wikipedia.org/wiki/Taj_Mahal"
   },
   "Koloseum": {
     "description": "Koloseum (po taliansky Colosseo) sú ruiny veľkého amfiteátra v strede Ríma.",
@@ -6368,20 +6364,20 @@
     "source": "https://sk.wikipedia.org/wiki/Akropola_v_At%C3%A9nach"
   },
   "Mount Everest": {
-    "description": "Mount Everest (o názvoch pozri nižšie) je najvyšší vrch Zeme nad hladinou mora.",
-    "source": "https://sk.wikipedia.org/wiki/Mount_Everest"
+    "description": "Najvyšší vrch Zeme, ktorý leží v Himalájach na hranici Nepálu a Číny.",
+    "source": "https://en.wikipedia.org/wiki/Mount_Everest"
   },
   "Chichen Itza": {
     "description": "Chichen Itza alebo (po španielsky) Chichén Itzá je veľké archeologické nálezisko z predkolumbovského obdobia postavené mayskou civilizáciou, ktoré sa…",
     "source": "https://sk.wikipedia.org/wiki/Chichen_Itza"
   },
   "Sagrada Familia": {
-    "description": "Templo Expiatorio de la Sagrada Familia, kat.",
-    "source": "https://sk.wikipedia.org/wiki/Sagrada_Familia"
+    "description": "Nedokončená bazilika v Barcelone, ktorej podobu navrhol katalánsky architekt Antoni Gaudí.",
+    "source": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia"
   },
   "Niagarské vodopády": {
-    "description": "Chutes Niagara) sú známe vodopády na hranici Kanady a USA.",
-    "source": "https://sk.wikipedia.org/wiki/Niagarsk%C3%A9_vodop%C3%A1dy"
+    "description": "Sústava vodopádov na rieke Niagara, ktorá tvorí časť hranice medzi Kanadou a USA.",
+    "source": "https://en.wikipedia.org/wiki/Niagara_Falls"
   },
   "Fudži": {
     "description": "Fudžisan (doslova „vrch Fudži“) (niekedy nesprávne označovaná ako Fudžijama), skrátene Fudži, je najvyššia sopka a zároveň aj najvyšší vrch (3 776 m) v…",
@@ -6404,16 +6400,16 @@
     "source": "https://sk.wikipedia.org/wiki/Brandenbursk%C3%A1_br%C3%A1na"
   },
   "most Golden Gate": {
-    "description": "Golden Gate Bridge (doslova: „most Zlatej brány“; iné názvy: Most (cez) Golden Gate, Most cez Zlatú bránu, most Zlatá brána, Most cez Goldengatskú zátoku)…",
-    "source": "https://sk.wikipedia.org/wiki/Golden_Gate_Bridge"
+    "description": "Závesný most v San Franciscu, rozpoznateľný podľa červeno-oranžovej farby a veží nad zálivom.",
+    "source": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge"
   },
   "Parthenón": {
     "description": "Parthenón alebo Partenón (Parthenonas - chrám panien) bol hlavným chrámom antických Atén.",
     "source": "https://sk.wikipedia.org/wiki/Parthen%C3%B3n"
   },
   "Hagia Sofia": {
-    "description": "Hagia Sofia (ďalšie názvy pozri nižšie) je bývalý byzantský kresťanský chrám, neskôr turecká sunnitská mešita a múzeum na Zlatom rohu v Istanbule.",
-    "source": "https://sk.wikipedia.org/wiki/Hagia_Sofia"
+    "description": "Významná stavba v Istanbule, ktorá počas dejín slúžila ako byzantský chrám, múzeum aj mešita.",
+    "source": "https://en.wikipedia.org/wiki/Hagia_Sophia"
   },
   "Berlínsky múr": {
     "description": "Berlínsky múr bol najznámejším symbolom studenej vojny a rozdelenia Berlína, Nemecka a celej Európy.",
@@ -6424,8 +6420,8 @@
     "source": "https://sk.wikipedia.org/wiki/%C4%8Cerven%C3%A9_n%C3%A1mestie"
   },
   "Tokijská veža": {
-    "description": "東京タワー – Tókjó tawá) je telekomunikačná veža v Tokiu.",
-    "source": "https://sk.wikipedia.org/wiki/T%C3%B3kj%C3%B3_taw%C3%A1"
+    "description": "Červenobiela vyhliadková a vysielacia veža v Tokiu, postavená podľa vzoru Eiffelovej veže.",
+    "source": "https://en.wikipedia.org/wiki/Tokyo_Tower"
   },
   "Louvre": {
     "description": "Louvre, od roku 1993 Le Grand Louvre, je palácový komplex v centre Paríža, bývalé sídlo francúzskych kráľov.",
@@ -6440,8 +6436,8 @@
     "source": "https://sk.wikipedia.org/wiki/Banff_National_Park"
   },
   "Matterhorn": {
-    "description": "Mont Cervin alebo Le Cervin) (4 478 m n.",
-    "source": "https://sk.wikipedia.org/wiki/Matterhorn"
+    "description": "Výrazný pyramídový vrchol Álp na hranici Švajčiarska a Talianska.",
+    "source": "https://en.wikipedia.org/wiki/Matterhorn"
   },
   "Palác parlamentu": {
     "description": "Palatul Parlamentului (doslova Palác parlamentu, nazývaný aj Palác ľudu) je budova v Bukurešti v Rumunsku.",
@@ -6452,8 +6448,8 @@
     "source": "https://sk.wikipedia.org/wiki/Pra%C5%BEsk%C3%BD_hrad"
   },
   "Oravský hrad": {
-    "description": "Oravský hrad (normovaný názov; iné názvy: Oravský zámok, (hrad/zámok) Orava) je expozícia Oravského múzea.",
-    "source": "https://sk.wikipedia.org/wiki/Oravsk%C3%BD_hrad"
+    "description": "Hrad postavený na strmom brale nad riekou Orava; preslávil sa aj ako kulisa filmu Upír Nosferatu.",
+    "source": "https://en.wikipedia.org/wiki/Orava_Castle"
   },
   "Demänovská jaskyňa slobody": {
     "description": "Demänovská jaskyňa slobody (starší pravopis: Demänovská jaskyňa Slobody) je krasová jaskyňa v Nízkych Tatrách v Demänovskej doline, jedna z Demänovských…",
@@ -6468,24 +6464,24 @@
     "source": "https://sk.wikipedia.org/wiki/N%C3%A1rodn%C3%BD_park_Slovensk%C3%BD_raj"
   },
   "Hrad Devín": {
-    "description": "Devín (normovaný názov od roku 1990) alebo Devínsky hrad (-toto bol aj normovaný názov v rokoch 1981-1990) sú zrúcaniny gotického, neskôr slohovo…",
-    "source": "https://sk.wikipedia.org/wiki/Dev%C3%ADn_%28hrad%29"
+    "description": "Zrúcanina hradu na sútoku Dunaja a Moravy, neďaleko Bratislavy.",
+    "source": "https://en.wikipedia.org/wiki/Dev%C3%ADn_Castle"
   },
   "Červený Kameň": {
-    "description": "Vöröskő) je obec a obec v okrese Ilava v Trenčianskom kraji na severozápade Slovenska.",
-    "source": "https://en.wikipedia.org/wiki/%C4%8Cerven%C3%BD_Kame%C5%88"
+    "description": "Hrad pri obci Častá, známy rozsiahlymi pivnicami a múzejnou expozíciou historického bývania.",
+    "source": "https://en.wikipedia.org/wiki/%C4%8Cerven%C3%BD_Kame%C5%88_Castle"
   },
   "Vlkolínec": {
     "description": "Vlkolínec je podhorská osada, miestna časť okresného mesta Ružomberok v Žilinskom kraji.",
     "source": "https://sk.wikipedia.org/wiki/Vlkol%C3%ADnec"
   },
   "Trenčiansky hrad": {
-    "description": "Trenčiansky hrad (normovaný názov;) alebo (hrad) Trenčín je pomerne rozsiahly zrenovovaný hrad, týčiaci sa na strmom vápencovom brale priamo nad mestom…",
-    "source": "https://sk.wikipedia.org/wiki/Tren%C4%8Diansky_hrad"
+    "description": "Hrad nad Trenčínom, na ktorého skalnom brale sa zachoval rímsky nápis z roku 179.",
+    "source": "https://en.wikipedia.org/wiki/Tren%C4%8D%C3%ADn_Castle"
   },
   "Čachtický hrad": {
-    "description": "Čachtický hrad (normovaný názov) alebo (hrad) Čachtice je dnes hradná zrúcanina na vápencovo-dolomitickom vrchu (375 m n.",
-    "source": "https://sk.wikipedia.org/wiki/%C4%8Cachtick%C3%BD_hrad"
+    "description": "Zrúcanina nad obcou Čachtice, spájaná s legendou o grófke Alžbete Bátoriovej.",
+    "source": "https://en.wikipedia.org/wiki/%C4%8Cachtice_Castle"
   },
   "Zakázané mesto": {
     "description": "紫禁城 – C’-ťin-čcheng, pchin-jin: Zǐ​jìn​chéng, doslova „Purpurové zakázané mesto“) bol čínsky cisársky palác počas dynastií Ming a Čching.",
@@ -6496,20 +6492,20 @@
     "source": "https://en.wikipedia.org/wiki/National_Mall"
   },
   "Galapágy": {
-    "description": "Galapágy alebo najmä staršie Korytnačie ostrovy (špa.",
-    "source": "https://sk.wikipedia.org/wiki/Galap%C3%A1gy"
+    "description": "Tichomorské súostrovie patriace Ekvádoru, ktorého jedinečná fauna inšpirovala Charlesa Darwina.",
+    "source": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Islands"
   },
   "Yosemitský národný park": {
-    "description": "Yosemite National Park) je národný park v Spojených štátoch.",
-    "source": "https://sk.wikipedia.org/wiki/Yosemitsk%C3%BD_n%C3%A1rodn%C3%BD_park"
+    "description": "Kalifornský národný park známy žulovými stenami, vodopádmi a obrovskými sekvojami.",
+    "source": "https://en.wikipedia.org/wiki/Yosemite_National_Park"
   },
   "Etna": {
     "description": "Etna je aktívna sopka nachádzajúca sa na východnom pobreží Sicílie.",
     "source": "https://sk.wikipedia.org/wiki/Etna"
   },
   "Viktóriino jazero": {
-    "description": "Viktóriino jazero (iné názvy pozri nižšie) je jazero vo východnej Afrike na hranici Kene, Ugandy a Tanzánie.",
-    "source": "https://sk.wikipedia.org/wiki/Vikt%C3%B3riino_jazero"
+    "description": "Najväčšie africké jazero podľa rozlohy, o ktoré sa delia Tanzánia, Uganda a Keňa.",
+    "source": "https://en.wikipedia.org/wiki/Lake_Victoria"
   },
   "Sydney Harbour Bridge": {
     "description": "Sydney Harbour Bridge premosťuje prírodný prístav Port Jackson v Sydney na východnom pobreží Austrálie a spája centrum mesta so štvrťami na severe.",
@@ -6520,7 +6516,7 @@
     "source": "https://sk.wikipedia.org/wiki/Loch_Ness"
   },
   "Mont Saint-Michel": {
-    "description": "Mont-Saint-Michel (francúzska výslovnosť: [lə mɔ̃ sɛ̃ miʃɛl]; Norman: Mont Saint Miché; anglicky: Saint Michael's Mount) je prílivový ostrov a pevnina…",
+    "description": "Francúzsky ostrovček s opátstvom, ktorý príliv pri vysokom stave oddeľuje od pevniny.",
     "source": "https://en.wikipedia.org/wiki/Mont-Saint-Michel"
   },
   "Blarney Castle": {
@@ -6532,7 +6528,7 @@
     "source": "https://en.wikipedia.org/wiki/Cliffs_of_Moher"
   },
   "Château de Chambord": {
-    "description": "Château de Chambord (francúzska výslovnosť: [ʃɑto d(ə) ʃɑ̃bɔʁ]) v Chambord, Centre-Val de Loire, Francúzsko, je jedným z najznámejších zámkov v…",
+    "description": "Rozľahlý renesančný zámok v údolí Loiry, známy dvojitým točitým schodiskom.",
     "source": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Chambord"
   },
   "Giant's Causeway": {
@@ -6540,8 +6536,8 @@
     "source": "https://en.wikipedia.org/wiki/Giant%27s_Causeway"
   },
   "Veľkonočný ostrov": {
-    "description": "Veľkonočný ostrov (polynézsky: Rapa Nui – „Veľký Rapa“, špa.",
-    "source": "https://sk.wikipedia.org/wiki/Ve%C4%BEkono%C4%8Dn%C3%BD_ostrov"
+    "description": "Odľahlý ostrov v Tichom oceáne, známy kamennými sochami moai, ktoré vytvorili jeho pôvodní obyvatelia Rapa Nui.",
+    "source": "https://en.wikipedia.org/wiki/Easter_Island"
   },
   "Old Faithful": {
     "description": "Old Faithful je kužeľový gejzír v Yellowstonskom národnom parku vo Wyomingu v Spojených štátoch.",
@@ -6584,12 +6580,12 @@
     "source": "https://sk.wikipedia.org/wiki/Antarkt%C3%ADda"
   },
   "Tichý oceán": {
-    "description": "Tichý oceán (hovorovo Pacifik) je najväčší oceán Zeme.",
-    "source": "https://sk.wikipedia.org/wiki/Tich%C3%BD_oce%C3%A1n"
+    "description": "Najväčší oceán Zeme, ktorý oddeľuje Áziu a Austráliu od Ameriky.",
+    "source": "https://en.wikipedia.org/wiki/Pacific_Ocean"
   },
   "Atlantický oceán": {
-    "description": "Atlantický oceán (iné názvy pozri nižšie) je druhý najväčší oceán Zeme.",
-    "source": "https://sk.wikipedia.org/wiki/Atlantick%C3%BD_oce%C3%A1n"
+    "description": "Oceán medzi Európou a Afrikou na východe a Amerikami na západe.",
+    "source": "https://en.wikipedia.org/wiki/Atlantic_Ocean"
   },
   "Indický oceán": {
     "description": "Indický oceán je tretí najväčší oceán na Zemi, zaberá okolo 20 % jej vodnej plochy.",
@@ -6600,44 +6596,44 @@
     "source": "https://sk.wikipedia.org/wiki/Severn%C3%BD_%C4%BEadov%C3%BD_oce%C3%A1n"
   },
   "Stredozemné more": {
-    "description": "Stredozemné more (iné názvy pozri nižšie) je vnútorné more (presnejšie: medzipevninské more) Atlantického oceánu medzi Európou, Afrikou a Áziou.",
-    "source": "https://sk.wikipedia.org/wiki/Stredozemn%C3%A9_more"
+    "description": "More medzi Európou, Afrikou a Áziou, ktoré sa cez Gibraltársky prieliv spája s Atlantikom.",
+    "source": "https://en.wikipedia.org/wiki/Mediterranean_Sea"
   },
   "Baltské more": {
     "description": "podľa niektorých názorov nesprávne]: Baltické more, hovorovo Baltik; po rusky Балтийское море - Baltijskoje more, po nemecky Ostsee, po dánsky Østersøen…",
     "source": "https://sk.wikipedia.org/wiki/Baltsk%C3%A9_more"
   },
   "Čierne more": {
-    "description": "Čierne more (-normovaný slovenský názov) alebo Pontus je vnútropevninské more Atlantického oceánu.",
-    "source": "https://sk.wikipedia.org/wiki/%C4%8Cierne_more"
+    "description": "More medzi juhovýchodnou Európou a západnou Áziou, spojené s Marmarským morom cez Bospor.",
+    "source": "https://en.wikipedia.org/wiki/Black_Sea"
   },
   "Jadranské more": {
-    "description": "Jadranské more (-normovaný slovenský názov; iné názvy: skrátene Jadran, zriedkavo alebo staršie Adriatické more, staršie Jaderské more, staršie Adria) je…",
-    "source": "https://sk.wikipedia.org/wiki/Jadransk%C3%A9_more"
+    "description": "Rameno Stredozemného mora medzi Apeninským polostrovom a Balkánom, obľúbené pre chorvátske pobrežie.",
+    "source": "https://en.wikipedia.org/wiki/Adriatic_Sea"
   },
   "Amazonka": {
-    "description": "Amazonka (ukrajinsky: Амазонка; anglicky: Amazon) je šiesty štúdiový album od Ruslany.",
-    "source": "https://en.wikipedia.org/wiki/Amazonka"
+    "description": "Najvodnatejšia rieka sveta preteká severnou časťou Južnej Ameriky a ústi do Atlantiku.",
+    "source": "https://www.britannica.com/place/Amazon-River"
   },
   "Níl": {
-    "description": "النيل‎ – an-Níl alebo البحر- al-Bahr) je najdlhšia rieka na svete.",
-    "source": "https://sk.wikipedia.org/wiki/N%C3%ADl"
+    "description": "Africká rieka, ktorá preteká Káhirou a vlieva sa do Stredozemného mora.",
+    "source": "https://en.wikipedia.org/wiki/Nile"
   },
   "Mississippi": {
-    "description": "Mississippi (MISS-iss-IP-ee) je štát v juhovýchodnom a južnom regióne Spojených štátov amerických.",
-    "source": "https://en.wikipedia.org/wiki/Mississippi"
+    "description": "Veľká rieka USA, ktorá tečie na juh od Minnesoty až do Mexického zálivu.",
+    "source": "https://en.wikipedia.org/wiki/Mississippi_River"
   },
   "Ganga": {
     "description": "গঙ্গা – Gônga) je najväčšia rieka Indie a jedna z najvodnatejších riek sveta.",
     "source": "https://sk.wikipedia.org/wiki/Ganga"
   },
   "Himaláje": {
-    "description": "Himaláje (sanskritom, po hindsky a nepálsky हिमालय - Himálaja, čín.",
-    "source": "https://sk.wikipedia.org/wiki/Himal%C3%A1je"
+    "description": "Najvyššie pohorie sveta, v ktorom ležia Mount Everest aj ďalšie najvyššie vrchy Zeme.",
+    "source": "https://en.wikipedia.org/wiki/Himalayas"
   },
   "Alpy": {
-    "description": "latinského montes albes = \"biele hory\".",
-    "source": "https://sk.wikipedia.org/wiki/Alpy"
+    "description": "Rozsiahle európske pohorie, ktoré prechádza ôsmimi krajinami a zahŕňa aj Mont Blanc.",
+    "source": "https://en.wikipedia.org/wiki/Alps"
   },
   "Andy": {
     "description": "Cordillera de los Andes) alebo Kordillery Južnej Ameriky sú pohorie vypĺňajúce západnú časť Južnej Ameriky.",
@@ -6656,19 +6652,19 @@
     "source": "https://sk.wikipedia.org/wiki/Niagara"
   },
   "Viktóriine vodopády": {
-    "description": "Viktóriine vodopády sú jedny z najväčších vodopádov na svete.",
-    "source": "https://sk.wikipedia.org/wiki/Vikt%C3%B3riine_vodop%C3%A1dy"
+    "description": "Mohutné vodopády na rieke Zambezi na hranici Zambie a Zimbabwe.",
+    "source": "https://en.wikipedia.org/wiki/Victoria_Falls"
   },
   "Toxo": {
-    "description": "Toxoplazmóza je parazitárne ochorenie spôsobené Toxoplasma gondii, apikomplexan.",
-    "source": "https://en.wikipedia.org/wiki/Toxoplasmosis"
+    "description": "Psychologický román Ivany Dobrakovovej o úzkostiach a vnútornom svete mladej ženy.",
+    "source": "https://www.litcentrum.sk/dielo/toxo"
   },
   "Spoveď": {
-    "description": "Spoveď (sviatosť zmierenia, sviatosť pokánia, pokánie, svätá tajina pokánia, svätá tajina spovede) je kresťanský náboženský úkon, pri ktorom veriaci ústne…",
-    "source": "https://sk.wikipedia.org/wiki/Spove%C4%8F"
+    "description": "V literatúre osobné rozprávanie, v ktorom autor odhaľuje vlastné zážitky, pocity alebo tajomstvá.",
+    "source": "https://en.wikipedia.org/wiki/Confessional_writing"
   },
   "Hlava XXII": {
-    "description": "Catch-22) je protivojnový román amerického spisovateľa Josepha Hellera.",
+    "description": "Protivojnový román Josepha Hellera o americkom letcovi Yossarianovi, ktorý sa snaží uniknúť nezmyselným vojenským pravidlám.",
     "source": "https://sk.wikipedia.org/wiki/Hlava_XXII_%28rom%C3%A1n%29"
   },
   "Don Quixote": {
@@ -6680,7 +6676,7 @@
     "source": "https://en.wikipedia.org/wiki/Pride_and_Prejudice"
   },
   "The Great Gatsby": {
-    "description": "Veľký Gatsby ( ) je tragický román z roku 1925 od amerického spisovateľa F.",
+    "description": "Román F. Scotta Fitzgeralda a jeho filmové adaptácie rozprávajú o záhadnom boháčovi, večierkoch a márnej túžbe v Amerike 20. rokov.",
     "source": "https://en.wikipedia.org/wiki/The_Great_Gatsby"
   },
   "Moby-Dick": {
@@ -6688,43 +6684,43 @@
     "source": "https://en.wikipedia.org/wiki/Moby-Dick"
   },
   "War and Peace": {
-    "description": "Vojna a mier (rusky: Война и мир, romanizované: Voyna i mir; predreformné rusky: Война и миръ; IPA: [vɐjˈna i ˈmʲir]) je epický román ruského…",
+    "description": "Rozsiahly román Leva Tolstého sleduje niekoľko ruských rodín počas napoleonských vojen.",
     "source": "https://en.wikipedia.org/wiki/War_and_Peace"
   },
   "1984": {
-    "description": "Rok 1984 (MCMLXXXIV) bol priestupným rokom, ktorý sa začal nedeľou gregoriánskeho kalendára, 1984.",
+    "description": "Dystopický román Georgea Orwella o totalitnom štáte, ktorý sleduje občanov a prepisuje minulosť.",
     "source": "https://en.wikipedia.org/wiki/1984"
   },
   "The Catcher in the Rye": {
-    "description": "The Catcher in the Rye je americký román o dospievaní z roku 1951 od amerického autora J.",
+    "description": "Román J. D. Salingera o dospievajúcom Holdenovi Caulfieldovi, ktorý sa túla New Yorkom a odmieta pretvárku dospelých.",
     "source": "https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye"
   },
   "The Odyssey": {
-    "description": "Odysea (ODD-iss-ee; staroveká gréčtina: Ὀδύσσεια, romanizovaná: Odýsseia [odyˈsːeːˌja]) je jedným z dvoch hlavných eposov starovekej gréckej literatúry…",
-    "source": "https://en.wikipedia.org/wiki/Odyssey"
+    "description": "Homérov epos o Odyseovej ceste domov po trójskej vojne; film Christophera Nolana z roku 2026 prináša tento príbeh na plátno.",
+    "source": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)"
   },
   "To Kill a Mockingbird": {
-    "description": "To Kill a Mockingbird je južanský gotický román z roku 1960 od americkej autorky Harper Lee.",
+    "description": "Román Harper Leeovej o dievčati Scout a jej otcovi, právnikovi, ktorý obhajuje neprávom obvineného černocha.",
     "source": "https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird"
   },
   "The Lord of the Rings": {
-    "description": "Pán prsteňov je epický fantasy román od anglického autora a učenca J.",
+    "description": "Fantasy príbeh J. R. R. Tolkiena o putovaní za zničením prsteňa; Peter Jackson ho preniesol na filmové plátno v trilógii.",
     "source": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings"
   },
   "The Hobbit": {
-    "description": "Hobit alebo tam a zase späť je detský fantasy román od anglického autora J.",
+    "description": "Fantasy román J. R. R. Tolkiena o hobitovi Bilbovi, ktorý sa vydá na výpravu s trpaslíkmi a čarodejníkom Gandalfom.",
     "source": "https://en.wikipedia.org/wiki/The_Hobbit"
   },
   "One Hundred Years of Solitude": {
-    "description": "Sto rokov samoty (španielsky: Cien años de soledad, latinskoamerický španielsky: [sjen ˈaɲos ðe soleˈðað]) je román z roku 1967 od kolumbijského autora…",
+    "description": "Román Gabriela Garcíu Márqueza o generáciách rodiny Buendíovcov vo fiktívnom meste Macondo.",
     "source": "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude"
   },
   "Jane Eyre": {
-    "description": "Jane Eyre ( AIR; pôvodne publikované ako Jane Eyre: An Autobiography) je román anglickej spisovateľky Charlotte Brontëovej.",
+    "description": "Román Charlotte Brontëovej o sirote, ktorá sa stane vychovávateľkou na panstve Thornfield.",
     "source": "https://en.wikipedia.org/wiki/Jane_Eyre"
   },
   "Brave New World": {
-    "description": "Brave New World je v poradí dvanásty štúdiový album Anglickej heavy metalovej skupiny Iron Maiden, ktorý môžeme rázne označiť za veľký comeback skupiny.",
+    "description": "Dystopický román Aldousa Huxleyho o spoločnosti, ktorá vyrába ľudí a udržiava ich spokojných pomocou drogy soma.",
     "source": "https://sk.wikipedia.org/wiki/Brave_New_World"
   },
   "Wuthering Heights": {
@@ -6736,7 +6732,7 @@
     "source": "https://sk.wikipedia.org/wiki/451_stup%C5%88ov_Fahrenheita"
   },
   "The Brothers Karamazov": {
-    "description": "Bratia Karamazovci (rusky: Братья Карамазовы, romanizované: Brat'ya Karamazovy, IPA: [ˈbratʲjə kərɐˈmazəvɨ]), preložené aj ako Karamazov…",
+    "description": "Posledný román Fiodora Dostojevského o troch bratoch, ich otcovi a vražde, ktorá otrasie rodinou.",
     "source": "https://en.wikipedia.org/wiki/The_Brothers_Karamazov"
   },
   "The Picture of Dorian Gray": {
@@ -6748,7 +6744,7 @@
     "source": "https://en.wikipedia.org/wiki/Crime_and_Punishment"
   },
   "Les Misérables": {
-    "description": "Les Misérables) je román od francúzskeho spisovateľa Victora Huga, ktorý bol vydaný v roku 1862 a patrí k najznámejším dielam 19.",
+    "description": "Román Victora Huga o bývalom trestancovi Jeanovi Valjeanovi a chudobe vo Francúzsku.",
     "source": "https://sk.wikipedia.org/wiki/Bed%C3%A1ri"
   },
   "Dracula": {
@@ -6756,11 +6752,11 @@
     "source": "https://en.wikipedia.org/wiki/Dracula"
   },
   "The Divine Comedy": {
-    "description": "Divina Commedia) je talianska výpravná báseň od Danteho Alighieriho, ktorá sa začala r.",
+    "description": "Epická báseň Danteho Alighieriho o ceste cez peklo, očistec a raj.",
     "source": "https://en.wikipedia.org/wiki/Divine_Comedy"
   },
   "A Tale of Two Cities": {
-    "description": "Príbeh dvoch miest je historický román vydaný v roku 1859 anglickým autorom Charlesom Dickensom, odohrávajúci sa v Londýne a Paríži pred a počas francúzskeho…",
+    "description": "Historický román Charlesa Dickensa o životoch ľudí v Londýne a Paríži počas Francúzskej revolúcie.",
     "source": "https://en.wikipedia.org/wiki/A_Tale_of_Two_Cities"
   },
   "The Sun Also Rises": {
@@ -6776,11 +6772,11 @@
     "source": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea"
   },
   "Animal Farm": {
-    "description": "Animal Farm) (prvýkrát bola publikovaná 17.",
+    "description": "Satirická novela Georgea Orwella, v ktorej zvieratá prevezmú farmu, no nová moc zopakuje starý útlak.",
     "source": "https://sk.wikipedia.org/wiki/Zvieracia_farma"
   },
   "The Secret Garden": {
-    "description": "Tajná záhrada je román pre deti od Frances Hodgson Burnett, prvýkrát vydaný v knižnej podobe v roku 1911, po serializácii v The American Magazine…",
+    "description": "Detský román Frances Hodgson Burnettovej o Mary, ktorá na anglickom panstve objaví zamknutú záhradu.",
     "source": "https://en.wikipedia.org/wiki/The_Secret_Garden"
   },
   "Little Women": {
@@ -6788,7 +6784,7 @@
     "source": "https://en.wikipedia.org/wiki/Little_Women"
   },
   "The Sound and the Fury": {
-    "description": "The Sound and the Fury) je v poradí štvrtý román amerického spisovateľa Williama Faulknera.",
+    "description": "Román Williama Faulknera o rozpade rodiny Compsonovcov na americkom Juhu, rozprávaný z viacerých pohľadov.",
     "source": "https://sk.wikipedia.org/wiki/B%C4%BEabot_a_bes"
   },
   "The Count of Monte Cristo": {
@@ -6800,11 +6796,11 @@
     "source": "https://en.wikipedia.org/wiki/The_Bell_Jar"
   },
   "Rebecca": {
-    "description": "Rebecca je americký film, ktorý nakrútil v roku 1940 Alfred Hitchcock podľa románu britskej spisovateľky Daphne du Maurier \"Rebeka\".",
-    "source": "https://sk.wikipedia.org/wiki/Rebecca"
+    "description": "Gotický román Daphne du Maurierovej o novej manželke na panstve Manderley, ktorú prenasleduje pamiatka jej predchodkyne Rebeccy.",
+    "source": "https://en.wikipedia.org/wiki/Rebecca_(novel)"
   },
   "The Color Purple": {
-    "description": "Fialová farba je epištolárny román americkej autorky Alice Walkerovej z roku 1982, ktorý v roku 1983 získal Pulitzerovu cenu za beletriu a Národnú knižnú…",
+    "description": "Epištolárny román Alice Walkerovej o Afroameričanke Celie, ktorá si píše listy a hľadá vlastný hlas a nezávislosť.",
     "source": "https://en.wikipedia.org/wiki/The_Color_Purple"
   },
   "Lord of the Flies": {
@@ -6812,15 +6808,15 @@
     "source": "https://en.wikipedia.org/wiki/Lord_of_the_Flies"
   },
   "The Trial": {
-    "description": "„The Trial“ je skladba z albumu The Wall, ktorý vydala britská rocková skupina Pink Floyd v roku 1979.",
-    "source": "https://sk.wikipedia.org/wiki/The_Trial"
+    "description": "Román Franza Kafku o Josefovi K., ktorý je zatknutý a súdený bez toho, aby sa dozvedel svoje obvinenie.",
+    "source": "https://en.wikipedia.org/wiki/The_Trial"
   },
   "The Iliad": {
-    "description": "Ilias ( ILL-ee-əd; starogrécky: Ἰλιάς, rímsky: Iliás [iːliás]; lit.",
+    "description": "Homérov epos o bojoch pred Trójou a hneve gréckeho bojovníka Achilla.",
     "source": "https://en.wikipedia.org/wiki/Iliad"
   },
   "The Metamorphosis": {
-    "description": "Die Verwandlung, vyslovované [dɪ fɛɐ̯ˈvantlʊŋ]), v preklade aj ako Premena, je novela Franza Kafku vydaná v…",
+    "description": "Novela Franza Kafku o Gregorovi Samsovi, ktorý sa jedného rána prebudí premenený na obrovský hmyz.",
     "source": "https://en.wikipedia.org/wiki/The_Metamorphosis"
   },
   "The Handmaid's Tale": {
@@ -6828,11 +6824,11 @@
     "source": "https://en.wikipedia.org/wiki/The_Handmaid%27s_Tale"
   },
   "Slaughterhouse-Five": {
-    "description": "Slaughterhouse-Five, alebo The Children's Crusade: A Duty-Dance with Death je poloautobiografický protivojnový román z roku 1969 plný sci-fi od Kurta…",
+    "description": "Protivojnový román Kurta Vonneguta o Billym Pilgrimovi, ktorý prežíva bombardovanie Drážďan a zvláštne výlety v čase.",
     "source": "https://en.wikipedia.org/wiki/Slaughterhouse-Five"
   },
   "The Hitchhiker's Guide to the Galaxy": {
-    "description": "Stopárov sprievodca po galaxii je komediálna sci-fi franšíza, ktorú vytvoril Douglas Adams.",
+    "description": "Komediálny sci-fi román Douglasa Adamsa o pozemšťanovi Arthurovi Dentovi, ktorý po zničení Zeme cestuje vesmírom.",
     "source": "https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy"
   },
   "The Road": {
@@ -6840,11 +6836,11 @@
     "source": "https://en.wikipedia.org/wiki/The_Road"
   },
   "Hamlet": {
-    "description": "The Tragedy of Hamlet, Prince of Denmark, dosl.",
+    "description": "Shakespearova tragédia o dánskom princovi, ktorý pátra po pravde o smrti svojho otca.",
     "source": "https://sk.wikipedia.org/wiki/Hamlet"
   },
   "Macbeth": {
-    "description": "Tragédia Macbetha, často skrátená na Macbeth (), je tragédia Williama Shakespeara, ktorá bola prvýkrát uvedená v roku 1606.",
+    "description": "Shakespearova tragédia o škótskom šľachticovi, ktorého túžba po kráľovskej moci privedie k vražde.",
     "source": "https://en.wikipedia.org/wiki/Macbeth"
   },
   "Rómeo a Júlia": {
@@ -6852,7 +6848,7 @@
     "source": "https://sk.wikipedia.org/wiki/R%C3%B3meo_a_J%C3%BAlia"
   },
   "Othello": {
-    "description": "Othello (celý pôvodný názov je The Tragedy of Othello The Moor of Venice) je jednou z tragédií anglického dramatika William Shakespeare.",
+    "description": "Shakespearova tragédia o vojvodcovi Othellovi, ktorého intrigy presvedčia, že mu manželka bola neverná.",
     "source": "https://sk.wikipedia.org/wiki/Othello"
   },
   "Kráľ Lear": {
@@ -6860,24 +6856,24 @@
     "source": "https://sk.wikipedia.org/wiki/Kr%C3%A1%C4%BE_Lear"
   },
   "Sen noci svätojánskej": {
-    "description": "A Midsummer Night's Dream) je romantická komédia z pera anglického dramatika Williama Shakespearea, napísaná na prelome 16.",
+    "description": "Shakespearova komédia o zaľúbencoch a remeselníkoch, ktorých v lese popletie kúzlo škriatka Puka.",
     "source": "https://sk.wikipedia.org/wiki/Sen_noci_sv%C3%A4toj%C3%A1nskej"
   },
   "Búrka": {
-    "description": "Búrka je z odborného hľadiska: a) súbor elektrických, optických a zvukových javov (t.j.",
-    "source": "https://sk.wikipedia.org/wiki/B%C3%BArka"
+    "description": "Neskorá hra Williama Shakespeara o čarodejníkovi Prosperovi, ktorý stroskotaním privedie svojich nepriateľov na ostrov.",
+    "source": "https://en.wikipedia.org/wiki/The_Tempest"
   },
   "Nevesta hôľ": {
     "description": "Nevesta hôľ je román Františka Švantnera, pôvodne vydaný Maticou slovenskou v roku 1946 a považovaný za popredné dielo slovenského naturizmu.",
     "source": "https://sk.wikipedia.org/wiki/Nevesta_h%C3%B4%C4%BE"
   },
   "Jánošík": {
-    "description": "Jánošík môže označovať: Adam Jánošík, slovenský profesionálny hokejista Juraj Jánošík, známy slovenský zbojník Jánošík (film z roku 1921), slovenský film…",
-    "source": "https://en.wikipedia.org/wiki/J%C3%A1no%C5%A1%C3%ADk"
+    "description": "Historický román Mariany Čengel Solčanskej o Jurajovi Jánošíkovi a svete, z ktorého vzišiel.",
+    "source": "https://www.litcentrum.sk/dielo/janosik-9"
   },
   "Tisícročná včela": {
-    "description": "Tisícročná včela (slovensky: Tisícročná včela, v angličtine známa aj ako The Bee Millennium) je film z roku 1983, ktorý vznikol a produkoval…",
-    "source": "https://en.wikipedia.org/wiki/The_Millennial_Bee"
+    "description": "Román Petra Jaroša o niekoľkých generáciách rodiny Pichandovcov a živote na slovenskej dedine.",
+    "source": "https://sk.wikipedia.org/wiki/Tis%C3%ADcro%C4%8Dn%C3%A1_v%C4%8Cela"
   },
   "Titanic (1997)": {
     "description": "Titanic je americký epický historický romantický film z roku 1997, ktorý napísal a režíroval James Cameron.",
@@ -6888,27 +6884,27 @@
     "source": "https://sk.wikipedia.org/wiki/Hviezdne_vojny_%28kult%29"
   },
   "Toy Story": {
-    "description": "Toy Story alebo Toy Story - Príbeh hračiek (ang.",
+    "description": "Animovaný film Toy Story: Príbeh hračiek o kovbojovi Woodym a vesmírnom strážcovi Buzzovi, ktorí sa musia naučiť spolu vychádzať.",
     "source": "https://sk.wikipedia.org/wiki/Toy_Story"
   },
   "Pirates of the Caribbean": {
-    "description": "Piráti z Karibiku sú mediálnou franšízou Disney, ktorá zahŕňa početné jazdy v zábavnom parku, sériu filmov a sprievodných románov, ako aj množstvo…",
+    "description": "Dobrodružná filmová séria Piráti z Karibiku o kapitánovi Jackovi Sparrowovi a jeho nepravdepodobných výpravách.",
     "source": "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean"
   },
   "Game of Thrones": {
-    "description": "Game of Thrones (doslova: hra trónov, hra o tróny) je americký dobrodružno-fantastický televízny seriál z produkcie televízie HBO, vytvorený podľa knižnej…",
+    "description": "Seriál Hra o tróny sleduje bojujúce rody, ktoré zápasia o vládu nad fiktívnym kontinentom Westeros.",
     "source": "https://sk.wikipedia.org/wiki/Game_of_Thrones"
   },
   "Friends": {
-    "description": "Priatelia je americký televízny sitcom vytvorený Davidom Craneom a Martou Kauffmanovou, ktorý sa vysielal na NBC od 22.",
+    "description": "Sitkom Priatelia sleduje šiestich kamarátov, ktorí spolu žijú, pracujú a randia v New Yorku.",
     "source": "https://en.wikipedia.org/wiki/Friends"
   },
   "Breaking Bad": {
-    "description": "Breaking Bad, „Odtrhnúť sa z reťaze“) je americký dramatický televízny seriál vytvorený Vincom Gilliganom.",
+    "description": "Kriminálny seriál o učiteľovi chémie Walterovi Whiteovi, ktorý po vážnej diagnóze začne vyrábať drogy.",
     "source": "https://sk.wikipedia.org/wiki/Pern%C3%ADkov%C3%BD_tatko"
   },
   "The Simpsons": {
-    "description": "The Simpsons) je americký animovaný seriál o „takej normálnej žltej rodinke“, ktorú vymyslel Matt Groening.",
+    "description": "Animovaný seriál Simpsonovci sleduje Homerovu rodinu v mestečku Springfield.",
     "source": "https://sk.wikipedia.org/wiki/Simpsonovci"
   },
   "Stranger Things": {
@@ -6920,7 +6916,7 @@
     "source": "https://en.wikipedia.org/wiki/The_Office_%28American_TV_series%29"
   },
   "The Big Bang Theory": {
-    "description": "The Big Bang Theory) je americký sitkom zo sveta mladých fyzikov.",
+    "description": "Sitkom Teória veľkého tresku o skupine vedcov a ich susedke Penny, ktorá pracuje ako čašníčka a túži stať sa herečkou.",
     "source": "https://sk.wikipedia.org/wiki/Te%C3%B3ria_ve%C4%BEk%C3%A9ho_tresku_%28seri%C3%A1l%29"
   },
   "Westworld": {
@@ -6928,15 +6924,15 @@
     "source": "https://sk.wikipedia.org/wiki/Westworld"
   },
   "The Crown": {
-    "description": "Koruna je politický koncept používaný vo sférach Commonwealthu, analogický s konceptom vlády v právnych systémoch ovplyvnených rímskym občianskym právom.",
-    "source": "https://en.wikipedia.org/wiki/The_Crown"
+    "description": "Seriál Koruna dramatizuje vládu britskej kráľovnej Alžbety II. a udalosti okolo kráľovskej rodiny.",
+    "source": "https://en.wikipedia.org/wiki/The_Crown_(TV_series)"
   },
   "Mad Men": {
-    "description": "ad men, skratka pre advertising men - ľudia pracujúci v reklamnom biznise; seriál konkrétne zobrazuje ľudí na Madison Avenue, čiže Madison Avenue + ad men…",
+    "description": "Dramatický seriál z prostredia newyorských reklamných agentúr v 60. rokoch; jeho hlavnou postavou je kreatívny riaditeľ Don Draper.",
     "source": "https://sk.wikipedia.org/wiki/Mad_Men"
   },
   "Better Call Saul": {
-    "description": "Volejte Saulovi) je americký kriminálno-dramatický seriál, ktorý sa vysielal od 8.",
+    "description": "Kriminálny seriál o advokátovi Jimmym McGillovi, ktorého kariéra a rozhodnutia postupne vedú k osobnosti Saula Goodmana.",
     "source": "https://sk.wikipedia.org/wiki/Better_Call_Saul"
   },
   "Black Mirror": {
@@ -6960,15 +6956,15 @@
     "source": "https://sk.wikipedia.org/wiki/True_Detective"
   },
   "House": {
-    "description": "Môže sa pohybovať v zložitosti od základnej chatrče až po zložitú štruktúru z dreva, muriva, betónu alebo iného materiálu, vybavenú inštalatérskymi ...",
-    "source": "https://en.wikipedia.org/wiki/House"
+    "description": "Dr. Gregory House je brilantný, sarkastický lekár, ktorý so svojím tímom rieši nezvyčajné diagnostické prípady.",
+    "source": "https://en.wikipedia.org/wiki/House_(TV_series)"
   },
   "The Marvelous Mrs. Maisel": {
-    "description": "Maisel je americký dobový komediálno-dramatický televízny seriál, ktorý vytvorila Amy Sherman-Palladino.",
+    "description": "Komediálny seriál o newyorskej žene v 50. rokoch, ktorá po rozpade manželstva začne vystupovať ako stand-up komička.",
     "source": "https://en.wikipedia.org/wiki/The_Marvelous_Mrs._Maisel"
   },
   "Rick and Morty": {
-    "description": "Rick a Morty je americký animovaný sci-fi televízny seriál, ktorý vytvorili Justin Roiland a Dan Harmon (tvorca seriálu Community) pre stanicu Adult Swim…",
+    "description": "Animovaný sci-fi seriál o cynickom vedcovi Rickovi a jeho vnukovi Mortym, ktorí cestujú medzi planétami a dimenziami.",
     "source": "https://sk.wikipedia.org/wiki/Rick_a_Morty"
   },
   "Narcos": {
@@ -6976,16 +6972,16 @@
     "source": "https://sk.wikipedia.org/wiki/Narcos"
   },
   "Chernobyl": {
-    "description": "Černobyľ, tiež známy ako Černobyľ, je čiastočne opustené mesto vo Vyšhorodskom rajóne v Kyjevskej oblasti na Ukrajine.",
-    "source": "https://en.wikipedia.org/wiki/Chernobyl"
+    "description": "Miniséria Černobyľ rekonštruuje haváriu jadrovej elektrárne v roku 1986 a následné pokusy dostať katastrofu pod kontrolu.",
+    "source": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)"
   },
   "Parks and Recreation": {
     "description": "Parks and Recreation (tiež známy ako Parks and Rec) je americká politická satira mockumentárna televízna situačná komédia, ktorú vytvorili Greg Daniels a…",
     "source": "https://en.wikipedia.org/wiki/Parks_and_Recreation"
   },
   "The Witcher": {
-    "description": "Wiedźmin, vyslovované [ˈvjɛd͡ʑmin]) je séria deviatich fantasy románov a 15 poviedok od poľského autora Andrzeja Sapkowského.",
-    "source": "https://en.wikipedia.org/wiki/The_Witcher"
+    "description": "Seriál Zaklínač sleduje lovca príšer Geralta, princeznú Ciri a čarodejnicu Yennefer vo svete plnom mágie a vojen.",
+    "source": "https://en.wikipedia.org/wiki/The_Witcher_(TV_series)"
   },
   "M*A*S*H": {
     "description": "M*A*S*H je americký komediálny dramatický televízny seriál z prostredia vojenskej poľnej nemocnice (MASH – Mobile Army Surgical Hospital) počas vojny v Kórei.",
@@ -6996,15 +6992,15 @@
     "source": "https://sk.wikipedia.org/wiki/Prison_Break"
   },
   "Murder, She Wrote": {
-    "description": "Murder, She Wrote je americký kriminálny televízny seriál, ktorý vytvoril Peter S.",
+    "description": "Kriminálny seriál o spisovateľke detektívok Jessica Fletcher, ktorá pomáha vyšetrovať vraždy vo svojom okolí.",
     "source": "https://en.wikipedia.org/wiki/Murder%2C_She_Wrote"
   },
   "The Godfather": {
-    "description": "Krstný otec je americký epický gangsterský film z roku 1972, ktorý režíroval Francis Ford Coppola, ktorý spolu s Mariom Puzom napísal scenár podľa Puzovej…",
+    "description": "Gangsterský film Krstný otec sleduje Vita Corleoneho a jeho syna Michaela v boji o moc v newyorskej mafiánskej rodine.",
     "source": "https://en.wikipedia.org/wiki/The_Godfather"
   },
   "The Shawshank Redemption": {
-    "description": "Vykúpenie z väznice Shawshank je americký dramatický film z roku 1994, ktorý napísal a režíroval Frank Darabont podľa novely Stephena Kinga z roku 1982…",
+    "description": "Film Vykúpenie z väznice Shawshank o bankárovi Andym Dufresneovi, ktorý sa snaží prežiť doživotný trest a dokázať svoju nevinu.",
     "source": "https://en.wikipedia.org/wiki/The_Shawshank_Redemption"
   },
   "Schindler's List": {
@@ -7012,7 +7008,7 @@
     "source": "https://en.wikipedia.org/wiki/Schindler%27s_List"
   },
   "Raging Bull": {
-    "description": "Zúriaci býk je americká životopisná športová dráma z roku 1980 režiséra Martina Scorseseho podľa scenára Paula Schradera a Mardika Martina, ktorý…",
+    "description": "Životopisný film Martina Scorseseho o boxerovi Jakeovi LaMottovi a jeho prudkej kariére aj osobnom živote.",
     "source": "https://en.wikipedia.org/wiki/Raging_Bull"
   },
   "Casablanca": {
@@ -7024,7 +7020,7 @@
     "source": "https://sk.wikipedia.org/wiki/Ob%C4%8Dan_Kane"
   },
   "Lawrence of Arabia": {
-    "description": "máj 1935) bol dôstojník britskej armády, archeológ, diplomat a spisovateľ známy svojou úlohou počas arabskej…",
+    "description": "Epický film o britskom dôstojníkovi T. E. Lawrencovi, ktorý počas prvej svetovej vojny pôsobí medzi arabskými kmeňmi.",
     "source": "https://en.wikipedia.org/wiki/T._E._Lawrence"
   },
   "The Wizard of Oz": {
@@ -7032,16 +7028,16 @@
     "source": "https://en.wikipedia.org/wiki/The_Wizard_of_Oz"
   },
   "Vertigo": {
-    "description": "Vertigo je stav, pri ktorom má človek pocit, že sa pohybuje, alebo že sa pohybujú predmety okolo neho, keď to tak nie je.",
-    "source": "https://en.wikipedia.org/wiki/Vertigo"
+    "description": "Psychologický triler Alfreda Hitchcocka o detektívovi Scottiem Fergusonovi, ktorý má strach z výšok a sleduje záhadnú Madeleine.",
+    "source": "https://en.wikipedia.org/wiki/Vertigo_(film)"
   },
   "Pulp Fiction": {
-    "description": "Pulp Fiction: Historky z podsvetia (doslova braková literatúra) je gangsterská čierna komédia z roku 1994 režiséra Quentina Tarantina, ktorý sa stal…",
+    "description": "Kriminálny film Quentina Tarantina spája niekoľko príbehov z podsvetia Los Angeles; hrá v ňom John Travolta aj Samuel L. Jackson.",
     "source": "https://sk.wikipedia.org/wiki/Pulp_Fiction%3A_Historky_z_podsvetia"
   },
   "The Good, the Bad and the Ugly": {
-    "description": "Il buono, il brutto, il cattivo, lit.",
-    "source": "https://en.wikipedia.org/wiki/The_Good%2C_the_Bad_and_the_Ugly"
+    "description": "Taliansky western Dobrý, zlý a škaredý o troch mužoch, ktorí počas občianskej vojny hľadajú ukrytý poklad.",
+    "source": "https://sk.wikipedia.org/wiki/Dobr%C3%BD,_zl%C3%BD_a_%C5%A1kared%C3%BD"
   },
   "Fight Club": {
     "description": "Klub bitkárov je americký film z roku 1999, ktorý režíroval David Fincher a v hlavnej úlohe s Bradom Pittom, Edwardom Nortonom a Helenou Bonham Carter.",
@@ -7056,11 +7052,11 @@
     "source": "https://en.wikipedia.org/wiki/The_Matrix"
   },
   "Star Wars: A New Hope": {
-    "description": "Star Wars (neskôr premenovaný na Star Wars: Episode IV – A New Hope) je americký epický vesmírny operný film z roku 1977, ktorý napísal a režíroval George…",
+    "description": "Prvý uvedený film série Hviezdne vojny: mladý Luke Skywalker sa pridá k povstalcom v boji proti Galaktickému impériu.",
     "source": "https://en.wikipedia.org/wiki/Star_Wars_%28film%29"
   },
   "Raiders of the Lost Ark": {
-    "description": "Raiders of the Lost Ark je americký akčný dobrodružný film z roku 1981, ktorý režíroval Steven Spielberg a napísal Lawrence Kasdan podľa príbehu Georga…",
+    "description": "Dobrodružný film Dobyvatelia stratenej archy, v ktorom archeológ Indiana Jones hľadá biblickú Archu zmluvy.",
     "source": "https://en.wikipedia.org/wiki/Raiders_of_the_Lost_Ark"
   },
   "The Silence of the Lambs": {
@@ -7072,7 +7068,7 @@
     "source": "https://en.wikipedia.org/wiki/The_Usual_Suspects"
   },
   "Goodfellas": {
-    "description": "Goodfellas (štylizovaný ako GoodFellas) je americký životopisný gangsterský film z roku 1990 režiséra Martina Scorseseho, ktorý napísali Nicholas Pileggi…",
+    "description": "Gangsterský film Martina Scorseseho o Henrym Hillovi a jeho vzostupe i páde v newyorskej mafiánskej rodine.",
     "source": "https://en.wikipedia.org/wiki/Goodfellas"
   },
   "Se7en": {
@@ -7084,7 +7080,7 @@
     "source": "https://en.wikipedia.org/wiki/The_Departed"
   },
   "The Prestige": {
-    "description": "The Prestige) je americký filmový triler z roku 2006 od režiséra Christophera Nolana, nakrútený podľa rovnomennej knihy Christophera Priesta z roku 1995…",
+    "description": "Triler Christophera Nolana o dvoch londýnskych kúzelníkoch, ktorých súperenie prerastie do nebezpečnej posadnutosti.",
     "source": "https://sk.wikipedia.org/wiki/Dokonal%C3%BD_trik"
   },
   "Braveheart": {
@@ -7124,11 +7120,11 @@
     "source": "https://en.wikipedia.org/wiki/The_Grand_Budapest_Hotel"
   },
   "The Big Lebowski": {
-    "description": "The Big Lebowski () je neo-noirová kriminálna komédia z roku 1998, ktorú napísali, režírovali, produkovali a spoločne upravili Joel a Ethan Coenovci, v…",
+    "description": "Komédia bratov Coenovcov o flákačovi prezývanom Dude, ktorého si pomýlia s bohatým mužom rovnakého mena.",
     "source": "https://en.wikipedia.org/wiki/The_Big_Lebowski"
   },
   "The Intouchables": {
-    "description": "The Intouchables (francúzsky: Intouchables, vyslovované [ɛ̃tuʃablə]), tiež známy ako Nedotknuteľný vo Veľkej Británii, Írsku a Škandinávii, je francúzsky…",
+    "description": "Francúzska komédia Nedotknuteľní o ochrnutom aristokratovi a jeho novom opatrovateľovi z parížskeho predmestia.",
     "source": "https://en.wikipedia.org/wiki/The_Intouchables"
   },
   "The Sound of Music": {
@@ -7140,7 +7136,7 @@
     "source": "https://en.wikipedia.org/wiki/The_Truman_Show"
   },
   "The Princess Bride": {
-    "description": "Princezná nevesta je americký fantasy-dobrodružný komediálny film z roku 1987, ktorý režíroval a koprodukoval Rob Reiner a v hlavnej úlohe s Cary Elwes…",
+    "description": "Dobrodružný román Williama Goldmana o Westleym, ktorý sa vydáva zachrániť svoju milovanú Buttercup.",
     "source": "https://en.wikipedia.org/wiki/The_Princess_Bride"
   },
   "Good Will Hunting": {
@@ -7156,8 +7152,8 @@
     "source": "https://en.wikipedia.org/wiki/The_Little_Mermaid"
   },
   "Pan's Labyrinth": {
-    "description": "Panov labyrint (španielsky: El laberinto del fauno, lit.",
-    "source": "https://en.wikipedia.org/wiki/Pan%27s_Labyrinth"
+    "description": "Fantasy dráma Faunov labyrint o dievčati Ofélii, ktorá počas povojnového Španielska objaví tajomný podzemný svet.",
+    "source": "https://www.filmeurope.cz/sk/filmy/faunov-labyrint"
   },
   "Bicycle Thieves": {
     "description": "Ladri di biciclette), tiež známy ako Zlodej bicyklov, je taliansky neorealistický dramatický film z roku 1948, ktorý režíroval Vittorio De Sica.",
@@ -7168,11 +7164,11 @@
     "source": "https://en.wikipedia.org/wiki/The_Exorcist"
   },
   "A Separation": {
-    "description": "Separácia (perzsky: جدایی نادر از سیمین, latinsky: Jodāi-e Nāder az Simin; lit.",
+    "description": "Iránska dráma o manželskom páre, ktorého rozchod a spor o opatrovanie dcéry vyústia do súdneho konfliktu.",
     "source": "https://en.wikipedia.org/wiki/A_Separation"
   },
   "The Graduate": {
-    "description": "Absolvent je americká romantická komédia a dráma z roku 1967 režírovaná Mikeom Nicholsom, adaptovaná Buckom Henrym a Calderom Willinghamom z filmu…",
+    "description": "Komédia Absolvent o Benjaminovi, ktorý po škole nadviaže vzťah s pani Robinsonovou a zamiluje sa do jej dcéry.",
     "source": "https://en.wikipedia.org/wiki/The_Graduate"
   },
   "Chinatown": {
@@ -7184,7 +7180,7 @@
     "source": "https://en.wikipedia.org/wiki/Nosferatu"
   },
   "12 Angry Men": {
-    "description": "12 Angry Men je americká právnická dráma z roku 1957, ktorú režíroval Sidney Lumet vo svojom celovečernom režijnom debute, adaptovaný Reginaldom Roseom z…",
+    "description": "Súdna dráma o dvanástich porotcoch, ktorí rozhodujú, či je mladý obžalovaný vinný z vraždy.",
     "source": "https://en.wikipedia.org/wiki/12_Angry_Men"
   },
   "Reservoir Dogs": {
@@ -7192,7 +7188,7 @@
     "source": "https://en.wikipedia.org/wiki/Reservoir_Dogs"
   },
   "City Lights": {
-    "description": "City Lights je americká romantická komédia a dráma so synchronizovaným zvukom z roku 1931, ktorú napísal, produkoval, režíroval Charlie Chaplin a v…",
+    "description": "Nemý film Charlieho Chaplina o tulákovi, ktorý sa spriatelí so slepou kvetinárkou a pokúsi sa jej pomôcť.",
     "source": "https://en.wikipedia.org/wiki/City_Lights"
   },
   "Dr. Strangelove": {
@@ -7200,11 +7196,11 @@
     "source": "https://en.wikipedia.org/wiki/Dr._Strangelove"
   },
   "The Life of Brian": {
-    "description": "Monty Python's Life of Brian je britská čierna komédia z roku 1979, v hlavnej úlohe ktorú napísala komediálna skupina Monty Python (Graham Chapman, John…",
+    "description": "Komédia skupiny Monty Python o Brianovi, ktorého si ľudia v rímskej Judei opakovane mýlia s Mesiášom.",
     "source": "https://en.wikipedia.org/wiki/Monty_Python%27s_Life_of_Brian"
   },
   "The Battle of Algiers": {
-    "description": "Bitka o Alžír (francúzsky: La Bataille d'Alger; taliansky: La battaglia di Algeri; arabsky: معركة الجزائر, latinsky: Maʿrakat al-Jazāʾir) je z roku 1966…",
+    "description": "Vojnová dráma o povstaní proti francúzskej koloniálnej nadvláde v Alžíri.",
     "source": "https://en.wikipedia.org/wiki/The_Battle_of_Algiers"
   },
   "Amélie": {
@@ -7220,11 +7216,11 @@
     "source": "https://en.wikipedia.org/wiki/It%27s_a_Wonderful_Life"
   },
   "The Elephant Man": {
-    "description": "apríl 1890), niekedy mylne označovaný ako John Merrick, bol Angličan známy pre svoje ťažké fyzické…",
+    "description": "Film Davida Lyncha o Josephovi Merrickovi, mužovi s vážnou deformáciou, ktorý žil vo viktoriánskom Londýne.",
     "source": "https://en.wikipedia.org/wiki/Joseph_Merrick"
   },
   "The Pursuit of Happyness": {
-    "description": "The Pursuit of Happyness je americká životopisná dráma z roku 2006, ktorú režíroval Gabriele Muccino a v hlavnej úlohe s Willom Smithom stvárnil Chrisa…",
+    "description": "Životopisná dráma o Chrisovi Gardnerovi, ktorý zápasí s chudobou a snaží sa vybudovať lepší život pre svojho syna.",
     "source": "https://en.wikipedia.org/wiki/The_Pursuit_of_Happyness"
   },
   "Spirited Away": {
@@ -7248,11 +7244,11 @@
     "source": "https://en.wikipedia.org/wiki/Dog_Day_Afternoon"
   },
   "The Nightmare Before Christmas": {
-    "description": "The Nightmare Before Christmas (tiež známa ako The Nightmare Before Christmas od Tima Burtona) je americký stop-motion animovaný hudobný fantasy film z…",
+    "description": "Animovaný muzikál o kráľovi tekvíc Jackovi Skellingtonovi, ktorý objaví Vianoce a rozhodne sa ich usporiadať po svojom.",
     "source": "https://en.wikipedia.org/wiki/The_Nightmare_Before_Christmas"
   },
   "La Dolce Vita": {
-    "description": "La Dolce Vita (taliansky: [la ˈdoltʃe ˈviːta]; po taliansky „sladký život“ alebo „dobrý život“) je satirická komediálna dráma z roku 1960 režiséra Federica…",
+    "description": "Film Federica Felliniho o novinárovi Marcovi, ktorý sa pohybuje medzi celebritami a nočným životom Ríma.",
     "source": "https://en.wikipedia.org/wiki/La_Dolce_Vita"
   },
   "Gran Torino": {
@@ -7260,23 +7256,23 @@
     "source": "https://en.wikipedia.org/wiki/Gran_Torino"
   },
   "The Lives of Others": {
-    "description": "Das Leben der Anderen, vyslovované [das ˈleːbn deːɐ̯ ˈʔandəʁən]) je nemecký dramatický film z roku 2006, ktorý napísal a režíroval Florian…",
+    "description": "Nemecká dráma o príslušníkovi východonemeckej tajnej polície, ktorý odpočúva divadelného autora a jeho partnerku.",
     "source": "https://en.wikipedia.org/wiki/The_Lives_of_Others"
   },
   "La Haine": {
-    "description": "La Haine (francúzska výslovnosť: [la ɛn], lit.",
+    "description": "Francúzsky film o troch mladých mužoch z parížskeho predmestia a napätí po policajnom násilí.",
     "source": "https://en.wikipedia.org/wiki/La_Haine"
   },
   "The Girl with the Dragon Tattoo": {
-    "description": "Dievča s tetovaním draka (pôvodný názov vo švédčine: Män som hatar kvinnor, lit.",
-    "source": "https://en.wikipedia.org/wiki/The_Girl_with_the_Dragon_Tattoo"
+    "description": "Detektívny román Stiega Larssona a jeho filmové adaptácie sledujú novinára Mikaela Blomkvista a hackerku Lisbeth Salander; film poznáme aj pod slovenským distribučným názvom Muži, ktorí nenávidia ženy.",
+    "source": "https://www.skcinema.sk/arl-sfu/sk/detail/?disprec=8&idx=sfu_un_auth%2A0085759&iset=1"
   },
   "Saving Private Ryan": {
     "description": "Saving Private Ryan je americký vojnový film z roku 1998, ktorý režíroval Steven Spielberg a napísal Robert Rodat.",
     "source": "https://en.wikipedia.org/wiki/Saving_Private_Ryan"
   },
   "E.T. the Extra-Terrestrial": {
-    "description": "The Extra-Terrestrial (alebo jednoducho E.T.) je americký vedecký fantasy film z roku 1982, ktorý produkoval a režíroval Steven Spielberg a napísala…",
+    "description": "Sci-fi film E.T. – Mimozemšťan o chlapcovi, ktorý ukryje mimozemšťana a pomáha mu vrátiť sa domov.",
     "source": "https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial"
   },
   "La La Land": {
@@ -7288,43 +7284,43 @@
     "source": "https://en.wikipedia.org/wiki/The_Incredibles"
   },
   "The Hobbit: An Unexpected Journey": {
-    "description": "Hobit: Neočakávaná cesta je epický fantasy film z roku 2012, ktorý režíroval Peter Jackson podľa scenára Fran Walsh, Philippa Boyens, Jackson a…",
+    "description": "Fantasy film Hobit: Neočakávaná cesta o Bilbovi, ktorý sa pridá k výprave trpaslíkov za ich strateným kráľovstvom.",
     "source": "https://en.wikipedia.org/wiki/The_Hobbit%3A_An_Unexpected_Journey"
   },
   "Star Wars: Episode VII - The Force Awakens": {
-    "description": "Star Wars: Sila sa prebúdza, tiež známa ako Star Wars: Epizóda VII – Sila sa prebúdza, je americký epický vesmírny operný film z roku 2015 produkovaný…",
+    "description": "Film Hviezdne vojny: Sila sa prebúdza, v ktorom Rey a Finn pomáhajú odboju proti Prvému rádu.",
     "source": "https://en.wikipedia.org/wiki/Star_Wars%3A_The_Force_Awakens"
   },
   "The Lord of the Rings: The Fellowship of the Ring": {
-    "description": "Pán prsteňov: Spoločenstvo prsteňa je epický fantasy film z roku 2001, ktorý režíroval Peter Jackson podľa scenára Fran Walsh, Philippa Boyens…",
+    "description": "Film Pán prsteňov: Spoločenstvo prsteňa o hobitovi Frodovi, ktorý sa vydáva zničiť prsteň moci.",
     "source": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings%3A_The_Fellowship_of_the_Ring"
   },
   "The Secret Life of Walter Mitty": {
-    "description": "\"Tajný život Waltera Mittyho\" (1939) je poviedka Jamesa Thurbera.",
-    "source": "https://en.wikipedia.org/wiki/The_Secret_Life_of_Walter_Mitty"
+    "description": "Dobrodružná komédia o nesmelom pracovníkovi časopisu, ktorý sa vydáva na cestu okolo sveta, aby našiel stratený filmový negatív.",
+    "source": "https://en.wikipedia.org/wiki/The_Secret_Life_of_Walter_Mitty_(2013_film)"
   },
   "Avatar": {
-    "description": "Avatar (sanskrit: अवतार, IAST: Avatāra; vyslovované [ɐʋɐt̪aːɾɐ]) je pojem v hinduizme, ktorý v sanskrte doslova znamená „zostup“.",
-    "source": "https://en.wikipedia.org/wiki/Avatar"
+    "description": "Sci-fi film Jamesa Camerona o bývalom vojakovi, ktorý na mesiaci Pandora nadviaže vzťah s miestnymi obyvateľmi.",
+    "source": "https://en.wikipedia.org/wiki/Avatar_(2009_film)"
   },
   "The Help": {
-    "description": "The Help je historický fiktívny román americkej autorky Kathryn Stockettovej, ktorý vydalo vydavateľstvo Penguin Books v roku 2009.",
-    "source": "https://en.wikipedia.org/wiki/The_Help"
+    "description": "Dráma Farba citov o černošských domácich pracovníčkach v Mississippi, ktoré sa odvážia rozprávať o rasizme a práci pre biele rodiny.",
+    "source": "https://www.skcinema.sk/arl-sfu/en/detail-sfu_un_auth-0086319-The-help-film-2011/"
   },
   "The Conjuring": {
-    "description": "The Conjuring) je americký hororový film režiséra Jamesa Wana z roku 2013.",
+    "description": "Horor o vyšetrovateľoch paranormálnych javov Edovi a Lorraine Warren, ktorí pomáhajú rodine v strašidelnom dome.",
     "source": "https://sk.wikipedia.org/wiki/V_zajat%C3%AD_d%C3%A9monov"
   },
   "The Iron Giant": {
-    "description": "The Iron Giant je americký animovaný sci-fi film z roku 1999, ktorý režíroval Brad Bird (vo svojom celovečernom režisérskom debute) a napísal Tim McCanlies.",
+    "description": "Animovaný film o chlapcovi, ktorý sa spriatelí s obrovským robotom padajúcim z vesmíru.",
     "source": "https://en.wikipedia.org/wiki/The_Iron_Giant"
   },
   "The Hunger Games": {
-    "description": "Hunger Games je séria dystopických románov pre mladých dospelých, ktoré napísala americká autorka Suzanne Collins.",
+    "description": "Dystopická knižná a filmová séria sleduje Katniss Everdeen, ktorá sa vzbúri proti krutým súťažiam na život a na smrť.",
     "source": "https://en.wikipedia.org/wiki/The_Hunger_Games"
   },
   "The Imitation Game": {
-    "description": "The Imitation Game je americký životopisný triler z roku 2014, ktorý režíroval Morten Tyldum a napísal Graham Moore, založený na biografii Alana z roku 1983…",
+    "description": "Životopisný film o matematikovi Alanovi Turingovi a jeho práci na rozlúštení nemeckého šifrovacieho stroja Enigma.",
     "source": "https://en.wikipedia.org/wiki/The_Imitation_Game"
   },
   "Blade Runner": {
@@ -7336,11 +7332,11 @@
     "source": "https://en.wikipedia.org/wiki/Ghostbusters"
   },
   "The Fighter": {
-    "description": "The Fighter je americká životopisná športová dráma z roku 2010, ktorú režíroval David O.",
+    "description": "Životopisná dráma o boxerovi Micky Wardovi a jeho staršom bratovi Dicky Eklundovi, ktorý mu pomáha pripraviť sa na veľký zápas.",
     "source": "https://en.wikipedia.org/wiki/The_Fighter"
   },
   "The Notebook": {
-    "description": "Toto je článok o knihe Zápisník jednej lásky od autora Nicholasa Sparksa a rovnomennom filme ktorý bol nakrútený podľa tejto knihy.",
+    "description": "Romantická dráma Zápisník jednej lásky o dvojici, ktorej vzťah pretrvá desaťročia a spomína naň starší muž v domove dôchodcov.",
     "source": "https://sk.wikipedia.org/wiki/Z%C3%A1pisn%C3%ADk_jednej_l%C3%A1sky"
   },
   "Rocky": {
@@ -7348,16 +7344,16 @@
     "source": "https://en.wikipedia.org/wiki/Rocky"
   },
   "The Big Short": {
-    "description": "The Big Short: Inside the Doomsday Machine je literatúra faktu od Michaela Lewisa o vytváraní bubliny na trhu nehnuteľností v Spojených štátoch počas 21.",
-    "source": "https://en.wikipedia.org/wiki/The_Big_Short"
+    "description": "Film o investoroch, ktorí pred finančnou krízou v roku 2008 predvídajú kolaps amerického trhu s bývaním.",
+    "source": "https://en.wikipedia.org/wiki/The_Big_Short_(film)"
   },
   "Black Swan": {
-    "description": "Labuť čierna (Cygnus atratus) je veľký vodný vták, druh labute, ktorý sa rozmnožuje najmä v juhovýchodných a juhozápadných oblastiach Austrálie.",
-    "source": "https://en.wikipedia.org/wiki/Black_swan"
+    "description": "Psychologický triler Čierna labuť o baletke, ktorá získava hlavnú úlohu v Labutom jazere a stráca istotu v tom, čo je skutočné.",
+    "source": "https://en.wikipedia.org/wiki/Black_Swan_(film)"
   },
   "Heat": {
-    "description": "V termodynamike je teplo definované ako energia pri prenose medzi telesom a jeho okolím, inak ako termodynamickou prácou alebo prenosom…",
-    "source": "https://en.wikipedia.org/wiki/Heat"
+    "description": "Kriminálny triler Michaela Manna o neúnavnom detektívovi a profesionálnom lupičovi, ktorých hrá Al Pacino a Robert De Niro.",
+    "source": "https://en.wikipedia.org/wiki/Heat_(1995_film)"
   },
   "District 9": {
     "description": "District 9 je sci-fi triler z roku 2009, ktorého režisérom bol Neill Blomkamp.",
@@ -7380,8 +7376,8 @@
     "source": "https://sk.wikipedia.org/wiki/Minecraft_vo_filme"
   },
   "F1": {
-    "description": "Formula 1 (F1) je najvyššia trieda celosvetových pretekov pre jednosedadlové pretekárske formulové vozidlá s otvorenými kolesami, ktoré prevádzkuje…",
-    "source": "https://en.wikipedia.org/wiki/Formula_One"
+    "description": "Športová dráma F1 o bývalom jazdcovi, ktorý sa vráti na okruhy, aby pomohol mladému tímovému kolegovi.",
+    "source": "https://www.ufd.sk/filmy/f1_film"
   },
   "Lilo & Stitch": {
     "description": "Lilo & Stitch je americký animovaný sci-fi komediálny dramatický film z roku 2002, ktorý napísali a režírovali Chris Sanders a Dean DeBlois, založený na…",
@@ -7392,8 +7388,8 @@
     "source": "https://en.wikipedia.org/wiki/How_to_Train_Your_Dragon"
   },
   "Weapons": {
-    "description": "Zbraň, rameno alebo výzbroj je akýkoľvek nástroj alebo nástroj, ktorý sa používa na odstrašenie, vyhrážanie sa, spôsobenie fyzického poškodenia, ublíženia…",
-    "source": "https://en.wikipedia.org/wiki/Weapon"
+    "description": "Hororový film Zacha Creggera o záhadnom zmiznutí detí z jednej triedy v malom americkom meste.",
+    "source": "https://en.wikipedia.org/wiki/Weapons_(2025_film)"
   },
   "Thunderbolts*": {
     "description": "Thunderbolts* je americký superhrdinský film z roku 2025, založený na komiksoch Marvel Comics, v ktorom vystupuje tím Thunderbolts.",
@@ -7428,15 +7424,15 @@
     "source": "https://en.wikipedia.org/wiki/Home_Alone"
   },
   "The Last of Us": {
-    "description": "The Last of Us je akčná dobrodružná videoherná séria a mediálna franšíza vytvorená spoločnosťou Naughty Dog a publikovaná spoločnosťou Sony Interactive…",
-    "source": "https://en.wikipedia.org/wiki/The_Last_of_Us"
+    "description": "Televízny seriál podľa videohry o Joelovi a Ellie, ktorí putujú postapokalyptickými Spojenými štátmi.",
+    "source": "https://en.wikipedia.org/wiki/The_Last_of_Us_(TV_series)"
   },
   "Wednesday": {
-    "description": "Streda je deň v týždni medzi utorkom a štvrtkom.",
-    "source": "https://en.wikipedia.org/wiki/Wednesday"
+    "description": "Seriál Wednesday sleduje dcéru Addamsovcov na škole Nevermore, kde rieši záhadu aj vlastné nadprirodzené schopnosti.",
+    "source": "https://en.wikipedia.org/wiki/Wednesday_(TV_series)"
   },
   "The Mandalorian": {
-    "description": "Mandalorián (alebo The Mandalorian) je americký webový televízny vesmírny western seriál.",
+    "description": "Seriál zo sveta Hviezdnych vojen o osamelom námezdnom lovcovi, ktorý sa vydá chrániť dieťa Grogu.",
     "source": "https://sk.wikipedia.org/wiki/Mandalori%C3%A1n"
   },
   "Squid Game": {
@@ -7444,11 +7440,11 @@
     "source": "https://sk.wikipedia.org/wiki/Squid_Game"
   },
   "The Last Airbender": {
-    "description": "Avatar: The Last Airbender (v niektorých regiónoch známy aj ako Avatar: The Legend of Aang, Avatar alebo ATLA) je americká animovaná fantasy akčná televízia…",
-    "source": "https://en.wikipedia.org/wiki/Avatar%3A_The_Last_Airbender"
+    "description": "Akčný film Posledný vládca vetra o Aangovi, ktorý sa musí naučiť ovládať všetky štyri živly a zastaviť vojnu.",
+    "source": "https://www.filmpro.sk/the-last-airbender"
   },
   "Peaky Blinders": {
-    "description": "Peaky Blinders bola zločinecká skupina (tzv.",
+    "description": "Britský kriminálny seriál o rodine Shelbyovcov, ktorá po prvej svetovej vojne buduje svoj gang v Birminghame.",
     "source": "https://sk.wikipedia.org/wiki/Peaky_Blinders"
   },
   "Coca-Cola": {
@@ -8587,10 +8583,6 @@
     "description": "Ľudová hudba alebo hudobný folklór je hudobný žáner širokých más obyvateľstva, často neznámych autorov, tradične zachovávaný ústnym podaním.",
     "source": "https://sk.wikipedia.org/wiki/%C4%BDudov%C3%A1_hudba"
   },
-  "bryndzové halušky": {
-    "description": "Bryndzové halušky sú slovenské národné jedlo.",
-    "source": "https://sk.wikipedia.org/wiki/Bryndzov%C3%A9_halu%C5%A1ky"
-  },
   "Bryndza": {
     "description": "brânză – doslova: syr) je mäkký, miesený a solený ovčí syr vyrábaný z hrudkového ovčieho syra.",
     "source": "https://sk.wikipedia.org/wiki/Bryndza"
@@ -8610,14 +8602,6 @@
   "Lokše": {
     "description": "Lokša alebo lokše (slovenská výslovnosť: [lɔkʂa], resp.",
     "source": "https://en.wikipedia.org/wiki/Lok%C5%A1a"
-  },
-  "pirohy": {
-    "description": "Pirohy (jednotné číslo piroh; iné názvy pozri nižšie) je (varené, vyprážané alebo pečené) múčne jedlo z cesta s plnkou tvorenou obyčajne lekvárom…",
-    "source": "https://sk.wikipedia.org/wiki/Pirohy"
-  },
-  "kapustnica": {
-    "description": "Kapustnica je tradičná slovenská hustá polievka.",
-    "source": "https://sk.wikipedia.org/wiki/Kapustnica"
   },
   "Segedínsky guláš": {
     "description": "Segedínsky guláš je guláš (najmä z bravčového mäsa) s kyslou kapustou a kyslou smotanou alebo mliekom.",
@@ -8804,7 +8788,7 @@
     "source": "https://en.wikipedia.org/wiki/Kuwait"
   },
   "Mikronézia": {
-    "description": "Ostrovný štát v Tichom oceáne; jeho hlavným mestom je Palikir.",
+    "description": "Ostrovný štát v západnom Tichom oceáne, ktorý tvorí viac než 600 ostrovov.",
     "source": "https://en.wikipedia.org/wiki/Federated_States_of_Micronesia"
   },
   "Šalamúnove ostrovy": {
@@ -8816,7 +8800,7 @@
     "source": "https://en.wikipedia.org/wiki/Martin_(Slovakia)"
   },
   "Georgetown": {
-    "description": "Hlavné a najväčšie mesto Guyany, ležiace pri ústí rieky Demerara.",
+    "description": "Hlavné mesto Guyany pri ústí rieky Demerara do Atlantického oceána.",
     "source": "https://en.wikipedia.org/wiki/Georgetown,_Guyana"
   },
   "Kristus Vykupiteľ": {
@@ -8880,7 +8864,7 @@
     "source": "https://en.wikipedia.org/wiki/Stone_Forest"
   },
   "Amerika": {
-    "description": "Súhrnné pomenovanie svetadielov Severnej a Južnej Ameriky.",
+    "description": "Označenie pre dva svetadiely — Severnú a Južnú Ameriku — spojené Strednou Amerikou.",
     "source": "https://en.wikipedia.org/wiki/Americas"
   },
   "Národné noviny": {
@@ -8928,12 +8912,12 @@
     "source": "https://en.wikipedia.org/wiki/Ulysses_(novel)"
   },
   "Gone with the Wind": {
-    "description": "Román Margaret Mitchellovej o Scarlett O’Haraovej na americkom Juhu počas občianskej vojny.",
+    "description": "Román Margaret Mitchell a jeho filmová adaptácia sledujú Scarlett na americkom Juhu počas občianskej vojny.",
     "source": "https://en.wikipedia.org/wiki/Gone_with_the_Wind_(novel)"
   },
   "A Clockwork Orange": {
-    "description": "Dystopický román Anthonyho Burgessa o násilníckom mladíkovi Alexovi a pokuse zmeniť jeho správanie.",
-    "source": "https://en.wikipedia.org/wiki/A_Clockwork_Orange_(novel)"
+    "description": "Dystopický román Mechanický pomaranč od Anthonyho Burgessa a film Stanleyho Kubricka rozprávajú o násilníckom mladíkovi Alexovi a pokuse o jeho prevýchovu.",
+    "source": "https://www.cineville.sk/film.php?ID_movie=140"
   },
   "Beloved": {
     "description": "Román Toni Morrisonovej o bývalej zotročenej žene, ktorú prenasleduje minulosť.",
@@ -9076,7 +9060,7 @@
     "source": "https://en.wikipedia.org/wiki/City_of_God_(2002_film)"
   },
   "Psycho": {
-    "description": "Thriler Alfreda Hitchcocka o Marion Craneovej a záhadnom moteli, ktorý vedie Norman Bates.",
+    "description": "Thriler Alfreda Hitchcocka o Marion Crane, ktorá sa zastaví v odľahlom moteli vedenom Normanom Batesom.",
     "source": "https://en.wikipedia.org/wiki/Psycho_(1960_film)"
   },
   "Interstellar": {
@@ -9092,8 +9076,8 @@
     "source": "https://en.wikipedia.org/wiki/Jaws_(film)"
   },
   "The Shining": {
-    "description": "Horor Stanleyho Kubricka o spisovateľovi a jeho rodine, ktorí prezimujú v opustenom horskom hoteli.",
-    "source": "https://en.wikipedia.org/wiki/The_Shining_(film)"
+    "description": "Hororový príbeh Stephena Kinga o rodine v odľahlom hoteli; filmová adaptácia Stanleyho Kubricka sa stala klasikou žánru.",
+    "source": "https://en.wikipedia.org/wiki/The_Shining"
   },
   "The Pianist": {
     "description": "Film podľa skutočného príbehu poľského klaviristu Władysława Szpilmana, ktorý prežil holokaust vo Varšave.",
@@ -9164,11 +9148,11 @@
     "source": "https://en.wikipedia.org/wiki/American_Beauty_(1999_film)"
   },
   "A Star is Born": {
-    "description": "Romantická dráma o skúsenejšom hudobníkovi, ktorý pomôže mladej speváčke preraziť.",
+    "description": "Hudobná dráma Zrodila sa hviezda o skúsenejšom hudobníkovi, ktorý pomôže mladej speváčke preraziť, no zápasí s vlastným úpadkom.",
     "source": "https://en.wikipedia.org/wiki/A_Star_Is_Born_(2018_film)"
   },
   "The Martian": {
-    "description": "Sci-fi film o astronautovi, ktorý uviazne sám na Marse a pokúša sa prežiť, kým ho zachránia.",
+    "description": "Sci-fi príbeh Andyho Weira o astronautovi Markovi Watneym, ktorý uviazne na Marse; kniha sa dočkala filmovej adaptácie s Mattom Damonom.",
     "source": "https://en.wikipedia.org/wiki/The_Martian_(film)"
   },
   "Alien": {
@@ -9928,7 +9912,7 @@
     "source": "https://en.wikipedia.org/wiki/Oda_Nobunaga"
   },
   "Mansa Musa": {
-    "description": "Panovník ríše Mali, známy bohatou púťou do Mekky.",
+    "description": "Panovník ríše Mali, ktorého bohatá púť do Mekky preslávila jeho kráľovstvo aj v ďalekých krajinách.",
     "source": "https://en.wikipedia.org/wiki/Mansa_Musa"
   },
   "Shaka Zulu": {
@@ -10020,7 +10004,7 @@
     "source": "https://en.wikipedia.org/wiki/Enrico_Fermi"
   },
   "Lise Meitner": {
-    "description": "Vedkyňa, ktorá pomohla vysvetliť jadrové štiepenie uránu.",
+    "description": "Rakúsko-švédska fyzička, ktorá spolu s Ottom Frischom vysvetlila jadrové štiepenie.",
     "source": "https://en.wikipedia.org/wiki/Lise_Meitner"
   },
   "Emmy Noether": {
@@ -10032,8 +10016,8 @@
     "source": "https://en.wikipedia.org/wiki/Katherine_Johnson"
   },
   "Hedy Lamarr": {
-    "description": "Herečka a vynálezkyňa, ktorej technický nápad predznamenal princíp bezdrôtovej komunikácie.",
-    "source": "https://en.wikipedia.org/wiki/Hedy_Lamarr"
+    "description": "Herečka a vynálezkyňa, ktorá s Georgeom Antheilom patentovala systém na preskakovanie rádiových frekvencií.",
+    "source": "https://dashboard.si.edu/newsdesk/snapshot/hedy-lamarr-golden-age-film-star-and-important-inventor"
   },
   "Grace Hopper": {
     "description": "Americká počítačová vedkyňa a dôstojníčka, priekopníčka programovacích jazykov.",
@@ -10124,8 +10108,8 @@
     "source": "https://en.wikipedia.org/wiki/Wilbur_Wright"
   },
   "Alexander Graham Bell": {
-    "description": "Vynálezca spájaný s vývojom telefónu.",
-    "source": "https://en.wikipedia.org/wiki/Alexander_Graham_Bell"
+    "description": "Vynálezca, ktorému sa pripisuje patent na prvý praktický telefón.",
+    "source": "https://www.invent.org/inductees/alexander-graham-bell"
   },
   "Guglielmo Marconi": {
     "description": "Taliansky vynálezca, priekopník bezdrôtovej telegrafie a rádia.",
@@ -10232,16 +10216,16 @@
     "source": "https://en.wikipedia.org/wiki/Zuzana_Va%C4%8Dkov%C3%A1"
   },
   "Henrieta Mičkovicová": {
-    "description": "Slovenská divadelná a filmová herečka.",
-    "source": "https://en.wikipedia.org/wiki/Henrieta_Mi%C4%8Dkovicov%C3%A1"
+    "description": "Slovenská herečka, známa napríklad ako Zuzana Bajzová zo seriálu Panelák.",
+    "source": "https://www.joj.sk/osoby/42-henrieta-mickovicova"
   },
   "Vica Kerekes": {
     "description": "Slovensko-maďarská herečka, ktorá účinkuje v slovenských, českých aj maďarských filmoch.",
     "source": "https://en.wikipedia.org/wiki/Vica_Kerekes"
   },
   "Kristína Svarinská": {
-    "description": "Slovenská filmová a televízna herečka.",
-    "source": "https://en.wikipedia.org/wiki/Krist%C3%ADna_Svarinsk%C3%A1"
+    "description": "Slovenská herečka, ktorá stvárnila Veroniku v romantickom filme Lóve.",
+    "source": "https://www.joj.sk/osoby/183-kristina-svarinska"
   },
   "Rebeka Poláková": {
     "description": "Slovenská herečka známa z divadelných a filmových úloh.",
@@ -10256,12 +10240,12 @@
     "source": "https://en.wikipedia.org/wiki/J%C3%A1n_Tribula"
   },
   "Roman Juraško": {
-    "description": "Slovenský televízny moderátor a redaktor.",
-    "source": "https://en.wikipedia.org/wiki/Roman_Jura%C5%A1ko"
+    "description": "Slovenský moderátor, ktorý dlhé roky uvádzal rannú reláciu Teleráno.",
+    "source": "https://www.markiza.sk/osobnosti/35161-roman-jurasko"
   },
   "Lenka Vavrinčíková": {
-    "description": "Slovenská televízna moderátorka a redaktorka.",
-    "source": "https://en.wikipedia.org/wiki/Lenka_Vavrin%C4%8D%C3%ADkov%C3%A1"
+    "description": "Slovenská moderátorka televízie Markíza, známa uvádzaním predpovede počasia.",
+    "source": "https://www.markiza.sk/osobnosti/35137-lenka-vavrincikova"
   },
   "Zuzana Plačková": {
     "description": "Slovenská podnikateľka a internetová osobnosť, ktorá sa preslávila v reality televízii.",
@@ -10308,7 +10292,7 @@
     "source": "https://en.wikipedia.org/wiki/V%C3%A1clav_Kopta"
   },
   "Lukáš Pavlásek": {
-    "description": "Český stand-up komik a herec.",
+    "description": "Český stand-up komik a herec, známy aj účinkovaním v súťaži StarDance.",
     "source": "https://en.wikipedia.org/wiki/Luk%C3%A1%C5%A1_Pavl%C3%A1sek"
   },
   "Jan Kraus": {
@@ -10316,11 +10300,11 @@
     "source": "https://en.wikipedia.org/wiki/Jan_Kraus"
   },
   "Karel Šíp": {
-    "description": "Český televízny moderátor a autor zábavných relácií.",
+    "description": "Český moderátor, ktorý uvádza talkshow Všechnopárty a píše piesňové texty.",
     "source": "https://en.wikipedia.org/wiki/Karel_%C5%A0%C3%ADp"
   },
   "Libor Bouček": {
-    "description": "Český televízny moderátor a konferenciér.",
+    "description": "Český moderátor a dabingový herec, ktorý uvádza súťažnú reláciu Máme rádi Česko.",
     "source": "https://en.wikipedia.org/wiki/Libor_Bou%C4%8Dek"
   },
   "Zdeněk Pohlreich": {
@@ -10972,7 +10956,7 @@
     "source": "https://en.wikipedia.org/wiki/Ant-Man_and_the_Wasp"
   },
   "Captain Marvel": {
-    "description": "Carol Danversová, pilotka a kozmická hrdinka s mimoriadnou silou.",
+    "description": "Carol Danvers, pilotka a kozmická hrdinka s mimoriadnou silou.",
     "source": "https://en.wikipedia.org/wiki/Captain_Marvel"
   },
   "Avengers: Endgame": {
@@ -10984,7 +10968,7 @@
     "source": "https://en.wikipedia.org/wiki/Spider-Man:_Far_From_Home"
   },
   "Black Widow": {
-    "description": "Ruská špiónka Natasha Romanoffová, ktorá sa pridá k Avengers.",
+    "description": "Ruská špiónka Natasha Romanoff, ktorá sa pridá k Avengers.",
     "source": "https://en.wikipedia.org/wiki/Black_Widow"
   },
   "Shang-Chi and the Legend of the Ten Rings": {
@@ -11012,7 +10996,7 @@
     "source": "https://en.wikipedia.org/wiki/Ant-Man_and_the_Wasp:_Quantumania"
   },
   "The Marvels": {
-    "description": "Captain Marvel, Monica Rambeauová a Ms. Marvel si pri použití schopností vymieňajú miesta.",
+    "description": "Captain Marvel, Monica Rambeau a Ms. Marvel si pri použití schopností vymieňajú miesta.",
     "source": "https://en.wikipedia.org/wiki/The_Marvels"
   },
   "Deadpool & Wolverine": {
@@ -11040,7 +11024,7 @@
     "source": "https://en.wikipedia.org/wiki/Thanos"
   },
   "Scarlet Witch": {
-    "description": "Wanda Maximoffová, Avengerka s mocnou mágiou a schopnosťou meniť realitu.",
+    "description": "Wanda Maximoff, Avengerka s mocnou mágiou a schopnosťou meniť realitu.",
     "source": "https://en.wikipedia.org/wiki/Scarlet_Witch"
   },
   "Vision": {
@@ -12180,8 +12164,8 @@
     "source": "https://en.wikipedia.org/wiki/sekvoja"
   },
   "baobab": {
-    "description": "Mohutný africký strom, ktorý si v širokom kmeni uchováva vodu.",
-    "source": "https://en.wikipedia.org/wiki/baobab"
+    "description": "Africký strom s mohutným kmeňom; jeho plody majú jedlú dužinu, ktorá sa používa aj do nápojov.",
+    "source": "https://en.wikipedia.org/wiki/Baobab"
   },
   "bambus": {
     "description": "Rýchlo rastúca vysoká tráva s dutými a pevnými stonkami.",
@@ -12934,5 +12918,377 @@
   "Unreal Engine": {
     "description": "Herný engine od Epic Games používaný na tvorbu 3D hier a virtuálnych svetov.",
     "source": "https://en.wikipedia.org/wiki/Unreal_Engine"
+  },
+  "Cillian Murphy": {
+    "description": "Írsky herec, známy ako Tommy Shelby zo seriálu Peaky Blinders a z filmu Oppenheimer.",
+    "source": "https://en.wikipedia.org/wiki/Cillian_Murphy"
+  },
+  "Olivia Colman": {
+    "description": "Britská herečka, ktorá stvárnila kráľovnú Alžbetu II. v seriáli Koruna a účinkovala vo Fleabag.",
+    "source": "https://en.wikipedia.org/wiki/Olivia_Colman"
+  },
+  "Emily Blunt": {
+    "description": "Britská herečka, známa filmami Diabol nosí Pradu, Na hrane zajtrajška a Tiché miesto.",
+    "source": "https://en.wikipedia.org/wiki/Emily_Blunt"
+  },
+  "Steve Carell": {
+    "description": "Americký komik a herec, známy ako šéf Michael Scott v seriáli The Office.",
+    "source": "https://en.wikipedia.org/wiki/Steve_Carell"
+  },
+  "Tina Fey": {
+    "description": "Americká komička a scenáristka, ktorá vytvorila seriál 30 Rock a účinkovala v Saturday Night Live.",
+    "source": "https://en.wikipedia.org/wiki/Tina_Fey"
+  },
+  "Amy Poehler": {
+    "description": "Americká komička a herečka, známa zo Saturday Night Live a ako Leslie Knope v seriáli Parks and Recreation.",
+    "source": "https://en.wikipedia.org/wiki/Amy_Poehler"
+  },
+  "Jimmy Fallon": {
+    "description": "Americký komik a moderátor, ktorý uvádza nočnú talkshow The Tonight Show.",
+    "source": "https://en.wikipedia.org/wiki/Jimmy_Fallon"
+  },
+  "Jimmy Kimmel": {
+    "description": "Americký moderátor a komik, ktorý uvádza nočnú talkshow Jimmy Kimmel Live!.",
+    "source": "https://en.wikipedia.org/wiki/Jimmy_Kimmel"
+  },
+  "Stephen Colbert": {
+    "description": "Americký satirik a moderátor, známy reláciami The Colbert Report a The Late Show.",
+    "source": "https://en.wikipedia.org/wiki/Stephen_Colbert"
+  },
+  "Trevor Noah": {
+    "description": "Juhoafrický komik a moderátor, ktorý uvádzal americkú satirickú reláciu The Daily Show.",
+    "source": "https://en.wikipedia.org/wiki/Trevor_Noah"
+  },
+  "Graham Norton": {
+    "description": "Írsky komik a moderátor, známy britskou talkshow, do ktorej pozýva celebrity.",
+    "source": "https://en.wikipedia.org/wiki/Graham_Norton"
+  },
+  "David Letterman": {
+    "description": "Americký moderátor a komik, priekopník nočných talkshow Late Night a Late Show.",
+    "source": "https://en.wikipedia.org/wiki/David_Letterman"
+  },
+  "RuPaul": {
+    "description": "Americká drag queen, spevák a moderátor televíznej súťaže RuPaul’s Drag Race.",
+    "source": "https://en.wikipedia.org/wiki/RuPaul"
+  },
+  "Gordon Ramsay": {
+    "description": "Škótsky šéfkuchár a televízna osobnosť, známy súťažnými reláciami Hell’s Kitchen a MasterChef.",
+    "source": "https://en.wikipedia.org/wiki/Gordon_Ramsay"
+  },
+  "Jamie Oliver": {
+    "description": "Britský kuchár a televízny moderátor prezývaný The Naked Chef.",
+    "source": "https://en.wikipedia.org/wiki/Jamie_Oliver"
+  },
+  "Nigella Lawson": {
+    "description": "Britská kuchárka a autorka kníh o varení, známa uvoľneným televíznym štýlom.",
+    "source": "https://en.wikipedia.org/wiki/Nigella_Lawson"
+  },
+  "Bear Grylls": {
+    "description": "Britský dobrodruh a televízny moderátor, známy reláciami o prežití v divočine.",
+    "source": "https://en.wikipedia.org/wiki/Bear_Grylls"
+  },
+  "David Blaine": {
+    "description": "Americký iluzionista, známy pouličnou mágiou a riskantnými vytrvalostnými kúskami.",
+    "source": "https://en.wikipedia.org/wiki/David_Blaine"
+  },
+  "David Copperfield": {
+    "description": "Americký iluzionista, ktorý preslávil veľkolepé javiskové triky vrátane „zmiznutia“ Sochy slobody.",
+    "source": "https://en.wikipedia.org/wiki/David_Copperfield_(illusionist)"
+  },
+  "Simon Pegg": {
+    "description": "Britský herec a scenárista, spoluautor komédií Súmrak mŕtvych a Jednotka príliš rýchleho nasadenia.",
+    "source": "https://en.wikipedia.org/wiki/Simon_Pegg"
+  },
+  "Rowan Atkinson": {
+    "description": "Britský komik a herec, tvorca nemotorného Mr. Beana a predstaviteľ Blackaddera.",
+    "source": "https://en.wikipedia.org/wiki/Rowan_Atkinson"
+  },
+  "Sacha Baron Cohen": {
+    "description": "Britský komik a herec, ktorý vytvoril postavy Borata a Aliho G.",
+    "source": "https://en.wikipedia.org/wiki/Sacha_Baron_Cohen"
+  },
+  "Ricky Gervais": {
+    "description": "Britský komik a herec, spoluautor pôvodného seriálu The Office a tvorca seriálu After Life.",
+    "source": "https://en.wikipedia.org/wiki/Ricky_Gervais"
+  },
+  "Eddie Murphy": {
+    "description": "Americký komik a herec, známy filmami Policajt z Beverly Hills a hlasom Oslíka zo Shreka.",
+    "source": "https://en.wikipedia.org/wiki/Eddie_Murphy"
+  },
+  "Jim Carrey": {
+    "description": "Kanadsko-americký komik a herec, známy filmami Maska, Truman Show a Grinch.",
+    "source": "https://en.wikipedia.org/wiki/Jim_Carrey"
+  },
+  "Adam Sandler": {
+    "description": "Americký komik a herec, známy komédiami ako Billy Madison a Happy Gilmore.",
+    "source": "https://en.wikipedia.org/wiki/Adam_Sandler"
+  },
+  "Steve Martin": {
+    "description": "Americký komik, herec a hráč na bendžo, známy filmami Otec nevesty a Roxanne.",
+    "source": "https://en.wikipedia.org/wiki/Steve_Martin"
+  },
+  "Martin Short": {
+    "description": "Kanadský komik a herec, ktorý účinkuje so Stevom Martinom v seriáli Only Murders in the Building.",
+    "source": "https://en.wikipedia.org/wiki/Martin_Short"
+  },
+  "Jennifer Coolidge": {
+    "description": "Americká herečka, známa ako Paulette z Pravou blondínkou a zo seriálu Biely lotos.",
+    "source": "https://en.wikipedia.org/wiki/Jennifer_Coolidge"
+  },
+  "Viola Davis": {
+    "description": "Americká herečka, držiteľka Oscara za film Ploty a hviezda seriálu Vražedné právo.",
+    "source": "https://en.wikipedia.org/wiki/Viola_Davis"
+  },
+  "Angela Bassett": {
+    "description": "Americká herečka, ktorá stvárnila speváčku Tinu Turner a kráľovnú Ramondu vo filme Black Panther.",
+    "source": "https://en.wikipedia.org/wiki/Angela_Bassett"
+  },
+  "Whoopi Goldberg": {
+    "description": "Americká herečka a moderátorka, známa filmami Duch a Sestra v akcii.",
+    "source": "https://en.wikipedia.org/wiki/Whoopi_Goldberg"
+  },
+  "Patrick Stewart": {
+    "description": "Britský herec, známy ako kapitán Picard zo Star Treku a profesor Xavier z X-Menov.",
+    "source": "https://en.wikipedia.org/wiki/Patrick_Stewart"
+  },
+  "Willem Dafoe": {
+    "description": "Americký herec, známy ako Zelený Goblin zo Spider-Mana a z filmu Čata.",
+    "source": "https://en.wikipedia.org/wiki/Willem_Dafoe"
+  },
+  "Jodie Foster": {
+    "description": "Americká herečka a režisérka, ktorá získala Oscara za Mlčanie jahniat a Obvinených.",
+    "source": "https://en.wikipedia.org/wiki/Jodie_Foster"
+  },
+  "Sharon Stone": {
+    "description": "Americká herečka, ktorá sa preslávila thrillerom Základný inštinkt.",
+    "source": "https://en.wikipedia.org/wiki/Sharon_Stone"
+  },
+  "Jamie Lee Curtis": {
+    "description": "Americká herečka, známa hororovou sériou Halloween a oscarovým filmom Všetko, všade, naraz.",
+    "source": "https://en.wikipedia.org/wiki/Jamie_Lee_Curtis"
+  },
+  "Pamela Anderson": {
+    "description": "Kanadská herečka a modelka, ktorá sa preslávila ako plavčíčka C. J. Parkerová v seriáli Pobrežná hliadka.",
+    "source": "https://en.wikipedia.org/wiki/Pamela_Anderson"
+  },
+  "MrBeast": {
+    "description": "Americký tvorca videí známy nákladnými súťažami, veľkými výhrami a charitatívnymi projektmi.",
+    "source": "https://en.wikipedia.org/wiki/MrBeast"
+  },
+  "PewDiePie": {
+    "description": "Švédsky youtuber, ktorý sa preslávil komentovanými videami pri hraní počítačových hier.",
+    "source": "https://en.wikipedia.org/wiki/PewDiePie"
+  },
+  "Logan Paul": {
+    "description": "Americký internetový tvorca, boxer a profesionálny wrestler organizácie WWE.",
+    "source": "https://en.wikipedia.org/wiki/Logan_Paul"
+  },
+  "Princess Anne": {
+    "description": "Britská princezná, dcéra Alžbety II. a bývalá olympijská jazdkyňa v jazdeckom športe.",
+    "source": "https://en.wikipedia.org/wiki/Anne,_Princess_Royal"
+  },
+  "Conan O'Brien": {
+    "description": "Americký komik a moderátor, ktorý dlhé roky uvádzal vlastné nočné talkshow.",
+    "source": "https://en.wikipedia.org/wiki/Conan_O%27Brien"
+  },
+  "Catherine O'Hara": {
+    "description": "Kanadská herečka a komička, známa ako mama Kevina z filmu Sám doma a zo seriálu Schitt’s Creek.",
+    "source": "https://en.wikipedia.org/wiki/Catherine_O%27Hara"
+  },
+  "Dana Scully": {
+    "description": "Lekárka a agentka FBI zo seriálu Akty X, ktorá spolupracuje s Foxom Mulderom.",
+    "source": "https://en.wikipedia.org/wiki/Dana_Scully"
+  },
+  "Venom": {
+    "description": "Mimozemský symbiont, ktorý sa spojí s novinárom Eddie Brockom a stane sa jeho násilným alter egom.",
+    "source": "https://en.wikipedia.org/wiki/Venom_(character)"
+  },
+  "kivi": {
+    "description": "Kivi je názov hnedého plodu aktinídie aj nelietavého vtáka z Nového Zélandu.",
+    "source": "https://en.wikipedia.org/wiki/Kiwi"
+  },
+  "kapybara": {
+    "description": "Najväčší žijúci hlodavec, ktorý žije pri vode v Južnej Amerike.",
+    "source": "https://en.wikipedia.org/wiki/Capybara"
+  },
+  "tapír": {
+    "description": "Veľký lesný cicavec s krátkym pohyblivým rypákom, ktorý žije v Strednej a Južnej Amerike aj v Ázii.",
+    "source": "https://en.wikipedia.org/wiki/Tapir"
+  },
+  "vombat": {
+    "description": "Austrálsky vačkovec, ktorý si vyhrabáva rozsiahle podzemné nory.",
+    "source": "https://en.wikipedia.org/wiki/Wombat"
+  },
+  "piskor": {
+    "description": "Drobný hmyzožravý cicavec s dlhým špicatým ňufákom; napriek podobnosti nie je hlodavec.",
+    "source": "https://en.wikipedia.org/wiki/Shrew"
+  },
+  "hrabáč": {
+    "description": "Nočný africký cicavec, ktorý silnými pazúrmi vyhrabáva termity a mravce.",
+    "source": "https://en.wikipedia.org/wiki/Aardvark"
+  },
+  "nautilus": {
+    "description": "Morský hlavonožec, ktorý žije v špirálovito stočenej schránke a patrí medzi vzdialených príbuzných chobotníc.",
+    "source": "https://en.wikipedia.org/wiki/Nautilus"
+  },
+  "manta": {
+    "description": "Obrovská raja s trojuholníkovými plutvami, ktorá sa živí drobnými organizmami filtrovanými z vody.",
+    "source": "https://en.wikipedia.org/wiki/Mobula_birostris"
+  },
+  "komodský drak": {
+    "description": "Najväčší žijúci jašter, ktorý pochádza z indonézskych ostrovov Komodo a Rinca.",
+    "source": "https://en.wikipedia.org/wiki/Komodo_dragon"
+  },
+  "dodo": {
+    "description": "Nelietavý vták z ostrova Maurícius, ktorý vyhynul v 17. storočí po príchode ľudí.",
+    "source": "https://en.wikipedia.org/wiki/Dodo"
+  },
+  "mravčiar": {
+    "description": "Cicavec s dlhým ňufákom a lepkavým jazykom, ktorým vyberá mravce a termity.",
+    "source": "https://en.wikipedia.org/wiki/Anteater"
+  },
+  "okapi": {
+    "description": "Lesný príbuzný žirafy z Konga; na nohách má pruhy podobné zebre.",
+    "source": "https://en.wikipedia.org/wiki/Okapi"
+  },
+  "ocelot": {
+    "description": "Škvrnitá nočná mačkovitá šelma zo Strednej a Južnej Ameriky.",
+    "source": "https://en.wikipedia.org/wiki/Ocelot"
+  },
+  "ježura": {
+    "description": "Austrálsky ostnatý cicavec, ktorý kladie vajcia a živí sa najmä mravcami a termitmi.",
+    "source": "https://en.wikipedia.org/wiki/Echidna"
+  },
+  "axolotl": {
+    "description": "Vodný obojživelník z Mexika, ktorý si aj v dospelosti ponecháva vonkajšie žiabre.",
+    "source": "https://en.wikipedia.org/wiki/Axolotl"
+  },
+  "leguán morský": {
+    "description": "Galapágsky jašter, ktorý sa ako jediný medzi jaštermi potápa do mora a spása riasy.",
+    "source": "https://en.wikipedia.org/wiki/Marine_iguana"
+  },
+  "muréna": {
+    "description": "Dlhá morská ryba podobná úhorovi, ktorá sa cez deň ukrýva v štrbinách koralových útesov.",
+    "source": "https://en.wikipedia.org/wiki/Moray_eel"
+  },
+  "surikata": {
+    "description": "Malá šelma z južnej Afriky, ktorá žije v skupinách a pri strážení okolia sa stavia na zadné nohy.",
+    "source": "https://en.wikipedia.org/wiki/Meerkat"
+  },
+  "tasmánsky diabol": {
+    "description": "Mäsožravý vačkovec z Tasmánie, ktorý sa ozýva hlasným škriekaním a má mimoriadne silné čeľuste.",
+    "source": "https://en.wikipedia.org/wiki/Tasmanian_devil"
+  },
+  "krakatica": {
+    "description": "Obrovský hlbokomorský hlavonožec s dlhými chápadlami; dospelé jedince sa len zriedka pozorujú živé.",
+    "source": "https://en.wikipedia.org/wiki/Giant_squid"
+  },
+  "galapágska korytnačka": {
+    "description": "Obrovská suchozemská korytnačka z Galapág, ktorá sa môže dožiť viac než sto rokov.",
+    "source": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_tortoise"
+  },
+  "vtákopysk": {
+    "description": "Austrálsky cicavec s kačacím zobákom a pavučinovými nohami; podobne ako ježura kladie vajcia.",
+    "source": "https://en.wikipedia.org/wiki/Platypus"
+  },
+  "demikát": {
+    "description": "Tradičná slovenská polievka z bryndze, často podávaná s chlebom alebo haluškami.",
+    "source": "https://slovakia.travel/demikat-bryndzova-polievka"
+  },
+  "halászlé": {
+    "description": "Maďarská pikantná rybacia polievka ochutená paprikou.",
+    "source": "https://en.wikipedia.org/wiki/Fisherman%27s_soup"
+  },
+  "koložvárska kapusta": {
+    "description": "Zapekané vrstvy kyslej kapusty, ryže a mletého mäsa, zvyčajne zjemnené kyslou smotanou.",
+    "source": "https://bonvivani.sk/recepty/kolozvarska-kapusta"
+  },
+  "shepherd’s pie": {
+    "description": "Britský zapekaný pokrm z mletého jahňacieho mäsa, prikrytý vrstvou zemiakovej kaše.",
+    "source": "https://en.wikipedia.org/wiki/Shepherd%27s_pie"
+  },
+  "udon": {
+    "description": "Hrubé japonské rezance z pšeničnej múky, často podávané v horúcej polievke.",
+    "source": "https://en.wikipedia.org/wiki/Udon"
+  },
+  "panna cotta": {
+    "description": "Taliansky dezert zo smotany, ktorá sa nechá stuhnúť pomocou želatíny.",
+    "source": "https://en.wikipedia.org/wiki/Panna_cotta"
+  },
+  "okonomiyaki": {
+    "description": "Japonská slaná placka z cesta a kapusty, do ktorej sa pridávajú rôzne ďalšie suroviny.",
+    "source": "https://en.wikipedia.org/wiki/Okonomiyaki"
+  },
+  "biryani": {
+    "description": "Juhoázijské jedlo z korenenej ryže, ktorá sa varí spolu s mäsom alebo zeleninou.",
+    "source": "https://en.wikipedia.org/wiki/Biryani"
+  },
+  "cannoli": {
+    "description": "Sicílske trubičky z chrumkavého vyprážaného cesta, plnené sladkým krémom z ricotty.",
+    "source": "https://en.wikipedia.org/wiki/Cannoli"
+  },
+  "bibimbap": {
+    "description": "Kórejská miska ryže s upravenou zeleninou, často aj s mäsom, vajíčkom a pikantnou pastou.",
+    "source": "https://en.wikipedia.org/wiki/Bibimbap"
+  },
+  "takoyaki": {
+    "description": "Okrúhle japonské kúsky cesta plnené chobotnicou, obľúbené ako pouličné jedlo v Osake.",
+    "source": "https://en.wikipedia.org/wiki/Takoyaki"
+  },
+  "osso buco": {
+    "description": "Milanese jedlo z pomaly dusených plátkov teľacej nohy s kosťou a špikou.",
+    "source": "https://en.wikipedia.org/wiki/Ossobuco"
+  },
+  "tom kha": {
+    "description": "Thajská kokosová polievka s galangalom, citrónovou trávou a zvyčajne kuracím mäsom.",
+    "source": "https://en.wikipedia.org/wiki/Tom_kha_kai"
+  },
+  "soba": {
+    "description": "Tenké japonské rezance z pohánkovej múky, ktoré sa podávajú teplé aj studené.",
+    "source": "https://en.wikipedia.org/wiki/Soba"
+  },
+  "dal makhani": {
+    "description": "Indické jedlo z čiernej šošovice a fazule, pomaly varené s maslom a smotanou.",
+    "source": "https://en.wikipedia.org/wiki/Dal_makhani"
+  },
+  "ceviche": {
+    "description": "Latinskoamerické jedlo zo surovej ryby marinovanej v citrusovej šťave.",
+    "source": "https://en.wikipedia.org/wiki/Ceviche"
+  },
+  "onigiri": {
+    "description": "Japonská ryžová guľka alebo trojuholník, často plnený a obalený morskou riasou nori.",
+    "source": "https://en.wikipedia.org/wiki/Onigiri"
+  },
+  "yakitori": {
+    "description": "Japonské kúsky kuracieho mäsa napichnuté na špajli a grilované, často potreté sladko-slanou omáčkou.",
+    "source": "https://en.wikipedia.org/wiki/Yakitori"
+  },
+  "empanadas": {
+    "description": "Plnené taštičky z cesta, ktoré sa v Španielsku a Latinskej Amerike pečú alebo vyprážajú.",
+    "source": "https://en.wikipedia.org/wiki/Empanada"
+  },
+  "arepa": {
+    "description": "Kukuricová placka z Venezuely a Kolumbie, ktorá sa môže rozkrojiť a naplniť.",
+    "source": "https://en.wikipedia.org/wiki/Arepa"
+  },
+  "frittata": {
+    "description": "Talianska hrubá omeleta, do ktorej sa pred dopečením pridáva zelenina, syr alebo mäso.",
+    "source": "https://en.wikipedia.org/wiki/Frittata"
+  },
+  "tteokbokki": {
+    "description": "Kórejské pouličné jedlo z ryžových valčekov dusených v pikantnej omáčke.",
+    "source": "https://en.wikipedia.org/wiki/Tteokbokki"
+  },
+  "tempura": {
+    "description": "Japonské jedlo z kúskov zeleniny alebo morských plodov obalených v ľahkom cestíčku a vyprážaných.",
+    "source": "https://en.wikipedia.org/wiki/Tempura"
+  },
+  "arancini": {
+    "description": "Sicílske vyprážané guľky z ryže, zvyčajne plnené mäsom, syrom alebo hráškom.",
+    "source": "https://en.wikipedia.org/wiki/Arancini"
+  },
+  "ázijské knedličky": {
+    "description": "Všeobecné označenie pre malé ázijské knedličky, často plnené mäsom alebo zeleninou a varené či dusené.",
+    "source": "https://en.wikipedia.org/wiki/Dumpling"
   }
 }
