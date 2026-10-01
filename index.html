@@ -73,6 +73,8 @@
 
         #top-controls { z-index: 10; display: flex; align-items: center; gap: 0.35rem; }
         #top-controls .btn { padding: 0.35rem 0.55rem; font-size: 0.8rem; }
+        #info-button { z-index: 10; width: 2.4rem; height: 2.4rem; padding: .25rem; font-size: 1.3rem; font-weight: 700; line-height: 1; }
+        body.game-active #info-button { display: none; }
         #top-controls .setting-toggle { display: grid; place-items: center; width: 2.4rem; height: 2.4rem; padding: .35rem; }
         #top-controls .setting-toggle:focus:not(:focus-visible) { box-shadow: none; outline: none; }
         #top-controls .setting-toggle.is-disabled:hover,
@@ -91,6 +93,7 @@
         #fullscreen-btn svg { width: 1.1rem; height: 1.1rem; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 
         @media (max-width: 575.98px) {
+            #info-button { top: max(.5rem, env(safe-area-inset-top)) !important; left: max(.5rem, env(safe-area-inset-left)) !important; margin: 0 !important; }
             #top-controls {
                 top: max(.5rem, env(safe-area-inset-top)) !important;
                 right: max(.5rem, env(safe-area-inset-right)) !important;
@@ -589,6 +592,7 @@
             <span class="fullscreen-label">Fullscreen</span>
         </button>
     </div>
+    <button id="info-button" type="button" class="btn btn-outline-light position-fixed top-0 start-0 m-3 rounded-circle" data-bs-toggle="modal" data-bs-target="#info-modal" aria-label="Informácie o hre" title="Informácie o hre">i</button>
     <div class="container mt-3">
 
         <div id="category-selection" class="text-center">
@@ -761,6 +765,30 @@
                     <div class="modal-footer justify-content-between">
                         <small class="history-storage-note">História sa uchováva v tomto prehliadači (najviac 500 výsledkov).</small>
                         <button id="clear-history" class="btn btn-outline-danger btn-sm">Vymazať históriu</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="info-modal" class="modal fade" tabindex="-1" aria-labelledby="info-modal-label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content bg-dark text-white">
+                    <div class="modal-header">
+                        <h2 class="modal-title h4" id="info-modal-label">Ako sa hrá Hádaj slová?</h2>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Zavrieť"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Hráči si sami zvolia, kto vidí slovo, kto háda a kto dáva nápovedy. Cieľom je uhádnuť čo najviac slov skôr, než vyprší čas.</p>
+                        <p>Hra je vaša — dohodnite sa na pravidlách, ktoré vám vyhovujú. Ak chcete skúsiť bežné pravidlá:</p>
+                        <ul>
+                            <li>V nápovede nepoužívajte žiadnu časť hľadaného slova, ani jeho koreň či odvodený tvar.</li>
+                            <li>Nepomáhajte si prvým písmenom, hláskovaním ani tým, že slovo „sa začína ako“ iné slovo.</li>
+                            <li>Keď sa zaseknete, slovo preskočte a skúste ďalšie.</li>
+                        </ul>
+                        <p class="mb-0">Výsledky nájdete v tabuľke na úvodnej obrazovke. Zobrazené slová sa počas jednej série neopakujú; opakovanie môžete povoliť tlačidlom pod počítadlom slov.</p>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <a href="https://github.com/svajo/word-game-sk" target="_blank" rel="noopener noreferrer">GitHub</a>
                     </div>
                 </div>
             </div>
