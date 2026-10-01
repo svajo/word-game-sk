@@ -16,7 +16,35 @@ let wordMetadata = {};
 let wordDescriptions = {};
 let roundActive = false;
 const sessionStorageKey = 'hadaj-slova-used-v1';
+const resultsStorageKey = 'hadaj-slova-results-v1';
+const guessersStorageKey = 'hadaj-slova-guessers-v1';
+const resultsLimit = 500;
+const resultsPerPage = 10;
+let gameResults = [];
+let currentPage = 1;
+let sortColumn = 'date';
+let sortDirection = -1;
+let currentGuesser = '';
+let selectedDuration = 0;
+let guessers = [];
 let usedWords = new Set();
+
+function readStoredArray(key) {
+    try {
+        const parsed = JSON.parse(window.localStorage.getItem(key) || '[]');
+        return Array.isArray(parsed) ? parsed : [];
+    } catch (_) { return []; }
+}
+
+function saveResults() {
+    try { window.localStorage.setItem(resultsStorageKey, JSON.stringify(gameResults.slice(0, resultsLimit))); } catch (_) {}
+}
+
+function restoreResults() {
+    gameResults = readStoredArray(resultsStorageKey).filter(result => result && typeof result === 'object')
+        .slice(0, resultsLimit);
+    guessers = readStoredArray(guessersStorageKey).filter(name => typeof name === 'string').slice(0, 50);
+}
 
 function wordKey(word) {
     return String(word).normalize('NFC').trim().toLocaleLowerCase('sk-SK');
@@ -138,6 +166,8 @@ Promise.all([
         wordMetadata = metadata;
         wordDescriptions = descriptions;
         restoreSession();
+        restoreResults();
+        renderPreviousGuessers();
         displayCategories();
         requestAnimationFrame(updateScrollHint);
     })
@@ -191,7 +221,7 @@ function displayCategories() {
         button.style.setProperty('--category-color', theme.color);
 
         button.style.height = '10vh';
-        button.style.fontSize = category.length > 20
+        button.style.fontSize = category.length > 18
             ? 'clamp(1.2rem, 3.5vh, 3rem)'
             : '5vh';
 
@@ -216,10 +246,32 @@ function selectCategory(category) {
     }
     document.getElementById('session-message').textContent = '';
     document.getElementById('category-selection').style.display = 'none';
-    document.getElementById('round-duration').style.display = 'block';
+    document.getElementById('guesser-selection').style.display = 'block';
     window.scrollTo(0, 0);
     requestAnimationFrame(updateScrollHint);
 }
+
+function renderPreviousGuessers() {
+    const container = document.getElementById('previous-guessers');
+    container.innerHTML = '';
+    guessers.forEach(name => {
+        const button = document.createElement('button');
+        button.type = 'button'; button.className = 'btn btn-outline-light btn-sm'; button.textContent = name;
+        button.addEventListener('click', () => { document.getElementById('guesser-name').value = name; });
+        container.appendChild(button);
+    });
+}
+
+document.getElementById('continue-to-duration').addEventListener('click', () => {
+    currentGuesser = String(document.getElementById('guesser-name').value || '').trim().slice(0, 20) || '—';
+    if (currentGuesser !== '—') {
+        guessers = [currentGuesser, ...guessers.filter(name => name !== currentGuesser)].slice(0, 50);
+        try { window.localStorage.setItem(guessersStorageKey, JSON.stringify(guessers)); } catch (_) {}
+        renderPreviousGuessers();
+    }
+    document.getElementById('guesser-selection').style.display = 'none';
+    document.getElementById('round-duration').style.display = 'block';
+});
 
 function loadWords(category) {
     const candidates = category === 'Všetko' ? sessionWordPool() : (allWords[category] || []);
@@ -230,6 +282,7 @@ function startGame(duration) {
     if (roundActive) return;
     roundActive = true;
     remainingTime = duration;
+    selectedDuration = duration;
     correctGuesses = 0;
     incorrectGuesses = 0;
     skippedGuesses = 0;
@@ -268,6 +321,7 @@ function displayNextWord() {
         wordDisplay.textContent = formattedWord;
         wordDisplay.classList.toggle('long-word', formattedWord.length > 28);
         wordDisplay.classList.toggle('very-long-word', formattedWord.length > 45);
+        fitWordToSingleLine(wordDisplay);
         const descriptionDisplay = document.getElementById('word-description');
         const description = wordDescriptions?.[word]?.description;
         descriptionDisplay.textContent = typeof description === 'string' ? description : '';
@@ -282,6 +336,16 @@ function displayNextWord() {
             'V tejto kategórii už nezostali nevidené slová. Vyberte inú kategóriu alebo na úvodnej obrazovke povoľte opakovanie.';
         endGame();
         return false;
+    }
+}
+
+function fitWordToSingleLine(wordDisplay) {
+    wordDisplay.style.fontSize = '';
+    if (typeof window.getComputedStyle !== 'function' || !wordDisplay.clientWidth) return;
+    let fontSize = parseFloat(window.getComputedStyle(wordDisplay).fontSize);
+    for (let attempt = 0; attempt < 30 && wordDisplay.scrollWidth > wordDisplay.clientWidth && fontSize > 14; attempt++) {
+        fontSize = Math.max(14, fontSize * Math.min(0.95, (wordDisplay.clientWidth / wordDisplay.scrollWidth) * 0.98));
+        wordDisplay.style.fontSize = `${fontSize}px`;
     }
 }
 
@@ -314,7 +378,7 @@ function formatTime(seconds) {
     return `${minutes}:${secondsLeft < 10 ? '0' : ''}${secondsLeft}`;
 }
 
-function endGame(playSound = true) {
+function endGame(playSound = true, saveResult = true) {
     if (!roundActive) return;
     roundActive = false;
     clearInterval(timerInterval);
@@ -323,12 +387,111 @@ function endGame(playSound = true) {
     if (playSound) {
         playEndSound();
     }
+    if (saveResult) {
+        gameResults.unshift({
+            id: `${Date.now()}-${Math.random()}`, guesser: currentGuesser || '—', category: currentCategory,
+            duration: selectedDuration, total: totalGuesses, correct: correctGuesses,
+            incorrect: incorrectGuesses, skipped: skippedGuesses, date: new Date().toISOString()
+        });
+        gameResults = gameResults.slice(0, resultsLimit);
+        saveResults();
+    }
     document.getElementById('game-round').style.display = 'none';
     document.body.classList.remove('game-active');
-    showEndScreen();
+    showEndScreen(saveResult);
 }
 
-function showEndScreen() {
+function populateHistoryFilters() {
+    const configs = [
+        ['filter-guesser', 'guesser', 'Všetci'], ['filter-category', 'category', 'Všetky'],
+        ['filter-duration', 'duration', 'Všetky']
+    ];
+    configs.forEach(([id, key, firstLabel]) => {
+        const select = document.getElementById(id), prior = select.value;
+        const values = [...new Set(gameResults.map(result => result[key]).filter(value => value !== undefined && value !== null))];
+        values.sort((a, b) => typeof a === 'number' ? a - b : String(a).localeCompare(String(b), 'sk'));
+        select.innerHTML = `<option value="">${firstLabel}</option>`;
+        values.forEach(value => {
+            const option = document.createElement('option'); option.value = String(value);
+            option.textContent = key === 'duration' ? formatDuration(value) : String(value);
+            select.appendChild(option);
+        });
+        select.value = prior;
+    });
+}
+
+function formatDuration(seconds) { return `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, '0')}`; }
+
+function filteredResults() {
+    const filters = { guesser: document.getElementById('filter-guesser').value,
+        category: document.getElementById('filter-category').value,
+        duration: document.getElementById('filter-duration').value };
+    return gameResults.filter(result => Object.entries(filters).every(([key, value]) => !value || String(result[key]) === value))
+        .sort((a, b) => {
+            const av = a[sortColumn], bv = b[sortColumn];
+            const order = typeof av === 'number' && typeof bv === 'number' ? av - bv : String(av || '').localeCompare(String(bv || ''), 'sk');
+            return order * sortDirection;
+        });
+}
+
+function renderHistory() {
+    populateHistoryFilters();
+    const results = filteredResults(), pageCount = Math.max(1, Math.ceil(results.length / resultsPerPage));
+    currentPage = Math.min(currentPage, pageCount);
+    const tbody = document.getElementById('history-rows'); tbody.innerHTML = '';
+    const pageResults = results.slice((currentPage - 1) * resultsPerPage, currentPage * resultsPerPage);
+    pageResults.forEach(result => {
+        const row = document.createElement('tr');
+        const values = [result.date ? new Date(result.date).toLocaleString('sk-SK') : '—',
+            result.guesser || '—', result.category || '—', formatDuration(result.duration || 0),
+            result.correct ?? 0, result.incorrect ?? 0, result.skipped ?? 0, result.total ?? 0];
+        values.forEach(value => { const cell = document.createElement('td'); cell.textContent = String(value); row.appendChild(cell); });
+        tbody.appendChild(row);
+    });
+    for (let rowIndex = pageResults.length; rowIndex < resultsPerPage; rowIndex++) {
+        const row = document.createElement('tr'); row.className = 'history-placeholder';
+        const cell = document.createElement('td'); cell.colSpan = 8; cell.textContent = '\u00a0';
+        row.appendChild(cell); tbody.appendChild(row);
+    }
+    document.getElementById('history-empty').hidden = results.length > 0;
+    const pages = document.getElementById('history-page-numbers'); pages.innerHTML = '';
+    const windowStart = Math.max(1, Math.min(currentPage - 2, pageCount - 4));
+    const windowEnd = Math.min(pageCount, windowStart + 4);
+    if (windowStart > 1) pages.appendChild(Object.assign(document.createElement('span'), { textContent: '…', className: 'px-1' }));
+    for (let page = windowStart; page <= windowEnd; page++) {
+        const button = document.createElement('button'); button.className = `btn btn-sm ${page === currentPage ? 'btn-primary' : 'btn-outline-light'}`;
+        button.textContent = String(page); button.addEventListener('click', () => { currentPage = page; renderHistory(); }); pages.appendChild(button);
+    }
+    if (windowEnd < pageCount) pages.appendChild(Object.assign(document.createElement('span'), { textContent: '…', className: 'px-1' }));
+    document.querySelectorAll('[data-page]').forEach(button => {
+        const action = button.getAttribute('data-page');
+        button.disabled = action === 'first' || action === 'previous' ? currentPage === 1 : currentPage === pageCount;
+    });
+}
+
+document.getElementById('history-modal').addEventListener('show.bs.modal', () => { currentPage = 1; renderHistory(); });
+['filter-guesser', 'filter-category', 'filter-duration'].forEach(id => document.getElementById(id).addEventListener('change', () => { currentPage = 1; renderHistory(); }));
+document.querySelectorAll('[data-sort]').forEach(button => button.addEventListener('click', () => {
+    const field = button.getAttribute('data-sort');
+    if (sortColumn === field) sortDirection *= -1; else { sortColumn = field; sortDirection = field === 'date' ? -1 : 1; }
+    renderHistory();
+}));
+document.querySelectorAll('[data-page]').forEach(button => button.addEventListener('click', () => {
+    const pages = Math.max(1, Math.ceil(filteredResults().length / resultsPerPage));
+    const action = button.getAttribute('data-page');
+    if (action === 'first') currentPage = 1;
+    if (action === 'previous') currentPage = Math.max(1, currentPage - 1);
+    if (action === 'next') currentPage = Math.min(pages, currentPage + 1);
+    if (action === 'last') currentPage = pages;
+    renderHistory();
+}));
+document.getElementById('clear-history').addEventListener('click', () => {
+    if (!gameResults.length) return;
+    if (!window.confirm('Vymazať všetky uložené výsledky?')) return;
+    gameResults = []; currentPage = 1; saveResults(); renderHistory();
+});
+
+function showEndScreen(saved = true) {
     updateSessionCounter();
     const percentage = count => totalGuesses ? Math.round((count / totalGuesses) * 100) : 0;
     document.getElementById('results').innerHTML = `
@@ -337,6 +500,39 @@ function showEndScreen() {
         <div class="result-incorrect">Nesprávne: ${incorrectGuesses} (${percentage(incorrectGuesses)} %)</div>
         <div class="result-skipped">Preskočené: ${skippedGuesses} (${percentage(skippedGuesses)} %)</div>
     `;
+    const rankingContainer = document.getElementById('result-rankings');
+    rankingContainer.innerHTML = '';
+    if (saved && gameResults.length) {
+        const result = gameResults[0];
+        const scopes = [
+            { guesser: 'Všetci', category: result.category,
+                matches: item => item.category === result.category && item.duration === result.duration },
+            { guesser: result.guesser, category: result.category,
+                matches: item => item.category === result.category && item.duration === result.duration && item.guesser === result.guesser },
+            { guesser: 'Všetci', category: 'Všetky kategórie', matches: item => item.duration === result.duration },
+            { guesser: result.guesser, category: 'Všetky kategórie',
+                matches: item => item.duration === result.duration && item.guesser === result.guesser }
+        ];
+        const title = document.createElement('h2'); title.className = 'h4'; title.textContent = 'Poradie v uložených výsledkoch';
+        rankingContainer.appendChild(title);
+        const table = document.createElement('table'); table.className = 'table table-dark table-striped table-sm align-middle';
+        const head = document.createElement('thead'), headerRow = document.createElement('tr');
+        ['Hádajúci', 'Kategória', 'Čas', 'Poradie', 'Celkový počet hier'].forEach(label => {
+            const cell = document.createElement('th'); cell.scope = 'col'; cell.textContent = label; headerRow.appendChild(cell);
+        });
+        head.appendChild(headerRow); table.appendChild(head);
+        const body = document.createElement('tbody');
+        scopes.forEach(scope => {
+            const group = gameResults.filter(scope.matches);
+            const rank = 1 + group.filter(item => item.correct > result.correct).length;
+            const row = document.createElement('tr');
+            [scope.guesser, scope.category, formatDuration(result.duration), `${rank}.`, group.length].forEach(value => {
+                const cell = document.createElement('td'); cell.textContent = String(value); row.appendChild(cell);
+            });
+            body.appendChild(row);
+        });
+        table.appendChild(body); rankingContainer.appendChild(table);
+    }
     document.getElementById('end-screen').style.display = 'block';
 }
 
@@ -384,6 +580,8 @@ document.getElementById('skip-button').addEventListener('click', () => {
 document.getElementById('ok-button').addEventListener('click', () => {
     document.getElementById('end-screen').style.display = 'none';
     document.getElementById('category-selection').style.display = 'block';
+    document.getElementById('guesser-selection').style.display = 'none';
+    document.getElementById('guesser-name').value = '';
     window.scrollTo(0, 0);
     requestAnimationFrame(updateScrollHint);
 });
@@ -411,7 +609,7 @@ document.getElementById('cancel-button').addEventListener('click', showConfirmat
 // Event listener for the Yes button in the modal
 document.getElementById('confirm-yes').addEventListener('click', () => {
     hideConfirmationModal();
-    endGame(false);
+    endGame(false, false);
 });
 
 // Event listener for the No button in the modal

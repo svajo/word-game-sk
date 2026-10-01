@@ -69,6 +69,13 @@
             z-index: 10;
         }
 
+        @media (pointer: coarse) {
+            :fullscreen #fullscreen-btn,
+            :-webkit-full-screen #fullscreen-btn {
+                display: none !important;
+            }
+        }
+
         body > .container {
             padding-left: max(12px, env(safe-area-inset-left));
             padding-right: max(12px, env(safe-area-inset-right));
@@ -97,14 +104,15 @@
 
         #word-display {
             overflow-wrap: anywhere;
+            white-space: nowrap;
         }
 
         #word-description {
-            max-width: 65ch;
+            max-width: 75ch;
             margin: 0.8rem auto 0;
             padding: 0 0.5rem;
-            color: #d9e0e7;
-            font-size: clamp(1rem, 2.2vw, 1.3rem);
+            color: #b6c0ca;
+            font-size: clamp(1.3rem, 2.86vw, 1.69rem);
             line-height: 1.35;
             overflow-wrap: anywhere;
         }
@@ -219,6 +227,44 @@
             font-size: clamp(1.5rem, 4vw, 2.5rem);
         }
 
+        .end-summary-actions {
+            display: grid;
+            grid-template-columns: minmax(0, 1.3fr) minmax(8rem, 0.7fr);
+            align-items: stretch;
+            gap: clamp(0.75rem, 3vw, 2rem);
+            width: min(100%, 58rem);
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .result-summary {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+            font-size: clamp(1rem, 2.6vw, 1.8rem);
+            line-height: 1.5;
+        }
+
+        .result-actions { display: flex; align-items: stretch; }
+
+        #result-rankings {
+            width: min(100%, 58rem);
+            margin-right: auto !important;
+            margin-left: auto !important;
+        }
+
+        #result-rankings table { width: 100%; }
+
+        #ok-button {
+            width: 100%;
+            min-height: 12rem;
+            padding: 1rem;
+            font-size: clamp(1.75rem, 4vw, 3rem);
+            line-height: 1.2;
+            white-space: normal;
+        }
+
         .result-total {
             color: #ffffff;
         }
@@ -321,12 +367,14 @@
                 margin: 0.35rem 0;
             }
             #word-display {
-                font-size: clamp(3rem, 8.4vw, 6.3rem);
+                font-size: clamp(5.4rem, 15.12vw, 11.34rem);
                 text-align: center;
                 line-height: 1.05;
                 min-height: 0;
                 margin: 0;
             }
+            #word-display.long-word { font-size: clamp(3.24rem, 9.72vw, 7.128rem); }
+            #word-display.very-long-word { font-size: clamp(2.7rem, 7.56vw, 5.616rem); }
             #controls {
                 display: flex;
                 flex-direction: column;
@@ -338,18 +386,29 @@
             }
             #incorrect-button,
             #correct-button {
-                flex: 1;
+                flex: 2 1 0;
                 width: auto;
                 max-width: none;
-                min-height: clamp(5rem, 26dvh, 10rem);
+                min-height: clamp(7rem, 34dvh, 14rem);
                 margin: 0 !important;
                 padding: 0.25rem 0.75rem;
+                border-radius: 1rem;
+            }
+            #skip-button {
+                flex: 1 1 0;
+                width: auto;
+                min-width: 0;
+                max-width: none;
+                min-height: clamp(7rem, 34dvh, 14rem);
+                margin: 0 !important;
+                padding: 0.5rem;
+                font-size: clamp(1rem, 3.2vw, 2rem);
                 border-radius: 1rem;
             }
             .control-row {
                 display: flex;
                 justify-content: center;
-                gap: 0.75rem;
+                gap: 0.5rem;
                 width: 100%;
                 margin: 0.15rem 0;
             }
@@ -357,16 +416,6 @@
                 order: 2;
                 gap: 0.5rem;
                 margin: 0;
-            }
-            #controls .control-row:nth-child(2) {
-                order: 1;
-                margin: 0;
-            }
-            #skip-button {
-                font-size: clamp(1.25rem, 3.2vw, 1.75rem);
-                padding: 0.65rem 1.5rem;
-                width: min(40%, 13rem);
-                margin-bottom: 0;
             }
             #cancel-button {
                 position: absolute;
@@ -385,18 +434,51 @@
 
         @media (orientation: landscape) and (max-height: 450px) {
             #timer { padding: 0.2rem 0.75rem; font-size: 1.4rem; }
-            #word-display { font-size: clamp(2.1rem, 10.8dvh, 3.3rem); }
-            #word-display.long-word { font-size: clamp(1.8rem, 8.4dvh, 2.64rem); }
-            #word-display.very-long-word { font-size: clamp(1.5rem, 7.2dvh, 2.16rem); }
-            #word-description { margin-top: 0.6rem; font-size: 1rem; line-height: 1.25; }
-            #incorrect-button, #correct-button { min-height: clamp(3rem, 20dvh, 5rem); }
-            .action-icon { width: 2.5rem; height: 2.5rem; }
-            #skip-button { font-size: 1rem; padding: 0.3rem 1rem; }
+            #word-display { font-size: clamp(3.78rem, 19.44dvh, 5.94rem); }
+            #word-display.long-word { font-size: clamp(3.24rem, 14.58dvh, 4.86rem); }
+            #word-display.very-long-word { font-size: clamp(2.7rem, 11.34dvh, 3.888rem); }
+            #word-description { margin-top: 0.6rem; font-size: 1.3rem; line-height: 1.25; }
+            #incorrect-button, #correct-button, #skip-button { min-height: clamp(4.5rem, 28dvh, 8.5rem); }
+            .action-icon { width: clamp(3rem, 12dvh, 4.5rem); height: clamp(3rem, 12dvh, 4.5rem); }
         }
         
         .duration-button {
             min-height: 4rem; font-size: clamp(1.5rem, 6vh, 4rem); width: 100%; margin-bottom: 1rem;
         }
+
+        .session-panels { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; align-items: stretch; }
+        .session-panel { padding: 1rem; border: 1px solid #6c757d; border-radius: .5rem; }
+        .history-table-wrap { min-height: 25rem; max-height: 55vh; overflow: auto; }
+        #history-table { min-width: 1050px; margin-bottom: 0; }
+        #history-table tbody tr { height: 2.5rem; }
+        #history-table tbody tr.history-placeholder td { border: 0; }
+        #history-table th button { color: inherit; }
+        #history-table thead th:nth-child(5) { background-color: rgba(25, 135, 84, 0.35); }
+        #history-table thead th:nth-child(5) button,
+        #history-table tbody tr:not(.history-placeholder) td:nth-child(5) {
+            color: #75e0a1;
+            font-weight: 700;
+        }
+        #history-table tbody tr:not(.history-placeholder) td:nth-child(5) { background-color: rgba(25, 135, 84, 0.18); }
+        .history-pagination { position: sticky; bottom: -1rem; z-index: 2; padding: .75rem 0; background: #212529; }
+        .history-filters { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .75rem; }
+        @media (max-width: 991.98px) {
+            #history-modal .modal-dialog { width: 100vw; max-width: none; height: 100dvh; margin: 0; }
+            #history-modal .modal-content { height: 100%; border: 0; border-radius: 0; }
+            #history-modal .modal-footer { display: none; }
+            #history-table { min-width: 0; width: 100%; font-size: .875rem; }
+            #history-table th, #history-table td { padding: .45rem .3rem; }
+            #history-table th:nth-child(6), #history-table td:nth-child(6),
+            #history-table th:nth-child(7), #history-table td:nth-child(7) { display: none; }
+        }
+        #guesser-selection { padding: 2.5rem 0 3rem; }
+        #guesser-selection h1 { margin-bottom: 2rem; }
+        .guesser-form { max-width: 36rem; }
+        #guesser-name { min-height: 4rem; padding: .75rem 1rem; font-size: clamp(1.5rem, 3vw, 2rem); }
+        #previous-guessers { gap: .75rem !important; margin: 1.5rem 0 !important; }
+        #previous-guessers .btn { min-height: 3rem; padding: .5rem 1.25rem; font-size: 1.15rem; }
+        #continue-to-duration { min-height: 4rem; padding: .75rem 2rem; font-size: 1.5rem; }
+        @media (max-width: 575px) { .session-panels, .history-filters { grid-template-columns: 1fr; } }
         
     </style>
 </head>
@@ -422,10 +504,28 @@
                 <!-- Categories will be dynamically added here -->
             </div>
             <div id="session-controls" class="mt-4 mb-3">
-                <p id="session-counter" class="mb-1" aria-live="polite">Zobrazené slová: 0</p>
-                <p class="small text-light mb-2">V tejto karte sa slová medzi hrami neopakujú, ani po obnovení stránky.</p>
-                <button id="reset-session" type="button" class="btn btn-outline-light" disabled>Povoliť opakovanie · vynulovať počítadlo</button>
-                <p id="session-message" class="mt-2 mb-0" role="status"></p>
+                <div class="session-panels">
+                    <div class="session-panel d-flex flex-column justify-content-center">
+                        <h2 class="h5">Výsledky hier</h2>
+                        <p class="small mb-2">Uložené v tomto prehliadači · posledných 500 hier</p>
+                        <button id="open-history" type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#history-modal">Zobraziť výsledky</button>
+                    </div>
+                    <div class="session-panel">
+                        <p id="session-counter" class="mb-1" aria-live="polite">Zobrazené slová: 0</p>
+                        <p class="small text-light mb-2">V tejto karte sa slová medzi hrami neopakujú, ani po obnovení stránky.</p>
+                        <button id="reset-session" type="button" class="btn btn-outline-light" disabled>Povoliť opakovanie · vynulovať počítadlo</button>
+                        <p id="session-message" class="mt-2 mb-0" role="status"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="guesser-selection" class="text-center" style="display: none;">
+            <h1 class="display-4">Kto háda?</h1>
+            <div class="guesser-form mx-auto">
+                <input id="guesser-name" class="form-control form-control-lg text-center" maxlength="20" autocomplete="off" placeholder="Meno (nepovinné)">
+                <div id="previous-guessers" class="d-flex flex-wrap justify-content-center gap-2 my-3"></div>
+                <button id="continue-to-duration" class="btn btn-primary btn-lg">Pokračovať</button>
             </div>
         </div>
 
@@ -458,14 +558,12 @@
                             <path d="M6 6l12 12M18 6 6 18"></path>
                         </svg>
                     </button>
+                    <button id="skip-button" class="btn btn-secondary">Preskočiť</button>
                     <button id="correct-button" class="btn btn-success ms-2" aria-label="Správne">
                         <svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true">
                             <path d="m4 12.5 5 5L20 6.5"></path>
                         </svg>
                     </button>
-                </div>
-                <div class="control-row">
-                    <button id="skip-button" class="btn btn-secondary">Preskočiť</button>
                 </div>
             </div>
             <div class="control-row">
@@ -483,7 +581,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="color: white;"></button>
                     </div>
                     <div class="modal-body" style="padding: 20px 30px;">
-                        <p style="font-size: 1.2rem;">Naozaj skončiť hru?</p>
+                        <p style="font-size: 1.2rem;">Naozaj skončiť hru? Výsledok sa neuloží do histórie.</p>
                     </div>
                     <div class="modal-footer" style="border-top: 1px solid #6c757d; justify-content: center;">
                         <button id="confirm-yes" class="btn btn-danger" data-bs-dismiss="modal" style="width: 120px; margin: 0 10px;">Áno</button>
@@ -493,11 +591,61 @@
             </div>
         </div>
 
+        <div id="history-modal" class="modal fade" tabindex="-1" aria-labelledby="history-modal-label" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-scrollable">
+                <div class="modal-content bg-dark text-white">
+                    <div class="modal-header">
+                        <h2 class="modal-title h5" id="history-modal-label">Výsledky hier</h2>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Zavrieť"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="history-filters mb-3">
+                            <label>Hádajúci<select id="filter-guesser" class="form-select"><option value="">Všetci</option></select></label>
+                            <label>Kategória<select id="filter-category" class="form-select"><option value="">Všetky</option></select></label>
+                            <label>Čas hry<select id="filter-duration" class="form-select"><option value="">Všetky</option></select></label>
+                        </div>
+                        <div class="history-table-wrap">
+                            <table id="history-table" class="table table-dark table-striped table-sm align-middle">
+                                <thead><tr>
+                                    <th><button class="btn btn-link p-0" data-sort="date">Dátum ↓</button></th>
+                                    <th><button class="btn btn-link p-0" data-sort="guesser">Hádajúci ↕</button></th>
+                                    <th><button class="btn btn-link p-0" data-sort="category">Kategória ↕</button></th>
+                                    <th><button class="btn btn-link p-0" data-sort="duration">Čas ↕</button></th>
+                                    <th><button class="btn btn-link p-0" data-sort="correct">Správne ↕</button></th>
+                                    <th><button class="btn btn-link p-0" data-sort="incorrect">Nesprávne ↕</button></th>
+                                    <th><button class="btn btn-link p-0" data-sort="skipped">Preskočené ↕</button></th>
+                                    <th><button class="btn btn-link p-0" data-sort="total">Spolu ↕</button></th>
+                                </tr></thead>
+                                <tbody id="history-rows"></tbody>
+                            </table>
+                        </div>
+                        <nav class="history-pagination d-flex flex-wrap justify-content-center align-items-center gap-1 mt-3" aria-label="Stránkovanie výsledkov">
+                            <button class="btn btn-outline-light btn-sm" data-page="first">Prvá</button>
+                            <button class="btn btn-outline-light btn-sm" data-page="previous">Predchádzajúca</button>
+                            <div id="history-page-numbers" class="d-flex gap-1"></div>
+                            <button class="btn btn-outline-light btn-sm" data-page="next">Ďalšia</button>
+                            <button class="btn btn-outline-light btn-sm" data-page="last">Posledná</button>
+                        </nav>
+                        <p id="history-empty" class="text-center my-4" hidden>Zatiaľ tu nie sú uložené žiadne výsledky.</p>
+                    </div>
+                    <div class="modal-footer justify-content-between">
+                        <small class="history-storage-note">História sa uchováva v tomto prehliadači (najviac 500 výsledkov).</small>
+                        <button id="clear-history" class="btn btn-outline-danger btn-sm">Vymazať históriu</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div id="end-screen" class="text-center" style="display: none;">
             <h1 class="display-4">Hotovo!</h1>
             <p id="end-reason" role="status"></p>
-            <div id="results" class="my-4 display-6"></div>
-            <button id="ok-button" class="btn btn-primary btn-lg">Začať novú hru</button>
+            <div class="end-summary-actions my-4">
+                <div id="results" class="result-summary"></div>
+                <div class="result-actions">
+                    <button id="ok-button" class="btn btn-primary btn-lg">Začať<br>novú<br>hru</button>
+                </div>
+            </div>
+            <div id="result-rankings" class="mx-auto my-4"></div>
         </div>
     </div>
 
