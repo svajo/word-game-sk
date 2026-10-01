@@ -37,7 +37,10 @@ async function createGame(failures = {}, storage = new Map(), storageBlocked = f
     };
     const context = vm.createContext({
         console: { warn() {}, error() {} },
-        Date: { now: () => now },
+        Date: class FakeDate extends Date {
+            constructor(...args) { super(...(args.length ? args : [now])); }
+            static now() { return now; }
+        },
         Math: Object.assign(Object.create(Math), { random: () => 0 }),
         fetch: async url => {
             const failure = failures[url];

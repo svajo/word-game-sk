@@ -7264,7 +7264,7 @@
     "source": "https://en.wikipedia.org/wiki/La_Haine"
   },
   "The Girl with the Dragon Tattoo": {
-    "description": "Detektívny román Stiega Larssona a jeho filmové adaptácie sledujú novinára Mikaela Blomkvista a hackerku Lisbeth Salander; film poznáme aj pod slovenským distribučným názvom Muži, ktorí nenávidia ženy.",
+    "description": "Detektívny román Stiega Larssona o novinárovi Mikaelovi Blomkvistovi a hackerke Lisbeth Salander. Slovenský filmový názov je Muži, ktorí nenávidia ženy.",
     "source": "https://www.skcinema.sk/arl-sfu/sk/detail/?disprec=8&idx=sfu_un_auth%2A0085759&iset=1"
   },
   "Saving Private Ryan": {
@@ -9486,10 +9486,6 @@
   "Staropramen": {
     "description": "Pivovar a značka piva založená v pražskom Smíchove.",
     "source": "https://en.wikipedia.org/wiki/Staropramen"
-  },
-  "Veľkopopovický Kozel": {
-    "description": "Česká značka piva, ktorej symbolom je kozel.",
-    "source": "https://en.wikipedia.org/wiki/Ve%C4%BEkopopovick%C3%BD_Kozel"
   },
   "Bernard": {
     "description": "Rodinný český pivovar z Humpolca.",
@@ -12263,10 +12259,6 @@
     "description": "Jedna z prvých jarných kvetín, ktorá rastie na lúkach aj v záhradách.",
     "source": "https://en.wikipedia.org/wiki/prvosienka"
   },
-  "ne vädza": {
-    "description": "Modrá lúčna kvetina, ktorá kedysi často rástla medzi obilím.",
-    "source": "https://en.wikipedia.org/wiki/ne_v%C3%A4dza"
-  },
   "ďatelina": {
     "description": "Lúčna rastlina s trojpočetnými listami a guľatými kvetmi.",
     "source": "https://en.wikipedia.org/wiki/%C4%8Fatelina"
@@ -13290,13 +13282,5 @@
   "ázijské knedličky": {
     "description": "Všeobecné označenie pre malé ázijské knedličky, často plnené mäsom alebo zeleninou a varené či dusené.",
     "source": "https://en.wikipedia.org/wiki/Dumpling"
-  },
-  "koroner": {
-    "description": "Úradná osoba, ktorá v niektorých krajinách zisťuje okolnosti a príčinu nečakanej alebo násilnej smrti.",
-    "source": ""
-  },
-  "kynológ": {
-    "description": "Odborník na psy, ich chov, výcvik a správanie.",
-    "source": ""
   }
 }
